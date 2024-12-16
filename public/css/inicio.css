@@ -1,0 +1,118 @@
+/* Estilos para el contenedor principal */
+.inicio {
+  background-color: #c1c6ca;
+  color: #000000; /* Texto blanco */
+  padding: 30px 10px;
+}
+
+.section-title-INICIO h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-title-INICIO h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+
+#inicio p {
+  font-size: 15px;
+  text-align: justify;
+  color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Imágenes */
+#inicio img {
+  max-width: 100%;
+  height: auto;
+}
+/* *********************************************************** Tabla de la wave 1 *********************************************************** */
+#inicio .col1 {
+  background-color: #ffffff; /* color rojo claro */
+  color: black;
+}
+
+#inicio .col2 {
+  background-color: #000000; /* color azul claro */
+  color: white;
+}
+
+#inicio .col3 {
+  background-color: #0c00b6; /* color verde claro */
+  color: white;
+}
+/* *********************************************************** Tabla de la wave 2 *********************************************************** */
+#inicio .col4 {
+  background-color: #e41010; /* color rojo claro */
+  color: black;
+}
+
+#inicio .col5 {
+  background-color: #b10000; /* color azul claro */
+  color: white;
+}
+
+#inicio .col6 {
+  background-color: #ecd500; /* color verde claro */
+  color: black;
+}
+/* **************************************************** Tabla de la wave 3 **************************************************** */
+#inicio .col7 {
+  background-color: #1d7c00; /* color rojo claro */
+  color: white;
+}
+
+#inicio .col8 {
+  background-color: #ffaa2b; /* color azul claro */
+  color: white;
+}
+
+#inicio .col9 {
+  background-color: #07cc00; /* color verde claro */
+  color: white;
+}
+/* **************************************************** Tabla de la wave 4 **************************************************** */
+#inicio .col10 {
+  background-color: #8000a7; /* color rojo claro */
+  color: white;
+}
+
+#inicio .col11 {
+  background-color: #74bd00; /* color azul claro */
+  color: black;
+}
+
+#inicio .col12 {
+  background-color: #0c0041; /* color verde claro */
+  color: white;
+}
+/* **************************************************** Tabla de la wave 5 **************************************************** */
+#inicio .col13 {
+  background-color: #2a59b1; /* color rojo claro */
+  color: black;
+}
+
+#inicio .col14 {
+  background-color: #0070cc; /* color azul claro */
+  color: black;
+}
+
+#inicio .col15 {
+  background-color: #2cabff; /* color verde claro */
+  color: black;
+}
+/* **************************************************** Tabla de la wave 6 **************************************************** */
+

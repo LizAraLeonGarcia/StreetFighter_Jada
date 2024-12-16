@@ -1,0 +1,42 @@
+.personajes {
+  padding: 0 15px;
+  min-height: 100vh; /* Asegura que el contenedor ocupe al menos la altura de la pantalla */
+  flex-direction: column; /* Alinea los elementos en columna */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+  overflow: hidden; /* Evita que el contenido se desborde */
+}
+/* ***************************************************************** Título ***************************************************************** */
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #000000;
+  text-align: center; /* Asegura que el título esté centrado */
+}
+/* ************************************************************** Descripción ************************************************************** */
+.description {
+  font-size: 15px;
+  color: #000000;
+  margin-top: 10px;
+  text-align: center; /* Centra la descripción */
+}
+/* *************************************************************** Paginación *************************************************************** */
+#customPagination {
+  column-count: 3; /* Divide la lista en 3 columnas */
+  column-gap: 10px; /* Espacio entre las columnas */
+  overflow: hidden; /* Evita que la lista se desborde */
+}
+
+#customPagination li {
+  font-size: 18px;
+  padding: 5px 0;
+}
+/* -------------------------------------------------------------------------------------------------------- Cambia el color al pasar el ratón */
+#customPagination li:hover {
+  color: #007bff; 
+}
+/* ************************************************************* RESPONSIVIDAD ************************************************************* */
+/* ------------------------------------------------------------------------------------------------------------------------ Pantallas grandes */
+/* ----------------------------------------------------------------------------------------------------------------------- Pantallas medianas */
+/* ----------------------------------------------------------------------------------------------------------------------- Pantallas pequeñas */

@@ -39,80 +39,75 @@
   max-width: 100%;
   height: auto;
 }
+
+.inicio .encabezado-tabla {
+  background-color: hotpink;
+  color: black;
+  border-color: deeppink;
+  border-width: 2px;
+  text-align: center;
+}
 /* *********************************************************** Tabla de la wave 1 *********************************************************** */
 #inicio .col1 {
-  background-color: #ffffff; /* color rojo claro */
+  background-color: white; /* RYU */
   color: black;
 }
 
 #inicio .col2 {
-  background-color: #000000; /* color azul claro */
+  background-color: black; /* FEI LONG */
   color: white;
 }
 
 #inicio .col3 {
-  background-color: #0c00b6; /* color verde claro */
+  background-color: blue; /* CHUN LI */
   color: white;
 }
 /* *********************************************************** Tabla de la wave 2 *********************************************************** */
 #inicio .col4 {
-  background-color: #e41010; /* color rojo claro */
-  color: black;
+  background-color: red; /* KEN */
+  color: white;
 }
 
 #inicio .col5 {
-  background-color: #b10000; /* color azul claro */
+  background-color: darkred; /* M BISON */
   color: white;
 }
 
 #inicio .col6 {
-  background-color: #ecd500; /* color verde claro */
+  background-color: yellow; /* DHALSIM */
   color: black;
 }
 /* **************************************************** Tabla de la wave 3 **************************************************** */
 #inicio .col7 {
-  background-color: #1d7c00; /* color rojo claro */
+  background-color: green; /* GUILE */
   color: white;
 }
 
 #inicio .col8 {
-  background-color: #ffaa2b; /* color azul claro */
+  background-color: orangered; /* DEE JAY */
   color: white;
 }
 
 #inicio .col9 {
-  background-color: #07cc00; /* color verde claro */
-  color: white;
+  background-color: lime; /* CAMMY */
+  color: black;
 }
 /* **************************************************** Tabla de la wave 4 **************************************************** */
 #inicio .col10 {
-  background-color: #8000a7; /* color rojo claro */
+  background-color: purple; /* VEGA */
   color: white;
 }
 
 #inicio .col11 {
-  background-color: #74bd00; /* color azul claro */
-  color: black;
+  background-color: darkblue; /* SAGAT */
+  color: white;
 }
 
 #inicio .col12 {
-  background-color: #0c0041; /* color verde claro */
-  color: white;
+  background-color: greenyellow; /* BLANKA */
+  color: black;
 }
 /* **************************************************** Tabla de la wave 5 **************************************************** */
-#inicio .col13 {
-  background-color: #2a59b1; /* color rojo claro */
-  color: black;
-}
 
-#inicio .col14 {
-  background-color: #0070cc; /* color azul claro */
-  color: black;
-}
-
-#inicio .col15 {
-  background-color: #2cabff; /* color verde claro */
-  color: black;
-}
 /* **************************************************** Tabla de la wave 6 **************************************************** */
 

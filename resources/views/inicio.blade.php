@@ -2,11 +2,13 @@
 
 @section('content')
     <div class="container-fluid">
+        <!-- ----------------------------------------------------- contendor de título ----------------------------------------------------- -->
         <div class="section-title-INICIO">
             <h1>Street Fighter<h1>
             <h2>En esta página te muestro mi colección de Street Fighter: Jada Toys</h2>
             <h4>La marca Jada Toys está creciendo velozmente al ofrecer productos de esta saga tan conocida a un precio accesible y con excelente calidad...</h4>
         </div>
+        <!-- ---------------------------------------------------- contenedor de inicio ---------------------------------------------------- -->
         <div class="inicio" id="inicio">
             <!-- ------------------------------------------------------ Primera fila ------------------------------------------------------ -->
             <div class="row mb-4">
@@ -21,8 +23,8 @@
             <div class="row mb-4">
                 <div class="col-md-2">
                     <div class="table-responsive wave1">
-                        <table class="table table-bordered table-striped table-hover table-sm shadow-lg">
-                            <thead class="thead-dark">
+                        <table class="table table-bordered table-striped table-hover table-sm">
+                            <thead class="encabezado-tabla">
                                 <tr> <th>Wave 1</th> </tr>
                             </thead>
                             <tbody>
@@ -35,8 +37,8 @@
                 </div>
                 <div class="col-md-2">
                     <div class="table-responsive wave2">
-                        <table class="table table-bordered table-striped table-hover table-sm shadow-lg">
-                            <thead class="thead-dark">
+                        <table class="table table-bordered table-striped table-hover table-sm">
+                            <thead class="encabezado-tabla">
                                 <tr> <th>Wave 2</th> </tr>
                             </thead>
                             <tbody>
@@ -49,8 +51,8 @@
                 </div>
                 <div class="col-md-2">
                     <div class="table-responsive wave3">
-                        <table class="table table-bordered table-striped table-hover table-sm shadow-lg">
-                            <thead class="thead-dark">
+                        <table class="table table-bordered table-striped table-hover table-sm">
+                            <thead class="encabezado-tabla">
                                 <tr> <th>Wave 3</th> </tr>
                             </thead>
                             <tbody>
@@ -63,22 +65,22 @@
                 </div>
                 <div class="col-md-2">
                     <div class="table-responsive wave4">
-                        <table class="table table-bordered table-striped table-hover table-sm shadow-lg">
-                            <thead class="thead-dark">
+                        <table class="table table-bordered table-striped table-hover table-sm">
+                            <thead class="encabezado-tabla">
                                 <tr> <th>Wave 4</th> </tr>
                             </thead>
                             <tbody>
                                 <tr> <td class="col10">Vega</td> </tr>
-                                <tr> <td class="col11">Blanka</td> </tr>
-                                <tr> <td class="col12">Sagat</td> </tr>
+                                <tr> <td class="col11">Sagat</td> </tr>
+                                <tr> <td class="col12">Blanka</td> </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
                 <div class="col-md-2">
                     <div class="table-responsive wave5">
-                        <table class="table table-bordered table-striped table-hover table-sm shadow-lg">
-                            <thead class="thead-dark">
+                        <table class="table table-bordered table-striped table-hover table-sm">
+                            <thead class="encabezado-tabla">
                                 <tr>  <th>Wave 5</th> </tr>
                             </thead>
                             <tbody>
@@ -91,8 +93,8 @@
                 </div>
                 <div class="col-md-2">
                     <div class="table-responsive wave6">
-                        <table class="table table-bordered table-striped table-hover table-sm shadow-lg">
-                            <thead class="thead-dark">
+                        <table class="table table-bordered table-striped table-hover table-sm">
+                            <thead class="encabezado-tabla">
                                 <tr> <th>Wave 6</th> </tr>
                             </thead>
                             <tbody>
@@ -143,7 +145,7 @@
                             </tbody>
                             <tbody> <!-- --------------------------------------------------------------------------------------- CHUN LI -->
                                 <tr> 
-                                    <td> Chun Li Rosa </td>
+                                    <td> Chun Li Player 2 (Rosa) </td>
                                     <td> Perteneciente a la SDCC 2024 </td> 
                                 </tr>
                             </tbody>

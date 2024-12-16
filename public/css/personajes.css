@@ -7,30 +7,37 @@
   overflow: hidden; /* Evita que el contenido se desborde */
 }
 /* ***************************************************************** Título ***************************************************************** */
-h4 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 18px;
-  color: #000000;
-  text-align: center; /* Asegura que el título esté centrado */
+.character-item {
+  text-align: center;
 }
-/* ************************************************************** Descripción ************************************************************** */
-.description {
-  font-size: 15px;
-  color: #000000;
-  margin-top: 10px;
-  text-align: center; /* Centra la descripción */
+
+.character-item h4 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #333;
+}
+
+.character-images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.character-img {
+  max-width: 500px;
+  height: auto;
 }
 /* *************************************************************** Paginación *************************************************************** */
 #customPagination {
   column-count: 3; /* Divide la lista en 3 columnas */
   column-gap: 10px; /* Espacio entre las columnas */
-  overflow: hidden; /* Evita que la lista se desborde */
+  overflow: hidden; /* Evita que la lista se desborde */  
 }
 
 #customPagination li {
   font-size: 18px;
   padding: 5px 0;
+  list-style-type: none;
 }
 /* -------------------------------------------------------------------------------------------------------- Cambia el color al pasar el ratón */
 #customPagination li:hover {

@@ -10,8 +10,12 @@ Route::get('/personajes', function () {
     return view('personajes');
 });
 // Ruta para la sección de figuras
-Route::get('/figuras', function () {
-    return view('figuras');
+Route::get('/especiales', function () {
+    return view('especiales');
+});
+// Ruta para la sección de figuras
+Route::get('/variantes', function () {
+    return view('variantes');
 });
 // Ruta para la sección de galería
 Route::get('/galeria', function () {

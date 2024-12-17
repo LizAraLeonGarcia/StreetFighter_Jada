@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="footer-columnas">
         <div class="footerIMGizquierda">
-            <img src="{{ asset('assets/img/footer/1.png') }}" alt="Chun Li SF6" class="img-fluid">
+            <img src="{{ asset('assets/img/footer/1.png') }}" alt="Chun Li azul" class="img-fluid">
         </div>
         <div>
             <div class="footer-parrafo"> 
@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="footerIMGizquierda">
-            <img src="{{ asset('assets/img/footer/2.png') }}" alt="Chun Li SFV" class="img-fluid">
+            <img src="{{ asset('assets/img/footer/2.png') }}" alt="Chun Li roja" class="img-fluid">
         </div>
     </div>
 </footer>

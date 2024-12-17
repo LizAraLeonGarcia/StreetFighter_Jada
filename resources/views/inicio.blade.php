@@ -120,64 +120,77 @@
             </div>
             <!-- ------------------------------------------------------ Cuarta  fila ------------------------------------------------------ -->
             <div class="row mb-4">
-                <h4>Además de los 18 antes mencionados, también hay variantes y especiales.</h4>
+                <h5>Además de los 18 antes mencionados, también hay variantes y especiales.</h5>
                 <div class="col-md-6">
-                    <p>Entre los especiales están:</p>
-                    <div class="table-responsive wave6">
-                        <table class="table table-bordered table-striped table-hover table-sm shadow-lg">
-                            <thead class="thead-dark">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped table-hover table-sm">
+                            <thead class="encabezado-especiales">
+                                <tr class="titulo-tabla-especiales">
+                                    <td colspan="3" class="text-center"><strong> Especiales </strong></td>
+                                </tr>
                                 <tr>
                                     <th>Personaje</th>
                                     <th>Detalles</th>
+                                    <th>Características</th>
                                 </tr>
                             </thead>
+                            <!-- Fila de título -->
                             <tbody> <!-- ------------------------------------------------------------------------------------------ EVIL RYU -->
                                 <tr> 
                                     <td> Evil Ryu </td>
-                                    <td> Perteneciente a la SDCC 2023 </td>
+                                    <td> SDCC 2023 </td>
+                                    <td> Accesorios extras, incluidos letreros, caja más grande </td>
                                 </tr>
                             </tbody>
                             <tbody> <!-- --------------------------------------------------------------------------------------- VIOLENT KEN -->
                                 <tr> 
                                     <td> Violent Ken </td>
-                                    <td> Perteneciente a la SDCC 2024 </td> 
+                                    <td> SDCC 2024 </td> 
+                                    <td> Accesorios extras, incluidos barriles, caja más grande </td>
                                 </tr>
                             </tbody>
                             <tbody> <!-- --------------------------------------------------------------------------------------- CHUN LI -->
                                 <tr> 
-                                    <td> Chun Li Player 2 (Rosa) </td>
-                                    <td> Perteneciente a la SDCC 2024 </td> 
+                                    <td> Chun Li Player 2 </td>
+                                    <td> SDCC 2024 </td> 
+                                    <td> Traje rosa, accesorios extras y caja más grande </td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <p>Entre las variantes están:</p>
-                    <div class="table-responsive wave6">
-                        <table class="table table-bordered table-striped table-hover table-sm shadow-lg">
-                            <thead class="thead-dark">
+                    <div class="table-responsive variantes-table">
+                        <table class="table table-bordered table-striped table-hover table-sm">
+                            <thead class="encabezado-variantes">
+                                <tr class="titulo-tabla-variantes">
+                                    <td colspan="3" class="text-center"><strong> Variantes </strong></td>
+                                </tr>
                                 <tr>
                                     <th>Personaje</th>
                                     <th>Detalles</th>
+                                    <th>Características</th>
                                 </tr>
                             </thead>
                             <tbody> <!-- ----------------------------------------------------------------------------------------------- RYU -->
                                 <tr> 
                                     <td> Ryu </td>
-                                    <td> Player 2 (traje gris) </td>
+                                    <td> Player 2 </td>
+                                    <td> Misma caja y accesorios, traje gris </td>
                                 </tr>
                             </tbody>
                             <tbody> <!-- ----------------------------------------------------------------------------------------------- KEN -->
                                 <tr> 
                                     <td> Ken </td>
-                                    <td> Player 2 (traje blanco) </td> 
+                                    <td> Player 2 </td>
+                                    <td> Misma caja, accesorio extra Shoryuken, traje blanco </td> 
                                 </tr>
                             </tbody>
                             <tbody> <!-- ------------------------------------------------------------------------------------------- CHUN LI -->
                                 <tr> 
                                     <td> Chun Li </td>
-                                    <td> Traje rojo </td> 
+                                    <td> </td>
+                                    <td> Misma caja y accesotios, traje rojo </td> 
                                 </tr>
                             </tbody>
                         </table>

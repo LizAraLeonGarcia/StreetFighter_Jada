@@ -20,6 +20,20 @@
   font-weight: 400;
 }
 
+.section-title-INICIO h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 400;
+}
+
+#inicio h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 200;
+}
+
 #inicio p {
   font-size: 15px;
   text-align: justify;
@@ -41,9 +55,9 @@
 }
 
 .inicio .encabezado-tabla {
-  background-color: hotpink;
-  color: black;
-  border-color: deeppink;
+  background-color: royalblue;
+  color: white;
+  border-color: mediumblue;
   border-width: 2px;
   text-align: center;
 }
@@ -111,3 +125,32 @@
 
 /* **************************************************** Tabla de la wave 6 **************************************************** */
 
+
+
+.inicio .encabezado-especiales {
+  background-color: hotpink;
+  color: white;
+  border-color: deeppink;
+  border-width: 2px;
+  text-align: center;
+}
+
+.inicio .titulo-tabla-especiales {
+  background-color: deeppink;
+  color: white;
+  text-transform: uppercase;
+}
+
+.inicio .encabezado-variantes {
+  background-color: crimson;
+  color: white;
+  border-color: firebrick;
+  border-width: 2px;
+  text-align: center;
+}
+
+.inicio .titulo-tabla-variantes {
+  background-color: firebrick;
+  color: white;
+  text-transform: uppercase;
+}

@@ -23,9 +23,11 @@
   gap: 10px;
 }
 
+/* Limitar el tamaño máximo de las imágenes y asegurarse de que no se expandan demasiado */
 .character-img {
-  max-width: 500px;
-  height: auto;
+  max-width: auto; /* Asegura que la imagen no se expanda más allá del 100% del contenedor */
+  width: auto; /* Asegura que la imagen tome el tamaño adecuado en contenedores pequeños */
+  max-height: 500px; /* Limita la altura máxima a 400px para evitar que las imágenes sean enormes */
 }
 /* *************************************************************** Paginación *************************************************************** */
 #customPagination {

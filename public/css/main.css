@@ -1,3 +1,14 @@
+/* Estilos globales */
+body {
+  cursor: url('assets/img/cursor.jpg') 16 16, auto; /* Cambia el cursor globalmente */
+}
+
+/* Estilo para elementos con la clase .custom-cursor */
+.custom-cursor {
+  cursor: url('assets/img/cursor.jpg') 16 16, auto; /* Cambia el cursor solo para este elemento */
+}
+
+/* Otros estilos para el contenedor */
 .container-fluid {
   background-color: #c1c6ca;
   font-family: 'Times New Roman', Times, serif;
@@ -17,4 +28,3 @@
   color: black; /* Cambia el color al pasar el ratón por encima */
   transition: color 0.3s ease-in-out; /* Transición suave para el cambio de color */
 }
-

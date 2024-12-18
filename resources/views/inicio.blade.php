@@ -13,7 +13,16 @@
             <!-- ------------------------------------------------------ Primera fila ------------------------------------------------------ -->
             <div class="row mb-4">
                 <div class="col-md-5">
-                    <p>.</p>
+                    <p>Esta colección de la marca Jada Toys comenzó por octubre del 2023. Aunque las fechas de las entregas, tanto de las waves como de los personajes varían mucho entre países, llegando generalmente a Europa, Asia y Estados Unidos antes que en mi país México</p>
+                    <p>Las entregas se hacen en waves, grupos, de a 3 personajes, siempre siendo los mismos a nivel mundial, además hay persoanjes que son "especiales", pues salen en la Convención Internacional de Cómics de San Diego; también conocida como Comic-Con San Diego y abreviada en inglés por SDCC. Asimismo hay variantes de los personajes que poco van saliendo y se consiguen en aplicaciones como Aliexpress, Mercado Libre o Amazon, por mencionar algunas.
+                    <p>Yo te mostraré mi colección en esta página como ya viste en uno de los títulos, son fotos que les tomé conforme iba consiguiendo a los personajes, a excepción de esta sección <strong>Inicio</strong> que tomé imágenes de google.</p>
+                    <p>Decidí dividirlos en secciones, donde:</p>
+                    <ul>
+                        <li> <strong>Personajes</strong> incluye a los personajes que sacaron en las waves.</li>
+                        <li> <trong>Especiales</strong> incluye a los personajes exclusivos como aquellos que salieron en la SDCC.</li>
+                        <li> <strong>Variantes</strong> incluye a los personajes generalmente que son player 2, o que tienen un cambio de color y no fueron exclusivos de la SDCC.</li>
+                        <li> <strong>Galería</strong> son simplemente fotografías que yo tomé de los personajes usando mi imaginación para las poses y demás.</li>
+                    </ul>
                 </div>
                 <div class="col-md-7">
                     <img src="assets/img/inicio/personajes.jpg" class="img-fluid" alt="Algunos de los personajes de la colección">
@@ -123,7 +132,7 @@
                 <h5>Además de los 18 antes mencionados, también hay variantes y especiales.</h5>
                 <div class="col-md-6">
                     <div class="table-responsive">
-                        <table class="table table-bordered table-striped table-hover table-sm">
+                        <table class="table tabla-especiales table-bordered table-striped table-hover table-sm">
                             <thead class="encabezado-especiales">
                                 <tr class="titulo-tabla-especiales">
                                     <td colspan="3" class="text-center"><strong> Especiales </strong></td>
@@ -161,7 +170,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="table-responsive variantes-table">
-                        <table class="table table-bordered table-striped table-hover table-sm">
+                        <table class="table table-variantes table-bordered table-striped table-hover table-sm">
                             <thead class="encabezado-variantes">
                                 <tr class="titulo-tabla-variantes">
                                     <td colspan="3" class="text-center"><strong> Variantes </strong></td>
@@ -190,7 +199,21 @@
                                 <tr> 
                                     <td> Chun Li </td>
                                     <td> </td>
-                                    <td> Misma caja y accesotios, traje rojo </td> 
+                                    <td> Misma caja y accesorios, traje rojo </td> 
+                                </tr>
+                            </tbody>
+                            <tbody> <!-- ------------------------------------------------------------------------------------------ FEI LONG -->
+                                <tr> 
+                                    <td> Fei Long </td>
+                                    <td> Player 2 </td>
+                                    <td> Misma caja, accesorios extra de manos y un par de nunchakos, traje gris </td> 
+                                </tr>
+                            </tbody>
+                            <tbody> <!-- ------------------------------------------------------------------------------------------- M BISON -->
+                                <tr> 
+                                    <td> M. Bison </td>
+                                    <td> Player 2</td>
+                                    <td> Misma caja y accesorios, traje azul </td> 
                                 </tr>
                             </tbody>
                         </table>

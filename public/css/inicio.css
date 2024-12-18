@@ -58,80 +58,104 @@
   background-color: royalblue;
   color: white;
   border-color: mediumblue;
-  border-width: 2px;
+  border-width: 4px;
   text-align: center;
+  text-transform: uppercase;
 }
 /* *********************************************************** Tabla de la wave 1 *********************************************************** */
 #inicio .col1 {
   background-color: white; /* RYU */
   color: black;
+  border-color: white;
+  border-width: 1px;
 }
 
 #inicio .col2 {
   background-color: black; /* FEI LONG */
   color: white;
+  border-color: black;
+  border-width: 1px;
 }
 
 #inicio .col3 {
   background-color: blue; /* CHUN LI */
   color: white;
+  border-color: blue;
+  border-width: 1px;
 }
 /* *********************************************************** Tabla de la wave 2 *********************************************************** */
 #inicio .col4 {
   background-color: red; /* KEN */
   color: white;
+  border-color: red;
+  border-width: 1px;
 }
 
 #inicio .col5 {
   background-color: darkred; /* M BISON */
   color: white;
+  border-color: darkred;
+  border-width: 1px;
 }
 
 #inicio .col6 {
   background-color: yellow; /* DHALSIM */
   color: black;
+  border-color: yellow;
+  border-width: 1px;
 }
 /* **************************************************** Tabla de la wave 3 **************************************************** */
 #inicio .col7 {
   background-color: green; /* GUILE */
   color: white;
+  border-color: green;
+  border-width: 1px;
 }
 
 #inicio .col8 {
   background-color: orangered; /* DEE JAY */
   color: white;
+  border-color: orangered;
+  border-width: 1px;
 }
 
 #inicio .col9 {
   background-color: lime; /* CAMMY */
   color: black;
+  border-color: lime;
+  border-width: 1px;
 }
 /* **************************************************** Tabla de la wave 4 **************************************************** */
 #inicio .col10 {
   background-color: purple; /* VEGA */
   color: white;
+  border-color: purple;
+  border-width: 1px;
 }
 
 #inicio .col11 {
   background-color: darkblue; /* SAGAT */
   color: white;
+  border-color: darkblue;
+  border-width: 1px;
 }
 
 #inicio .col12 {
   background-color: greenyellow; /* BLANKA */
   color: black;
+  border-color: greenyellow;
+  border-width: 1px;
 }
 /* **************************************************** Tabla de la wave 5 **************************************************** */
 
 /* **************************************************** Tabla de la wave 6 **************************************************** */
 
-
-
+/* **************************************************** Tabla de los especiales **************************************************** */
 .inicio .encabezado-especiales {
   background-color: hotpink;
   color: white;
   border-color: deeppink;
-  border-width: 2px;
+  border-width: 4px;
   text-align: center;
 }
 
@@ -141,11 +165,20 @@
   text-transform: uppercase;
 }
 
+.encabezado-especiales td, .encabezadi-especiales th {
+  border-color: deeppink; /* Esto le da grosor a los bordes de las celdas */
+  border-width: 4px;
+}
+
+.inicio .encabezado-especiales {
+  border-collapse: collapse;
+}
+/* **************************************************** Tabla de las variantes **************************************************** */
 .inicio .encabezado-variantes {
   background-color: crimson;
   color: white;
   border-color: firebrick;
-  border-width: 2px;
+  border-width: 4px;
   text-align: center;
 }
 

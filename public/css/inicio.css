@@ -54,6 +54,15 @@
   height: auto;
 }
 
+#inicio ul {
+  list-style-type: square;
+  padding: 10px;
+}
+
+#inicio li {
+  text-align: justify;
+}
+
 .inicio .encabezado-tabla {
   background-color: royalblue;
   color: white;

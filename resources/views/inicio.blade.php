@@ -13,15 +13,16 @@
             <!-- ------------------------------------------------------ Primera fila ------------------------------------------------------ -->
             <div class="row mb-4">
                 <div class="col-md-5">
-                    <p>Esta colección de la marca Jada Toys comenzó por octubre del 2023. Aunque las fechas de las entregas, tanto de las waves como de los personajes varían mucho entre países, llegando generalmente a Europa, Asia y Estados Unidos antes que en mi país México</p>
+                    <p>Esta colección de la marca Jada Toys comenzó por octubre del 2023. Aunque las fechas de las entregas, tanto de las waves como de los personajes varían mucho entre países, llegando generalmente a Europa, Asia y Estados Unidos antes que en mi país México, siempre es a precios razonables y con una gran calidad en el producto dándole ya guerra a otras marcas como SH Figuarts.</p>
                     <p>Las entregas se hacen en waves, grupos, de a 3 personajes, siempre siendo los mismos a nivel mundial, además hay persoanjes que son "especiales", pues salen en la Convención Internacional de Cómics de San Diego; también conocida como Comic-Con San Diego y abreviada en inglés por SDCC. Asimismo hay variantes de los personajes que poco van saliendo y se consiguen en aplicaciones como Aliexpress, Mercado Libre o Amazon, por mencionar algunas.
                     <p>Yo te mostraré mi colección en esta página como ya viste en uno de los títulos, son fotos que les tomé conforme iba consiguiendo a los personajes, a excepción de esta sección <strong>Inicio</strong> que tomé imágenes de google.</p>
                     <p>Decidí dividirlos en secciones, donde:</p>
                     <ul>
+                        <li> <strong>Inicio</strong> que incluye una breve introducción sobre la colección.</li>
                         <li> <strong>Personajes</strong> incluye a los personajes que sacaron en las waves.</li>
-                        <li> <trong>Especiales</strong> incluye a los personajes exclusivos como aquellos que salieron en la SDCC.</li>
-                        <li> <strong>Variantes</strong> incluye a los personajes generalmente que son player 2, o que tienen un cambio de color y no fueron exclusivos de la SDCC.</li>
-                        <li> <strong>Galería</strong> son simplemente fotografías que yo tomé de los personajes usando mi imaginación para las poses y demás.</li>
+                        <li> <strong>Especiales</strong> incluye a los personajes exclusivos de la SDCC.</li>
+                        <li> <strong>Variantes</strong> incluye a los personajes que tienen un cambio de color y no fueron exclusivos de la SDCC.</li>
+                        <li> <strong>Galería</strong> donde son fotografías que yo tomé de los personajes usando mi imaginación.</li>
                     </ul>
                 </div>
                 <div class="col-md-7">
@@ -129,7 +130,7 @@
             </div>
             <!-- ------------------------------------------------------ Cuarta  fila ------------------------------------------------------ -->
             <div class="row mb-4">
-                <h5>Además de los 18 antes mencionados, también hay variantes y especiales.</h5>
+                <h5>Una vez mencionados los 18 que saldrán en waves, cabe mencionar las variantes y especiales.</h5>
                 <div class="col-md-6">
                     <div class="table-responsive">
                         <table class="table tabla-especiales table-bordered table-striped table-hover table-sm">

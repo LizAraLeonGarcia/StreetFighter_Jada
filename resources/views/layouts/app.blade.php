@@ -14,6 +14,8 @@
   <link href="{{ asset('css/footer.css') }}" rel="stylesheet">
   <link href="{{ asset('css/inicio.css') }}" rel="stylesheet">
   <link href="{{ asset('css/personajes.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/especiales.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/variantes.css') }}" rel="stylesheet">
   <link href="{{ asset('css/galeria.css') }}" rel="stylesheet">
 
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">

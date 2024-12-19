@@ -1,0 +1,51 @@
+.especiales {
+  padding: 0 15px;
+  min-height: 100vh; /* Asegura que el contenedor ocupe al menos la altura de la pantalla */
+  flex-direction: column; /* Alinea los elementos en columna */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+  overflow: hidden; /* Evita que el contenido se desborde */
+}
+/* ***************************************************************** Título ***************************************************************** */
+.character-item {
+  text-align: center;
+}
+
+.character-item h4 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #333;
+}
+
+.character-images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Limitar el tamaño máximo de las imágenes y asegurarse de que no se expandan demasiado */
+.character-img {
+  max-width: auto; /* Asegura que la imagen no se expanda más allá del 100% del contenedor */
+  width: auto; /* Asegura que la imagen tome el tamaño adecuado en contenedores pequeños */
+  max-height: 500px; /* Limita la altura máxima a 400px para evitar que las imágenes sean enormes */
+}
+/* *************************************************************** Paginación *************************************************************** */
+#customPagination {
+  column-count: 3; /* Divide la lista en 3 columnas */
+  column-gap: 10px; /* Espacio entre las columnas */
+  overflow: hidden; /* Evita que la lista se desborde */  
+}
+
+#customPagination li {
+  font-size: 18px;
+  padding: 5px 0;
+  list-style-type: none;
+}
+/* -------------------------------------------------------------------------------------------------------- Cambia el color al pasar el ratón */
+#customPagination li:hover {
+  color: #007bff; 
+}
+/* ************************************************************* RESPONSIVIDAD ************************************************************* */
+/* ------------------------------------------------------------------------------------------------------------------------ Pantallas grandes */
+/* ----------------------------------------------------------------------------------------------------------------------- Pantallas medianas */
+/* ----------------------------------------------------------------------------------------------------------------------- Pantallas pequeñas */

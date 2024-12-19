@@ -174,13 +174,25 @@
   text-transform: uppercase;
 }
 
-.encabezado-especiales td, .encabezadi-especiales th {
-  border-color: deeppink; /* Esto le da grosor a los bordes de las celdas */
-  border-width: 4px;
+.table-bordered-especiales {
+  border: 4px solid deeppink !important;
 }
 
-.inicio .encabezado-especiales {
-  border-collapse: collapse;
+.table-bordered-especiales td, .table-bordered th {
+  border: 3px solid deeppink;
+}
+/* EVIL RYU */
+.fila1E {
+  background-color: darkslategray;
+}
+/* VIOLENT KEN */
+.fila2E {
+  background-color: lightyellow;
+  color: black;
+}
+/* CHUN LI PLAYER 2 */
+.fila3E {
+  background-color: rgb(253, 70, 162);
 }
 /* **************************************************** Tabla de las variantes **************************************************** */
 .inicio .encabezado-variantes {
@@ -195,4 +207,33 @@
   background-color: firebrick;
   color: white;
   text-transform: uppercase;
+}
+
+.table-bordered-variantes {
+  border: 4px solid firebrick !important;
+}
+
+.table-bordered-variantes td, .table-bordered th {
+  border: 3px solid firebrick;
+}
+/* RYU PLAYER 2 */
+.fila1V {
+  background-color: gray;
+}
+/* KEN PLAYER 2 */
+.fila2V {
+  background-color: white;
+  color: black;
+}
+/* CHUN LI ROJA */
+.fila3V {
+  background-color: crimson;
+}
+/* FEI LONG PLAYER 2 */
+.fila4V {
+  background-color: dimgray;
+}
+/* M. BISON PLAYER 2 */
+.fila5V {
+  background-color: dodgerblue;
 }

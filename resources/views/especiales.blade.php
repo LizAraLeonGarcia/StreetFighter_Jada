@@ -18,9 +18,11 @@
                 <div class="character-item">
                   <h4>Evil Ryu</h4>
                   <div class="character-images">
-                    <a href="assets/img/especiales/ryu1.jpg" class="glightbox">
+                    <a href="assets/img/especiales/evilryu1.jpg" class="glightbox">
                       <img src="assets/img/especiales/evilryu1.jpg" class="character-img img-fluid" alt="Ryu Frontal">
-                      <img src="assets/img/especiales/evilryu2.jpg" class="character-img img-fluid" alt="Ryu Lateral">
+                      <img src="assets/img/especiales/evilryu2.jpg" class="character-img img-fluid" alt="Ryu Trasera">
+                      <img src="assets/img/especiales/evilryu3.jpg" class="character-img img-fluid" alt="Ryu Dentro Frontal">
+                      <img src="assets/img/especiales/evilryu4.jpg" class="character-img img-fluid" alt="Ryu Dentro Trasera">
                     </a>
                   </div>
                 </div>
@@ -29,9 +31,11 @@
                 <div class="character-item">
                   <h4>Violent Ken</h4>
                   <div class="character-images">
-                    <a href="assets/img/especiales/feilong1.jpg" class="glightbox">
-                      <img src="assets/img/especiales/feilong1.jpg" class="character-img img-fluid" alt="Fei Long Frontal">
-                      <img src="assets/img/especiales/feilong2.jpg" class="character-img img-fluid" alt="Fei Long Lateral">
+                    <a href="assets/img/especiales/violentken1.jpg" class="glightbox">
+                      <img src="assets/img/especiales/violentken1.jpg" class="character-img img-fluid" alt="Violent Ken Frontal">
+                      <img src="assets/img/especiales/violentken2.jpg" class="character-img img-fluid" alt="Violent Ken Trasera">
+                      <img src="assets/img/especiales/violentken3.jpg" class="character-img img-fluid" alt="Violent Ken Dentro Frontal">
+                      <img src="assets/img/especiales/violentken4.jpg" class="character-img img-fluid" alt="Violent Ken Dentro Trasera">
                     </a>
                   </div>
                 </div>
@@ -40,13 +44,18 @@
                 <div class="character-item">
                   <h4>Chun Li Player 2</h4>
                   <div class="character-images">
-                    <a href="assets/img/especiales/chunli1.jpg" class="glightbox">
-                      <img src="assets/img/especiales/chunli1.jpg" class="character-img img-fluid" alt="Chun Li Frontal">
-                      <img src="assets/img/especiales/chunli2.jpg" class="character-img img-fluid" alt="Chun Li Lateral">
+                    <a href="assets/img/especiales/chunlirosa1.jpg" class="glightbox">
+                      <img src="assets/img/especiales/chunlirosa1.jpg" class="character-img img-fluid" alt="Chun Li Frontal">
+                      <img src="assets/img/especiales/chunlirosa2.jpg" class="character-img img-fluid" alt="Chun Li Trasera">
+                      <img src="assets/img/especiales/chunlirosa3.jpg" class="character-img img-fluid" alt="Chun Li Dentro Frente">
+                      <img src="assets/img/especiales/chunlirosa4.jpg" class="character-img img-fluid" alt="Chun Li Dentro Trasera">
                     </a>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
         <!-- --------------------------------------------------- Lista columna izquierda --------------------------------------------------- -->
         <div class="col-md-12">
           <!-- ------------------------------------------------- contendor para paginación ------------------------------------------------- -->

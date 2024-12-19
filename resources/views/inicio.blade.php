@@ -133,7 +133,7 @@
                 <h5>Una vez mencionados los 18 que saldrán en waves, cabe mencionar las variantes y especiales.</h5>
                 <div class="col-md-6">
                     <div class="table-responsive">
-                        <table class="table tabla-especiales table-bordered table-striped table-hover table-sm">
+                        <table class="table table-bordered-especiales table-striped table-hover table-sm">
                             <thead class="encabezado-especiales">
                                 <tr class="titulo-tabla-especiales">
                                     <td colspan="3" class="text-center"><strong> Especiales </strong></td>
@@ -146,24 +146,24 @@
                             </thead>
                             <!-- Fila de título -->
                             <tbody> <!-- ------------------------------------------------------------------------------------------ EVIL RYU -->
-                                <tr> 
-                                    <td> Evil Ryu </td>
-                                    <td> SDCC 2023 </td>
-                                    <td> Accesorios extras, incluidos letreros, caja más grande </td>
+                                <tr class="fila1E"> 
+                                    <td style="color:white;"> Evil Ryu </td>
+                                    <td style="color:white;"> SDCC 2023 </td>
+                                    <td style="color:white;"> Accesorios extras, incluidos letreros, caja más grande </td>
                                 </tr>
                             </tbody>
                             <tbody> <!-- --------------------------------------------------------------------------------------- VIOLENT KEN -->
-                                <tr> 
+                                <tr class="fila2E"> 
                                     <td> Violent Ken </td>
                                     <td> SDCC 2024 </td> 
                                     <td> Accesorios extras, incluidos barriles, caja más grande </td>
                                 </tr>
                             </tbody>
                             <tbody> <!-- --------------------------------------------------------------------------------------- CHUN LI -->
-                                <tr> 
-                                    <td> Chun Li Player 2 </td>
-                                    <td> SDCC 2024 </td> 
-                                    <td> Traje rosa, accesorios extras y caja más grande </td>
+                                <tr class="fila3E"> 
+                                    <td style="color:white;"> Chun Li Player 2 </td>
+                                    <td style="color:white;"> SDCC 2024 </td> 
+                                    <td style="color:white;"> Traje rosa, accesorios extras y caja más grande </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -171,7 +171,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="table-responsive variantes-table">
-                        <table class="table table-variantes table-bordered table-striped table-hover table-sm">
+                        <table class="table table-bordered-variantes table-striped table-hover table-sm">
                             <thead class="encabezado-variantes">
                                 <tr class="titulo-tabla-variantes">
                                     <td colspan="3" class="text-center"><strong> Variantes </strong></td>
@@ -183,38 +183,38 @@
                                 </tr>
                             </thead>
                             <tbody> <!-- ----------------------------------------------------------------------------------------------- RYU -->
-                                <tr> 
-                                    <td> Ryu </td>
-                                    <td> Player 2 </td>
-                                    <td> Misma caja y accesorios, traje gris </td>
+                                <tr class="fila1V"> 
+                                    <td style="color:white;"> Ryu </td>
+                                    <td style="color:white;"> Player 2 </td>
+                                    <td style="color:white;"> Misma caja y accesorios, traje gris </td>
                                 </tr>
                             </tbody>
                             <tbody> <!-- ----------------------------------------------------------------------------------------------- KEN -->
-                                <tr> 
+                                <tr class="fila2V"> 
                                     <td> Ken </td>
                                     <td> Player 2 </td>
                                     <td> Misma caja, accesorio extra Shoryuken, traje blanco </td> 
                                 </tr>
                             </tbody>
                             <tbody> <!-- ------------------------------------------------------------------------------------------- CHUN LI -->
-                                <tr> 
-                                    <td> Chun Li </td>
-                                    <td> </td>
-                                    <td> Misma caja y accesorios, traje rojo </td> 
+                                <tr class="fila3V"> 
+                                    <td style="color:white;"> Chun Li </td>
+                                    <td style="color:white;"> </td>
+                                    <td style="color:white;"> Misma caja y accesorios, traje rojo </td> 
                                 </tr>
                             </tbody>
                             <tbody> <!-- ------------------------------------------------------------------------------------------ FEI LONG -->
-                                <tr> 
-                                    <td> Fei Long </td>
-                                    <td> Player 2 </td>
-                                    <td> Misma caja, accesorios extra de manos y un par de nunchakos, traje gris </td> 
+                                <tr class="fila4V"> 
+                                    <td style="color:white;"> Fei Long </td>
+                                    <td style="color:white;"> Player 2 </td>
+                                    <td style="color:white;"> Misma caja, accesorios extra de manos y un par de nunchakos, traje gris </td> 
                                 </tr>
                             </tbody>
                             <tbody> <!-- ------------------------------------------------------------------------------------------- M BISON -->
-                                <tr> 
-                                    <td> M. Bison </td>
-                                    <td> Player 2</td>
-                                    <td> Misma caja y accesorios, traje azul </td> 
+                                <tr class="fila5V"> 
+                                    <td style="color:white;"> M. Bison </td>
+                                    <td style="color:white;"> Player 2</td>
+                                    <td style="color:white;"> Misma caja y accesorios, traje azul </td> 
                                 </tr>
                             </tbody>
                         </table>

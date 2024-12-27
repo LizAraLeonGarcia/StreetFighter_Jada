@@ -156,8 +156,40 @@
   border-width: 1px;
 }
 /* **************************************************** Tabla de la wave 5 **************************************************** */
+#inicio .col13 {
+  background-color: dodgerblue; /* T. HAWK */
+  color: black;
+  border-color: dodgerblue;
+  border-width: 1px;
+}
 
+#inicio .col14 {
+  background-color: skyblue; /* BALROG */
+  color: black;
+  border-color: skyblue;
+  border-width: 1px;
+}
+
+#inicio .col15 {
+  background-color: cornflowerblue; /* E. HONDA */
+  color: black;
+  border-color: cornflowerblue;
+  border-width: 1px;
+}
 /* **************************************************** Tabla de la wave 6 **************************************************** */
+#inicio .col16 {
+  background-color: crimson; /* AKUMA */
+  color: white;
+  border-color: crimson;
+  border-width: 1px;
+}
+
+#inicio .col17 {
+  background-color: firebrick; /* ZANGIEF */
+  color: white;
+  border-color: firebrick;
+  border-width: 1px;
+}
 
 /* **************************************************** Tabla de los especiales **************************************************** */
 .inicio .encabezado-especiales {

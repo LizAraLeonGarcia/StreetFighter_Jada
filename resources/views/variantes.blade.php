@@ -4,7 +4,7 @@
   <div class="container-fluid">
     <!-- ------------------------------------------------------ contendor para título ------------------------------------------------------ -->
     <div class="section-title">
-      <h3>Personajes de las wave</h3>
+      <h3>Personajes con variación de color</h3>
     </div>
     <!-- ---------------------------------------------------- contenedor para personaje ---------------------------------------------------- -->
     <div class="personajes">
@@ -18,8 +18,8 @@
                 <div class="character-item">
                   <h4>Ryu Player 2</h4>
                   <div class="character-images">
-                    <a href="assets/img/variantes/ryuplayer2-1.jpg" class="glightbox">
-                      <img src="assets/img/variantes/ryuplayer2-1.jpg" class="character-img img-fluid" alt="Ryu Player 2">
+                    <a href="assets/img/variantes/ryugris1.jpg" class="glightbox">
+                      <img src="assets/img/variantes/ryugris1.jpg" class="character-img img-fluid" alt="Ryu Player 2">
                     </a>
                   </div>
                 </div>
@@ -28,8 +28,8 @@
                 <div class="character-item">
                   <h4>Ken Player 2</h4>
                   <div class="character-images">
-                    <a href="assets/img/variantes/kenplayer2-1.jpg" class="glightbox">
-                      <img src="assets/img/variantes/kenplayer2-1.jpg" class="character-img img-fluid" alt="Ken Player 2">
+                    <a href="assets/img/variantes/kenblanco1.jpg" class="glightbox">
+                      <img src="assets/img/variantes/kenblanco1.jpg" class="character-img img-fluid" alt="Ken Player 2">
                     </a>
                   </div>
                 </div>
@@ -38,8 +38,8 @@
                 <div class="character-item">
                   <h4>Chun Li Roja</h4>
                   <div class="character-images">
-                    <a href="assets/img/variantes/chunliroja.jpg" class="glightbox">
-                      <img src="assets/img/variantes/chunliroja.jpg" class="character-img img-fluid" alt="Chun Li Roja">
+                    <a href="assets/img/variantes/chunliroja1.jpg" class="glightbox">
+                      <img src="assets/img/variantes/chunliroja1.jpg" class="character-img img-fluid" alt="Chun Li Roja">
                     </a>
                   </div>
                 </div>

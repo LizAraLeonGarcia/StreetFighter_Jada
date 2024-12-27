@@ -108,8 +108,8 @@
                                 <tr> <th>Wave 6</th> </tr>
                             </thead>
                             <tbody>
-                                <tr> <td> . </td> </tr>
-                                <tr> <td> . </td> </tr>
+                                <tr> <td class="col16"> Akuma </td> </tr>
+                                <tr> <td class="col17"> Zangief </td> </tr>
                                 <tr> <td>¿ ?</td> </tr>
                             </tbody>
                         </table>

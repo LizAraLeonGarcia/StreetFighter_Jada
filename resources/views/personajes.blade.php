@@ -21,6 +21,8 @@
                     <a href="assets/img/personajes/ryu1.jpg" class="glightbox">
                       <img src="assets/img/personajes/ryu1.jpg" class="character-img img-fluid" alt="Ryu Frontal">
                       <img src="assets/img/personajes/ryu2.jpg" class="character-img img-fluid" alt="Ryu Lateral">
+                      <img src="assets/img/personajes/ryu3.jpg" class="character-img img-fluid" alt="Ryu con efecto">
+                      <img src="assets/img/personajes/ryu4.jpg" class="character-img img-fluid" alt="Ryu pose">
                     </a>
                   </div>
                 </div>
@@ -32,6 +34,8 @@
                     <a href="assets/img/personajes/feilong1.jpg" class="glightbox">
                       <img src="assets/img/personajes/feilong1.jpg" class="character-img img-fluid" alt="Fei Long Frontal">
                       <img src="assets/img/personajes/feilong2.jpg" class="character-img img-fluid" alt="Fei Long Lateral">
+                      <img src="assets/img/personajes/feilong3.jpg" class="character-img img-fluid" alt="Fei Long con efecto">
+                      <img src="assets/img/personajes/feilong4.jpg" class="character-img img-fluid" alt="Fei Long pose">
                     </a>
                   </div>
                 </div>
@@ -43,6 +47,8 @@
                     <a href="assets/img/personajes/chunli1.jpg" class="glightbox">
                       <img src="assets/img/personajes/chunli1.jpg" class="character-img img-fluid" alt="Chun Li Frontal">
                       <img src="assets/img/personajes/chunli2.jpg" class="character-img img-fluid" alt="Chun Li Lateral">
+                      <img src="assets/img/personajes/chunli3.jpg" class="character-img img-fluid" alt="Chun Li con efecto">
+                      <img src="assets/img/personajes/chunli4.jpg" class="character-img img-fluid" alt="Chun Li pose">
                     </a>
                   </div>
                 </div>
@@ -55,6 +61,8 @@
                     <a href="assets/img/personajes/ken1.jpg" class="glightbox">
                       <img src="assets/img/personajes/ken1.jpg" class="character-img img-fluid" alt="Ken Frontal">
                       <img src="assets/img/personajes/ken2.jpg" class="character-img img-fluid" alt="Ken Lateral">
+                      <img src="assets/img/personajes/ken3.jpg" class="character-img img-fluid" alt="Ken con efecto">
+                      <img src="assets/img/personajes/ken4.jpg" class="character-img img-fluid" alt="Ken pose">
                     </a>
                   </div>
                 </div>
@@ -66,6 +74,8 @@
                     <a href="assets/img/personajes/mbison1.jpg" class="glightbox">
                       <img src="assets/img/personajes/mbison1.jpg" class="character-img img-fluid" alt="M. Bison Frontal">
                       <img src="assets/img/personajes/mbison2.jpg" class="character-img img-fluid" alt="M. Bison Lateral">
+                      <img src="assets/img/personajes/mbison3.jpg" class="character-img img-fluid" alt="M. Bison con efecto">
+                      <img src="assets/img/personajes/mbison4.jpg" class="character-img img-fluid" alt="M. Bison pose">
                     </a>
                   </div>
                 </div>
@@ -77,6 +87,8 @@
                     <a href="assets/img/personajes/dhalsim1.jpg" class="glightbox">
                       <img src="assets/img/personajes/dhalsim1.jpg" class="character-img img-fluid" alt="Dhalsim Frontal">
                       <img src="assets/img/personajes/dhalsim2.jpg" class="character-img img-fluid" alt="Dhalsim Lateral">
+                      <img src="assets/img/personajes/dhalsim3.jpg" class="character-img img-fluid" alt="Dhalsim con efecto">
+                      <img src="assets/img/personajes/dhalsim4.jpg" class="character-img img-fluid" alt="Dhalsim pose">
                     </a>
                   </div>
                 </div>
@@ -89,6 +101,8 @@
                     <a href="assets/img/personajes/guile1.jpg" class="glightbox">
                       <img src="assets/img/personajes/guile1.jpg" class="character-img img-fluid" alt="Guile Frontal">
                       <img src="assets/img/personajes/guile2.jpg" class="character-img img-fluid" alt="Guile Lateral">
+                      <img src="assets/img/personajes/guile3.jpg" class="character-img img-fluid" alt="Guile con efecto">
+                      <img src="assets/img/personajes/guile4.jpg" class="character-img img-fluid" alt="Guile pose">
                     </a>
                   </div>
                 </div>
@@ -100,6 +114,8 @@
                     <a href="assets/img/personajes/deejay1.jpg" class="glightbox">
                       <img src="assets/img/personajes/deejay1.jpg" class="character-img img-fluid" alt="Dee Jay Frontal">
                       <img src="assets/img/personajes/deejay2.jpg" class="character-img img-fluid" alt="Dee Jay Lateral">
+                      <img src="assets/img/personajes/deejay3.jpg" class="character-img img-fluid" alt="Dee Jay con efecto">
+                      <img src="assets/img/personajes/deejay4.jpg" class="character-img img-fluid" alt="Dee Jay pose">
                     </a>
                   </div>
                 </div>
@@ -111,6 +127,8 @@
                     <a href="assets/img/personajes/cammy1.jpg" class="glightbox">
                       <img src="assets/img/personajes/cammy1.jpg" class="character-img img-fluid" alt="Cammy Frontal">
                       <img src="assets/img/personajes/cammy2.jpg" class="character-img img-fluid" alt="Cammy Lateral">
+                      <img src="assets/img/personajes/cammy3.jpg" class="character-img img-fluid" alt="Cammy con efecto">
+                      <img src="assets/img/personajes/cammy4.jpg" class="character-img img-fluid" alt="Cammy pose">
                     </a>
                   </div>
                 </div>

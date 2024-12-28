@@ -44,6 +44,6 @@
   <script src="{{ asset('js/navbar.js') }}"></script>
   <script src="{{ asset('js/personajes.js') }}"></script>
   <script src="{{ asset('js/galeria.js') }}"></script>
-
+  <script src="{{ asset('js/especiales.js') }}"></script>
 </body>
 </html>

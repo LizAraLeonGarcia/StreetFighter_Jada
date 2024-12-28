@@ -6,45 +6,136 @@
   align-items: center; /* Centra los elementos verticalmente */
   overflow: hidden; /* Evita que el contenido se desborde */
 }
-/* ***************************************************************** Título ***************************************************************** */
-.character-item {
+/* Estilos generales para la página */
+/* Título de la sección */
+.section-title {
   text-align: center;
+  margin-bottom: 30px;
 }
 
-.character-item h4 {
-  margin-bottom: 15px;
-  font-size: 24px;
+.section-title h3 {
+  font-size: 2.5rem;
   color: #333;
+  font-weight: bold;
 }
 
-.character-images {
+/* Estilos para la lista de navegación */
+ol {
   display: flex;
   justify-content: center;
-  gap: 10px;
-}
-
-/* Limitar el tamaño máximo de las imágenes y asegurarse de que no se expandan demasiado */
-.character-img {
-  max-width: auto; /* Asegura que la imagen no se expanda más allá del 100% del contenedor */
-  width: auto; /* Asegura que la imagen tome el tamaño adecuado en contenedores pequeños */
-  max-height: 500px; /* Limita la altura máxima a 400px para evitar que las imágenes sean enormes */
-}
-/* *************************************************************** Paginación *************************************************************** */
-#customPagination {
-  column-count: 3; /* Divide la lista en 3 columnas */
-  column-gap: 10px; /* Espacio entre las columnas */
-  overflow: hidden; /* Evita que la lista se desborde */  
-}
-
-#customPagination li {
-  font-size: 18px;
-  padding: 5px 0;
+  padding: 0;
+  margin: 20px 0;
   list-style-type: none;
 }
-/* -------------------------------------------------------------------------------------------------------- Cambia el color al pasar el ratón */
-#customPagination li:hover {
-  color: #007bff; 
+
+ol li {
+  margin: 0 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s ease, transform 0.3s ease;
+  border: 2px solid transparent;
+  border-radius: 10px;
 }
+
+ol li.active {
+  color: #007bff;
+  border-color: #007bff;
+  transform: scale(1.1);
+}
+
+ol li:hover {
+  color: #007bff;
+  transform: scale(1.05);
+}
+
+/* Estilos para el contenedor de personajes */
+.especiales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* Carrusel de cada personaje */
+.swiper-container {
+  width: 80%;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-container-evilryu {
+  border-color: dimgray;
+  border-width: 2px;
+}
+
+.swiper-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-slide {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Efecto de hover en las imágenes del carrusel */
+.swiper-slide img:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos para los botones de navegación del swiper */
+.swiper-button-next, .swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+  background-color: rgba(0, 123, 255, 0.7);
+}
+
+/* Estilos para los enlaces con imágenes */
+.glightbox img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.glightbox img:hover {
+  transform: scale(1.05);
+}
+
 /* ************************************************************* RESPONSIVIDAD ************************************************************* */
 /* ------------------------------------------------------------------------------------------------------------------------ Pantallas grandes */
 /* ----------------------------------------------------------------------------------------------------------------------- Pantallas medianas */

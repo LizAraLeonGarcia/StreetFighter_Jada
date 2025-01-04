@@ -2,15 +2,15 @@
 
 @section('content')
     <div class="container-fluid">
-        <!-- ----------------------------------------------------- contendor de título ----------------------------------------------------- -->
+        <!-- ------------------------------------------------------ Sección de título ------------------------------------------------------ -->
         <div class="section-title-INICIO">
             <h1>Street Fighter<h1>
             <h2>En esta página te muestro mi colección de Street Fighter: Jada Toys</h2>
             <h4>La marca Jada Toys está creciendo velozmente al ofrecer productos de esta saga tan conocida a un precio accesible y con excelente calidad...</h4>
         </div>
-        <!-- ---------------------------------------------------- contenedor de inicio ---------------------------------------------------- -->
+        <!-- ------------------------------------------------------ Sección contenido ------------------------------------------------------ -->
         <div class="inicio" id="inicio">
-            <!-- ------------------------------------------------------ Primera fila ------------------------------------------------------ -->
+            <!-- -------------------------------------------------------------------------------------------------------------- Primera fila -->
             <div class="row mb-4">
                 <div class="col-md-5">
                     <p>Esta colección de la marca Jada Toys comenzó por octubre del 2023. Aunque las fechas de las entregas, tanto de las waves como de los personajes varían mucho entre países, llegando generalmente a Europa, Asia y Estados Unidos antes que en mi país México, siempre es a precios razonables y con una gran calidad en el producto dándole ya guerra a otras marcas como SH Figuarts.</p>
@@ -28,8 +28,8 @@
                 <div class="col-md-7">
                     <img src="assets/img/inicio/personajes.jpg" class="img-fluid" alt="Algunos de los personajes de la colección">
                 </div>
-            </div>
-            <!-- ------------------------------------------------------ Segunda fila ------------------------------------------------------ -->
+            </div> <!-- primer fila -->
+            <!-- -------------------------------------------------------------------------------------------------------------- Segunda fila -->
             <div class="row mb-4">
                 <div class="col-md-2">
                     <div class="table-responsive wave1">
@@ -115,8 +115,8 @@
                         </table>
                     </div>
                 </div>
-            </div>
-            <!-- ------------------------------------------------------ Tercera fila ------------------------------------------------------ -->
+            </div> <!-- segunda fila -->
+            <!-- -------------------------------------------------------------------------------------------------------------- Tercera fila -->
             <div class="row mb-4">
                 <div class="col-md-4">
                     <img src="assets/img/inicio/chunlirosa1.jpg" class="img-fluid" alt="Chun Li PLayer 2 rosa">
@@ -127,11 +127,11 @@
                 <div class="col-md-4">
                     <img src="assets/img/inicio/chunlirosa3.jpg" class="img-fluid" alt="Chun Li Player 2 rosa">
                 </div>
-            </div>
-            <!-- ------------------------------------------------------ Cuarta  fila ------------------------------------------------------ -->
+            </div> <!-- tercera fila -->
+            <!-- --------------------------------------------------------------------------------------------------------------- Cuarta fila -->
             <div class="row mb-4">
                 <h5>Una vez mencionados los 18 que saldrán en waves, cabe mencionar las variantes y especiales.</h5>
-                <div class="col-md-6">
+                <div class="col-md-6"> <!-- especiales tabla -->
                     <div class="table-responsive">
                         <table class="table table-bordered-especiales table-striped table-hover table-sm">
                             <thead class="encabezado-especiales">
@@ -168,8 +168,8 @@
                             </tbody>
                         </table>
                     </div>
-                </div>
-                <div class="col-md-6">
+                </div> <!-- especiales tabla -->
+                <div class="col-md-6"> <!-- variantes tabla -->
                     <div class="table-responsive variantes-table">
                         <table class="table table-bordered-variantes table-striped table-hover table-sm">
                             <thead class="encabezado-variantes">
@@ -219,8 +219,8 @@
                             </tbody>
                         </table>
                     </div>
-                </div>
-            </div>
-        </div>
+                </div> <!-- variantes tabla -->
+            </div> <!-- cuarta fila -->
+        </div> <!-- contenido -->
     </div>
 @endsection

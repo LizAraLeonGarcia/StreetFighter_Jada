@@ -1,10 +1,10 @@
-/* Estilos para el contenedor principal */
+/* ********************************************************** Contenedor principal ********************************************************** */
 .inicio {
   background-color: #c1c6ca;
   color: #000000; /* Texto blanco */
   padding: 30px 10px;
 }
-
+/* ************************************************************* Sección título ************************************************************* */
 .section-title-INICIO h1 {
   font-size: 36px;
   font-weight: bold;
@@ -26,14 +26,14 @@
   text-align: center;
   font-weight: 400;
 }
-
+/* ********************************************************* Sección para subtitulo ********************************************************* */
 #inicio h5 {
   font-size: 18px;
   margin-bottom: 10px;
   text-align: center;
   font-weight: 200;
 }
-
+/* **************************************************************** Parráfos **************************************************************** */
 #inicio p {
   font-size: 15px;
   text-align: justify;
@@ -41,19 +41,12 @@
   margin-left: auto;
   margin-right: auto;
 }
-
-.d-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Imágenes */
+/* **************************************************************** Imágenes **************************************************************** */
 #inicio img {
   max-width: 100%;
   height: auto;
 }
-
+/* *************************************************************** Para lista *************************************************************** */
 #inicio ul {
   list-style-type: square;
   padding: 10px;
@@ -62,7 +55,7 @@
 #inicio li {
   text-align: justify;
 }
-
+/* *************************************************** Encabezado de la tabla de las wave *************************************************** */
 .inicio .encabezado-tabla {
   background-color: royalblue;
   color: white;
@@ -72,126 +65,131 @@
   text-transform: uppercase;
 }
 /* *********************************************************** Tabla de la wave 1 *********************************************************** */
+/* ------------------------------------------------------------------------ RYU */
 #inicio .col1 {
-  background-color: white; /* RYU */
+  background-color: white; 
   color: black;
   border-color: white;
   border-width: 1px;
 }
-
+/* ------------------------------------------------------------------- FEI LONG */
 #inicio .col2 {
-  background-color: black; /* FEI LONG */
+  background-color: black; 
   color: white;
   border-color: black;
   border-width: 1px;
 }
-
+/* -------------------------------------------------------------------- CHUN LI */
 #inicio .col3 {
-  background-color: blue; /* CHUN LI */
+  background-color: blue; 
   color: white;
   border-color: blue;
   border-width: 1px;
 }
 /* *********************************************************** Tabla de la wave 2 *********************************************************** */
+/* ------------------------------------------------------------------------ KEN */
 #inicio .col4 {
-  background-color: red; /* KEN */
+  background-color: red; 
   color: white;
   border-color: red;
   border-width: 1px;
 }
-
+/* -------------------------------------------------------------------- DHALSIM */
 #inicio .col5 {
-  background-color: darkred; /* M BISON */
-  color: white;
-  border-color: darkred;
-  border-width: 1px;
-}
-
-#inicio .col6 {
-  background-color: yellow; /* DHALSIM */
+  background-color: yellow;
   color: black;
   border-color: yellow;
   border-width: 1px;
 }
-/* **************************************************** Tabla de la wave 3 **************************************************** */
+/* -------------------------------------------------------------------- M BISON */
+#inicio .col6 {
+  background-color: darkred; 
+  color: white;
+  border-color: darkred;
+  border-width: 1px;
+}
+/* *********************************************************** Tabla de la wave 3 *********************************************************** */
+/* ---------------------------------------------------------------------- GUILE */
 #inicio .col7 {
-  background-color: green; /* GUILE */
+  background-color: green; 
   color: white;
   border-color: green;
   border-width: 1px;
 }
-
+/* -------------------------------------------------------------------- DEE JAY */
 #inicio .col8 {
-  background-color: orangered; /* DEE JAY */
+  background-color: orangered; 
   color: white;
   border-color: orangered;
   border-width: 1px;
 }
-
+/* ---------------------------------------------------------------------- CAMMY */
 #inicio .col9 {
-  background-color: lime; /* CAMMY */
+  background-color: lime; 
   color: black;
   border-color: lime;
   border-width: 1px;
 }
-/* **************************************************** Tabla de la wave 4 **************************************************** */
+/* *********************************************************** Tabla de la wave 4 *********************************************************** */
+/* ---------------------------------------------------------------------- SAGAT */
 #inicio .col10 {
-  background-color: purple; /* VEGA */
-  color: white;
-  border-color: purple;
-  border-width: 1px;
-}
-
-#inicio .col11 {
-  background-color: darkblue; /* SAGAT */
+  background-color: darkblue; 
   color: white;
   border-color: darkblue;
   border-width: 1px;
 }
-
+/* ----------------------------------------------------------------------- VEGA */
+#inicio .col11 {
+  background-color: purple; 
+  color: white;
+  border-color: purple;
+  border-width: 1px;
+}
+/* --------------------------------------------------------------------- BLANKA */
 #inicio .col12 {
-  background-color: greenyellow; /* BLANKA */
+  background-color: greenyellow; 
   color: black;
   border-color: greenyellow;
   border-width: 1px;
 }
-/* **************************************************** Tabla de la wave 5 **************************************************** */
+/* *********************************************************** Tabla de la wave 5 *********************************************************** */
+/* --------------------------------------------------------------------- T HAWK */
 #inicio .col13 {
-  background-color: dodgerblue; /* T. HAWK */
+  background-color: dodgerblue; 
   color: black;
   border-color: dodgerblue;
   border-width: 1px;
 }
-
+/* --------------------------------------------------------------------- BALROG */
 #inicio .col14 {
-  background-color: skyblue; /* BALROG */
+  background-color: skyblue; 
   color: black;
   border-color: skyblue;
   border-width: 1px;
 }
-
+/* -------------------------------------------------------------------- E HONDA */
 #inicio .col15 {
-  background-color: cornflowerblue; /* E. HONDA */
+  background-color: cornflowerblue; 
   color: black;
   border-color: cornflowerblue;
   border-width: 1px;
 }
-/* **************************************************** Tabla de la wave 6 **************************************************** */
+/* *********************************************************** Tabla de la wave 6 *********************************************************** */
+/* ---------------------------------------------------------------------- AKUMA */
 #inicio .col16 {
-  background-color: crimson; /* AKUMA */
+  background-color: crimson; 
   color: white;
   border-color: crimson;
   border-width: 1px;
 }
-
+/* -------------------------------------------------------------------- ZANGIEF */
 #inicio .col17 {
-  background-color: firebrick; /* ZANGIEF */
+  background-color: firebrick; 
   color: white;
   border-color: firebrick;
   border-width: 1px;
 }
-
-/* **************************************************** Tabla de los especiales **************************************************** */
+/* ************************************************************ Tabla especiales ************************************************************ */
 .inicio .encabezado-especiales {
   background-color: hotpink;
   color: white;
@@ -213,20 +211,20 @@
 .table-bordered-especiales td, .table-bordered th {
   border: 3px solid deeppink;
 }
-/* EVIL RYU */
+/* --------------------------------------------------------------------------------------------------------------------------------- EVIL RYU */
 .fila1E {
   background-color: darkslategray;
 }
-/* VIOLENT KEN */
+/* ------------------------------------------------------------------------------------------------------------------------------ VIOLENT KEN */
 .fila2E {
   background-color: lightyellow;
   color: black;
 }
-/* CHUN LI PLAYER 2 */
+/* ------------------------------------------------------------------------------------------------------------------------- CHUN LI PLAYER 2 */
 .fila3E {
   background-color: rgb(253, 70, 162);
 }
-/* **************************************************** Tabla de las variantes **************************************************** */
+/* ********************************************************** Tabla para variantes ********************************************************** */
 .inicio .encabezado-variantes {
   background-color: crimson;
   color: white;
@@ -248,24 +246,31 @@
 .table-bordered-variantes td, .table-bordered th {
   border: 3px solid firebrick;
 }
-/* RYU PLAYER 2 */
+/* RYU PLAYER 2 ----------------------------------------------------------------------------------------------------------------------------- */
 .fila1V {
   background-color: gray;
 }
-/* KEN PLAYER 2 */
+/* KEN PLAYER 2 ----------------------------------------------------------------------------------------------------------------------------- */
 .fila2V {
   background-color: white;
   color: black;
 }
-/* CHUN LI ROJA */
+/* CHUN LI ROJA ----------------------------------------------------------------------------------------------------------------------------- */
 .fila3V {
   background-color: crimson;
 }
-/* FEI LONG PLAYER 2 */
+/* M. BISON PLAYER 2 ------------------------------------------------------------------------------------------------------------------------ */
 .fila4V {
-  background-color: dimgray;
-}
-/* M. BISON PLAYER 2 */
-.fila5V {
   background-color: dodgerblue;
 }
+/* FEI LONG PLAYER 2 ------------------------------------------------------------------------------------------------------------------------ */
+.fila5V {
+  background-color: dimgray;
+}
+/* ****************************************************************************************************************************************** */
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ************************************************************* RESPONSIVIDAD ************************************************************* */

@@ -53,8 +53,8 @@
                             </thead>
                             <tbody>
                                 <tr> <td class="col4">Ken</td> </tr>
-                                <tr> <td class="col5">M. Bison</td> </tr>
-                                <tr> <td class="col6">Dhalsim</td> </tr>
+                                <tr> <td class="col5">Dhalsim</td> </tr>
+                                <tr> <td class="col6">M. Bison</td> </tr>
                             </tbody>
                         </table>
                     </div>
@@ -80,8 +80,8 @@
                                 <tr> <th>Wave 4</th> </tr>
                             </thead>
                             <tbody>
-                                <tr> <td class="col10">Vega</td> </tr>
-                                <tr> <td class="col11">Sagat</td> </tr>
+                                <tr> <td class="col10">Sagat</td> </tr>
+                                <tr> <td class="col11">Vega</td> </tr>
                                 <tr> <td class="col12">Blanka</td> </tr>
                             </tbody>
                         </table>
@@ -203,18 +203,18 @@
                                     <td style="color:white;"> Misma caja y accesorios, traje rojo </td> 
                                 </tr>
                             </tbody>
-                            <tbody> <!-- ------------------------------------------------------------------------------------------ FEI LONG -->
-                                <tr class="fila4V"> 
-                                    <td style="color:white;"> Fei Long </td>
-                                    <td style="color:white;"> Player 2 </td>
-                                    <td style="color:white;"> Misma caja, accesorios extra de manos y un par de nunchakos, traje gris </td> 
-                                </tr>
-                            </tbody>
                             <tbody> <!-- ------------------------------------------------------------------------------------------- M BISON -->
-                                <tr class="fila5V"> 
+                                <tr class="fila4V"> 
                                     <td style="color:white;"> M. Bison </td>
                                     <td style="color:white;"> Player 2</td>
                                     <td style="color:white;"> Misma caja y accesorios, traje azul </td> 
+                                </tr>
+                            </tbody>
+                            <tbody> <!-- ------------------------------------------------------------------------------------------ FEI LONG -->
+                                <tr class="fila5V"> 
+                                    <td style="color:white;"> Fei Long </td>
+                                    <td style="color:white;"> Player 2 </td>
+                                    <td style="color:white;"> Misma caja, accesorios extra de manos y un par de nunchakos, traje gris </td> 
                                 </tr>
                             </tbody>
                         </table>

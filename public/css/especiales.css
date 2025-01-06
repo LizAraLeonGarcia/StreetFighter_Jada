@@ -6,19 +6,6 @@
   align-items: center; /* Centra los elementos verticalmente */
   overflow: hidden; /* Evita que el contenido se desborde */
 }
-/* Estilos generales para la página */
-/* Título de la sección */
-.section-title {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.section-title h3 {
-  font-size: 2.5rem;
-  color: #333;
-  font-weight: bold;
-}
-
 /* Estilos para la lista de navegación */
 ol {
   display: flex;
@@ -32,110 +19,103 @@ ol li {
   margin: 0 15px;
   padding: 10px 20px;
   cursor: pointer;
-  font-size: 1.1rem;
   font-weight: bold;
-  color: #333;
+  color: black;
   transition: color 0.3s ease, transform 0.3s ease;
   border: 2px solid transparent;
   border-radius: 10px;
 }
-
+/* Elemento activo */
 ol li.active {
-  color: #007bff;
-  border-color: #007bff;
+  color: green;
+  border-color: green;
   transform: scale(1.1);
 }
-
+/* Pasar el mouse sobre un elemento no activo */
 ol li:hover {
-  color: #007bff;
+  color: blue;
   transform: scale(1.05);
 }
-
-/* Estilos para el contenedor de personajes */
-.especiales {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 30px;
+/*  */
+#especiales h4 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
 }
-
-/* Carrusel de cada personaje */
+/* */
 .swiper-container {
-  width: 80%;
-  margin: 20px 0;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.swiper-container-evilryu {
-  border-color: dimgray;
-  border-width: 2px;
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  padding-bottom: 10px;
 }
 
 .swiper-wrapper {
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .swiper-slide {
   max-width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
 }
 
 .swiper-slide img {
   max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
-
 /* Efecto de hover en las imágenes del carrusel */
 .swiper-slide img:hover {
   transform: scale(1.05);
 }
-
+/* Carrusel de cada personaje */
 /* Estilos para los botones de navegación del swiper */
-.swiper-button-next, .swiper-button-prev {
+.button-next-evilryu, .button-prev-evilryu {
   position: absolute;
   top: 50%;
-  z-index: 10;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border-radius: 50%;
+  background-color: darkslategrey; /* Fondo azul fuerte */
+  color: red;
   padding: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  border-radius: 50%;
 }
-
-.swiper-button-next {
+.button-next-evilryu {
   right: 10px;
 }
 
-.swiper-button-prev {
+.button-prev-evilryu {
   left: 10px;
 }
 
-.swiper-button-next:hover, .swiper-button-prev:hover {
-  background-color: rgba(0, 123, 255, 0.7);
+.swiper-button-next-violentken, .swiper-button-prev-violentken {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  background-color: lightyellow;
+  color: sienna;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
 }
 
-/* Estilos para los enlaces con imágenes */
-.glightbox img {
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: transform 0.3s ease;
+.swiper-button-next-chunlirosa, .swiper-button-prev-chunlirosa {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  background-color: rgb(253, 70, 162);
+  color: gold;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-
-.glightbox img:hover {
-  transform: scale(1.05);
-}
-
 /* ************************************************************* RESPONSIVIDAD ************************************************************* */
 /* ------------------------------------------------------------------------------------------------------------------------ Pantallas grandes */
 /* ----------------------------------------------------------------------------------------------------------------------- Pantallas medianas */

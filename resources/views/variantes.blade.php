@@ -6,59 +6,49 @@
     <div class="section-title">
       <h3>Personajes con variación de color</h3>
     </div>
-    <!-- ---------------------------------------------------- contenedor para personaje ---------------------------------------------------- -->
-    <div class="personajes">
-      <div class="row">
-        <!-- ----------------------------------------------------- Columna de carrusel ----------------------------------------------------- -->        
-        <div class="col-md-12">
-          <div id="characterCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000">
-            <div class="carousel-inner">
-              <!-- ------------------------------------------------------- wave 1 ------------------------------------------------------- -->
-              <div class="carousel-item active">
-                <div class="character-item">
-                  <h4>Ryu Player 2</h4>
-                  <div class="character-images">
-                    <a href="assets/img/variantes/ryugris1.jpg" class="glightbox">
-                      <img src="assets/img/variantes/ryugris1.jpg" class="character-img img-fluid" alt="Ryu Player 2">
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="character-item">
-                  <h4>Ken Player 2</h4>
-                  <div class="character-images">
-                    <a href="assets/img/variantes/kenblanco1.jpg" class="glightbox">
-                      <img src="assets/img/variantes/kenblanco1.jpg" class="character-img img-fluid" alt="Ken Player 2">
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="character-item">
-                  <h4>Chun Li Roja</h4>
-                  <div class="character-images">
-                    <a href="assets/img/variantes/chunliroja1.jpg" class="glightbox">
-                      <img src="assets/img/variantes/chunliroja1.jpg" class="character-img img-fluid" alt="Chun Li Roja">
-                    </a>
-                  </div>
-                </div>
-              </div>              
-            </div>
-          </div>
-        </div>
-        <!-- --------------------------------------------------- Lista columna izquierda --------------------------------------------------- -->
-        <div class="col-md-12">
-          <!-- ------------------------------------------------- contendor para paginación ------------------------------------------------- -->
-          <ol id="customPagination">
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="0">Ryu Player 2</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="1">Ken Player 2</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="2">Chun Li Roja</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="3">Fei Long Player 2</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="4">M. Bison Player 2</li>
+    <!-- --------------------------------------------------- Lista  --------------------------------------------------- -->
+    <div class="col-md-12">
+    <!-- ------------------------------------------------- contendor  ------------------------------------------------- -->
+      <ol>
+        <li id="ryugris" class="active">Ryu Player 2</li>
+        <li id="kenblanco">Ken Player 2</li>
+        <li id="chunlired">Chun Li Red</li>
+        <li id="mbisonazul">M. Bison Player 2</li>
           </ol>
+      </ol>
+    </div>
+    <!-- ---------------------------------------------------- contenedor para personaje ---------------------------------------------------- -->
+    <div class="variantes" id="variantes">
+      <!-- ------------------------------------------------------- Ryu Player 2 ------------------------------------------------------- -->
+      <div class="evilryu-container swiper-container">
+        <h4>Ryu PLayer 2</h4>
+        <div class="swiper-wrapper">
+          <img src="assets/img/variantes/ryugris1.jpg" class="character-img img-fluid" alt="Ryu Player 2">
+          <img src="assets/img/variantes/ryugris2.jpg" class="character-img img-fluid" alt="Ryu Player 2 posando">
         </div>
+        <div class="swiper-button-next"></div> <!-- botón para siguiente -->
+        <div class="swiper-button-prev"></div> <!-- botón para previo --> 
       </div>
+      <!-- ------------------------------------------------------- Ken Player 2 ------------------------------------------------------- -->
+      <div class="kenblanco-container swiper-container">
+        <h4>Ken PLayer 2</h4>
+        <div class="swiper-wrapper">
+          <img src="assets/img/variantes/kenblanco1.jpg" class="character-img img-fluid" alt="Ken Player 2">
+          <img src="assets/img/variantes/kenblanco2.jpg" class="character-img img-fluid" alt="Ken Player 2 posando">
+        </div>
+        <div class="swiper-button-next"></div> <!-- botón para siguiente -->
+        <div class="swiper-button-prev"></div> <!-- botón para previo --> 
+      </div>        
+      <!-- ------------------------------------------------------- Ryu Player 2 ------------------------------------------------------- -->
+      <div class="chunliroja-container swiper-container">
+        <h4>Ryu PLayer 2</h4>
+        <div class="swiper-wrapper">
+          <img src="assets/img/variantes/chunliroja1.jpg" class="character-img img-fluid" alt="Chun Li Red">
+          <img src="assets/img/variantes/chunliroja2.jpg" class="character-img img-fluid" alt="Chun Li Red posando">
+        </div>
+        <div class="swiper-button-next"></div> <!-- botón para siguiente -->
+        <div class="swiper-button-prev"></div> <!-- botón para previo --> 
+      </div>             
     </div>
   </div>
 @endsection

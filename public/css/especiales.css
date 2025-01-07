@@ -41,20 +41,20 @@ ol li {
   font-style: italic;
 }
 /* */
-.swiper-container {
+#especiales .swiper-container {
   position: relative;
   max-width: 100%;
   height: 100%;
   padding-bottom: 10px;
 }
 
-.swiper-wrapper {
+#especiales .swiper-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.swiper-slide {
+#especiales .swiper-slide {
   max-width: 100%;
   height: 100%;
   display: flex;
@@ -62,32 +62,11 @@ ol li {
   align-items: center;
 }
 
-.swiper-slide img {
+#especiales .swiper-slide img {
   max-width: 100%;
   height: 100%;
   object-fit: contain;
   transition: transform 0.3s ease;
-}
-/* Efecto de hover en las imágenes del carrusel */
-.swiper-slide img:hover {
-  transform: scale(1.05);
-}
-/* Carrusel de cada personaje */
-/* Estilos para los botones de navegación del swiper */
-.swiper-button-next-especiales, .swiper-button-prev-especiales {
-  position: absolute;
-  top: 50%;
-  background-color: black; /* Fondo azul fuerte */
-  color: #c1c6ca;
-  padding: 10px;
-  border-radius: 50%;
-}
-.swiper-button-next-especiales {
-  right: 10px;
-}
-
-.swiper-button-prev-especiales {
-  left: 10px;
 }
 /* ************************************************************* RESPONSIVIDAD ************************************************************* */
 /* ------------------------------------------------------------------------------------------------------------------------ Pantallas grandes */

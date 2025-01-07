@@ -29,8 +29,8 @@
           <div class="swiper-slide"><a data-especiales="images-especiales" href="assets/img/especiales/evilryu6.jpg"><img src="assets/img/especiales/evilryu6.jpg" class="img-fluid" alt="Ryu pose 1"></a></div>
           <div class="swiper-slide"><a data-especiales="images-especiales" href="assets/img/especiales/evilryu7.jpg"><img src="assets/img/especiales/evilryu7.jpg" class="img-fluid" alt="Ryu pose 2"></a></div>
         </div>
-        <div class="swiper-button-next-especiales"></div> <!-- botón para siguiente -->
-        <div class="swiper-button-prev-especiales"></div> <!-- botón para previo --> 
+        <div class="swiper-button-next"></div> <!-- botón para siguiente -->
+        <div class="swiper-button-prev"></div> <!-- botón para previo --> 
       </div>
       <!-- ------------------------------------------------------- Violent Ken ------------------------------------------------------- -->
       <div class="violentken-container swiper-container" style="display: none;">
@@ -44,8 +44,8 @@
           <div class="swiper-slide"><a data-especiales="images-especiales" href="assets/img/especiales/violentken6.jpg"><img src="assets/img/especiales/violentken6.jpg" class="img-fluid" alt="Violent Ken pose 1"></a></div>
           <div class="swiper-slide"><a data-especiales="images-especiales" href="assets/img/especiales/violentken7.jpg"><img src="assets/img/especiales/violentken7.jpg" class="img-fluid" alt="Violent Ken pose 2"></a></div>
         </div>
-        <div class="swiper-button-next-especiales"></div> <!-- botón para siguiente -->
-        <div class="swiper-button-prev-especiales"></div> <!-- botón para previo --> 
+        <div class="swiper-button-next"></div> <!-- botón para siguiente -->
+        <div class="swiper-button-prev"></div> <!-- botón para previo --> 
       </div>
       <!-- ------------------------------------------------------- Chun Li ------------------------------------------------------- -->
       <div class="chunlirosa-container swiper-container" style="display: none;">
@@ -59,8 +59,8 @@
           <div class="swiper-slide"><a class="glightbox" data-especiales="images-especiales" href="assets/img/especiales/chunlirosa6.jpg"><img src="assets/img/especiales/chunlirosa6.jpg" class="img-fluid" alt="Chun Li pose 1"></a></div>
           <div class="swiper-slide"><a class="glightbox" data-especiales="images-especiales" href="assets/img/especiales/chunlirosa7.jpg"><img src="assets/img/especiales/chunlirosa7.jpg" class="img-fluid" alt="Chun Li pose 2"></a></div>
         </div>
-        <div class="swiper-button-next-especiales"></div> <!-- botón para siguiente -->
-        <div class="swiper-button-prev-especiales"></div> <!-- botón para previo --> 
+        <div class="swiper-button-next"></div> <!-- botón para siguiente -->
+        <div class="swiper-button-prev"></div> <!-- botón para previo --> 
       </div>         
     </div>
   </div>

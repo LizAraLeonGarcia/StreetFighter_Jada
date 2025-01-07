@@ -22,7 +22,6 @@
   justify-content: center;
   gap: 10px;
 }
-
 /* Limitar el tamaño máximo de las imágenes y asegurarse de que no se expandan demasiado */
 .character-img {
   max-width: auto; /* Asegura que la imagen no se expanda más allá del 100% del contenedor */

@@ -45,5 +45,6 @@
   <script src="{{ asset('js/personajes.js') }}"></script>
   <script src="{{ asset('js/galeria.js') }}"></script>
   <script src="{{ asset('js/especiales.js') }}"></script>
+  <script src="{{ asset('js/variantes.js') }}"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@
 
 @section('content')
   <div class="container-fluid">
-    <!-- ------------------------------------------------------ contendor para título ------------------------------------------------------ -->
+    <!-- ------------------------------------------------------ Contendor para título ------------------------------------------------------ -->
     <div class="section-title">
       <h3>Personajes con variación de color</h3>
     </div>

@@ -2,22 +2,21 @@
 
 @section('content')
   <div class="container-fluid">
-    <!-- ------------------------------------------------------ contendor para título ------------------------------------------------------ -->
+    <!-- ------------------------------------------------------ Contendor para título ------------------------------------------------------ -->
     <div class="section-title">
       <h3>Personajes exclusivos de la SDCC</h3>
     </div>
-    <!-- --------------------------------------------------- Lista  --------------------------------------------------- -->
+    <!-- -------------------------------------------------------------- Lista -------------------------------------------------------------- -->
     <div class="col-md-12">
-    <!-- ------------------------------------------------- contendor  ------------------------------------------------- -->
       <ol>
         <li id="evilryu" class="active">Evil Ryu</li>
         <li id="violentken">Violent Ken</li>
         <li id="chunlirosa">Chun Li Player 2</li>
       </ol>
     </div>
-    <!-- ---------------------------------------------------- contenedor para personaje ---------------------------------------------------- -->
+    <!-- ------------------------------------------------------ Contenedor personajes ------------------------------------------------------ -->
     <div class="especiales" id="especiales">
-      <!-- ------------------------------------------------------- Evil Ryu ------------------------------------------------------- -->
+      <!-- ------------------------------------------------------------------------------------------------------------------------ Evil Ryu -->
       <div class="evilryu-container swiper-container">
         <h4>Evil Ryu</h4>
         <div class="swiper-wrapper">
@@ -32,7 +31,7 @@
         <div class="swiper-button-next"></div> <!-- botón para siguiente -->
         <div class="swiper-button-prev"></div> <!-- botón para previo --> 
       </div>
-      <!-- ------------------------------------------------------- Violent Ken ------------------------------------------------------- -->
+      <!-- --------------------------------------------------------------------------------------------------------------------- Violent Ken -->
       <div class="violentken-container swiper-container" style="display: none;">
         <h4>Violent Ken</h4>
         <div class="swiper-wrapper">
@@ -47,7 +46,7 @@
         <div class="swiper-button-next"></div> <!-- botón para siguiente -->
         <div class="swiper-button-prev"></div> <!-- botón para previo --> 
       </div>
-      <!-- ------------------------------------------------------- Chun Li ------------------------------------------------------- -->
+      <!-- ------------------------------------------------------------------------------------------------------------------------- Chun Li -->
       <div class="chunlirosa-container swiper-container" style="display: none;">
         <h4>Chun Li Player 2</h4>
         <div class="swiper-wrapper">
@@ -62,6 +61,6 @@
         <div class="swiper-button-next"></div> <!-- botón para siguiente -->
         <div class="swiper-button-prev"></div> <!-- botón para previo --> 
       </div>         
-    </div>
-  </div>
+    </div> <!-- Contenedor personajes -->
+  </div> <!-- Contenedor general -->
 @endsection

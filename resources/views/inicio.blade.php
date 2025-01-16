@@ -210,13 +210,6 @@
                                     <td style="color:white;"> Misma caja y accesorios, traje azul </td> 
                                 </tr>
                             </tbody>
-                            <tbody> <!-- ------------------------------------------------------------------------------------------ FEI LONG -->
-                                <tr class="fila5V"> 
-                                    <td style="color:white;"> Fei Long </td>
-                                    <td style="color:white;"> Player 2 </td>
-                                    <td style="color:white;"> Misma caja, accesorios extra de manos y un par de nunchakos, traje gris </td> 
-                                </tr>
-                            </tbody>
                         </table>
                     </div>
                 </div> <!-- variantes tabla -->

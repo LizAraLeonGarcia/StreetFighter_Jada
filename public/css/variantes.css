@@ -1,12 +1,25 @@
 .variantes {
-  padding: 0 15px;
+  padding: 15px 15px;
   min-height: 100vh; /* Asegura que el contenedor ocupe al menos la altura de la pantalla */
   flex-direction: column; /* Alinea los elementos en columna */
   justify-content: center; /* Centra los elementos horizontalmente */
   align-items: center; /* Centra los elementos verticalmente */
   overflow: hidden; /* Evita que el contenido se desborde */
 }
-/* Estilos para la lista de navegación */
+/* ****************************************************************************************************************************************** */
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ***************************************************************** Título ***************************************************************** */
+#variantes h4 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+}
+/* ********************************************************** Lista de navegación ********************************************************** */
 ol {
   display: flex;
   justify-content: center;
@@ -25,20 +38,22 @@ ol li {
   border: 2px solid transparent;
   border-radius: 10px;
 }
-/* Elemento activo */
+/* ************************************************************ Elemento activo ************************************************************ */
 .active {
   color: green;
   border-color: green;
   transform: scale(1.1);
 }
-/* Pasar el mouse sobre un elemento no activo */
-
-/*  */
-#variantes h4 {
-  color: black;
+/* ****************************************************** Acomodo de las imágenes */
+#variantes .variantes-container {
+  display: flex;
+  gap: 20px;
   text-align: center;
-  font-size: 30px;
-  font-style: italic;
+}
+
+#variantes .variante-img {
+  max-width: auto; /* Asegura que las imágenes no desborden el contenedor */
+  height: 500px;
 }
 /* ************************************************************* RESPONSIVIDAD ************************************************************* */
 /* ------------------------------------------------------------------------------------------------------------------------ Pantallas grandes */

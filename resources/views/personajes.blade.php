@@ -9,24 +9,60 @@
     <!-- ---------------------------------------------------- contenedor para personaje ---------------------------------------------------- -->
     <div class="personajes">
       <div class="row">
+        <!-- ------------------------------------------------------------------------------------------------------- Lista columna izquierda -->
+        <div class="col-md-4">
+          <!-- contendor para paginación --------------------------------------------------------------------------------------------------- -->
+          <ol id="customPagination">
+            <li data-bs-target="#ryu" data-bs-slide-to="0">Ryu</li>
+            <li data-bs-target="#feilong" data-bs-slide-to="0">Fei Long</li>
+            <li data-bs-target="#chunli" data-bs-slide-to="0">Chun Li</li>
+            <li data-bs-target="#ken" data-bs-slide-to="0">Ken</li>
+            <li data-bs-target="#dhalsim" data-bs-slide-to="0">M. Bison</li>
+            <li data-bs-target="#mbison" data-bs-slide-to="0">Dhalsim</li>
+            <li data-bs-target="#guile" data-bs-slide-to="0">Guile</li>
+            <li data-bs-target="#deejay" data-bs-slide-to="0">Dee Jay</li>
+            <li data-bs-target="#cammy" data-bs-slide-to="0">Cammy</li>
+            <li data-bs-target="#sagat" data-bs-slide-to="0">Sagat</li>
+            <li data-bs-target="#vega" data-bs-slide-to="0">Vega</li>
+            <li data-bs-target="#blanka" data-bs-slide-to="0">Blanka</li>
+            <li data-bs-target="#thawk" data-bs-slide-to="0">T. Hawk</li>
+            <li data-bs-target="#balrog" data-bs-slide-to="0">Balrog</li>
+            <li data-bs-target="#ehonda" data-bs-slide-to="0">E. Honda</li>
+            <li data-bs-target="#akuma" data-bs-slide-to="0">Akuma</li>
+            <li data-bs-target="#zangief" data-bs-slide-to="0">Zangief</li>
+          </ol>
+        </div> <!-- contenedor de la lista / paginación -->
         <!-- ----------------------------------------------------- Columna de carrusel ----------------------------------------------------- -->        
-        <div class="col-md-12">
-          <div id="characterCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000">
+        <div class="col-md-8">
+          <!-- ---------------------------------------------------------- Wave  1 ---------------------------------------------------------- -->
+          <div id="ryu" class="carousel slide" data-bs-interval="false">
+            <h4>Ryu</h4>
             <div class="carousel-inner">
-              <!-- ------------------------------------------------------- wave 1 ------------------------------------------------------- -->
-              <div class="carousel-item active">
-                <div class="character-item">
-                  <h4>Ryu</h4>
-                  <div class="character-images">
-                    <a href="assets/img/personajes/ryu1.jpg" class="glightbox">
-                      <img src="assets/img/personajes/ryu1.jpg" class="character-img img-fluid" alt="Ryu Frontal">
-                      <img src="assets/img/personajes/ryu2.jpg" class="character-img img-fluid" alt="Ryu Lateral">
-                      <img src="assets/img/personajes/ryu3.jpg" class="character-img img-fluid" alt="Ryu con efecto">
-                      <img src="assets/img/personajes/ryu4.jpg" class="character-img img-fluid" alt="Ryu pose">
-                    </a>
-                  </div>
-                </div>
-              </div>
+              <div class="carousel-item active"> <div class="character-item"> <div class="character-images">
+                <a href="assets/img/personajes/ryu1.jpg" class="glightbox">
+                <img src="assets/img/personajes/ryu1.jpg" class="character-img img-fluid" alt="Ryu Frontal"> </a>
+              </div> </div> </div>
+              <div class="carousel-item"> <div class="character-item"> <div class="character-images">
+                <a href="assets/img/personajes/ryu2.jpg" class="glightbox">
+                <img src="assets/img/personajes/ryu2.jpg" class="character-img img-fluid" alt="Ryu Lateral"> </a>
+              </div> </div> </div>
+              <div class="carousel-item"> <div class="character-item"> <div class="character-images">
+                <a href="assets/img/personajes/ryu3.jpg" class="glightbox">
+                <img src="assets/img/personajes/ryu3.jpg" class="character-img img-fluid" alt="Ryu con efecto"> </a>
+              </div> </div> </div>
+              <div class="carousel-item"> <div class="character-item"> <div class="character-images">
+                <a href="assets/img/personajes/ryu4.jpg" class="glightbox">
+                <img src="assets/img/personajes/ryu4.jpg" class="character-img img-fluid" alt="Ryu pose"> </a>
+              </div> </div> </div>
+            </div>
+            <!-- Botones de navegación (prev y next) -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#ryu" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#ryu" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
+          </div>
+          <div id="feilong" class="carousel slide" data-bs-interval="false">
+            <div class="carousel-inner">
               <div class="carousel-item">
                 <div class="character-item">
                   <h4>Fei Long</h4>
@@ -40,6 +76,10 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div id="chunli" class="carousel slide" data-bs-interval="false">
+            <div class="carousel-inner">
               <div class="carousel-item">
                 <div class="character-item">
                   <h4>Chun Li</h4>
@@ -53,7 +93,11 @@
                   </div>
                 </div>
               </div>
-              <!-- ------------------------------------------------------- wave 2 ------------------------------------------------------- -->
+            </div>
+          </div>
+          <!-- ---------------------------------------------------------- Wave  2 ---------------------------------------------------------- -->
+          <div id="ken" class="carousel slide" dta-bs-interval="false">
+            <div class="carousel-inner">
               <div class="carousel-item">
                 <div class="character-item">
                   <h4>Ken</h4>
@@ -67,19 +111,10 @@
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="character-item">
-                  <h4>M. Bison</h4>
-                  <div class="character-images">
-                    <a href="assets/img/personajes/mbison1.jpg" class="glightbox">
-                      <img src="assets/img/personajes/mbison1.jpg" class="character-img img-fluid" alt="M. Bison Frontal">
-                      <img src="assets/img/personajes/mbison2.jpg" class="character-img img-fluid" alt="M. Bison Lateral">
-                      <img src="assets/img/personajes/mbison3.jpg" class="character-img img-fluid" alt="M. Bison con efecto">
-                      <img src="assets/img/personajes/mbison4.jpg" class="character-img img-fluid" alt="M. Bison pose">
-                    </a>
-                  </div>
-                </div>
-              </div>
+            </div>
+          </div>
+          <div id="dhalsim" class="carousel slide" data-bs-interval="false">
+            <div class="carousel-inner">
               <div class="carousel-item">
                 <div class="character-item">
                   <h4>Dhalsim</h4>
@@ -93,7 +128,28 @@
                   </div>
                 </div>
               </div>
-              <!-- ------------------------------------------------------- wave 3 ------------------------------------------------------- -->
+            </div>
+          </div>
+          <div id="mbison" class="carousel slide" data-bs-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <div class="character-item">
+                  <h4>M. Bison</h4>
+                  <div class="character-images">
+                    <a href="assets/img/personajes/mbison1.jpg" class="glightbox">
+                      <img src="assets/img/personajes/mbison1.jpg" class="character-img img-fluid" alt="M. Bison Frontal">
+                      <img src="assets/img/personajes/mbison2.jpg" class="character-img img-fluid" alt="M. Bison Lateral">
+                      <img src="assets/img/personajes/mbison3.jpg" class="character-img img-fluid" alt="M. Bison con efecto">
+                      <img src="assets/img/personajes/mbison4.jpg" class="character-img img-fluid" alt="M. Bison pose">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------------------------------------------- Wave  3 ---------------------------------------------------------- -->
+          <div id="guile" class="carousel slide" data-bs-interval="false">
+            <div class="carousel-inner">
               <div class="carousel-item">
                 <div class="character-item">
                   <h4>Guile</h4>
@@ -107,6 +163,10 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div id="deejay" class="carousel slide" data-bs-interval="false">
+            <div class="carousel-inner">
               <div class="carousel-item">
                 <div class="character-item">
                   <h4>Dee Jay</h4>
@@ -120,6 +180,10 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div id="cammy" class="carousel slide" data-bs-interval="false">
+            <div class="carousel-inner">
               <div class="carousel-item">
                 <div class="character-item">
                   <h4>Cammy</h4>
@@ -133,67 +197,10 @@
                   </div>
                 </div>
               </div>
-              <!-- ------------------------------------------------------- wave 4 ------------------------------------------------------- -->
-              <div class="carousel-item"> 
-                <div class="character-item">
-                  <h4>Vega</h4>
-                  <div class="character-images">
-                    <a href="assets/img/personajes/vega1.jpg" class="glightbox">
-                      <img src="assets/img/personajes/vega1.jpg" class="character-img img-fluid" alt="Vega Frontal">
-                      <img src="assets/img/personajes/vega2.jpg" class="character-img img-fluid" alt="Vega Lateral">
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="character-item">
-                  <h4>Sagat</h4>
-                  <div class="character-images">
-                    <a href="assets/img/personajes/sagat1.jpg" class="glightbox">
-                      <img src="assets/img/personajes/sagat1.jpg" class="character-img img-fluid" alt="Sagat Frontal">
-                      <img src="assets/img/personajes/sagat2.jpg" class="character-img img-fluid" alt="Sagat Lateral">
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="character-item">
-                  <h4>Blanka</h4>
-                  <div class="character-images">
-                    <a href="assets/img/personajes/blanka1.jpg" class="glightbox">
-                      <img src="assets/img/personajes/blanka1.jpg" class="character-img img-fluid" alt="Blanka Frontal">
-                      <img src="assets/img/personajes/blanka2.jpg" class="character-img img-fluid" alt="Blanka Lateral">
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <!-- ------------------------------------------------------- wave 5 ------------------------------------------------------- -->
-              
             </div>
           </div>
-        </div>
-        <!-- --------------------------------------------------- Lista columna izquierda --------------------------------------------------- -->
-        <div class="col-md-12">
-          <!-- ------------------------------------------------- contendor para paginación ------------------------------------------------- -->
-          <ol id="customPagination">
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="0">Ryu</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="1">Fei Long</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="2">Chun Li</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="3">Ken</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="4">M. Bison</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="5">Dhalsim</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="6">Guile</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="7">Dee Jay</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="8">Cammy</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="9">Vega</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="10">Sagat</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="11">Blanka</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="12">T. Hawk</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="13">Balrog</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="14">E. Honda</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="15">Akuma</li>
-            <li data-bs-target="#characterCarousel" data-bs-slide-to="16">Zangief</li>
-          </ol>
+          <!-- ---------------------------------------------------------- Wave  4 ---------------------------------------------------------- -->
+          <!-- ---------------------------------------------------------- Wave  5 ---------------------------------------------------------- -->
         </div>
       </div>
     </div>

@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Inicializa Swiper
   var swiper = new Swiper('.swiper-container', {
     loop: true,
-    centeredSlides: true,
+    centeredSlides: false,
     initialSlide: 0,
     spaceBetween: 10,
     navigation: {

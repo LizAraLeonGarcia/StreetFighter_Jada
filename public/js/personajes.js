@@ -1,17 +1,29 @@
-// Sincronizar la lista personalizada con el carrusel
-document.querySelectorAll('#customPagination li').forEach(function(item) {
-  item.addEventListener('click', function(e) {
-    e.preventDefault(); // Prevenir el comportamiento predeterminado
-    // Obtener el índice de la diapositiva
-    var slideTo = this.getAttribute('data-bs-slide-to');
-    // Seleccionar el carrusel
-    var carousel = new bootstrap.Carousel('#characterCarousel');
-    // Mover el carrusel a la diapositiva correspondiente
-    carousel.to(slideTo);
-    // Resaltar el ítem seleccionado (opcional)
-    document.querySelectorAll('#customPagination li').forEach(function(li) {
-      li.classList.remove('active'); // Eliminar la clase 'active' de todos
+document.addEventListener('DOMContentLoaded', () => {
+  const carousels = document.querySelectorAll('.carousel');
+  const paginationItems = document.querySelectorAll('#customPagination li');
+
+  // Muestra el primer carrusel por defecto
+  if (carousels.length > 0) {
+    carousels[0].classList.add('active');
+  }
+
+  // Agrega el evento de clic a cada elemento de la lista
+  paginationItems.forEach(item => {
+    item.addEventListener('click', () => {
+      // Obtener el ID del carrusel objetivo
+      const targetCarousel = document.querySelector(item.getAttribute('data-bs-target'));
+
+      // Ocultar todos los carruseles
+      carousels.forEach(carousel => carousel.classList.remove('active'));
+
+      // Mostrar solo el carrusel objetivo
+      if (targetCarousel) {
+        targetCarousel.classList.add('active');
+      }
+
+      // Actualizar la lista para reflejar el carrusel activo
+      paginationItems.forEach(paginationItem => paginationItem.classList.remove('active'));
+      item.classList.add('active');
     });
-    this.classList.add('active'); // Añadir la clase 'active' al ítem seleccionado
   });
-})
+});

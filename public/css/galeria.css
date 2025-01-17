@@ -59,11 +59,11 @@
 /* ---------------------------------------------------------------------------------------------------------------------------------- Flechas */
 .swiper-button-next:after, .swiper-button-prev:after {
   font-size: 20px; /* Ajustar tamaño de las flechas */
-  color: #c1c6ca; /* Color dorado */
+  color: #c1c6ca;
 }
 /* --------------------------------------------------------------------------------------------------- Estado hover (cuando se pasa el ratón) */
 .swiper-button-next:hover, .swiper-button-prev:hover {
-  background-color: #c1caca; /* Fondo rosa */
+  background-color: #c1caca;
 }
 /* --------------------------------------------------------------------------------------------------------- Color de las flechas se mantiene */
 .swiper-button-next:hover:after, .swiper-button-prev:hover:after {

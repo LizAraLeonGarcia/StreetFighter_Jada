@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
   showContainer(evilRyuContainer);
   setActiveItem(evilRyuItem);
   // Inicializa Swiper
-  var swiper = new Swiper('.swiper-container', {
+  var swiper = new Swiper('.especiales-container', {
     loop: true,
     centeredSlides: false,
     initialSlide: 0,
@@ -65,9 +65,6 @@ document.addEventListener('DOMContentLoaded', function () {
       },
       768: {
         slidesPerView: 2,
-      },
-      1024: {
-        slidesPerView: 3,
       },
     },
   });

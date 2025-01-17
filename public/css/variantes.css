@@ -41,6 +41,7 @@ ol li {
   display: flex;
   gap: 20px;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 #variantes .variante-img {

@@ -1,4 +1,11 @@
-/* Estilos para la lista de navegación */
+/* ***************************************************************** Título ***************************************************************** */
+#especiales h4 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+}
+/* ********************************************************** Lista de navegación ********************************************************** */
 ol {
   display: flex;
   justify-content: center;
@@ -17,20 +24,24 @@ ol li {
   border: 2px solid transparent;
   border-radius: 10px;
 }
-/* Elemento activo */
+/* ************************************************************ Elemento activo ************************************************************ */
 .active {
   color: green;
   border-color: green;
   transform: scale(1.1);
 }
-/* Pasar el mouse sobre un elemento no activo */
-
-/*  */
-#especiales h4 {
-  color: black;
+/* ****************************************************** Acomodo de las imágenes */
+#especiales .especiales-container {
+  display: flex;
+  gap: 20px;
   text-align: center;
-  font-size: 30px;
-  font-style: italic;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+#especiales .especial-img {
+  max-width: auto; /* Asegura que las imágenes no desborden el contenedor */
+  height: 500px;
 }
 /* ************************************************************* RESPONSIVIDAD ************************************************************* */
 /* ------------------------------------------------------------------------------------------------------------------------ Pantallas grandes */

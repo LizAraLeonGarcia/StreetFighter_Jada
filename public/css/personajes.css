@@ -1,39 +1,52 @@
-.personajes {
-  padding: 0 15px;
-  min-height: 100vh; /* Asegura que el contenedor ocupe al menos la altura de la pantalla */
-  flex-direction: column; /* Alinea los elementos en columna */
-  justify-content: center; /* Centra los elementos horizontalmente */
-  align-items: center; /* Centra los elementos verticalmente */
-  overflow: hidden; /* Evita que el contenido se desborde */
-}
 /* ***************************************************************** Título ***************************************************************** */
 .character-item {
   text-align: center;
 }
 
 .character-item h4 {
-  margin-bottom: 15px;
   font-size: 24px;
   color: #333;
-}
-/* ************************************************************* Imágenes */
-.character-images {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-/* Limitar el tamaño máximo de las imágenes y asegurarse de que no se expandan demasiado */
-.character-img {
-  max-width: auto; /* Asegura que la imagen no se expanda más allá del 100% del contenedor */
-  width: auto; /* Asegura que la imagen tome el tamaño adecuado en contenedores pequeños */
-  max-height: 400px; /* Limita la altura máxima a 400px para evitar que las imágenes sean enormes */
 }
 /* ************************************************************* Carrusel */
 .carousel {
   display: none;
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
+  padding: 10px;
+  margin: 10px;
 }
 .carousel.active {
   display: block;
+}
+
+.carousel h4 {
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+  color: black;
+}
+
+.carousel-item img {
+  padding-top: 40px;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Botones de navegación */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+
+/* Efectos para botones */
+button.carousel-control-prev,
+button.carousel-control-next {
+  border: none;
+  background: transparent;
 }
 /* *************************************************************** Paginación *************************************************************** */
 #customPagination {
@@ -41,17 +54,27 @@
   column-count: 2; /* Divide la lista en 3 columnas */
   column-gap: 10px; /* Espacio entre las columnas */
   overflow: hidden; /* Evita que la lista se desborde */  
+  padding: 10px;
+  margin: 10px;
 }
 
 #customPagination li {
   font-size: 18px;
-  padding: 5px 0;
+  text-align: center;
+  padding: 5px 5px;
   list-style-type: none;
+  margin: 5px 5px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 /* Cambia el color para destacar el elemento seleccionado */
 #customPagination li.active {
   font-weight: bold;
-  color: green;
+  color: darkgreen;
+  background-color: #c1c6ca;
   cursor: default;
 }
 /* ************************************************************* RESPONSIVIDAD ************************************************************* */

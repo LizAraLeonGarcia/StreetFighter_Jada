@@ -30,6 +30,7 @@
             <li data-bs-target="#ehonda" data-bs-slide-to="0">E. Honda</li>
             <li data-bs-target="#akuma" data-bs-slide-to="0">Akuma</li>
             <li data-bs-target="#zangief" data-bs-slide-to="0">Zangief</li>
+            <li data-bs-target="#¿?" data-bs-slide-to="0">¿ ?</li>
           </ol>
         </div> <!-- contenedor de la lista / paginación -->
         <!-- ----------------------------------------------------- Columna de carrusel ----------------------------------------------------- -->        

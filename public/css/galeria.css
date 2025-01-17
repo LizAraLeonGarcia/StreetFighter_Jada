@@ -26,6 +26,7 @@
 .swiper-pagination {
   position: absolute;
   bottom: 10px; /* Posición de la paginación al fondo */
+  padding-bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 10; /* Asegurarse de que la paginación está encima de las imágenes */

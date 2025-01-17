@@ -3,7 +3,6 @@
   background-color: #000000;  /* Fondo oscuro */
   color: #ffffff;  /* Texto blanco */
   text-align: center;  /* Centrar el texto */
-  border-top: 3px solid silver;  /* Línea verde arriba para resaltar */
   font-family: 'Times New Roman', Times, serif;
   font-size: 18px; /* Tamaño de fuente para todo el pie de página */
   position: relative;
@@ -15,7 +14,6 @@
   align-items: center;
   flex-wrap: wrap; /* Para que los elementos se acomoden en pantallas pequeñas */
   gap: 20px; /* Espacio entre las columnas */
-  margin-top: 20px; /* Espacio entre el párrafo y las columnas */
 }
 .footerIMGizquierda,
 .footerIMGderecha {
@@ -31,10 +29,9 @@
   top: 0; /* Coloca el párrafo en la parte superior del contenedor */
   left: 50%;
   transform: translateX(-50%); /* Centra el párrafo horizontalmente */
-  margin: 20px;
-  padding: 10px;
   color: white; /* Texto blanco */
   text-align: center; /* Centra el texto dentro del párrafo */
+  padding-top: 10px;
   z-index: 10; /* Asegura que el párrafo esté encima de otros elementos */
 }
 

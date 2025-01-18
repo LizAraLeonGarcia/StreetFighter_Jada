@@ -11,12 +11,13 @@
 .carousel {
   display: none;
   height: 100%;
-  width: 100%;
-  margin-top: 20px;
+  width: 90%;
   overflow: hidden;
   padding: 10px;
+  padding-bottom: 30px;
   margin: 10px;
 }
+
 .carousel.active {
   display: block;
 }
@@ -29,9 +30,9 @@
 }
 
 .carousel-item img {
-  padding-top: 40px;
-  max-height: 400px;
-  object-fit: cover;
+  height: 400px;
+  max-width: auto;
+  padding-top: 10px;
 }
 
 /* Botones de navegación */
@@ -62,13 +63,11 @@ button.carousel-control-next {
   font-size: 18px;
   text-align: center;
   padding: 5px 5px;
-  list-style-type: none;
   margin: 5px 5px;
   background-color: black;
   color: white;
   border-radius: 5px;
   cursor: pointer;
-  transition: all 0.3s ease;
 }
 /* Cambia el color para destacar el elemento seleccionado */
 #customPagination li.active {

@@ -17,8 +17,8 @@
             <li data-bs-target="#feilong" data-bs-slide-to="0">Fei Long</li>
             <li data-bs-target="#chunli" data-bs-slide-to="0">Chun Li</li>
             <li data-bs-target="#ken" data-bs-slide-to="0">Ken</li>
-            <li data-bs-target="#dhalsim" data-bs-slide-to="0">M. Bison</li>
-            <li data-bs-target="#mbison" data-bs-slide-to="0">Dhalsim</li>
+            <li data-bs-target="#dhalsim" data-bs-slide-to="0">Dhalsim</li>
+            <li data-bs-target="#mbison" data-bs-slide-to="0">M. Bison</li>
             <li data-bs-target="#guile" data-bs-slide-to="0">Guile</li>
             <li data-bs-target="#deejay" data-bs-slide-to="0">Dee Jay</li>
             <li data-bs-target="#cammy" data-bs-slide-to="0">Cammy</li>

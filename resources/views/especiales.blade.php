@@ -17,34 +17,39 @@
     <!-- ------------------------------------------------------ Contenedor personajes ------------------------------------------------------ -->
     <div class="especiales" id="especiales">
       <!-- ------------------------------------------------------------------------------------------------------------------------ Evil Ryu -->
+      <!-- ------------------------------------------------------------------------------------------------------------------------ Evil Ryu -->
       <div class="evilryu-container especiales-container">
         <h4>Evil Ryu</h4>
-        <!-- Imagen central grande -->
-        <div id="active-image-container">
-          <img id="active-image" src="assets/img/especiales/evilryu1.jpg" alt="Evil Ryu" class="especial-img" />
-        </div>
-        <!-- Paginación de imágenes pequeñas -->
-        <div id="image-pagination">
-          <div class="image-thumbnail">
-            <img src="assets/img/especiales/evilryu1.jpg" alt="Evil Ryu 1" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu1.jpg" />
+
+        <!-- Contenedor principal con las miniaturas y la imagen grande -->
+        <div class="main-container">
+          <!-- Paginación de imágenes pequeñas a un lado -->
+          <div id="image-pagination">
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/evilryu1.jpg" alt="Evil Ryu 1" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu1.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/evilryu2.jpg" alt="Evil Ryu 2" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu2.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/evilryu3.jpg" alt="Evil Ryu 3" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu3.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/evilryu4.jpg" alt="Evil Ryu 4" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu4.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/evilryu5.jpg" alt="Evil Ryu 5" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu5.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/evilryu6.jpg" alt="Evil Ryu 6" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu6.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/evilryu7.jpg" alt="Evil Ryu 7" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu7.jpg" />
+            </div>
           </div>
-          <div class="image-thumbnail">
-            <img src="assets/img/especiales/evilryu2.jpg" alt="Evil Ryu 2" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu2.jpg" />
-          </div>
-          <div class="image-thumbnail">
-            <img src="assets/img/especiales/evilryu3.jpg" alt="Evil Ryu 3" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu3.jpg" />
-          </div>
-          <div class="image-thumbnail">
-            <img src="assets/img/especiales/evilryu4.jpg" alt="Evil Ryu 4" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu4.jpg" />
-          </div>
-          <div class="image-thumbnail">
-            <img src="assets/img/especiales/evilryu5.jpg" alt="Evil Ryu 5" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu5.jpg" />
-          </div>
-          <div class="image-thumbnail">
-            <img src="assets/img/especiales/evilryu6.jpg" alt="Evil Ryu 6" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu6.jpg" />
-          </div>
-          <div class="image-thumbnail">
-            <img src="assets/img/especiales/evilryu7.jpg" alt="Evil Ryu 7" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu7.jpg" />
+          <!-- Imagen central grande -->
+          <div id="active-image-container">
+            <img id="active-image" src="assets/img/especiales/evilryu1.jpg" alt="Evil Ryu" class="especial-img" />
           </div>
         </div>
       </div>

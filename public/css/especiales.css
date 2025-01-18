@@ -31,11 +31,17 @@ ol li {
   transform: scale(1.1);
 }
 
+/* Contenedor principal */
+.main-container {
+  display: flex;  /* Para colocar las imágenes y miniaturas lado a lado */
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* Contenedor de la imagen activa */
 #active-image-container {
-  width: 100%;
+  width: 70%; /* La imagen grande ocupará el 70% del espacio */
   height: 400px;
-  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,16 +53,18 @@ ol li {
   object-fit: contain;
 }
 
-/* Paginación de imágenes pequeñas */
+/* Contenedor de las miniaturas a la izquierda */
 #image-pagination {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 20px;
+  flex-direction: column;  /* Las miniaturas estarán apiladas en columna */
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 20px; /* Espacio entre la imagen grande y las miniaturas */
 }
 
+/* Miniaturas */
 .image-thumbnail {
-  margin: 10px;
+  margin: 10px 0; /* Espaciado entre las miniaturas */
   cursor: pointer;
 }
 
@@ -77,6 +85,7 @@ ol li {
 .thumbnail-image.active {
   border: 2px solid #007bff;
 }
+
 /* ************************************************************* RESPONSIVIDAD ************************************************************* */
 /* ------------------------------------------------------------------------------------------------------------------------ Pantallas grandes */
 /* ----------------------------------------------------------------------------------------------------------------------- Pantallas medianas */

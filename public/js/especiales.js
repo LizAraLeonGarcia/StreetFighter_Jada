@@ -47,24 +47,19 @@ document.addEventListener('DOMContentLoaded', function () {
   setActiveItem(evilRyuItem);
   // Inicializa Swiper
   var swiper = new Swiper('.especiales-container', {
-    loop: true,
-    centeredSlides: false,
-    initialSlide: 0,
-    spaceBetween: 10,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
+    loop: true,               // Mantiene el loop, aunque sólo haya una imagen visible
+    centeredSlides: true,     // Centra la imagen
+    initialSlide: 0,          // La imagen inicial que se mostrará
+    spaceBetween: 10,         // Espacio entre las imágenes, pero no afectará mucho si sólo hay una visible
+    slidesPerView: 1,         // Muestra solo una imagen a la vez
+    navigation: false,        // Desactiva los botones de navegación (prev y next)
+    pagination: false,        // Desactiva la paginación
     breakpoints: {
       640: {
         slidesPerView: 1,
       },
       768: {
-        slidesPerView: 2,
+        slidesPerView: 1,
       },
     },
   });

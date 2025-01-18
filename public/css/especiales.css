@@ -30,18 +30,52 @@ ol li {
   border-color: green;
   transform: scale(1.1);
 }
-/* ****************************************************** Acomodo de las imágenes */
-#especiales .especiales-container {
+
+/* Contenedor de la imagen activa */
+#active-image-container {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
   display: flex;
-  gap: 20px;
-  text-align: center;
-  padding-bottom: 20px;
-  overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 
-#especiales .especial-img {
-  max-width: auto; /* Asegura que las imágenes no desborden el contenedor */
-  height: 500px;
+#active-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Paginación de imágenes pequeñas */
+#image-pagination {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.image-thumbnail {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.thumbnail-image {
+  width: 80px;  /* Tamaño de las miniaturas */
+  height: auto;
+  object-fit: cover;
+  border: 2px solid transparent;
+  transition: border 0.3s;
+}
+
+/* Efecto de hover */
+.thumbnail-image:hover {
+  border: 2px solid #333;
+}
+
+/* Imagen activa */
+.thumbnail-image.active {
+  border: 2px solid #007bff;
 }
 /* ************************************************************* RESPONSIVIDAD ************************************************************* */
 /* ------------------------------------------------------------------------------------------------------------------------ Pantallas grandes */

@@ -30,18 +30,18 @@ ol li {
   border-color: green;
   transform: scale(1.1);
 }
-
-/* Contenedor principal */
+/* ********************************************************* Contenedor principal ********************************************************* */
 .main-container {
   display: flex;  /* Para colocar las imágenes y miniaturas lado a lado */
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
-
-/* Contenedor de la imagen activa */
+/* ********************************************************************************************************** Contenedor de la imagen activa */
 #active-image-container {
-  width: 70%; /* La imagen grande ocupará el 70% del espacio */
+  width: 100%; /* La imagen grande ocupará el 100% del espacio */
   height: 400px;
+  padding-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,40 +52,44 @@ ol li {
   max-height: 100%;
   object-fit: contain;
 }
-
-/* Contenedor de las miniaturas a la izquierda */
+/* ******************************************* Contenedor de las miniaturas a la izquierda ******************************************* */
 #image-pagination {
-  display: flex;
-  flex-direction: column;  /* Las miniaturas estarán apiladas en columna */
-  justify-content: flex-start;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas para la primera fila */
+  gap: 10px; /* Espacio entre las miniaturas */
+  justify-items: center;
   align-items: center;
-  margin-left: 20px; /* Espacio entre la imagen grande y las miniaturas */
 }
-
-/* Miniaturas */
+/* Las imágenes a partir de la cuarta (n+4) deberían ocupar 4 columnas automáticamente */
+#image-pagination > .image-thumbnail:nth-child(n+4) {
+  grid-column: span 1; /* Cada imagen ocupa una columna */
+}
+/* Esto asegura que las siguientes imágenes ocupen 4 columnas en la segunda fila */
+#image-pagination {
+  grid-template-columns: repeat(4, 1fr); /* Cuatro columnas para la segunda fila */
+}
+/* ************************************************************* Miniaturas */
 .image-thumbnail {
-  margin: 10px 0; /* Espaciado entre las miniaturas */
+  margin: 10px; /* Espaciado entre las miniaturas */
   cursor: pointer;
 }
 
 .thumbnail-image {
-  width: 80px;  /* Tamaño de las miniaturas */
+  width: 120px;  /* Tamaño de las miniaturas */
   height: auto;
   object-fit: cover;
   border: 2px solid transparent;
   transition: border 0.3s;
 }
-
-/* Efecto de hover */
+/* ************************************************************ Efecto de hover */
 .thumbnail-image:hover {
   border: 2px solid #333;
 }
-
-/* Imagen activa */
+/* ************************************************************* Imagen activa */
 .thumbnail-image.active {
-  border: 2px solid #007bff;
+  border: 2px solid dodgerblue;
 }
-
 /* ************************************************************* RESPONSIVIDAD ************************************************************* */
 /* ------------------------------------------------------------------------------------------------------------------------ Pantallas grandes */
 /* ----------------------------------------------------------------------------------------------------------------------- Pantallas medianas */

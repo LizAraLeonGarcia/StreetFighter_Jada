@@ -30,19 +30,22 @@
               <img src="assets/img/especiales/evilryu2.jpg" alt="Evil Ryu Trasera" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu2.jpg" />
             </div>
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/evilryu3.jpg" alt="Evil Ryu Dentro" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu3.jpg" />
+              <img src="assets/img/especiales/evilryu3.jpg" alt="Evil Ryu Lateral" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu3.jpg" />
             </div>
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/evilryu4.jpg" alt="Evil Ryu Efecto 1" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu4.jpg" />
+              <img src="assets/img/especiales/evilryu4.jpg" alt="Evil Ryu Dentro" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu4.jpg" />
             </div>
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/evilryu5.jpg" alt="Evil Ryu Efecto 2" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu5.jpg" />
+              <img src="assets/img/especiales/evilryu5.jpg" alt="Evil Ryu Efecto 1" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu5.jpg" />
             </div>
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/evilryu6.jpg" alt="Evil Ryu Pose 1" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu6.jpg" />
+              <img src="assets/img/especiales/evilryu6.jpg" alt="Evil Ryu Efecto 2" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu6.jpg" />
             </div>
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/evilryu7.jpg" alt="Evil Ryu Pose 2" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu7.jpg" />
+              <img src="assets/img/especiales/evilryu7.jpg" alt="Evil Ryu Pose 1" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu7.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/evilryu8.jpg" alt="Evil Ryu Pose 2" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu8.jpg" />
             </div>
           </div>
           <!-- Imagen central grande -->
@@ -64,20 +67,23 @@
             <div clas="image-thumbnail">
               <img src="assets/img/especiales/violentken2.jpg" alt="Violent Ken Trasera" class="thumbnail-image" data-large-src="assets/img/especiales/violentken2.jpg" />
             </div>
-            <div class="image-thumbnail">
-              <img src="assets/img/especiales/violentken3.jpg" alt="Violent Ken Dentro" class="thumbnail-image" data-large-src="assets/img/especiales/violentken3.jpg" />
+            <div clas="image-thumbnail">
+              <img src="assets/img/especiales/violentken3.jpg" alt="Violent Ken Lateral" class="thumbnail-image" data-large-src="assets/img/especiales/violentken3.jpg" />
             </div>
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/violentken4.jpg" alt="Violent Ken Efecto 1" class="thumbnail-image" data-large-src="assets/img/especiales/violentken4.jpg" />
+              <img src="assets/img/especiales/violentken4.jpg" alt="Violent Ken Dentro" class="thumbnail-image" data-large-src="assets/img/especiales/violentken4.jpg" />
             </div>
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/violentken5.jpg" alt="Violent Ken Efecto 2" class="thumbnail-image" data-large-src="assets/img/especiales/violentken5.jpg" />
+              <img src="assets/img/especiales/violentken5.jpg" alt="Violent Ken Efecto 1" class="thumbnail-image" data-large-src="assets/img/especiales/violentken5.jpg" />
             </div>
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/violentken6.jpg" alt="Violent Ken Pose 1" class="thumbnail-image" data-large-src="assets/img/especiales/violentken6.jpg" />
+              <img src="assets/img/especiales/violentken6.jpg" alt="Violent Ken Efecto 2" class="thumbnail-image" data-large-src="assets/img/especiales/violentken6.jpg" />
             </div>
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/violentken7.jpg" alt="Violent Ken Pose 2" class="thumbnail-image" data-large-src="assets/img/especiales/violentken7.jpg" />
+              <img src="assets/img/especiales/violentken7.jpg" alt="Violent Ken Pose 1" class="thumbnail-image" data-large-src="assets/img/especiales/violentken7.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/violentken8.jpg" alt="Violent Ken Pose 2" class="thumbnail-image" data-large-src="assets/img/especiales/violentken8.jpg" />
             </div>
           </div>
           <!-- Imagen central grande -->
@@ -100,19 +106,22 @@
               <img src="assets/img/especiales/chunlirosa2.jpg" alt="Chun Li Player 2 Trasera" class="thumbnail-image" data-large-src="assets/img/especiales/chunlirosa2.jpg" />
             </div>
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/chunlirosa3.jpg" alt="Chun Li Player 2 Dentro" class="thumbnail-image" data-large-src="assets/img/especiales/chunlirosa3.jpg" />
+              <img src="assets/img/especiales/chunlirosa3.jpg" alt="Chun Li Player 2 Lateral" class="thumbnail-image" data-large-src="assets/img/especiales/chunlirosa3.jpg" />
             </div>
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/chunlirosa4.jpg" alt="Chun Li Player 2 Efecto 1" class="thumbnail-image" data-large-src="assets/img/especiales/chunlirosa4.jpg" />
+              <img src="assets/img/especiales/chunlirosa4.jpg" alt="Chun Li Player 2 Dentro" class="thumbnail-image" data-large-src="assets/img/especiales/chunlirosa4.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/chunlirosa5.jpg" alt="Chun Li Player 2 Efecto 1" class="thumbnail-image" data-large-src="assets/img/especiales/chunlirosa5.jpg" />
             </div>
             <div class="image-thumbanil">
-              <img src="assets/img/especiales/chunlirosa5.jpg" alt="Chun Li Player 2 Efecto 2" class="thumbnail-image" data-large-src="assets/img/especiales/chunlirosa5.jpg" />
+              <img src="assets/img/especiales/chunlirosa6.jpg" alt="Chun Li Player 2 Efecto 2" class="thumbnail-image" data-large-src="assets/img/especiales/chunlirosa6.jpg" />
             </div>
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/chunlirosa6.jpg" alt="Chun Li Player 2 Pose 1" class="thumbnail-image" data-large-src="assets/img/especiales/chunlirosa6.jpg" />
+              <img src="assets/img/especiales/chunlirosa7.jpg" alt="Chun Li Player 2 Pose 1" class="thumbnail-image" data-large-src="assets/img/especiales/chunlirosa7.jpg" />
             </div>
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/chunlirosa7.jpg" alt="Chun Li Player 2 Pose 2" class="thumbnail-image" data-large-src="assets/img/especiales/chunlirosa7.jpg" />
+              <img src="assets/img/especiales/chunlirosa8.jpg" alt="Chun Li Player 2 Pose 2" class="thumbnail-image" data-large-src="assets/img/especiales/chunlirosa8.jpg" />
             </div>
           </div>
             <!-- Imagen central grande -->

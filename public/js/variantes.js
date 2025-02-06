@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ryuGrisItem.classList.remove('active');
     kenBlancoItem.classList.remove('active');
     chunLiRojaItem.classList.remove('active');
+    mbisonAzulItem.classList.remove('active');
     // Agrega la clase active al elemento seleccionado
     item.classList.add('active');
   }

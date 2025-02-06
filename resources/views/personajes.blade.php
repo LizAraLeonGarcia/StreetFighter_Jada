@@ -185,7 +185,7 @@
           <div id="guile" class="carousel slide" data-bs-interval="false"> <!-- ------------------------------------------------------ GUILE -->
             <h4>Guile</h4>
             <div class="carousel-inner">
-              <div class="carousel-item ative"> <div class="character-item"> <div class="character-images">
+              <div class="carousel-item active"> <div class="character-item"> <div class="character-images">
                 <a href="assets/img/personajes/guile1.jpg" class="glightbox">
                 <img src="assets/img/personajes/guile1.jpg" class="character-img img-fluid" alt="Guile Frontal"> </a>
               </div> </div> </div>

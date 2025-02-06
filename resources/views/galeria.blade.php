@@ -19,6 +19,7 @@
           <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/7.jpg"><img src="assets/img/galeria/7.jpg" class="img-fluid" alt="Waves 1,2,3"></a></div>
           <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/8.jpg"><img src="assets/img/galeria/8.jpg" class="img-fluid" alt="Violent Ken y Ken Player 2"></a></div>
           <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/9.jpg"><img src="assets/img/galeria/9.jpg" class="img-fluid" alt="13 figuras"></a></div>
+          <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/10.jpg"><img src="assets/img/galeria/10.jpg" class="img-fuid" alt="M. Bison Player 2 y Chun Li"></a></div>
         </div>
         <div class="swiper-button-next"></div> <!-- botón para siguiente -->
         <div class="swiper-button-prev"></div> <!-- botón para previo -->

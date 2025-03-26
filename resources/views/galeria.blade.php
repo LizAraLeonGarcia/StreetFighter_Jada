@@ -20,6 +20,8 @@
           <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/8.jpg"><img src="assets/img/galeria/8.jpg" class="img-fluid" alt="Violent Ken y Ken Player 2"></a></div>
           <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/9.jpg"><img src="assets/img/galeria/9.jpg" class="img-fluid" alt="13 figuras"></a></div>
           <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/10.jpg"><img src="assets/img/galeria/10.jpg" class="img-fuid" alt="M. Bison Player 2 y Chun Li"></a></div>
+          <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/11.jpg"><img src="assets/img/galeria/11.jpg" class="img-fuid" alt="Cammy levantando pesas"></a></div>
+          <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/12.jpg"><img src="assets/img/galeria/12.jpg" class="img-fuid" alt="Guile levantando pesas"></a></div>
         </div>
         <div class="swiper-button-next"></div> <!-- botón para siguiente -->
         <div class="swiper-button-prev"></div> <!-- botón para previo -->

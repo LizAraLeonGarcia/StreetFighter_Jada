@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function () {
       el: '.swiper-pagination',
       clickable: true,         // Habilita la paginación clickable
     },
-
-    loop: true, // Hacer que el carrusel sea cíclico
+  // Hacer que el carrusel sea cíclico
+    loop: true, 
     breakpoints: {
       640: {
         slidesPerView: 1, // En pantallas pequeñas, mostrar una imagen

@@ -122,18 +122,18 @@
   border-color: green;
   border-width: 1px;
 }
-/* -------------------------------------------------------------------- DEE JAY */
-#inicio .col8 {
-  background-color: orangered; 
-  color: white;
-  border-color: orangered;
-  border-width: 1px;
-}
 /* ---------------------------------------------------------------------- CAMMY */
-#inicio .col9 {
+#inicio .col8 {
   background-color: lime; 
   color: black;
   border-color: lime;
+  border-width: 1px;
+}
+/* -------------------------------------------------------------------- DEE JAY */
+#inicio .col9 {
+  background-color: orangered; 
+  color: white;
+  border-color: orangered;
   border-width: 1px;
 }
 /* *********************************************************** Tabla de la wave 4 *********************************************************** */
@@ -144,18 +144,18 @@
   border-color: darkblue;
   border-width: 1px;
 }
-/* ----------------------------------------------------------------------- VEGA */
-#inicio .col11 {
-  background-color: purple; 
-  color: white;
-  border-color: purple;
-  border-width: 1px;
-}
 /* --------------------------------------------------------------------- BLANKA */
-#inicio .col12 {
+#inicio .col11 {
   background-color: greenyellow; 
   color: black;
   border-color: greenyellow;
+  border-width: 1px;
+}
+/* ----------------------------------------------------------------------- VEGA */
+#inicio .col12 {
+  background-color: purple; 
+  color: white;
+  border-color: purple;
   border-width: 1px;
 }
 /* *********************************************************** Tabla de la wave 5 *********************************************************** */
@@ -223,12 +223,15 @@
 }
 /* ------------------------------------------------------------------------------------------------------------------------------ VIOLENT KEN */
 .fila2E {
-  background-color: lightyellow;
-  color: black;
+  background-color: red;
 }
 /* ------------------------------------------------------------------------------------------------------------------------- CHUN LI PLAYER 2 */
 .fila3E {
   background-color: rgb(253, 70, 162);
+}
+/* ------------------------------------------------------------------------------------------------------------------------- */
+.fila4E {
+  background-color: purple;
 }
 /* ********************************************************** Tabla para variantes ********************************************************** */
 .inicio .encabezado-variantes {
@@ -269,8 +272,8 @@
 .fila4V {
   background-color: dodgerblue;
 }
-/* FEI LONG PLAYER 2 ------------------------------------------------------------------------------------------------------------------------ */
-/*.fila5V {
-  background-color: dimgray;
-}*/
+/* GUILE PLAYER 2 --------------------------------------------------------------------------------------------------------------------------- */
+.fila5V {
+  background-color: blue;
+}
 /* ************************************************************* RESPONSIVIDAD ************************************************************* */

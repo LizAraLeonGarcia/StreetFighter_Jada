@@ -20,11 +20,11 @@
             <li data-bs-target="#dhalsim" data-bs-slide-to="0">Dhalsim</li>
             <li data-bs-target="#mbison" data-bs-slide-to="0">M. Bison</li>
             <li data-bs-target="#guile" data-bs-slide-to="0">Guile</li>
-            <li data-bs-target="#deejay" data-bs-slide-to="0">Dee Jay</li>
             <li data-bs-target="#cammy" data-bs-slide-to="0">Cammy</li>
+            <li data-bs-target="#deejay" data-bs-slide-to="0">Dee Jay</li>
             <li data-bs-target="#sagat" data-bs-slide-to="0">Sagat</li>
-            <li data-bs-target="#vega" data-bs-slide-to="0">Vega</li>
             <li data-bs-target="#blanka" data-bs-slide-to="0">Blanka</li>
+            <li data-bs-target="#vega" data-bs-slide-to="0">Vega</li>
             <li data-bs-target="#thawk" data-bs-slide-to="0">T. Hawk</li>
             <li data-bs-target="#balrog" data-bs-slide-to="0">Balrog</li>
             <li data-bs-target="#ehonda" data-bs-slide-to="0">E. Honda</li>
@@ -255,6 +255,78 @@
             <button class="carousel-control-next" type="button" data-bs-target="#cammy" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
           </div>
           <!-- ---------------------------------------------------------- Wave  4 ---------------------------------------------------------- -->
+          <div id="sagat" class="carousel slide" data-bs-interval="false"> <!-- ------------------------------------------------------ SAGAT -->
+            <h4>Sagat</h4>
+            <div class="carousel-inner">
+              <div class="carousel-item active"> <div class="character-item"> <div class="character-images">
+                <a href="assets/img/personajes/sagat1.jpg" class="glightbox">
+                <img src="assets/img/personajes/sagat1.jpg" class="character-img img-fluid" alt="Sagat Frontal"> </a>
+              </div> </div> </div>
+              <div class="carousel-item"> <div class="character-item"> <div class="character-images">
+                <a href="assets/img/personajes/sagat2.jpg" class="glightbox">
+                <img src="assets/img/personajes/sagat2.jpg" class="character-img img-fluid" alt="Sagat Lateral"> </a>
+              </div> </div> </div>
+              <div class="carousel-item"> <div class="character-item"> <div class="character-images">
+                <a href="assets/img/personajes/sagat3.jpg" class="glightbox">
+                <img src="assets/img/personajes/sagat3.jpg" class="character-img img-fluid" alt="Sagat con efecto"> </a>
+              </div> </div> </div>
+              <div class="carousel-item"> <div class="character-item"> <div class="character-images">
+                <a href="assets/img/personajes/sagat4.jpg" class="glightbox">
+                <img src="assets/img/personajes/sagat4.jpg" class="character-img img-fluid" alt="Sagat pose"> </a>
+              </div> </div> </div>
+            </div>
+            <!-- Botones de navegación (prev y next) -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#sagat" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#sagat" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
+          </div>
+          <div id="blanka" class="carousel slide" data-bs-interval="false"> <!-- ----------------------------------------------------- BLANKA -->
+            <h4>Blanka</h4>
+            <div class="carousel-inner">
+              <div class="carousel-item active"> <div class="character-item"> <div class="character-images">
+                <a href="assets/img/personajes/blanka1.jpg" class="glightbox">
+                <img src="assets/img/personajes/blanka1.jpg" class="character-img img-fluid" alt="Blanka Frontal"> </a>
+              </div> </div> </div>
+              <div class="carousel-item"> <div class="character-item"> <div class="character-images">
+                <a href="assets/img/personajes/blanka2.jpg" class="glightbox">
+                <img src="assets/img/personajes/blanka2.jpg" class="character-img img-fluid" alt="Blanka Lateral"> </a>
+              </div> </div> </div>
+              <div class="carousel-item"> <div class="character-item"> <div class="character-images">
+                <a href="assets/img/personajes/blanka3.jpg" class="glightbox">
+                <img src="assets/img/personajes/blanka3.jpg" class="character-img img-fluid" alt="Blanka con efecto"> </a>
+              </div> </div> </div>
+              <div class="carousel-item"> <div class="character-item"> <div class="character-images">
+                <a href="assets/img/personajes/blanka4.jpg" class="glightbox">
+                <img src="assets/img/personajes/blanka4.jpg" class="character-img img-fluid" alt="Blanka pose"> </a>
+              </div> </div> </div>
+            </div>
+            <!-- Botones de navegación (prev y next) -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#blanka" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#blanka" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
+          </div>
+          <div id="vega" class="carousel slide" data-bs-interval="false"> <!-- ------------------------------------------------------- VEGA -->
+            <h4>Cammy</h4>
+            <div class="carousel-inner">
+              <div class="carousel-item active"> <div class="character-item"> <div class="character-images">
+                <a href="assets/img/personajes/vega1.jpg" class="glightbox">
+                <img src="assets/img/personajes/vega1.jpg" class="character-img img-fluid" alt="Vega Frontal"> </a>
+              </div> </div> </div>
+              <div class="carousel-item"> <div class="character-item"> <div class="character-images">
+                <a href="assets/img/personajes/vega2.jpg" class="glightbox">
+                <img src="assets/img/personajes/vega2.jpg" class="character-img img-fluid" alt="Vega Lateral"> </a>
+              </div> </div> </div>
+              <div class="carousel-item"> <div class="character-item"> <div class="character-images">
+                <a href="assets/img/personajes/vega3.jpg" class="glightbox">
+                <img src="assets/img/personajes/vega3.jpg" class="character-img img-fluid" alt="Vega con efecto"> </a>
+              </div> </div> </div>
+              <div class="carousel-item"> <div class="character-item"> <div class="character-images">
+                <a href="assets/img/personajes/vega4.jpg" class="glightbox">
+                <img src="assets/img/personajes/vega4.jpg" class="character-img img-fluid" alt="Vega pose"> </a>
+              </div> </div> </div>
+            </div>
+            <!-- Botones de navegación (prev y next) -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#vega" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#vega" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
+          </div>
           <!-- ---------------------------------------------------------- Wave  5 ---------------------------------------------------------- -->
         </div>
       </div>

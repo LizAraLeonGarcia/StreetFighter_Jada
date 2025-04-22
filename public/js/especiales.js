@@ -3,23 +3,22 @@ document.addEventListener('DOMContentLoaded', function () {
   const evilRyuButton = document.getElementById('evilryu');
   const violentKenButton = document.getElementById('violentken');
   const chunLiRosaButton = document.getElementById('chunlirosa');
-
+  const feiLongMoradoButton = document.getElementById('feilongmorado');
   // Selecciona los contenedores de personajes
   const evilRyuContainer = document.querySelector('.evilryu-container');
   const violentKenContainer = document.querySelector('.violentken-container');
   const chunLiRosaContainer = document.querySelector('.chunlirosa-container');
-
+  const feiLongMoradoContainer = document.querySelector('.feilongmorado-container');
   // Selecciona las miniaturas de imágenes de cada contenedor
   const evilRyuThumbnails = evilRyuContainer.querySelectorAll('.thumbnail-image');
   const violentKenThumbnails = violentKenContainer.querySelectorAll('.thumbnail-image');
   const chunLiRosaThumbnails = chunLiRosaContainer.querySelectorAll('.thumbnail-image');
-
+  const feiLongMoradoThumbnails = feiLongMoradoContainer.querySelectorAll('.thumbnail-image');
   // Función para cambiar la imagen activa
   function changeActiveImage(container, newSrc) {
     const activeImage = container.querySelector('#active-image');
     activeImage.src = newSrc;
   }
-
   // Función para actualizar la clase activa en las miniaturas
   function setActiveThumbnail(thumbnails, newActive) {
     thumbnails.forEach(thumbnail => {
@@ -27,17 +26,15 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     newActive.classList.add('active');
   }
-
   // Función para mostrar el contenedor correcto
   function showCharacter(containerToShow, thumbnails) {
     // Oculta todos los contenedores
     evilRyuContainer.style.display = 'none';
     violentKenContainer.style.display = 'none';
     chunLiRosaContainer.style.display = 'none';
-
+    feiLongMoradoContainer.style.display = 'none';
     // Muestra el contenedor del personaje seleccionado
     containerToShow.style.display = 'block';
-
     // Vincula los eventos de las miniaturas con el contenedor actual
     const currentThumbnails = thumbnails;
     currentThumbnails.forEach(thumbnail => {
@@ -48,33 +45,35 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   }
-
   // Función para manejar el cambio de clase "active" en los elementos de la lista
   function setActiveTab(activeTab) {
     // Quita la clase "active" de todos los elementos de la lista
     const tabs = document.querySelectorAll('ol li');
     tabs.forEach(tab => tab.classList.remove('active'));
-
     // Añade la clase "active" al tab seleccionado
     activeTab.classList.add('active');
   }
-
   // Agrega los eventos de clic en cada personaje
+  // ---------------------------------------------------------------------------------------------------------------------------------- evil ryu
   evilRyuButton.addEventListener('click', function () {
     showCharacter(evilRyuContainer, evilRyuThumbnails);
     setActiveTab(evilRyuButton);
   });
-
+  // ------------------------------------------------------------------------------------------------------------------------------- violent ken
   violentKenButton.addEventListener('click', function () {
     showCharacter(violentKenContainer, violentKenThumbnails);
     setActiveTab(violentKenButton);
   });
-
+  // ------------------------------------------------------------------------------------------------------------------- chun li rosa (player 2)
   chunLiRosaButton.addEventListener('click', function () {
     showCharacter(chunLiRosaContainer, chunLiRosaThumbnails);
     setActiveTab(chunLiRosaButton);
   });
-
+  // ---------------------------------------------------------------------------------------------------------------- fei long morado (player 2)
+  feiLongMoradoButton.addEventListener('click', function () {
+    showCharacter(feiLongMoradoContainer, feiLongMoradoThumbnails);
+    setActiveTab(feiLongMoradoButton);
+  });
   // Inicia con Evil Ryu seleccionado por defecto
   showCharacter(evilRyuContainer, evilRyuThumbnails);
   setActiveTab(evilRyuButton);

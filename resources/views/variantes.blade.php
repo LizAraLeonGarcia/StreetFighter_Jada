@@ -13,7 +13,7 @@
         <li id="kenblanco">Ken Player 2</li>
         <li id="chunliroja">Chun Li Roja</li>
         <li id="mbisonazul">M. Bison Player 2</li>
-          </ol>
+        <li id="guileazul">Guile Player 2</li>
       </ol>
     </div>
     <!-- ------------------------------------------------------ Contenedor personajes ------------------------------------------------------ -->
@@ -41,6 +41,12 @@
         <h4>M. Bison Player 2</h4>
         <img src="assets/img/variantes/mbisonazul1.jpg" class="variante-img" alt="M. Bison Player 2">
         <img src="assets/img/variantes/mbisonazul2.jpg" class="variante-img" alt="M. Bison Player 2 posando">
+      </div>    
+      <!-- ------------------------------------------------------------------------------------------------------------------ Guile Player 2 -->
+      <div class="guileazul-container variantes-container">
+        <h4>Guile Player 2</h4>
+        <img src="assets/img/variantes/guileazul1.jpg" class="variante-img" alt="Guile Player 2">
+        <img src="assets/img/variantes/guileazul2.jpg" class="variante-img" alt="Guile Player 2 posando">
       </div>             
     </div> <!-- Contenedor personajes -->
   </div> <!-- Contenedor general -->

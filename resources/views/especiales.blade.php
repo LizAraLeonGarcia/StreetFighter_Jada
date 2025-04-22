@@ -12,6 +12,7 @@
         <li id="evilryu" class="active">Evil Ryu</li>
         <li id="violentken">Violent Ken</li>
         <li id="chunlirosa">Chun Li Player 2</li>
+        <li id="feilongmorado"> Fei Long Player 2</li>
       </ol>
     </div>
     <!-- ------------------------------------------------------ Contenedor personajes ------------------------------------------------------ -->
@@ -127,6 +128,44 @@
             <!-- Imagen central grande -->
           <div id="active-image-container">
             <img id="active-image" src="assets/img/especiales/chunlirosa1.jpg" alt="Chun Li Player 2" class="especial-img" />
+          </div>
+        </div>    
+      </div> 
+      <!-- ------------------------------------------------------------------------------------------------------------------------- Chun Li -->
+      <div class="feilongmorado-container especiales-container" style="display: none;">
+        <h4>Fei Long Player 2</h4>
+        <!-- Contenedor principal con las miniaturas y la imagen grande -->
+        <div class="main-container">
+          <!-- Paginación de imágenes pequeñas a un lado -->
+          <div id="image-pagination">
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/feilongmorado1.jpg" alt="Fei Long Player 2 Frontal" class="thumbnail-image" data-large-src="assets/img/especiales/feilongmorado1.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/feilongmorado2.jpg" alt="Fei Long Player 2 Trasera" class="thumbnail-image" data-large-src="assets/img/especiales/feilongmorado2.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/feilongmorado3.jpg" alt="Fei Long Player 2 Lateral" class="thumbnail-image" data-large-src="assets/img/especiales/feilongmorado3.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/feilongmorado4.jpg" alt="Fei Long Player 2 Dentro" class="thumbnail-image" data-large-src="assets/img/especiales/feilongmorado4.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/feilongmorado5.jpg" alt="Fei Long Player 2 Efecto" class="thumbnail-image" data-large-src="assets/img/especiales/feilongmorado5.jpg" />
+            </div>
+            <div class="image-thumbanil">
+              <img src="assets/img/especiales/feilongmorado6.jpg" alt="Fei Long Player 2 Nunchakus" class="thumbnail-image" data-large-src="assets/img/especiales/feilongmorado6.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/feilongmorado7.jpg" alt="Fei Long Player 2 Pose 1" class="thumbnail-image" data-large-src="assets/img/especiales/feilongmorado7.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/feilongmorado8.jpg" alt="Fei Long Player 2 Pose 2" class="thumbnail-image" data-large-src="assets/img/especiales/feilongmorado8.jpg" />
+            </div>
+          </div>
+            <!-- Imagen central grande -->
+          <div id="active-image-container">
+            <img id="active-image" src="assets/img/especiales/feilongmorado1.jpg" alt="Fei Long Player 2" class="especial-img" />
           </div>
         </div>    
       </div>     

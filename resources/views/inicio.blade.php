@@ -67,8 +67,8 @@
                             </thead>
                             <tbody>
                                 <tr> <td class="col7">Guile</td> </tr>
-                                <tr> <td class="col8">Dee Jay</td> </tr>
-                                <tr> <td class="col9">Cammy</td> </tr>
+                                <tr> <td class="col8">Cammy</td> </tr>
+                                <tr> <td class="col9">Dee Jay</td> </tr>
                             </tbody>
                         </table>
                     </div>
@@ -81,8 +81,8 @@
                             </thead>
                             <tbody>
                                 <tr> <td class="col10">Sagat</td> </tr>
-                                <tr> <td class="col11">Vega</td> </tr>
-                                <tr> <td class="col12">Blanka</td> </tr>
+                                <tr> <td class="col11">Blanka</td> </tr>
+                                <tr> <td class="col12">Vega</td> </tr>
                             </tbody>
                         </table>
                     </div>
@@ -149,21 +149,28 @@
                                 <tr class="fila1E"> 
                                     <td style="color:white;"> Evil Ryu </td>
                                     <td style="color:white;"> SDCC 2023 </td>
-                                    <td style="color:white;"> Accesorios extras, incluidos letreros, caja más grande </td>
+                                    <td style="color:white;"> Caja diferente y grande, traje gris oscuro; 3 rostros, 2 pares de manos, 2 letreros y 2 efectos </td>
                                 </tr>
                             </tbody>
                             <tbody> <!-- --------------------------------------------------------------------------------------- VIOLENT KEN -->
                                 <tr class="fila2E"> 
-                                    <td> Violent Ken </td>
-                                    <td> SDCC 2024 </td> 
-                                    <td> Accesorios extras, incluidos barriles, caja más grande </td>
+                                    <td style="color:white;"> Violent Ken </td>
+                                    <td style="color:white;"> SDCC 2024 </td> 
+                                    <td style="color:white;"> Caja diferente y grande, traje rojo; 3 rostros, 2 pares de manos, 2 efectos y 2 barriles </td>
                                 </tr>
                             </tbody>
-                            <tbody> <!-- --------------------------------------------------------------------------------------- CHUN LI -->
+                            <tbody> <!-- ------------------------------------------------------------------------------------------- CHUN LI -->
                                 <tr class="fila3E"> 
                                     <td style="color:white;"> Chun Li Player 2 </td>
                                     <td style="color:white;"> SDCC 2024 </td> 
-                                    <td style="color:white;"> Traje rosa, accesorios extras y caja más grande </td>
+                                    <td style="color:white;"> Caja diferente y mediana, traje rosa; 4 rostros, 3 pares de manos y 2 efectos </td>
+                                </tr>
+                            </tbody>
+                            <tbody> <!-- ------------------------------------------------------------------------------------------ FEI LONG -->
+                                <tr class="fila4E">
+                                    <td style="color:white;"> Fei Long Player 2</td>
+                                    <td> - </td>
+                                    <td style="color:white;"> Caja diferente y mediana, traje morado; 3 rostros, 4 pares de manos, 1 efecto y 2 nunchakos </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -193,13 +200,13 @@
                                 <tr class="fila2V"> 
                                     <td> Ken </td>
                                     <td> Player 2 </td>
-                                    <td> Misma caja, accesorio extra Shoryuken, traje blanco </td> 
+                                    <td> Misma caja y accesorios más un extra (Shoryuken), traje blanco </td> 
                                 </tr>
                             </tbody>
                             <tbody> <!-- ------------------------------------------------------------------------------------------- CHUN LI -->
                                 <tr class="fila3V"> 
                                     <td style="color:white;"> Chun Li </td>
-                                    <td style="color:white;"> </td>
+                                    <td style="color:white;"> Red </td>
                                     <td style="color:white;"> Misma caja y accesorios, traje rojo </td> 
                                 </tr>
                             </tbody>
@@ -208,6 +215,13 @@
                                     <td style="color:white;"> M. Bison </td>
                                     <td style="color:white;"> Player 2</td>
                                     <td style="color:white;"> Misma caja y accesorios, traje azul </td> 
+                                </tr>
+                            </tbody>
+                            <tbody> <!-- --------------------------------------------------------------------------------------------- GUILE -->
+                                <tr class="fila5V">
+                                    <td style="color:white;"> Guile </td>
+                                    <td style="color:white;"> Player 2</td>
+                                    <td style="color:white;"> Misma caja y accesorios, traje azul</td>
                                 </tr>
                             </tbody>
                         </table>

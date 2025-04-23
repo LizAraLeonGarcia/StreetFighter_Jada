@@ -33,12 +33,13 @@
 }
 /* ******************************************************** Contenedor de la galería ******************************************************** */
 .swiper-container {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   position: relative;
   padding: 0;  /* Verifica que no haya padding adicional que cause el desbordamiento */
   margin: 0;  /* Asegura que no haya margen extra */
   overflow: hidden;
+  box-sizing: border-box; /* Asegúrate de que no haya ningún margen adicional */
 }
 /* ******************************************************** Para mejorar visibilidad ******************************************************** */
 .swiper-slide {
@@ -50,7 +51,7 @@
 }
 /* *********************************** Para que las imágenes tengan un margen y no se peguen a los bordes *********************************** */
 .swiper-slide img {  
-  width: calc(100% - 70px); /* Calcula el 100% del ancho menos los márgenes a la izquierda y derecha */
+  max-width: 80%; /* Ajusta el ancho máximo al 100% sin desbordar */
   height: auto;
   object-fit: contain; /* Mantiene la proporción de la imagen */
   margin-left: 15px; /* Deja margen a la izquierda */

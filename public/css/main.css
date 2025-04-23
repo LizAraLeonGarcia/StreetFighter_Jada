@@ -3,6 +3,7 @@
   background-color: #c1c6ca;
   font-family: 'Times New Roman', Times, serif;
   padding-top: 20px;
+  overflow: hidden;
 }
 
 .section-title h3 {

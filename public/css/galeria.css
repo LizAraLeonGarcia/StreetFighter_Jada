@@ -1,9 +1,43 @@
+/* Estilo para el contenedor del menú */
+.menuGaleria {
+  background-color: transparent; /* Fondo oscuro para el menú */
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  z-index: 10; /* Asegura que el menú esté por encima de otros elementos */
+}
+/* Estilo para los enlaces del menú */
+.menuGaleria .nav-link {
+  color: #000000; /* Texto blanco */
+  font-weight: bold;
+  text-decoration: none; /* Quita subrayado */
+  padding: 10px 20px; /* Espaciado dentro del enlace */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+/* Efecto de hover sobre las pestañas */
+.menuGaleria .nav-link:hover {
+  background-color: rgb(15, 190, 15) !important; /* Fondo más claro cuando se pasa el ratón */
+  color: crimson !important;
+  border: 2px solid yellow !important;
+}
+/* Pestaña activa */
+.menuGaleria .nav-link.active {
+  background-color: blue !important; /* Fondo azul para la pestaña activa */
+  color: gold !important; /* Texto blanco en la pestaña activa */
+  border: 2px solid black !important;
+}
+/* Aseguramos que la galería no se sobreponga al menú */
+.tab-content {
+  margin-top: 40px; /* Margen superior para separar las imágenes del menú */
+}
 /* ******************************************************** Contenedor de la galería ******************************************************** */
 .swiper-container {
-  position: relative;
   width: 100%;
-  height: 100%;
-  padding-bottom: 60px; 
+  height: auto;
+  position: relative;
+  padding: 0;  /* Verifica que no haya padding adicional que cause el desbordamiento */
+  margin: 0;  /* Asegura que no haya margen extra */
   overflow: hidden;
 }
 /* ******************************************************** Para mejorar visibilidad ******************************************************** */
@@ -15,12 +49,13 @@
   align-items: center;
 }
 /* *********************************** Para que las imágenes tengan un margen y no se peguen a los bordes *********************************** */
-.swiper-slide img {
-  width: 100%;
+.swiper-slide img {  
+  width: calc(100% - 70px); /* Calcula el 100% del ancho menos los márgenes a la izquierda y derecha */
   height: auto;
-  padding-left: 60px;
-  padding-right: 60px;
-  object-fit: contain; /* Para que las imágenes no se distorsionen */
+  object-fit: contain; /* Mantiene la proporción de la imagen */
+  margin-left: 15px; /* Deja margen a la izquierda */
+  margin-right: 15px; /* Deja margen a la derecha */
+  box-sizing: border-box; /* Asegura que el padding no afecte el tamaño */
 }
 /* *************************************************************** Paginación *************************************************************** */
 .swiper-pagination {
@@ -47,13 +82,17 @@
 }
 /* *********************************************************** Botones navegación *********************************************************** */
 .swiper-button-next, .swiper-button-prev {
+  position: absolute;  /* Asegura que las flechas estén fijas dentro del contenedor */
+  top: 50%;  /* Las coloca verticalmente al centro */
+  transform: translateY(-50%);  /* Asegura que estén centradas verticalmente */
+  z-index: 20;  /* Asegura que las flechas estén por encima de otras cosas, pero debajo de las imágenes */
+  background-color: rgba(0, 0, 0, 0.5);  /* Fondo semi-transparente para mejorar la visibilidad */
+  border-radius: 50%;
   width: 40px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%; /* Para hacer que las flechas tengan un fondo circular */
-  background-color: #000000; /* Fondo azul fuerte */
   transition: background-color 0.3s, color 0.3s; /* Suavizar el cambio de fondo y color */
 }
 /* ---------------------------------------------------------------------------------------------------------------------------------- Flechas */

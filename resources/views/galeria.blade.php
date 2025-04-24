@@ -35,23 +35,25 @@
               <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/11.jpg"><img src="assets/img/galeria/11.jpg" class="img-fluid" alt="13 figuras"></a></div>
               <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/12.jpg"><img src="assets/img/galeria/12.jpg" class="img-fluid" alt="16 figuras"></a></div>
             </div>
+            <div class="swiper-pagination"></div>
           </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div>
         </div>
         <!-- Ejercicio -->
         <div class="tab-pane fade" id="ejercicio">
           <div class="swiper-container">
             <div class="swiper-wrapper">
-              <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/guile y cammy 1.jpg"><img src="assets/img/galeria/guile y cammy 1.jpg" class="img-fluid" alt="Guile haciendo ejercicio"></a></div>
-              <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/guile y cammy 2.jpg"><img src="assets/img/galeria/guile y cammy 2.jpg" class="img-fluid" alt="Cammy haciendo hip thrust"></a></div>
-              <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/guile y cammy 3.jpg"><img src="assets/img/galeria/guile y cammy 3.jpg" class="img-fluid" alt="Cammy haciendo desplante con barra"></a></div>
+              <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/ejercicio/guile y cammy 1.jpg"><img src="assets/img/galeria/ejercicio/guile y cammy 1.jpg" class="img-fluid" alt="Guile haciendo ejercicio"></a></div>
+              <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/ejercicio/guile y cammy 2.jpg"><img src="assets/img/galeria/ejercicio/guile y cammy 2.jpg" class="img-fluid" alt="Cammy haciendo hip thrust"></a></div>
+              <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/ejercicio/guile y cammy 3.jpg"><img src="assets/img/galeria/ejercicio/guile y cammy 3.jpg" class="img-fluid" alt="Cammy haciendo desplante con barra"></a></div>
+              <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/ejercicio/chun li rosa entrenando 1.jpg"><img src="assets/img/galeria/ejercicio/chun li rosa entrenando 1.jpg" class="img-fluid" alt="Chun Li haciendo sentadilla con barra"></a></div>
+              <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/ejercicio/chun li rosa entrenando 2.jpg"><img src="assets/img/galeria/ejercicio/chun li rosa entrenando 2.jpg" class="img-fluid" alt="Chun Li haciendo desplante con barra"></a></div>
+              <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/ejercicio/chun li rosa entrenando 3.jpg"><img src="assets/img/galeria/ejercicio/chun li rosa entrenando 3.jpg" class="img-fluid" alt="Chun Li haciendo hip thrust con barra"></a></div>
+              <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/ejercicio/ryu gris entrenando.jpg"><img src="assets/img/galeria/ejercicio/ryu gris entrenando.jpg" class="img-fluid" alt="Ryu Player 2 entrenando"></a></div>
+              <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/ejercicio/ken entrenando.jpg"><img src="assets/img/galeria/ejercicio/ken entrenando.jpg" class="img-fluid" alt="Ken entrenando"></a></div>
+              <div class="swiper-slide"><a class="glightbox" data-galeria="images-galeria" href="assets/img/galeria/ejercicio/chun li ryu y ken.jpg"><img src="assets/img/galeria/ejercicio/chun li ryu y ken.jpg" class="img-fluid" alt="Chun Li, Ryu y Ken Player 2"></a></div>
             </div>
+            <div class="swiper-pagination"></div>
           </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div>
         </div>
       </div>
     </div>

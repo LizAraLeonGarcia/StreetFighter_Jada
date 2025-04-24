@@ -1,3 +1,9 @@
+/* ****************************************************************************************************************************************** */
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Estilo para el contenedor del menú */
 .menuGaleria {
   background-color: transparent; /* Fondo oscuro para el menú */
@@ -29,43 +35,32 @@
 }
 /* Aseguramos que la galería no se sobreponga al menú */
 .tab-content {
-  margin-top: 40px; /* Margen superior para separar las imágenes del menú */
+  margin-top: 40px;
 }
 /* ******************************************************** Contenedor de la galería ******************************************************** */
 .swiper-container {
-  max-width: 100%;
-  height: auto;
-  position: relative;
-  padding: 0;  /* Verifica que no haya padding adicional que cause el desbordamiento */
-  margin: 0;  /* Asegura que no haya margen extra */
-  overflow: hidden;
-  box-sizing: border-box; /* Asegúrate de que no haya ningún margen adicional */
+  width: 100%;
+  padding: 20px; /* espacio a la izquierda y derecha */
+  margin-bottom: 40px; /* espacio entre carrusel y footer */
+  box-sizing: border-box;
 }
 /* ******************************************************** Para mejorar visibilidad ******************************************************** */
 .swiper-slide {
-  max-width: 100%;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 /* *********************************** Para que las imágenes tengan un margen y no se peguen a los bordes *********************************** */
 .swiper-slide img {  
-  max-width: 80%; /* Ajusta el ancho máximo al 100% sin desbordar */
+  width: 90%; /* Ajusta el ancho máximo al 100% sin desbordar */
   height: auto;
-  object-fit: contain; /* Mantiene la proporción de la imagen */
-  margin-left: 15px; /* Deja margen a la izquierda */
-  margin-right: 15px; /* Deja margen a la derecha */
-  box-sizing: border-box; /* Asegura que el padding no afecte el tamaño */
+  object-fit: contain;
+  padding-bottom: 30px;
 }
 /* *************************************************************** Paginación *************************************************************** */
 .swiper-pagination {
-  position: absolute;
-  bottom: 10px; /* Posición de la paginación al fondo */
-  padding-bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 10; /* Asegurarse de que la paginación está encima de las imágenes */
+  margin-top: 20px; /* Posición de la paginación al fondo */
+  text-align: center;
 }
 /* ------------------------------------------------------------------------------------------------------------------ Puntos de la paginación */
 .swiper-pagination-bullet {
@@ -81,34 +76,7 @@
   background-color: #37b106 !important;
   transform: scale(1.2); /* Agrandar ligeramente el punto activo para darle énfasis */
 }
-/* *********************************************************** Botones navegación *********************************************************** */
-.swiper-button-next, .swiper-button-prev {
-  position: absolute;  /* Asegura que las flechas estén fijas dentro del contenedor */
-  top: 50%;  /* Las coloca verticalmente al centro */
-  transform: translateY(-50%);  /* Asegura que estén centradas verticalmente */
-  z-index: 20;  /* Asegura que las flechas estén por encima de otras cosas, pero debajo de las imágenes */
-  background-color: rgba(0, 0, 0, 0.5);  /* Fondo semi-transparente para mejorar la visibilidad */
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: background-color 0.3s, color 0.3s; /* Suavizar el cambio de fondo y color */
-}
-/* ---------------------------------------------------------------------------------------------------------------------------------- Flechas */
-.swiper-button-next:after, .swiper-button-prev:after {
-  font-size: 20px; /* Ajustar tamaño de las flechas */
-  color: #c1c6ca;
-}
-/* --------------------------------------------------------------------------------------------------- Estado hover (cuando se pasa el ratón) */
-.swiper-button-next:hover, .swiper-button-prev:hover {
-  background-color: #c1caca;
-}
-/* --------------------------------------------------------------------------------------------------------- Color de las flechas se mantiene */
-.swiper-button-next:hover:after, .swiper-button-prev:hover:after {
-  color: black;
-}
+
 /* ************************************************************* RESPONSIVIDAD ************************************************************* */
 /* ------------------------------------------------------------------------------------------------------------------------ Pantallas grandes */
 /* ----------------------------------------------------------------------------------------------------------------------- Pantallas medianas */

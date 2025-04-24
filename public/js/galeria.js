@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
   var swiper = new Swiper('.swiper-container', {
     loop: true,                // Para que el carrusel sea continuo
-    centeredSlides: true,      // Asegura que la primera imagen está centrada
+    centeredSlides: false,      // Asegura que la primera imagen está centrada
     initialSlide: 0,           // Empieza desde la primera imagen
-    spaceBetween: 10,          // Espacio entre imágenes
+    spaceBetween: 20,          // Espacio entre imágenes
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',

@@ -17,7 +17,7 @@
   color: #000000; /* Texto blanco */
   font-weight: bold;
   text-decoration: none; /* Quita subrayado */
-  padding: 10px 20px; /* Espaciado dentro del enlace */
+  padding: 0 5px; /* Espaciado dentro del enlace */
   border-radius: 5px; /* Bordes redondeados */
   transition: background-color 0.3s ease; /* Transición suave */
 }
@@ -35,7 +35,7 @@
 }
 /* Aseguramos que la galería no se sobreponga al menú */
 .tab-content {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 /* ******************************************************** Contenedor de la galería ******************************************************** */
 .swiper-container {

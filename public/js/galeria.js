@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', function () {
     centeredSlides: false,      // Asegura que la primera imagen está centrada
     initialSlide: 0,           // Empieza desde la primera imagen
     spaceBetween: 20,          // Espacio entre imágenes
-    navigation: {
+    /*navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
-    },
+    },*/
     pagination: {
       el: '.swiper-pagination',
       clickable: true,         // Habilita la paginación clickable

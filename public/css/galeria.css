@@ -4,70 +4,80 @@
   justify-content: center;
   align-items: center;
 }
-/* Estilo para el contenedor del menú */
+/* ********************************************************** Contenedor para menú ********************************************************** */
 .menuGaleria {
-  background-color: transparent; /* Fondo oscuro para el menú */
+  background-color: transparent;
   display: flex;
   justify-content: center;
   padding-bottom: 30px;
   z-index: 10; /* Asegura que el menú esté por encima de otros elementos */
+
+
+  /*overflow-x: auto;
+  white-space: nowrap;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 10px 20px;*/
 }
-/* Estilo para los enlaces del menú */
+/* ------------------------------------------------------------------------------------------------------------------------- Enlaces del menú */
 .menuGaleria .nav-link {
-  color: #000000; /* Texto blanco */
+  color: #000000; 
   font-weight: bold;
   text-decoration: none; /* Quita subrayado */
   padding: 0 5px; /* Espaciado dentro del enlace */
   border-radius: 5px; /* Bordes redondeados */
   transition: background-color 0.3s ease; /* Transición suave */
 }
-/* Efecto de hover sobre las pestañas */
+/* ------------------------------------------------------------------------------------------------------- Efecto de hover sobre las pestañas */
 .menuGaleria .nav-link:hover {
-  background-color: rgb(15, 190, 15) !important; /* Fondo más claro cuando se pasa el ratón */
+  background-color: rgb(15, 190, 15) !important;
   color: crimson !important;
   border: 2px solid yellow !important;
 }
-/* Pestaña activa */
+/* --------------------------------------------------------------------------------------------------------------------------- Pestaña activa */
 .menuGaleria .nav-link.active {
-  background-color: blue !important; /* Fondo azul para la pestaña activa */
-  color: gold !important; /* Texto blanco en la pestaña activa */
+  background-color: blue !important; 
+  color: gold !important; 
   border: 2px solid black !important;
 }
-/* Aseguramos que la galería no se sobreponga al menú */
+/* ******************************************* Aseguramos que la galería no se sobreponga al menú ******************************************* */
 .tab-content {
   margin-top: 20px;
 }
 /* ******************************************************** Contenedor de la galería ******************************************************** */
 .swiper-container {
   width: 100%;
-  padding: 20px; /* espacio a la izquierda y derecha */
-  margin-bottom: 40px; /* espacio entre carrusel y footer */
-  box-sizing: border-box;
+  height: auto;
+  min-height: 460px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
-/* ******************************************************** Para mejorar visibilidad ******************************************************** */
+
 .swiper-slide {
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* *********************************** Para que las imágenes tengan un margen y no se peguen a los bordes *********************************** */
-.swiper-slide img {  
-  width: 90%; /* Ajusta el ancho máximo al 100% sin desbordar */
+
+.swiper-slide img {
+  width: 100%;
+  max-width: 300px;
   height: auto;
-  object-fit: contain;
-  padding-bottom: 30px;
+  border-radius: 8px;
 }
 /* *************************************************************** Paginación *************************************************************** */
 .swiper-pagination {
-  margin-top: 20px; /* Posición de la paginación al fondo */
-  text-align: center;
+  position: absolute;
+  bottom: 10px; /* Distancia desde el borde inferior */
+  z-index: 10; /* Asegura que la paginación esté por encima de otros elementos */
+  display: block;
 }
 /* ------------------------------------------------------------------------------------------------------------------ Puntos de la paginación */
 .swiper-pagination-bullet {
   background-color: rgba(255, 255, 255, 0.7); /* Color semi-transparente para los puntos */
-  width: 12px;
-  height: 12px;
-  margin: 0 5px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   transition: background-color 0.3s ease;
 }

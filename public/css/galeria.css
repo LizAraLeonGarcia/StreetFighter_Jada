@@ -47,10 +47,9 @@
 /* ******************************************************** Contenedor de la galería ******************************************************** */
 .swiper-container {
   width: 100%;
-  height: auto;
-  min-height: 460px;
-  padding-top: 10px;
-  padding-bottom: 40px;
+  height: 460px;
+  padding-bottom: 20px;
+  position: relative; /* Asegura que los elementos dentro de este contenedor se posicionen relativamente */
 }
 
 .swiper-slide {
@@ -69,8 +68,9 @@
 /* *************************************************************** Paginación *************************************************************** */
 .swiper-pagination {
   position: absolute;
+  padding-bottom: 20px;
   bottom: 10px; /* Distancia desde el borde inferior */
-  z-index: 10; /* Asegura que la paginación esté por encima de otros elementos */
+  transform: translateX(-50%); /* Centra la paginación horizontalmente */
   display: block;
 }
 /* ------------------------------------------------------------------------------------------------------------------ Puntos de la paginación */

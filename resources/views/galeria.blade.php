@@ -50,15 +50,18 @@
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/4.jpg"><img src="assets/img/galeria/4.jpg" alt="Ryu y Chun Li 4"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/5.jpg"><img src="assets/img/galeria/5.jpg" alt="Ryu y Chun Li 5"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/6.jpg"><img src="assets/img/galeria/6.jpg" alt="Ryu y Chun Li 6"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/7.jpg"><img src="assets/img/galeria/7.jpg" alt="Ryu y Ryu Player 2"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/9.jpg"><img src="assets/img/galeria/9.jpg" alt="Chun Li y Chun Li Player 2"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/10.jpg"><img src="assets/img/galeria/10.jpg" alt="Ken y Ken Player 2"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/12.jpg"><img src="assets/img/galeria/12.jpg" alt="M. Bison y M. Bison Player 2"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/13.jpg"><img src="assets/img/galeria/13.jpg" alt="Guile y Guile Player 2"></a></div>
-              <!--<div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/11.jpg"><img src="assets/img/galeria/11.jpg" alt="Dhalsim y Dhalsim Player 2"></a></div>-->
-              <!--<div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/14.jpg"><img src="assets/img/galeria/14.jpg" alt="Cammy y Cammy Player 2"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/15.jpg"><img src="assets/img/galeria/15.jpg" alt="Dee Jay y Dee Jay Player 2"></a></div>-->
-              <!--<div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/8.jpg"><img src="assets/img/galeria/8.jpg" alt="Fei Long y Fei Long Player 2"></a></div>-->
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2ryu.jpg"><img src="assets/img/galeria/ryu2.jpg" alt="Ryu y Ryu Player 2"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2chunli.jpg"><img src="assets/img/galeria/chunli2.jpg" alt="Chun Li y Chun Li Player 2"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2ken.jpg"><img src="assets/img/galeria/ken2.jpg" alt="Ken y Ken Player 2"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2mbison.jpg"><img src="assets/img/galeria/mbison2.jpg" alt="M. Bison y M. Bison Player 2"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2guile.jpg"><img src="assets/img/galeria/guile2.jpg" alt="Guile y Guile Player 2"></a></div>
+              <!--<div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2dhalsim.jpg"><img src="assets/img/galeria/2dhalsim.jpg" alt="Dhalsim y Dhalsim Player 2"></a></div>-->
+              <!--<div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2cammy.jpg"><img src="assets/img/galeria/2cammy.jpg" alt="Cammy y Cammy Player 2"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2deejay.jpg"><img src="assets/img/galeria/2deejay.jpg" alt="Dee Jay y Dee Jay Player 2"></a></div>-->
+              <!--<div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2feilong.jpg"><img src="assets/img/galeria/2feilong.jpg" alt="Fei Long y Fei Long Player 2"></a></div>-->
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/3ryu.jpg"><img src="assets/img/galeria/3ryu.jpg" alt="Ryu, Evil Ryu y Ryu Player 2"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/3chunli.jpg"><img src="assets/img/galeria/3chunli.jpg" alt="Chun Li, Chun Li Red y Chun Li Player 2"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/3ken.jpg"><img src="assets/img/galeria/3ken.jpg" alt="Ken, Violent Ken y Ken Player 2"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/x.jpg"><img src="assets/img/galeria/x.jpg" alt="Dee Jay con una caja de cervezas"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/y1.jpg"><img src="assets/img/galeria/y1.jpg" alt="Chun Li Player 2 con Evil Ryu y Violent Ken"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/y2.jpg"><img src="assets/img/galeria/y2.jpg" alt="Chun Li Player 2 con Ryu y Ken Player 2"></a></div>
@@ -94,6 +97,8 @@
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/1.jpg"><img src="assets/img/galeria/chunlixryu/1.jpg" alt="Ryu cargando a Chun Li en brazos"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/2.jpg"><img src="assets/img/galeria/chunlixryu/2.jpg" alt="Ryu cargando a Chun Li en su espalda"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/3.jpg"><img src="assets/img/galeria/chunlixryu/3.jpg" alt="Ryu y Chun Li bailando"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/4.jpg"><img src="assets/img/galeria/chunlixryu/4.jpg" alt="Ryu Player 2 y Chun Li Player 2"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/7.jpg"><img src="assets/img/galeria/chunlixryu/7.jpg" alt="Evil Ryu y Chun Li Red"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/moto azul.jpg"><img src="assets/img/galeria/chunlixryu/moto azul.jpg" alt="Ryu Player 2 x Chun Li en moto azul"></a></div>
             </div>
             <div class="swiper-pagination"></div>
@@ -103,9 +108,11 @@
         <div class="tab-pane fade" id="chunlixken">
           <div class="swiper-container">
             <div class="swiper-wrapper">
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/1.jpg"><img src="assets/img/galeria/chunlixken/1.jpg" alt="Ken cargando a Chun Li en brazos"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/2.jpg"><img src="assets/img/galeria/chunlixken/2.jpg" alt="Ken cargando a Chun Li en su espalda"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/3.jpg"><img src="assets/img/galeria/chunlixken/3.jpg" alt="Ken y Chun Li bailando"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/1.jpg"><img src="assets/img/galeria/chunlixken/1.jpg" alt="Ken cargando a Chun Li Red en brazos"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/2.jpg"><img src="assets/img/galeria/chunlixken/2.jpg" alt="Ken cargando a Chun Li Red en su espalda"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/3.jpg"><img src="assets/img/galeria/chunlixken/3.jpg" alt="Ken y Chun Li Red bailando"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/4.jpg"><img src="assets/img/galeria/chunlixken/4.jpg" alt="Ken Player 2 y Chun Li Player 2"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/7.jpg"><img src="assets/img/galeria/chunlixken/7.jpg" alt="Violent Ken y Chun Li"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/moto roja.jpg"><img src="assets/img/galeria/chunlixken/moto roja.jpg" alt="Ken x Chun Li Red en moto roja"></a></div>
             </div>
             <div class="swiper-pagination"></div>
@@ -115,10 +122,15 @@
         <div class="tab-pane fade" id="chunlixmbison">
           <div class="swiper-container">
             <div class="swiper-wrapper">
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/m bison y chun li azul.jpg"><img src="assets/img/galeria/chunlixmbison/m bison y chun li azul.jpg" alt="M. Bison Player 2 x Chun Li"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/m bison y chun li roja.jpg"><img src="assets/img/galeria/chunlixmbison/m bison y chun li roja.jpg" alt="M. Bison x Chun Li Red"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/m bison y chun lis.jpg"><img src="assets/img/galeria/chunlixmbison/m bison y chun lis.jpg" alt="M. Bison Player 2 x Chun Li y Chun Li Red"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/4.jpg"><img src="assets/img/galeria/chunlixmbison/4.jpg" alt="M. Bison x Chun Li y Chun Li Red"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/1.jpg"><img src="assets/img/galeria/chunlixmbison/1.jpg" alt="M. Bison x Chun Red"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/2.jpg"><img src="assets/img/galeria/chunlixmbison/2.jpg" alt="M. Bison x Chun Li Red y Chun Li"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/3.jpg"><img src="assets/img/galeria/chunlixmbison/3.jpg" alt="M. Bison x Chun Li"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/4.jpg"><img src="assets/img/galeria/chunlixmbison/4.jpg" alt="M. Bison Player 2 x Chun Li"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/5.jpg"><img src="assets/img/galeria/chunlixmbison/5.jpg" alt="M. Bison Player 2 x Chun Li y Chun Li Red"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/6.jpg"><img src="assets/img/galeria/chunlixmbison/6.jpg" alt="M. Bison Player 2 x Chun Li Red"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/7.jpg"><img src="assets/img/galeria/chunlixmbison/7.jpg" alt="M. Bison x Chun Li Player 2"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/8.jpg"><img src="assets/img/galeria/chunlixmbison/8.jpg" alt="Chun Li Player 2 x M. Bison y M. Bison Player 2"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/9.jpg"><img src="assets/img/galeria/chunlixmbison/9.jpg" alt="M. Bison Player 2 x Chun Li Player 2"></a></div>
             </div>
             <div class="swiper-pagination"></div>
           </div>

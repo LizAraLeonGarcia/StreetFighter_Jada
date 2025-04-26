@@ -50,11 +50,11 @@
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/4.jpg"><img src="assets/img/galeria/4.jpg" alt="Ryu y Chun Li 4"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/5.jpg"><img src="assets/img/galeria/5.jpg" alt="Ryu y Chun Li 5"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/6.jpg"><img src="assets/img/galeria/6.jpg" alt="Ryu y Chun Li 6"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2ryu.jpg"><img src="assets/img/galeria/ryu2.jpg" alt="Ryu y Ryu Player 2"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2chunli.jpg"><img src="assets/img/galeria/chunli2.jpg" alt="Chun Li y Chun Li Player 2"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2ken.jpg"><img src="assets/img/galeria/ken2.jpg" alt="Ken y Ken Player 2"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2mbison.jpg"><img src="assets/img/galeria/mbison2.jpg" alt="M. Bison y M. Bison Player 2"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2guile.jpg"><img src="assets/img/galeria/guile2.jpg" alt="Guile y Guile Player 2"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2ryu.jpg"><img src="assets/img/galeria/2ryu.jpg" alt="Ryu y Ryu Player 2"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2chunli.jpg"><img src="assets/img/galeria/2chunli.jpg" alt="Chun Li y Chun Li Player 2"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2ken.jpg"><img src="assets/img/galeria/2ken.jpg" alt="Ken y Ken Player 2"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2mbison.jpg"><img src="assets/img/galeria/2mbison.jpg" alt="M. Bison y M. Bison Player 2"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2guile.jpg"><img src="assets/img/galeria/2guile.jpg" alt="Guile y Guile Player 2"></a></div>
               <!--<div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2dhalsim.jpg"><img src="assets/img/galeria/2dhalsim.jpg" alt="Dhalsim y Dhalsim Player 2"></a></div>-->
               <!--<div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2cammy.jpg"><img src="assets/img/galeria/2cammy.jpg" alt="Cammy y Cammy Player 2"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/2deejay.jpg"><img src="assets/img/galeria/2deejay.jpg" alt="Dee Jay y Dee Jay Player 2"></a></div>-->

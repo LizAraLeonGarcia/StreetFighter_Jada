@@ -1,29 +1,27 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var swiper = new Swiper('.swiper-container', {
-    loop: true,                // Para que el carrusel sea continuo
-    centeredSlides: false,      // Asegura que la primera imagen está centrada
-    initialSlide: 0,           // Empieza desde la primera imagen
-    spaceBetween: 20,          // Espacio entre imágenes
-    /*navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },*/
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,         // Habilita la paginación clickable
-    },
-  // Hacer que el carrusel sea cíclico
-    loop: true, 
-    breakpoints: {
-      640: {
-        slidesPerView: 1, // En pantallas pequeñas, mostrar una imagen
+  document.querySelectorAll('.swiper-container').forEach(function (container) {
+    new Swiper(container, {
+      loop: true,
+      spaceBetween: 20,
+      navigation: {
+        nextEl: container.querySelector('.swiper-button-next'),
+        prevEl: container.querySelector('.swiper-button-prev'),
       },
-      768: {
-        slidesPerView: 2, // En pantallas medianas, mostrar dos imágenes
+      pagination: {
+        el: container.querySelector('.swiper-pagination'),
+        clickable: true,
       },
-      1024: {
-        slidesPerView: 3, // En pantallas grandes, mostrar tres imágenes
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
       },
-    },
-  });  
+    });
+  });
 });

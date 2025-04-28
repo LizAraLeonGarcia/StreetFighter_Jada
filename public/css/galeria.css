@@ -47,8 +47,8 @@
 /* ******************************************************** Contenedor de la galería ******************************************************** */
 .swiper-container {
   width: 100%;
-  height: 460px;
-  padding-bottom: 20px;
+  height: 470px;
+  padding-bottom: 60px;
   position: relative; /* Asegura que los elementos dentro de este contenedor se posicionen relativamente */
 }
 
@@ -65,13 +65,22 @@
   height: auto;
   border-radius: 8px;
 }
+/* *********************************************** Contenedor común para botones y paginación *********************************************** */
+.swiper-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
 /* *************************************************************** Paginación *************************************************************** */
 .swiper-pagination {
-  position: absolute;
-  padding-bottom: 20px;
-  bottom: 10px; /* Distancia desde el borde inferior */
-  transform: translateX(-50%); /* Centra la paginación horizontalmente */
-  display: block;
+  position: static;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 30px;
 }
 /* ------------------------------------------------------------------------------------------------------------------ Puntos de la paginación */
 .swiper-pagination-bullet {
@@ -86,7 +95,27 @@
   background-color: #37b106 !important;
   transform: scale(1.2); /* Agrandar ligeramente el punto activo para darle énfasis */
 }
-
+/* ********************************************************* Botones de PREV - NEXT ********************************************************* */
+.swiper-button-prev,
+.swiper-button-next {
+  position: static !important;
+  width: 15px;
+  height: 15px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  color: white !important;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+}
+/* Efectos para botones */
+/* Hover oscuro */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: black;
+}
 /* ************************************************************* RESPONSIVIDAD ************************************************************* */
 /* ------------------------------------------------------------------------------------------------------------------------ Pantallas grandes */
 /* ----------------------------------------------------------------------------------------------------------------------- Pantallas medianas */

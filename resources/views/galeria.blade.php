@@ -144,9 +144,9 @@
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/4.jpg"><img src="assets/img/galeria/chunlixmbison/4.jpg" alt="M. Bison Player 2 x Chun Li"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/5.jpg"><img src="assets/img/galeria/chunlixmbison/5.jpg" alt="M. Bison Player 2 x Chun Li y Chun Li Red"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/6.jpg"><img src="assets/img/galeria/chunlixmbison/6.jpg" alt="M. Bison Player 2 x Chun Li Red"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/7.jpg"><img src="assets/img/galeria/chunlixmbison/7.jpg" alt="M. Bison x Chun Li Player 2"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/7.jpg"><img src="assets/img/galeria/chunlixmbison/7.jpg" alt="M. Bison x Chun Li Player 2 y M. Bison Player 2"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/8.jpg"><img src="assets/img/galeria/chunlixmbison/8.jpg" alt="Chun Li Player 2 x M. Bison y M. Bison Player 2"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/9.jpg"><img src="assets/img/galeria/chunlixmbison/9.jpg" alt="M. Bison Player 2 x Chun Li Player 2"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/9.jpg"><img src="assets/img/galeria/chunlixmbison/9.jpg" alt="M. Bison Player 2 x Chun Li Player 2 y M. Bison"></a></div>
             </div>
             <div class="swiper-controls">
               <div class="swiper-button-prev"></div>

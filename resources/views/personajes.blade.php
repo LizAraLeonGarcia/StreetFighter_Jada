@@ -304,7 +304,7 @@
             <button class="carousel-control-next" type="button" data-bs-target="#blanka" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
           </div>
           <div id="vega" class="carousel slide" data-bs-interval="false"> <!-- ------------------------------------------------------- VEGA -->
-            <h4>Cammy</h4>
+            <h4>Vega</h4>
             <div class="carousel-inner">
               <div class="carousel-item active"> <div class="character-item"> <div class="character-images">
                 <a href="assets/img/personajes/vega1.jpg" class="glightbox">

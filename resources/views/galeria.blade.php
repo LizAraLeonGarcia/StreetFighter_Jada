@@ -60,9 +60,6 @@
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/3chunli.jpg"><img src="assets/img/galeria/3chunli.jpg" alt="Chun Li, Chun Li Red y Chun Li Player 2"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/3ken.jpg"><img src="assets/img/galeria/3ken.jpg" alt="Ken, Violent Ken y Ken Player 2"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/x.jpg"><img src="assets/img/galeria/x.jpg" alt="Dee Jay con una caja de cervezas"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/y1.jpg"><img src="assets/img/galeria/y1.jpg" alt="Chun Li Player 2 con Evil Ryu y Violent Ken"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/y2.jpg"><img src="assets/img/galeria/y2.jpg" alt="Chun Li Player 2 con Ryu y Ken Player 2"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/y3.jpg"><img src="assets/img/galeria/y3.jpg" alt="Chun Li Player 2 con Ryu Player 2 y Ken"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/z1.jpg"><img src="assets/img/galeria/z1.jpg" alt="Waves 1,2,3"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/z2.jpg"><img src="assets/img/galeria/z2.jpg" alt="13 figuras"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/z3.jpg"><img src="assets/img/galeria/z3.jpg" alt="16 figuras"></a></div>
@@ -74,7 +71,7 @@
             </div>
           </div>
         </div>
-        <!-- Ejercicio -->
+        <!-- ---------------------------------------------------------- Ejercicio ---------------------------------------------------------- -->
         <div class="tab-pane fade" id="ejercicio">
           <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -95,15 +92,19 @@
             </div>
           </div>
         </div>
-        <!-- Chun Li x Ryu -->
+        <!-- ----------------------------------------------------------------------------------------------------------------- Chun Li x Ryu -->
         <div class="tab-pane fade" id="chunlixryu">
           <div class="swiper-container">
             <div class="swiper-wrapper">
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/1.jpg"><img src="assets/img/galeria/chunlixryu/1.jpg" alt="Ryu cargando a Chun Li en brazos"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/2.jpg"><img src="assets/img/galeria/chunlixryu/2.jpg" alt="Ryu cargando a Chun Li en su espalda"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/3.jpg"><img src="assets/img/galeria/chunlixryu/3.jpg" alt="Ryu y Chun Li bailando"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/4.jpg"><img src="assets/img/galeria/chunlixryu/4.jpg" alt="Ryu Player 2 y Chun Li Player 2"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/7.jpg"><img src="assets/img/galeria/chunlixryu/7.jpg" alt="Evil Ryu y Chun Li Red"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/4.jpg"><img src="assets/img/galeria/chunlixryu/4.jpg" alt="Ryu Player 2 y Chun Li Player 2 abrazados"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/5.jpg"><img src="assets/img/galeria/chunlixryu/5.jpg" alt="Ryu Player 2 y Chun Li Player 2 en sus hombros"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/6.jpg"><img src="assets/img/galeria/chunlixryu/6.jpg" alt="Ryu Player 2 y Chun Li Player 2 abrazados bien pegaditos"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/7.jpg"><img src="assets/img/galeria/chunlixryu/7.jpg" alt="Evil Ryu y Chun Li Red acorralada"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/8.jpg"><img src="assets/img/galeria/chunlixryu/8.jpg" alt="Evil Ryu y Chun Li Red tomada de la mano"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/9.jpg"><img src="assets/img/galeria/chunlixryu/9.jpg" alt="Evil Ryu y Chun Li Red secuestrada"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/moto azul.jpg"><img src="assets/img/galeria/chunlixryu/moto azul.jpg" alt="Ryu Player 2 x Chun Li en moto azul"></a></div>
             </div>
             <div class="swiper-controls">
@@ -113,15 +114,19 @@
             </div>
           </div>
         </div>
-        <!-- Chun Li x Ken -->
+        <!-- ----------------------------------------------------------------------------------------------------------------- Chun Li x Ken -->
         <div class="tab-pane fade" id="chunlixken">
           <div class="swiper-container">
             <div class="swiper-wrapper">
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/1.jpg"><img src="assets/img/galeria/chunlixken/1.jpg" alt="Ken cargando a Chun Li Red en brazos"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/2.jpg"><img src="assets/img/galeria/chunlixken/2.jpg" alt="Ken cargando a Chun Li Red en su espalda"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/3.jpg"><img src="assets/img/galeria/chunlixken/3.jpg" alt="Ken y Chun Li Red bailando"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/4.jpg"><img src="assets/img/galeria/chunlixken/4.jpg" alt="Ken Player 2 y Chun Li Player 2"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/7.jpg"><img src="assets/img/galeria/chunlixken/7.jpg" alt="Violent Ken y Chun Li"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/4.jpg"><img src="assets/img/galeria/chunlixken/4.jpg" alt="Ken Player 2 y Chun Li Player 2 abrazados"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/5.jpg"><img src="assets/img/galeria/chunlixken/5.jpg" alt="Ken Player 2 y Chun Li Player 2 en sus hombros"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/6.jpg"><img src="assets/img/galeria/chunlixken/6.jpg" alt="Ken Player 2 y Chun Li Player 2 abrazados bien pegaditos"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/7.jpg"><img src="assets/img/galeria/chunlixken/7.jpg" alt="Violent Ken y Chun Li acorralada"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/8.jpg"><img src="assets/img/galeria/chunlixken/8.jpg" alt="Violent Ken y Chun Li tomada de la mano"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/9.jpg"><img src="assets/img/galeria/chunlixken/9.jpg" alt="Violent Ken y Chun Li secuestrada"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/moto roja.jpg"><img src="assets/img/galeria/chunlixken/moto roja.jpg" alt="Ken x Chun Li Red en moto roja"></a></div>
             </div>
             <div class="swiper-controls">
@@ -131,7 +136,7 @@
             </div>
           </div>
         </div>
-        <!-- Chun Li x M. Bison -->
+        <!-- ------------------------------------------------------------------------------------------------------------ Chun Li x M. Bison -->
         <div class="tab-pane fade" id="chunlixmbison">
           <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -152,7 +157,7 @@
             </div>
           </div>
         </div>
-        <!-- Chun Li x Sagat -->
+        <!-- --------------------------------------------------------------------------------------------------------------- Chun Li x Sagat -->
         <div class="tab-pane fade" id="chunlixsagat">
           <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -160,8 +165,9 @@
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixsagat/2.jpg"><img src="assets/img/galeria/chunlixsagat/2.jpg" alt="Sagat x Chun Li Red en sus hombros"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixsagat/3.jpg"><img src="assets/img/galeria/chunlixsagat/3.jpg" alt="Sagat x Chun Li Red en su bicep"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixsagat/4.jpg"><img src="assets/img/galeria/chunlixsagat/4.jpg" alt="Sagat x Chun Li abrazados"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixsagat/6.jpg"><img src="assets/img/galeria/chunlixsagat/6.jpg" alt="Sagat x Chun Li Red secuestrada"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixsagat/5.jpg"><img src="assets/img/galeria/chunlixsagat/5.jpg" alt="Sagat x Chun Li Red mirándose"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixsagat/5.jpg"><img src="assets/img/galeria/chunlixsagat/5.jpg" alt="Sagat x Chun Li Red secuestrada"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixsagat/6.jpg"><img src="assets/img/galeria/chunlixsagat/6.jpg" alt="Sagat x Chun Li Red mirándose"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixsagat/7.jpg"><img src="assets/img/galeria/chunlixsagat/7.jpg" alt="Sagat x Chun Li Red tomada de los hombros"></a></div>
             </div>
             <div class="swiper-controls">
               <div class="swiper-button-prev"></div>
@@ -170,7 +176,7 @@
             </div>
           </div>
         </div>
-        <!-- Chun Li x Blanka -->
+        <!-- -------------------------------------------------------------------------------------------------------------- Chun Li x Blanka -->
         <div class="tab-pane fade" id="chunlixblanka">
           <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -178,8 +184,9 @@
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixblanka/2.jpg"><img src="assets/img/galeria/chunlixblanka/2.jpg" alt="Blanka x Chun Li Player 2 en su espalda"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixblanka/3.jpg"><img src="assets/img/galeria/chunlixblanka/3.jpg" alt="Blanka x Chun Li PLayer en su bicep"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixblanka/4.jpg"><img src="assets/img/galeria/chunlixblanka/4.jpg" alt="Blanka x Chun Li abrazados"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixblanka/5.jpg"><img src="assets/img/galeria/chunlixblanka/5.jpg" alt="Blanka x Chun Li ."></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixblanka/6.jpg"><img src="assets/img/galeria/chunlixblanka/6.jpg" alt="Blanka x Chun Li tomada de la mano"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixblanka/5.jpg"><img src="assets/img/galeria/chunlixblanka/5.jpg" alt="Blanka x Chun Li secuestrada"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixblanka/6.jpg"><img src="assets/img/galeria/chunlixblanka/6.jpg" alt="Blanka x Chun Li en el bicep de Blanka"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixblanka/7.jpg"><img src="assets/img/galeria/chunlixblanka/7.jpg" alt="Blanka x Chun Li tomada de la mano"></a></div>
             </div>
             <div class="swiper-controls">
               <div class="swiper-button-prev"></div>

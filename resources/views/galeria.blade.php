@@ -59,7 +59,8 @@
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/3ryu.jpg"><img src="assets/img/galeria/3ryu.jpg" alt="Ryu, Evil Ryu y Ryu Player 2"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/3chunli.jpg"><img src="assets/img/galeria/3chunli.jpg" alt="Chun Li, Chun Li Red y Chun Li Player 2"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/3ken.jpg"><img src="assets/img/galeria/3ken.jpg" alt="Ken, Violent Ken y Ken Player 2"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/x.jpg"><img src="assets/img/galeria/x.jpg" alt="Dee Jay con una caja de cervezas"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/x1.jpg"><img src="assets/img/galeria/x1.jpg" alt="Dee Jay con una caja de cervezas"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/x2.jpg"><img src="assets/img/galeria/x2.jpg" alt="Guile y Guile Player 2"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/z1.jpg"><img src="assets/img/galeria/z1.jpg" alt="Waves 1,2,3"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/z2.jpg"><img src="assets/img/galeria/z2.jpg" alt="13 figuras"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/z3.jpg"><img src="assets/img/galeria/z3.jpg" alt="16 figuras"></a></div>

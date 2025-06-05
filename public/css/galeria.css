@@ -98,7 +98,6 @@
 /* ********************************************************* Botones de PREV - NEXT ********************************************************* */
 .swiper-button-prev,
 .swiper-button-next {
-  position: static !important;
   width: 15px;
   height: 15px;
   display: flex !important;

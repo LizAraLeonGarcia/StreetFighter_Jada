@@ -68,10 +68,15 @@
 /* *********************************************** Contenedor común para botones y paginación *********************************************** */
 .swiper-controls {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 20px;
+  flex-direction: column; /* paginación debajo de los botones */
   margin-top: 10px;
+}
+
+.swiper-nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 /* *************************************************************** Paginación *************************************************************** */
 .swiper-pagination {

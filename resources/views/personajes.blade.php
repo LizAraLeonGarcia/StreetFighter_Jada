@@ -25,10 +25,11 @@
             <li data-bs-target="#sagat" data-bs-slide-to="0">Sagat</li>
             <li data-bs-target="#blanka" data-bs-slide-to="0">Blanka</li>
             <li data-bs-target="#vega" data-bs-slide-to="0">Vega</li>
-            <li data-bs-target="#thawk" data-bs-slide-to="0">T. Hawk</li>
-            <li data-bs-target="#balrog" data-bs-slide-to="0">Balrog</li>
-            <li data-bs-target="#ehonda" data-bs-slide-to="0">E. Honda</li>
             <li data-bs-target="#akuma" data-bs-slide-to="0">Akuma</li>
+            <li data-bs-target="#ehonda" data-bs-slide-to="0">E. Honda</li>
+            <li data-bs-target="#balrog" data-bs-slide-to="0">Balrog</li>
+
+            <li data-bs-target="#thawk" data-bs-slide-to="0">T. Hawk</li>
             <li data-bs-target="#zangief" data-bs-slide-to="0">Zangief</li>
             <li data-bs-target="#¿?" data-bs-slide-to="0">¿ ?</li>
           </ol>
@@ -40,20 +41,20 @@
             <h4>Ryu</h4>
             <div class="carousel-inner">
               <div class="carousel-item active"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/ryu1.jpg" class="glightbox">
-                <img src="assets/img/personajes/ryu1.jpg" class="character-img img-fluid" alt="Ryu Frontal"> </a>
+                <a href="assets/img/personajes/1-1.jpg" class="glightbox">
+                <img src="assets/img/personajes/1-1.jpg" class="character-img" alt="Ryu Frontal"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/ryu2.jpg" class="glightbox">
-                <img src="assets/img/personajes/ryu2.jpg" class="character-img img-fluid" alt="Ryu Lateral"> </a>
+                <a href="assets/img/personajes/1-2.jpg" class="glightbox">
+                <img src="assets/img/personajes/1-2.jpg" class="character-img" alt="Ryu Lateral"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/ryu3.jpg" class="glightbox">
-                <img src="assets/img/personajes/ryu3.jpg" class="character-img img-fluid" alt="Ryu con efecto"> </a>
+                <a href="assets/img/personajes/1-3.jpg" class="glightbox">
+                <img src="assets/img/personajes/1-3.jpg" class="character-img" alt="Ryu con efecto"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/ryu4.jpg" class="glightbox">
-                <img src="assets/img/personajes/ryu4.jpg" class="character-img img-fluid" alt="Ryu pose"> </a>
+                <a href="assets/img/personajes/1-4.jpg" class="glightbox">
+                <img src="assets/img/personajes/1-4.jpg" class="character-img" alt="Ryu pose"> </a>
               </div> </div> </div>
             </div>
             <!-- Botones de navegación (prev y next) -->
@@ -64,20 +65,20 @@
             <h4>Fei Long</h4>
             <div class="carousel-inner">
               <div class="carousel-item active"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/feilong1.jpg" class="glightbox">
-                <img src="assets/img/personajes/feilong1.jpg" class="character-img img-fluid" alt="Fei Long Frontal"> </a>
+                <a href="assets/img/personajes/2-1.jpg" class="glightbox">
+                <img src="assets/img/personajes/2-1.jpg" class="character-img img-fluid" alt="Fei Long Frontal"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/feilong2.jpg" class="glightbox">
-                <img src="assets/img/personajes/feilong2.jpg" class="character-img img-fluid" alt="Fei Long Lateral"> </a>
+                <a href="assets/img/personajes/2-2.jpg" class="glightbox">
+                <img src="assets/img/personajes/2-2.jpg" class="character-img img-fluid" alt="Fei Long Lateral"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/feilong3.jpg" class="glightbox">
-                <img src="assets/img/personajes/feilong3.jpg" class="character-img img-fluid" alt="Fei Long con efecto"> </a>
+                <a href="assets/img/personajes/2-3.jpg" class="glightbox">
+                <img src="assets/img/personajes/2-3.jpg" class="character-img img-fluid" alt="Fei Long con efecto"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/feilong4.jpg" class="glightbox">
-                <img src="assets/img/personajes/feilong4.jpg" class="character-img img-fluid" alt="Fei Long pose"> </a>
+                <a href="assets/img/personajes/2-4.jpg" class="glightbox">
+                <img src="assets/img/personajes/2-4.jpg" class="character-img img-fluid" alt="Fei Long pose"> </a>
               </div> </div> </div>
             </div>
             <!-- Botones de navegación (prev y next) -->
@@ -88,20 +89,20 @@
             <h4>Chun Li</h4>
             <div class="carousel-inner">
               <div class="carousel-item active"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/chunli1.jpg" class="glightbox">
-                <img src="assets/img/personajes/chunli1.jpg" class="character-img img-fluid" alt="Chun Li Frontal"> </a>
+                <a href="assets/img/personajes/3-1.jpg" class="glightbox">
+                <img src="assets/img/personajes/3-1.jpg" class="character-img img-fluid" alt="Chun Li Frontal"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/chunli2.jpg" class="glightbox">
-                <img src="assets/img/personajes/chunli2.jpg" class="character-img img-fluid" alt="Chun Li Lateral"> </a>
+                <a href="assets/img/personajes/3-2.jpg" class="glightbox">
+                <img src="assets/img/personajes/3-2.jpg" class="character-img img-fluid" alt="Chun Li Lateral"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/chunli3.jpg" class="glightbox">
-                <img src="assets/img/personajes/chunli3.jpg" class="character-img img-fluid" alt="Chun Li con efecto"> </a>
+                <a href="assets/img/personajes/3-3.jpg" class="glightbox">
+                <img src="assets/img/personajes/3-3.jpg" class="character-img img-fluid" alt="Chun Li con efecto"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/chunli4.jpg" class="glightbox">
-                <img src="assets/img/personajes/chunli4.jpg" class="character-img img-fluid" alt="Chun Li pose"> </a>
+                <a href="assets/img/personajes/3-4.jpg" class="glightbox">
+                <img src="assets/img/personajes/3-4.jpg" class="character-img img-fluid" alt="Chun Li pose"> </a>
               </div> </div> </div>
             </div>
             <!-- Botones de navegación (prev y next) -->
@@ -113,20 +114,20 @@
             <h4>Ken</h4>
             <div class="carousel-inner">
               <div class="carousel-item active"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/ken1.jpg" class="glightbox">
-                <img src="assets/img/personajes/ken1.jpg" class="character-img img-fluid" alt="Ken Frontal"> </a>
+                <a href="assets/img/personajes/4-1.jpg" class="glightbox">
+                <img src="assets/img/personajes/4-1.jpg" class="character-img img-fluid" alt="Ken Frontal"> </a>
               </div> </div> </div> 
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/ken2.jpg" class="glightbox">
-                <img src="assets/img/personajes/ken2.jpg" class="character-img img-fluid" alt="Ken Lateral"> </a>
+                <a href="assets/img/personajes/4-2.jpg" class="glightbox">
+                <img src="assets/img/personajes/4-2.jpg" class="character-img img-fluid" alt="Ken Lateral"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/ken3.jpg" class="glightbox">
-                <img src="assets/img/personajes/ken3.jpg" class="character-img img-fluid" alt="Ken con efecto"> </a>
+                <a href="assets/img/personajes/4-3.jpg" class="glightbox">
+                <img src="assets/img/personajes/4-3.jpg" class="character-img img-fluid" alt="Ken con efecto"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/ken4.jpg" class="glightbox">
-                <img src="assets/img/personajes/ken4.jpg" class="character-img img-fluid" alt="Ken pose"> </a>
+                <a href="assets/img/personajes/4-4.jpg" class="glightbox">
+                <img src="assets/img/personajes/4-4.jpg" class="character-img img-fluid" alt="Ken pose"> </a>
               </div> </div> </div>
             </div>
             <!-- Botones de navegación (prev y next) -->
@@ -137,20 +138,20 @@
             <h4>Dhalsim</h4>
             <div class="carousel-inner">
               <div class="carousel-item active"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/dhalsim1.jpg" class="glightbox">
-                <img src="assets/img/personajes/dhalsim1.jpg" class="character-img img-fluid" alt="Dhalsim Frontal"> </a>
+                <a href="assets/img/personajes/5-1.jpg" class="glightbox">
+                <img src="assets/img/personajes/5-1.jpg" class="character-img img-fluid" alt="Dhalsim Frontal"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/dhalsim2.jpg" class="glightbox">
-                <img src="assets/img/personajes/dhalsim2.jpg" class="character-img img-fluid" alt="Dhalsim Lateral"> </a>
+                <a href="assets/img/personajes/5-2.jpg" class="glightbox">
+                <img src="assets/img/personajes/5-2.jpg" class="character-img img-fluid" alt="Dhalsim Lateral"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/dhalsim3.jpg" class="glightbox">
-                <img src="assets/img/personajes/dhalsim3.jpg" class="character-img img-fluid" alt="Dhalsim con efecto"> </a>
+                <a href="assets/img/personajes/5-3.jpg" class="glightbox">
+                <img src="assets/img/personajes/5-3.jpg" class="character-img img-fluid" alt="Dhalsim con efecto"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/dhalsim4.jpg" class="glightbox">
-                <img src="assets/img/personajes/dhalsim4.jpg" class="character-img img-fluid" alt="Dhalsim pose"> </a>
+                <a href="assets/img/personajes/5-4.jpg" class="glightbox">
+                <img src="assets/img/personajes/5-4.jpg" class="character-img img-fluid" alt="Dhalsim pose"> </a>
               </div> </div> </div>
             </div>
             <!-- Botones de navegación (prev y next) -->
@@ -161,20 +162,20 @@
             <h4>M. Bison</h4>
             <div class="carousel-inner">
               <div class="carousel-item active"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/mbison1.jpg" class="glightbox">
-                <img src="assets/img/personajes/mbison1.jpg" class="character-img img-fluid" alt="M. Bison Frontal"> </a>
+                <a href="assets/img/personajes/6-1.jpg" class="glightbox">
+                <img src="assets/img/personajes/6-1.jpg" class="character-img img-fluid" alt="M. Bison Frontal"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">      
-                <a href="assets/img/personajes/mbison2.jpg" class="glightbox">
-                <img src="assets/img/personajes/mbison2.jpg" class="character-img img-fluid" alt="M. Bison Lateral"> </a>
+                <a href="assets/img/personajes/6-2.jpg" class="glightbox">
+                <img src="assets/img/personajes/6-2.jpg" class="character-img img-fluid" alt="M. Bison Lateral"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/mbison3.jpg" class="glightbox">
-                <img src="assets/img/personajes/mbison3.jpg" class="character-img img-fluid" alt="M. Bison con efecto"> </a>
+                <a href="assets/img/personajes/6-3.jpg" class="glightbox">
+                <img src="assets/img/personajes/6-3.jpg" class="character-img img-fluid" alt="M. Bison con efecto"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/mbison4.jpg" class="glightbox">
-                <img src="assets/img/personajes/mbison4.jpg" class="character-img img-fluid" alt="M. Bison pose"> </a>
+                <a href="assets/img/personajes/6-4.jpg" class="glightbox">
+                <img src="assets/img/personajes/6-4.jpg" class="character-img img-fluid" alt="M. Bison pose"> </a>
               </div> </div> </div>
             </div>
             <!-- Botones de navegación (prev y next) -->
@@ -186,20 +187,20 @@
             <h4>Guile</h4>
             <div class="carousel-inner">
               <div class="carousel-item active"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/guile1.jpg" class="glightbox">
-                <img src="assets/img/personajes/guile1.jpg" class="character-img img-fluid" alt="Guile Frontal"> </a>
+                <a href="assets/img/personajes/7-1.jpg" class="glightbox">
+                <img src="assets/img/personajes/7-1.jpg" class="character-img img-fluid" alt="Guile Frontal"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/guile2.jpg" class="glightbox">
-                <img src="assets/img/personajes/guile2.jpg" class="character-img img-fluid" alt="Guile Lateral"> </a>
+                <a href="assets/img/personajes/7-2.jpg" class="glightbox">
+                <img src="assets/img/personajes/7-2.jpg" class="character-img img-fluid" alt="Guile Lateral"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/guile3.jpg" class="glightbox">
-                <img src="assets/img/personajes/guile3.jpg" class="character-img img-fluid" alt="Guile con efecto"> </a>
+                <a href="assets/img/personajes/7-3.jpg" class="glightbox">
+                <img src="assets/img/personajes/7-3.jpg" class="character-img img-fluid" alt="Guile con efecto"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/guile4.jpg" class="glightbox">
-                <img src="assets/img/personajes/guile4.jpg" class="character-img img-fluid" alt="Guile pose"> </a>
+                <a href="assets/img/personajes/7-4.jpg" class="glightbox">
+                <img src="assets/img/personajes/7-4.jpg" class="character-img img-fluid" alt="Guile pose"> </a>
               </div> </div> </div>
             </div>
             <!-- Botones de navegación (prev y next) -->
@@ -210,20 +211,20 @@
             <h4>Dee Jay</h4>
             <div class="carousel-inner">
               <div class="carousel-item active"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/deejay1.jpg" class="glightbox">
-                <img src="assets/img/personajes/deejay1.jpg" class="character-img img-fluid" alt="Dee Jay Frontal"> </a>
+                <a href="assets/img/personajes/8-1.jpg" class="glightbox">
+                <img src="assets/img/personajes/8-1.jpg" class="character-img img-fluid" alt="Dee Jay Frontal"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/deejay2.jpg" class="glightbox">
-                <img src="assets/img/personajes/deejay2.jpg" class="character-img img-fluid" alt="Dee Jay Lateral"> </a>
+                <a href="assets/img/personajes/8-2.jpg" class="glightbox">
+                <img src="assets/img/personajes/8-2.jpg" class="character-img img-fluid" alt="Dee Jay Lateral"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/deejay3.jpg" class="glightbox">
-                <img src="assets/img/personajes/deejay3.jpg" class="character-img img-fluid" alt="Dee Jay con efecto"> </a>
+                <a href="assets/img/personajes/8-3.jpg" class="glightbox">
+                <img src="assets/img/personajes/8-3.jpg" class="character-img img-fluid" alt="Dee Jay con efecto"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/deejay4.jpg" class="glightbox">
-                <img src="assets/img/personajes/deejay4.jpg" class="character-img img-fluid" alt="Dee Jay pose"> </a>
+                <a href="assets/img/personajes/8-4.jpg" class="glightbox">
+                <img src="assets/img/personajes/8-4.jpg" class="character-img img-fluid" alt="Dee Jay pose"> </a>
               </div> </div> </div>
             </div>
             <!-- Botones de navegación (prev y next) -->
@@ -234,20 +235,20 @@
             <h4>Cammy</h4>
             <div class="carousel-inner">
               <div class="carousel-item active"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/cammy1.jpg" class="glightbox">
-                <img src="assets/img/personajes/cammy1.jpg" class="character-img img-fluid" alt="Cammy Frontal"> </a>
+                <a href="assets/img/personajes/9-1.jpg" class="glightbox">
+                <img src="assets/img/personajes/9-1.jpg" class="character-img img-fluid" alt="Cammy Frontal"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/cammy2.jpg" class="glightbox">
-                <img src="assets/img/personajes/cammy2.jpg" class="character-img img-fluid" alt="Cammy Lateral"> </a>
+                <a href="assets/img/personajes/9-2.jpg" class="glightbox">
+                <img src="assets/img/personajes/9-2.jpg" class="character-img img-fluid" alt="Cammy Lateral"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/cammy3.jpg" class="glightbox">
-                <img src="assets/img/personajes/cammy3.jpg" class="character-img img-fluid" alt="Cammy con efecto"> </a>
+                <a href="assets/img/personajes/9-3.jpg" class="glightbox">
+                <img src="assets/img/personajes/9-3.jpg" class="character-img img-fluid" alt="Cammy con efecto"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/cammy4.jpg" class="glightbox">
-                <img src="assets/img/personajes/cammy4.jpg" class="character-img img-fluid" alt="Cammy pose"> </a>
+                <a href="assets/img/personajes/9-4.jpg" class="glightbox">
+                <img src="assets/img/personajes/9-4.jpg" class="character-img img-fluid" alt="Cammy pose"> </a>
               </div> </div> </div>
             </div>
             <!-- Botones de navegación (prev y next) -->
@@ -259,20 +260,20 @@
             <h4>Sagat</h4>
             <div class="carousel-inner">
               <div class="carousel-item active"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/sagat1.jpg" class="glightbox">
-                <img src="assets/img/personajes/sagat1.jpg" class="character-img img-fluid" alt="Sagat Frontal"> </a>
+                <a href="assets/img/personajes/10-1.jpg" class="glightbox">
+                <img src="assets/img/personajes/10-1.jpg" class="character-img img-fluid" alt="Sagat Frontal"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/sagat2.jpg" class="glightbox">
-                <img src="assets/img/personajes/sagat2.jpg" class="character-img img-fluid" alt="Sagat Lateral"> </a>
+                <a href="assets/img/personajes/10-2.jpg" class="glightbox">
+                <img src="assets/img/personajes/10-2.jpg" class="character-img img-fluid" alt="Sagat Lateral"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/sagat3.jpg" class="glightbox">
-                <img src="assets/img/personajes/sagat3.jpg" class="character-img img-fluid" alt="Sagat con efecto"> </a>
+                <a href="assets/img/personajes/10-3.jpg" class="glightbox">
+                <img src="assets/img/personajes/10-3.jpg" class="character-img img-fluid" alt="Sagat con efecto"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/sagat4.jpg" class="glightbox">
-                <img src="assets/img/personajes/sagat4.jpg" class="character-img img-fluid" alt="Sagat pose"> </a>
+                <a href="assets/img/personajes/10-4.jpg" class="glightbox">
+                <img src="assets/img/personajes/10-4.jpg" class="character-img img-fluid" alt="Sagat pose"> </a>
               </div> </div> </div>
             </div>
             <!-- Botones de navegación (prev y next) -->
@@ -283,20 +284,20 @@
             <h4>Blanka</h4>
             <div class="carousel-inner">
               <div class="carousel-item active"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/blanka1.jpg" class="glightbox">
-                <img src="assets/img/personajes/blanka1.jpg" class="character-img img-fluid" alt="Blanka Frontal"> </a>
+                <a href="assets/img/personajes/11-1.jpg" class="glightbox">
+                <img src="assets/img/personajes/11-1.jpg" class="character-img img-fluid" alt="Blanka Frontal"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/blanka2.jpg" class="glightbox">
-                <img src="assets/img/personajes/blanka2.jpg" class="character-img img-fluid" alt="Blanka Lateral"> </a>
+                <a href="assets/img/personajes/11-2.jpg" class="glightbox">
+                <img src="assets/img/personajes/11-2.jpg" class="character-img img-fluid" alt="Blanka Lateral"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/blanka3.jpg" class="glightbox">
-                <img src="assets/img/personajes/blanka3.jpg" class="character-img img-fluid" alt="Blanka con efecto"> </a>
+                <a href="assets/img/personajes/11-3.jpg" class="glightbox">
+                <img src="assets/img/personajes/11-3.jpg" class="character-img img-fluid" alt="Blanka con efecto"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/blanka4.jpg" class="glightbox">
-                <img src="assets/img/personajes/blanka4.jpg" class="character-img img-fluid" alt="Blanka pose"> </a>
+                <a href="assets/img/personajes/11-4.jpg" class="glightbox">
+                <img src="assets/img/personajes/11-4.jpg" class="character-img img-fluid" alt="Blanka pose"> </a>
               </div> </div> </div>
             </div>
             <!-- Botones de navegación (prev y next) -->
@@ -307,20 +308,20 @@
             <h4>Vega</h4>
             <div class="carousel-inner">
               <div class="carousel-item active"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/vega1.jpg" class="glightbox">
-                <img src="assets/img/personajes/vega1.jpg" class="character-img img-fluid" alt="Vega Frontal"> </a>
+                <a href="assets/img/personajes/12-1.jpg" class="glightbox">
+                <img src="assets/img/personajes/12-1.jpg" class="character-img img-fluid" alt="Vega Frontal"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/vega2.jpg" class="glightbox">
-                <img src="assets/img/personajes/vega2.jpg" class="character-img img-fluid" alt="Vega Lateral"> </a>
+                <a href="assets/img/personajes/12-2.jpg" class="glightbox">
+                <img src="assets/img/personajes/12-2.jpg" class="character-img img-fluid" alt="Vega Lateral"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/vega3.jpg" class="glightbox">
-                <img src="assets/img/personajes/vega3.jpg" class="character-img img-fluid" alt="Vega con efecto"> </a>
+                <a href="assets/img/personajes/12-3.jpg" class="glightbox">
+                <img src="assets/img/personajes/12-3.jpg" class="character-img" alt="Vega con efecto"> </a>
               </div> </div> </div>
               <div class="carousel-item"> <div class="character-item"> <div class="character-images">
-                <a href="assets/img/personajes/vega4.jpg" class="glightbox">
-                <img src="assets/img/personajes/vega4.jpg" class="character-img img-fluid" alt="Vega pose"> </a>
+                <a href="assets/img/personajes/12-4.jpg" class="glightbox">
+                <img src="assets/img/personajes/12-4.jpg" class="character-im" alt="Vega pose"> </a>
               </div> </div> </div>
             </div>
             <!-- Botones de navegación (prev y next) -->
@@ -328,6 +329,9 @@
             <button class="carousel-control-next" type="button" data-bs-target="#vega" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
           </div>
           <!-- ---------------------------------------------------------- Wave  5 ---------------------------------------------------------- -->
+                                                                      <!-- ------------------------------------------------------- AKUMA -->
+                                                                      <!-- ---------------------------------------------------- E. HONDA -->
+                                                                      <!-- ------------------------------------------------------ BALROG -->
         </div>
       </div>
     </div>

@@ -122,18 +122,18 @@
   border-color: green;
   border-width: 1px;
 }
-/* ---------------------------------------------------------------------- CAMMY */
-#inicio .col8 {
-  background-color: lime; 
-  color: black;
-  border-color: lime;
-  border-width: 1px;
-}
 /* -------------------------------------------------------------------- DEE JAY */
-#inicio .col9 {
+#inicio .col8 {
   background-color: orangered; 
   color: white;
   border-color: orangered;
+  border-width: 1px;
+}
+/* ---------------------------------------------------------------------- CAMMY */
+#inicio .col9 {
+  background-color: lime; 
+  color: black;
+  border-color: lime;
   border-width: 1px;
 }
 /* *********************************************************** Tabla de la wave 4 *********************************************************** */

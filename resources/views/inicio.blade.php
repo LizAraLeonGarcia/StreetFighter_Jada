@@ -67,8 +67,8 @@
                             </thead>
                             <tbody>
                                 <tr> <td class="col7">Guile</td> </tr>
-                                <tr> <td class="col8">Cammy</td> </tr>
-                                <tr> <td class="col9">Dee Jay</td> </tr>
+                                <tr> <td class="col8">Dee Jay</td> </tr>
+                                <tr> <td class="col9">Cammy</td> </tr>
                             </tbody>
                         </table>
                     </div>
@@ -94,7 +94,7 @@
                                 <tr>  <th>Wave 5</th> </tr>
                             </thead>
                             <tbody>
-                                <tr> <td class="col13">T. Hawk</td> </tr>
+                                <tr> <td class="col13"> Akuma </td> </tr>
                                 <tr> <td class="col14">Balrog</td> </tr>
                                 <tr> <td class="col15">E. Honda</td> </tr>
                             </tbody>
@@ -108,7 +108,7 @@
                                 <tr> <th>Wave 6</th> </tr>
                             </thead>
                             <tbody>
-                                <tr> <td class="col16"> Akuma </td> </tr>
+                                <tr> <td class="col16">T. Hawk</td> </tr>                                
                                 <tr> <td class="col17"> Zangief </td> </tr>
                                 <tr> <td>¿ ?</td> </tr>
                             </tbody>

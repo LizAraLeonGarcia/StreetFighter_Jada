@@ -66,9 +66,11 @@
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/z3.jpg"><img src="assets/img/galeria/z3.jpg" alt="16 figuras"></a></div>
             </div>
             <div class="swiper-controls">
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-next"></div>
+              <div class="swiper-nav-buttons">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+              </div>
             </div>
           </div>
         </div>

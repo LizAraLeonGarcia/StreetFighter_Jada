@@ -1,16 +1,18 @@
 document.addEventListener('DOMContentLoaded', function () {
-  // Obtén las listas de personajes
+  // -------------------------------------------------- Obtención de las listas de personajes --------------------------------------------------
   const ryuGrisItem = document.getElementById("ryugris");
   const kenBlancoItem = document.getElementById("kenblanco");
   const chunLiRojaItem = document.getElementById("chunliroja");
   const mBisonAzulItem = document.getElementById("mbisonazul");
   const guileAzulItem = document.getElementById("guileazul");
-  // Obtén los contenedores correspondientes
+  const cammyGrisItem = document.getElementById("cammygris");
+  // ------------------------------------------------------ Obtención de los contenedores ------------------------------------------------------
   const ryuGrisContainer = document.querySelector(".ryugris-container");
   const kenBlancoContainer = document.querySelector(".kenblanco-container");
   const chunLiRojaContainer = document.querySelector(".chunliroja-container");
   const mBisonAzulContainer = document.querySelector(".mbisonazul-container");
   const guileAzulContainer = document.querySelector(".guileazul-container");
+  const cammyGrisContainer = document.querySelector(".cammygris-container");
   // Función para ocultar todos los contenedores
   function hideAllContainers() {
     ryuGrisContainer.style.display = "none";
@@ -18,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
     chunLiRojaContainer.style.display = "none";
     mBisonAzulContainer.style.display = "none";
     guileAzulContainer.style.display = "none";
+    cammyGrisContainer.style.display = "none";
   }
   // Función para mostrar el contenedor seleccionado
   function showContainer(container) {
@@ -32,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
     chunLiRojaItem.classList.remove('active');
     mBisonAzulItem.classList.remove('active');
     guileAzulItem.classList.remove('active');
+    cammyGrisItem.classList.remove('active');
     // Agrega la clase active al elemento seleccionado
     item.classList.add('active');
   }
@@ -60,6 +64,11 @@ document.addEventListener('DOMContentLoaded', function () {
   guileAzulItem.addEventListener("click", function() {
     showContainer(guileAzulContainer);
     setActiveItem(guileAzulItem);
+  });
+  // Cammy -------------------------------------------------------------------------------------------------------------------------------------
+  cammyGrisItem.addEventListener("click", function() {
+    showContainer(cammyGrisContainer);
+    setActiveItem(cammyGrisItem);
   });
   // Por defecto, mostrar a Ryu Gris (Player 2) al cargar la página y establecerlo como activo
   showContainer(ryuGrisContainer);

@@ -4,16 +4,22 @@ document.addEventListener('DOMContentLoaded', function () {
   const violentKenButton = document.getElementById('violentken');
   const chunLiRosaButton = document.getElementById('chunlirosa');
   const feiLongMoradoButton = document.getElementById('feilongmorado');
+  const mBisonVerdeButton = document.getElementById('mbisonverde');
+  const dhalsimMoradoButton = document.getElementById('dhalsimmorado');
   // Selecciona los contenedores de personajes
   const evilRyuContainer = document.querySelector('.evilryu-container');
   const violentKenContainer = document.querySelector('.violentken-container');
   const chunLiRosaContainer = document.querySelector('.chunlirosa-container');
   const feiLongMoradoContainer = document.querySelector('.feilongmorado-container');
+  const mBisonVerdeContainer = document.querySelector('.mbisonverde-container');
+  const dhalsimMoradoContainer = document.querySelector('.dhalsimmmorado-container');
   // Selecciona las miniaturas de imágenes de cada contenedor
   const evilRyuThumbnails = evilRyuContainer.querySelectorAll('.thumbnail-image');
   const violentKenThumbnails = violentKenContainer.querySelectorAll('.thumbnail-image');
   const chunLiRosaThumbnails = chunLiRosaContainer.querySelectorAll('.thumbnail-image');
   const feiLongMoradoThumbnails = feiLongMoradoContainer.querySelectorAll('.thumbnail-image');
+  const mBisonVerdeThumbnails = mBisonVerdeContainer.querySelectorAll('.thumbnail-image');
+  const dhalsimMoradoThumbnails = dhalsimMoradoContainer.querySelectorAll('.thumbanil-image');
   // Función para cambiar la imagen activa
   function changeActiveImage(container, newSrc) {
     const activeImage = container.querySelector('#active-image');
@@ -33,6 +39,8 @@ document.addEventListener('DOMContentLoaded', function () {
     violentKenContainer.style.display = 'none';
     chunLiRosaContainer.style.display = 'none';
     feiLongMoradoContainer.style.display = 'none';
+    mBisonVerdeContainer.style.display = 'none';
+    dhalsimMoradoContainer.style.display = 'none';
     // Muestra el contenedor del personaje seleccionado
     containerToShow.style.display = 'block';
     // Vincula los eventos de las miniaturas con el contenedor actual
@@ -73,6 +81,16 @@ document.addEventListener('DOMContentLoaded', function () {
   feiLongMoradoButton.addEventListener('click', function () {
     showCharacter(feiLongMoradoContainer, feiLongMoradoThumbnails);
     setActiveTab(feiLongMoradoButton);
+  });
+  // ----------------------------------------------------------------------------------------------------------------- m. bison verde (player 2)
+  mBisonVerdeButton.addEventListener('click', function () {
+    showCharacter(mBisonVerdeContainer, mBisonVerdeThumbnails);
+    setActiveTab(mBisonVerdeButton);
+  });
+  // ----------------------------------------------------------------------------------------------------------------- dhalsim morado (player 2)
+  dhalsimMoradoButton.addEventListener('click', function () {
+    showCharacter(dhalsimMoradoContainer, dhalsimMoradoThumbnails);
+    setActiveTab(dhalsimMoradoButton);
   });
   // Inicia con Evil Ryu seleccionado por defecto
   showCharacter(evilRyuContainer, evilRyuThumbnails);

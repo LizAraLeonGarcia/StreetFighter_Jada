@@ -13,6 +13,8 @@
         <li id="violentken">Violent Ken</li>
         <li id="chunlirosa">Chun Li Player 2</li>
         <li id="feilongmorado"> Fei Long Player 2</li>
+      <!--  <li id="mbisonverde">M. Bison Player 2</li>
+        <li id="dhalsimmorado">Dhalsim Player 2</li>-->
       </ol>
     </div>
     <!-- ------------------------------------------------------ Contenedor personajes ------------------------------------------------------ -->
@@ -54,7 +56,7 @@
             <img id="active-image" src="assets/img/especiales/evilryu1.jpg" alt="Evil Ryu" class="especial-img" />
           </div>
         </div>
-      </div>
+      </div> <!-- cierre Evil Ryu -->
       <!-- --------------------------------------------------------------------------------------------------------------------- Violent Ken -->
       <div class="violentken-container especiales-container" style="display: none;">
         <h4>Violent Ken</h4>
@@ -92,7 +94,7 @@
             <img id="active-image" src="assets/img/especiales/violentken1.jpg" alt="Violent Ken" class="especial-img" />
           </div>
         </div> 
-      </div>
+      </div> <!-- cierre Violent Ken -->
       <!-- ------------------------------------------------------------------------------------------------------------------------- Chun Li -->
       <div class="chunlirosa-container especiales-container" style="display: none;">
         <h4>Chun Li Player 2</h4>
@@ -130,7 +132,7 @@
             <img id="active-image" src="assets/img/especiales/chunlirosa1.jpg" alt="Chun Li Player 2" class="especial-img" />
           </div>
         </div>    
-      </div> 
+      </div> <!-- cierre Chun Li Player 2-->
       <!-- ------------------------------------------------------------------------------------------------------------------------- Chun Li -->
       <div class="feilongmorado-container especiales-container" style="display: none;">
         <h4>Fei Long Player 2</h4>
@@ -168,7 +170,77 @@
             <img id="active-image" src="assets/img/especiales/feilongmorado1.jpg" alt="Fei Long Player 2" class="especial-img" />
           </div>
         </div>    
-      </div>     
+      </div> <!-- cierre Fei Long Player 2 -->
+      <!-- ---------------------------------------------------------------------------------------------------------------- M. Bison Player 2 -->
+      <!-- <div class="mbisonverde-container especiales-container" style="display: none;">
+        <h4>M. Bison Player 2</h4>
+        <div class="main-container">
+          <div id="image-pagination">
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/mbisonverde1.jpg" alt="M. Bison Player 2 Frontal" class="thumbnail-image" data-large-src="assets/img/especiales/mbisonverde1.jpg" />
+            </div>
+            <div clas="image-thumbnail">
+              <img src="assets/img/especiales/mbisonverde2.jpg" alt="M. Bison Player 2 Trasera" class="thumbnail-image" data-large-src="assets/img/especiales/mbisonverde2.jpg" />
+            </div>
+            <div clas="image-thumbnail">
+              <img src="assets/img/especiales/mbisonverde3.jpg" alt="M. Bison Player 2 Lateral" class="thumbnail-image" data-large-src="assets/img/especiales/mbisonverde3.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/mbisonverde4.jpg" alt="M. Bison Player 2 Dentro" class="thumbnail-image" data-large-src="assets/img/especiales/mbisonverde4.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/mbisonverde5.jpg" alt="M. Bison Player 2 Efecto 1" class="thumbnail-image" data-large-src="assets/img/especiales/mbisonverde5.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/mbisonverde6.jpg" alt="M. Bison Player 2 Efecto 2" class="thumbnail-image" data-large-src="assets/img/especiales/mbisonverde6.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/mbisonverde7.jpg" alt="M. Bison Player 2 Pose 1" class="thumbnail-image" data-large-src="assets/img/especiales/mbisonverde7.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/mbisonverde8.jpg" alt="M. Bison Player 2 Pose 2" class="thumbnail-image" data-large-src="assets/img/especiales/mbisonverde8.jpg" />
+            </div>
+          </div>
+          <div id="active-image-container">
+            <img id="active-image" src="assets/img/especiales/mbisonverde1.jpg" alt="M. Bison Player 2" class="especial-img" />
+          </div>
+        </div> 
+      </div>cierre M. Bison Player 2 -->
+      <!-- ----------------------------------------------------------------------------------------------------------------- Dhalsim Player 2 -->
+    <!--  <div class="dhalsimmorado-container especiales-container" style="display: none;">
+        <h4>Dhalsim Player 2</h4>
+        <div class="main-container">
+          <div id="image-pagination">
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/dhalsimmorado1.jpg" alt="Dhalsim Player 2 Frontal" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimmorado1.jpg" />
+            </div>
+            <div clas="image-thumbnail">
+              <img src="assets/img/especiales/dhalsimmorado2.jpg" alt="Dhalsim Player 2 Trasera" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimmorado2.jpg" />
+            </div>
+            <div clas="image-thumbnail">
+              <img src="assets/img/especiales/dhalsimmorado3.jpg" alt="Dhalsim Player 2 Lateral" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimmorado3.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/dhalsimmorado4.jpg" alt="Dhalsim Player 2 Dentro" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimmorado4.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/dhalsimmorado5.jpg" alt="Dhalsim Player 2 Efecto 1" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimmorado5.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/dhalsimmorado6.jpg" alt="Dhalsim Player 2 Efecto 2" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimmorado6.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/dhalsimmorado7.jpg" alt="Dhalsim Player 2 Pose 1" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimmorado7.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/dhalsimmorado8.jpg" alt="Dhalsim Player 2 Pose 2" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimmorado8.jpg" />
+            </div>
+          </div>
+          <div id="active-image-container">
+            <img id="active-image" src="assets/img/especiales/dhalsimmorado1.jpg" alt="Dhalsim Player 2" class="especial-img" />
+          </div>
+        </div> 
+      </div>cierre Dhalsim Player 2 --> 
     </div> <!-- Contenedor personajes -->
   </div> <!-- Contenedor general -->
 @endsection

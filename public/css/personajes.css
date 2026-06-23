@@ -1,18 +1,8 @@
-/* ***************************************************************** Título ***************************************************************** */
-.character-item {
-  text-align: center;
-}
-
-.character-item h4 {
-  font-size: 24px;
-  color: #333;
-}
-/* ************************************************************* Carrusel */
+/* **************************************************************** Carrusel **************************************************************** */
 .carousel {
   display: none;
   height: 100%;
   width: 90%;
-  overflow: hidden;
   padding: 10px;
   padding-bottom: 30px;
   margin: 10px;
@@ -22,59 +12,211 @@
   display: block;
 }
 
-.carousel h4 {
-  text-align: center;
-  font-style: italic;
-  font-size: 30px;
-  color: black;
+.carousel-inner {
+    overflow: visible !important;
 }
-
-.carousel-item img {
-  height: 400px;
-  max-width: auto;
-  padding-top: 10px;
-}
-
-/* Botones de navegación */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: black;
-  color: white;
-  border-radius: 50%;
-}
-
-/* Efectos para botones */
-button.carousel-control-prev,
-button.carousel-control-next {
-  border: none;
-  background: transparent;
-}
-/* *************************************************************** Paginación *************************************************************** */
+/* ----------------------------------------------------------  Estilización de las opciones */
 #customPagination {
-  display: block;
-  column-count: 2; /* Divide la lista en 3 columnas */
-  column-gap: 10px; /* Espacio entre las columnas */
-  overflow: hidden; /* Evita que la lista se desborde */  
-  padding: 10px;
-  margin: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: .5rem;
 }
 
 #customPagination li {
-  font-size: 18px;
-  text-align: center;
-  padding: 5px 5px;
-  margin: 5px 5px;
-  background-color: black;
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+    padding: .4rem .75rem;
+    margin: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    white-space: nowrap;
 }
-/* Cambia el color para destacar el elemento seleccionado */
+/* ------------------------------------------------------------------------------------ Cambia el color para destacar el elemento seleccionado */
 #customPagination li.active {
   font-weight: bold;
   color: darkgreen;
   background-color: #c1c6ca;
   cursor: default;
+}
+/* ------------------------------------------------------------- Nombre del personaje */
+/* --------------------------------------------------------------------------------------------------------------------------------------- Ryu */
+.character-ryu h4{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  -webkit-text-stroke: 1px red;
+  text-shadow: 1px 1px 0 red;
+  padding-bottom: 20px;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------- Fei Long */
+.character-feilong h4{
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  -webkit-text-stroke: 1px whitesmoke;
+  text-shadow: 1px 1px 0 whitesmoke;
+  padding-bottom: 20px;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------- Chun Li */
+.character-chunli h4{
+  text-align: center;
+  font-size: 50px;
+  color: blue;
+  -webkit-text-stroke: 1px gold;
+  text-shadow: 1px 1px 0 gold;
+  padding-bottom: 20px;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------- Ken */
+.character-ken h4{
+  text-align: center;
+  font-size: 50px;
+  color: red;
+  -webkit-text-stroke: 1px saddlebrown;
+  text-shadow: 1px 1px 0 saddlebrown;
+  padding-bottom: 20px;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------- Dhalsim */
+.character-dhalsim h4{
+  text-align: center;
+  font-size: 50px;
+  color: yellow;
+  -webkit-text-stroke: 1px ghostwhite;
+  text-shadow: 1px 1px 0 ghostwhite;
+  padding-bottom: 20px;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------- M. Bison */
+.character-mbison h4{
+  text-align: center;
+  font-size: 50px;
+  color: crimson;
+  -webkit-text-stroke: 1px silver;
+  text-shadow: 1px 1px 0 silver;
+  padding-bottom: 20px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------- Guile */
+.character-guile h4{
+  text-align: center;
+  font-size: 50px;
+  color: green;
+  -webkit-text-stroke: 1px darkgreen;
+  text-shadow: 1px 1px 0 darkgreen;
+  padding-bottom: 20px;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------- Dee Jay */
+.character-deejay h4{
+  text-align: center;
+  font-size: 50px;
+  color: orangered;
+  -webkit-text-stroke: 1px midnightblue;
+  text-shadow: 1px 1px 0 midnightblue;
+  padding-bottom: 20px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------- Cammy */
+.character-cammy h4{
+  text-align: center;
+  font-size: 50px;
+  color: green;
+  -webkit-text-stroke: 1px red;
+  text-shadow: 1px 1px 0 red;
+  padding-bottom: 20px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------- Sagat */
+.character-sagat h4{
+  text-align: center;
+  font-size: 50px;
+  color: mediumblue;
+  -webkit-text-stroke: 1px red;
+  text-shadow: 1px 1px 0 red;
+  padding-bottom: 20px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------ Blanka */
+.character-blanka h4{
+  text-align: center;
+  font-size: 50px;
+  color: greenyellow;
+  -webkit-text-stroke: 1px sienna;
+  text-shadow: 1px 1px 0 sienna;
+  padding-bottom: 20px;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------- Vega */
+.character-vega h4{
+  text-align: center;
+  font-size: 50px;
+  color: purple;
+  -webkit-text-stroke: 1px gold;
+  text-shadow: 1px 1px 0 gold;
+  padding-bottom: 20px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------- Akuma */
+.character-akuma h4{
+  text-align: center;
+  font-size: 50px;
+  color: darkslateblue;
+  -webkit-text-stroke: 1px peru;
+  text-shadow: 1px 1px 0 peru;
+  padding-bottom: 20px;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------- E. Honda */
+.character-ehonda h4{
+  text-align: center;
+  font-size: 50px;
+  color: royalblue;
+  -webkit-text-stroke: 1px snow;
+  text-shadow: 1px 1px 0 snow;
+  padding-bottom: 20px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------ Balrog */
+.character-balrog h4{
+  text-align: center;
+  font-size: 50px;
+  color: skyblue;
+  -webkit-text-stroke: 1px red;
+  text-shadow: 1px 1px 0 red;
+  padding-bottom: 20px;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------- T. Hawk */
+.character-thawk h4{
+  text-align: center;
+  font-size: 50px;
+  color: dodgerblue;
+  -webkit-text-stroke: 1px darkgoldenrod;
+  text-shadow: 1px 1px 0 darkgoldenrod;
+  padding-bottom: 20px;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------- Zangief */
+.character-zangief h4{
+  text-align: center;
+  font-size: 50px;
+  color: firebrick;
+  -webkit-text-stroke: 1px yellow;
+  text-shadow: 1px 1px 0 yellow;
+  padding-bottom: 20px;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------- Imagenes */
+.character-imagen {
+  /*max-height: 400px;
+  width: auto;
+  height: auto;
+  padding-top: 8px;*/
+  display: block;
+  max-width: 100%;
+  max-height: 400px;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 /* ************************************************************* RESPONSIVIDAD ************************************************************* */
 /* ------------------------------------------------------------------------------------------------------------------------ Pantallas grandes */

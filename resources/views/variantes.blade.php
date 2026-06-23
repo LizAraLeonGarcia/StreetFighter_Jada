@@ -12,8 +12,9 @@
         <li id="ryugris" class="active">Ryu Player 2</li>
         <li id="kenblanco">Ken Player 2</li>
         <li id="chunliroja">Chun Li Roja</li>
-        <li id="mbisonazul">M. Bison Player 2</li>
+        <li id="mbisonazul">M. Bison Azul</li>
         <li id="guileazul">Guile Player 2</li>
+        <li id="cammygris">Cammy Player 2</li>
       </ol>
     </div>
     <!-- ------------------------------------------------------ Contenedor personajes ------------------------------------------------------ -->
@@ -36,18 +37,24 @@
         <img src="assets/img/variantes/chunliroja1.jpg" class="variante-img" alt="Chun Li Roja">
         <img src="assets/img/variantes/chunliroja2.jpg" class="variante-img" alt="Chun Li Roja posando">
       </div> 
-      <!-- ---------------------------------------------------------------------------------------------------------------- M Bison Player 2 -->
+      <!-- --------------------------------------------------------------------------------------------------------------------- M Bison Azul -->
       <div class="mbisonazul-container variantes-container">
-        <h4>M. Bison Player 2</h4>
-        <img src="assets/img/variantes/mbisonazul1.jpg" class="variante-img" alt="M. Bison Player 2">
-        <img src="assets/img/variantes/mbisonazul2.jpg" class="variante-img" alt="M. Bison Player 2 posando">
+        <h4>M. Bison Azul</h4>
+        <img src="assets/img/variantes/mbisonazul1.jpg" class="variante-img" alt="M. Bison Azul">
+        <img src="assets/img/variantes/mbisonazul2.jpg" class="variante-img" alt="M. Bison Azul posando">
       </div>    
       <!-- ------------------------------------------------------------------------------------------------------------------ Guile Player 2 -->
       <div class="guileazul-container variantes-container">
         <h4>Guile Player 2</h4>
         <img src="assets/img/variantes/guileazul1.jpg" class="variante-img" alt="Guile Player 2">
         <img src="assets/img/variantes/guileazul2.jpg" class="variante-img" alt="Guile Player 2 posando">
-      </div>             
+      </div> 
+      <!-- ------------------------------------------------------------------------------------------------------------------- Cammy Player 2 -->            
+      <div class="cammygris-container variantes-container"> 
+        <h4>Cammy Player 2</h4>
+        <img src="assets/img/variantes/cammygris1.jpg" class="variante-img" alt="Cammy Player 2">
+        <img src="assets/img/variantes/cammygris2.jpg" class="variante-img" alt="Cammy Player 2 posando">
+      </div>
     </div> <!-- Contenedor personajes -->
   </div> <!-- Contenedor general -->
 @endsection

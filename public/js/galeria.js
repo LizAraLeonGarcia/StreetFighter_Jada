@@ -1,5 +1,17 @@
 document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.swiper-container').forEach(function (container) {
+    const nextBtn = container.querySelector('.swiper-button-next');
+    const prevBtn = container.querySelector('.swiper-button-prev');
+    const paginationEl = container.querySelector('.swiper-pagination');
+
+    document.querySelectorAll('[data-bs-toggle="pill"]').forEach(tab => {
+      tab.addEventListener('shown.bs.tab', function () {
+        document.querySelectorAll('.swiper-container').forEach(swiperEl => {
+          swiperEl.swiper?.update();
+        });
+      });
+    });
+
     new Swiper(container, {
       loop: true,
       spaceBetween: 20,

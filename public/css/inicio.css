@@ -71,134 +71,156 @@
   text-transform: uppercase;
 }
 /* *********************************************************** Tabla de la wave 1 *********************************************************** */
-/* ------------------------------------------------------------------------ RYU */
+/* -------------------------------------------------------------------------------------------------------------------------------------- RYU */
 #inicio .col1 {
   background-color: white; 
   color: black;
   border-color: white;
   border-width: 1px;
+  text-align: center;
 }
-/* ------------------------------------------------------------------- FEI LONG */
+/* --------------------------------------------------------------------------------------------------------------------------------- FEI LONG */
 #inicio .col2 {
   background-color: black; 
   color: white;
   border-color: black;
   border-width: 1px;
+  text-align: center;
 }
-/* -------------------------------------------------------------------- CHUN LI */
+/* ---------------------------------------------------------------------------------------------------------------------------------- CHUN LI */
 #inicio .col3 {
   background-color: blue; 
   color: white;
   border-color: blue;
   border-width: 1px;
+  text-align: center;
 }
 /* *********************************************************** Tabla de la wave 2 *********************************************************** */
-/* ------------------------------------------------------------------------ KEN */
+/* -------------------------------------------------------------------------------------------------------------------------------------- KEN */
 #inicio .col4 {
   background-color: red; 
   color: white;
   border-color: red;
   border-width: 1px;
+  text-align: center;
 }
-/* -------------------------------------------------------------------- DHALSIM */
+/* ---------------------------------------------------------------------------------------------------------------------------------- DHALSIM */
 #inicio .col5 {
   background-color: yellow;
   color: black;
   border-color: yellow;
   border-width: 1px;
+  text-align: center;
 }
-/* -------------------------------------------------------------------- M BISON */
+/* --------------------------------------------------------------------------------------------------------------------------------- M. BISON */
 #inicio .col6 {
   background-color: darkred; 
   color: white;
   border-color: darkred;
   border-width: 1px;
+  text-align: center;
 }
 /* *********************************************************** Tabla de la wave 3 *********************************************************** */
-/* ---------------------------------------------------------------------- GUILE */
+/* ------------------------------------------------------------------------------------------------------------------------------------ GUILE */
 #inicio .col7 {
   background-color: green; 
   color: white;
   border-color: green;
   border-width: 1px;
+  text-align: center;
 }
-/* -------------------------------------------------------------------- DEE JAY */
+/* ---------------------------------------------------------------------------------------------------------------------------------- DEE JAY */
 #inicio .col8 {
   background-color: orangered; 
   color: white;
   border-color: orangered;
   border-width: 1px;
+  text-align: center;
 }
-/* ---------------------------------------------------------------------- CAMMY */
+/* ------------------------------------------------------------------------------------------------------------------------------------ CAMMY */
 #inicio .col9 {
-  background-color: lime; 
+  background-color: yellowgreen; 
   color: black;
-  border-color: lime;
+  border-color: yellowgreen;
   border-width: 1px;
+  text-align: center;
 }
 /* *********************************************************** Tabla de la wave 4 *********************************************************** */
-/* ---------------------------------------------------------------------- SAGAT */
+/* ------------------------------------------------------------------------------------------------------------------------------------ SAGAT */
 #inicio .col10 {
-  background-color: darkblue; 
+  background-color: mediumblue; 
   color: white;
-  border-color: darkblue;
+  border-color: mediumblue;
   border-width: 1px;
+  text-align: center;
 }
-/* --------------------------------------------------------------------- BLANKA */
+/* ----------------------------------------------------------------------------------------------------------------------------------- BLANKA */
 #inicio .col11 {
   background-color: greenyellow; 
   color: black;
   border-color: greenyellow;
   border-width: 1px;
+  text-align: center;
 }
-/* ----------------------------------------------------------------------- VEGA */
+/* ------------------------------------------------------------------------------------------------------------------------------------- VEGA */
 #inicio .col12 {
   background-color: purple; 
   color: white;
   border-color: purple;
   border-width: 1px;
+  text-align: center;
 }
 /* *********************************************************** Tabla de la wave 5 *********************************************************** */
-/* --------------------------------------------------------------------- T HAWK */
+/* ------------------------------------------------------------------------------------------------------------------------------------ AKUMA */
 #inicio .col13 {
-  background-color: dodgerblue; 
-  color: black;
-  border-color: dodgerblue;
+  background-color: darkslateblue; 
+  color: white;
+  border-color: darkslateblue;
   border-width: 1px;
+  text-align: center;
 }
-/* --------------------------------------------------------------------- BALROG */
+/* --------------------------------------------------------------------------------------------------------------------------------- E. HONDA */
 #inicio .col14 {
+  background-color: royalblue; 
+  color: white;
+  border-color: royalblue;
+  border-width: 1px;
+  text-align: center;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------- BALROG */
+#inicio .col15 {
   background-color: skyblue; 
   color: black;
   border-color: skyblue;
   border-width: 1px;
-}
-/* -------------------------------------------------------------------- E HONDA */
-#inicio .col15 {
-  background-color: cornflowerblue; 
-  color: black;
-  border-color: cornflowerblue;
-  border-width: 1px;
+  text-align: center;
 }
 /* *********************************************************** Tabla de la wave 6 *********************************************************** */
-/* ---------------------------------------------------------------------- AKUMA */
+/* ---------------------------------------------------------------------------------------------------------------------------------- T. HAWK */
 #inicio .col16 {
-  background-color: crimson; 
-  color: white;
-  border-color: crimson;
+  background-color: dodgerblue; 
+  color: black;
+  border-color: dodgerblue;
   border-width: 1px;
+  text-align: center;
 }
-/* -------------------------------------------------------------------- ZANGIEF */
+/* ---------------------------------------------------------------------------------------------------------------------------------- ZANGIEF */
 #inicio .col17 {
   background-color: firebrick; 
   color: white;
   border-color: firebrick;
   border-width: 1px;
+  text-align: center;
 }
 /* ************************************************************ Tabla especiales ************************************************************ */
+.inicio .tabla-especiales table td,
+.inicio .tabla-especiales table th {
+  color: white !important;
+  text-align: justify;
+}
+
 .inicio .encabezado-especiales {
   background-color: hotpink;
-  color: white;
   border-color: deeppink;
   border-width: 4px;
   text-align: center;
@@ -206,7 +228,6 @@
 
 .inicio .titulo-tabla-especiales {
   background-color: deeppink;
-  color: white;
   text-transform: uppercase;
 }
 
@@ -229,14 +250,27 @@
 .fila3E {
   background-color: rgb(253, 70, 162);
 }
-/* ------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------------------- FEI LONG */
 .fila4E {
   background-color: purple;
 }
+/* --------------------------------------------------------------------------------------------------------------------------------- M. BISON */
+.fila5E {
+  background-color: green;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------- DHALSIM */
+.fila6E {
+  background-color: orangered;
+}
 /* ********************************************************** Tabla para variantes ********************************************************** */
+.inicio .tabla-variantes table td,
+.inicio .tabla-variantes table th {
+  color: white !important;
+  text-align: justify;
+}
+
 .inicio .encabezado-variantes {
   background-color: crimson;
-  color: white;
   border-color: firebrick;
   border-width: 4px;
   text-align: center;
@@ -244,7 +278,6 @@
 
 .inicio .titulo-tabla-variantes {
   background-color: firebrick;
-  color: white;
   text-transform: uppercase;
 }
 
@@ -268,12 +301,16 @@
 .fila3V {
   background-color: crimson;
 }
-/* M. BISON PLAYER 2 ------------------------------------------------------------------------------------------------------------------------ */
+/* M. BISON BLUE ---------------------------------------------------------------------------------------------------------------------------- */
 .fila4V {
   background-color: dodgerblue;
 }
 /* GUILE PLAYER 2 --------------------------------------------------------------------------------------------------------------------------- */
 .fila5V {
   background-color: blue;
+}
+/*CAMMY PLAYER 2 */
+.fila6V {
+  background-color: grey;
 }
 /* ************************************************************* RESPONSIVIDAD ************************************************************* */

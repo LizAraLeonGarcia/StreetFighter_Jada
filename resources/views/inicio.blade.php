@@ -35,7 +35,7 @@
                     <div class="table-responsive wave1">
                         <table class="table table-bordered table-striped table-hover table-sm">
                             <thead class="encabezado-tabla">
-                                <tr> <th>Wave 1</th> </tr>
+                                <tr> <th>Wave 1: primavera 2023</th> </tr>
                             </thead>
                             <tbody>
                                 <tr> <td class="col1">Ryu</td> </tr>
@@ -49,7 +49,7 @@
                     <div class="table-responsive wave2">
                         <table class="table table-bordered table-striped table-hover table-sm">
                             <thead class="encabezado-tabla">
-                                <tr> <th>Wave 2</th> </tr>
+                                <tr> <th>Wave 2: primavera 2024</th> </tr>
                             </thead>
                             <tbody>
                                 <tr> <td class="col4">Ken</td> </tr>
@@ -63,7 +63,7 @@
                     <div class="table-responsive wave3">
                         <table class="table table-bordered table-striped table-hover table-sm">
                             <thead class="encabezado-tabla">
-                                <tr> <th>Wave 3</th> </tr>
+                                <tr> <th>Wave 3: otoño 2024</th> </tr>
                             </thead>
                             <tbody>
                                 <tr> <td class="col7">Guile</td> </tr>
@@ -77,7 +77,7 @@
                     <div class="table-responsive wave4">
                         <table class="table table-bordered table-striped table-hover table-sm">
                             <thead class="encabezado-tabla">
-                                <tr> <th>Wave 4</th> </tr>
+                                <tr> <th>Wave 4: primavera 2025</th> </tr>
                             </thead>
                             <tbody>
                                 <tr> <td class="col10">Sagat</td> </tr>
@@ -91,7 +91,7 @@
                     <div class="table-responsive wave5">
                         <table class="table table-bordered table-striped table-hover table-sm">
                             <thead class="encabezado-tabla">
-                                <tr>  <th>Wave 5</th> </tr>
+                                <tr>  <th>Wave 5: primavera 2026</th> </tr>
                             </thead>
                             <tbody>
                                 <tr> <td class="col13"> Akuma </td> </tr>
@@ -169,7 +169,7 @@
                             <tbody> <!-- ------------------------------------------------------------------------------------------ FEI LONG -->
                                 <tr class="fila4E">
                                     <td> Fei Long Player 2 </td>
-                                    <td> - </td>
+                                    <td> Wondercon 2025 </td>
                                     <td> Caja diferente y mediana, traje morado; 3 rostros, 4 pares de manos, 1 efecto y 2 nunchakos </td>
                                 </tr>
                             </tbody>
@@ -220,43 +220,50 @@
                             <tbody> <!-- ----------------------------------------------------------------------------------------------- RYU -->
                                 <tr class="fila1V"> 
                                     <td> Ryu </td>
-                                    <td> Player 2 </td>
+                                    <td> Paulmartstore</td>
                                     <td> Misma caja y accesorios, traje gris </td>
                                 </tr>
                             </tbody>
                             <tbody> <!-- ----------------------------------------------------------------------------------------------- KEN -->
                                 <tr class="fila2V"> 
                                     <td style="color:black !important;"> Ken </td>
-                                    <td style="color:black !important;"> Player 2 </td>
+                                    <td style="color:black !important;"> Entertainment Earth </td>
                                     <td style="color:black !important;"> Misma caja y accesorios más un extra (Shoryuken), traje blanco </td> 
                                 </tr>
                             </tbody>
                             <tbody> <!-- ------------------------------------------------------------------------------------------- CHUN LI -->
                                 <tr class="fila3V"> 
                                     <td> Chun Li </td>
-                                    <td> Red </td>
+                                    <td> Target </td>
                                     <td> Misma caja y accesorios, traje rojo </td> 
                                 </tr>
                             </tbody>
                             <tbody> <!-- ------------------------------------------------------------------------------------------- M BISON -->
                                 <tr class="fila4V"> 
                                     <td> M. Bison </td>
-                                    <td > Blue</td>
+                                    <td > Big Bad Toy Store </td>
                                     <td> Misma caja y accesorios, traje azul </td> 
                                 </tr>
                             </tbody>
                             <tbody> <!-- --------------------------------------------------------------------------------------------- GUILE -->
                                 <tr class="fila5V">
                                     <td> Guile </td>
-                                    <td> Player 2</td>
+                                    <td> Target </td>
                                     <td> Misma caja y accesorios, traje azul</td>
                                 </tr>
                             </tbody>
                             <tbody> <!-- --------------------------------------------------------------------------------------------- CAMMY -->
                                 <tr class="fila6V">
                                     <td> Cammy </td>
-                                    <td> Player 2</td>
+                                    <td> Entertainment Earth</td>
                                     <td> Misma caja y accesorios, traje gris con rosa</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr class="fila7V">
+                                    <td> Blanka </td>
+                                    <td> Big Bad Toy Store </td>
+                                    <td> Misma caja y accesorios, personaje color azul</td>
                                 </tr>
                             </tbody>
                         </table>

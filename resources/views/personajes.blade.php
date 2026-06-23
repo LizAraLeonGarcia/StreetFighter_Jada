@@ -4,7 +4,7 @@
   <div class="container-fluid">
     <!-- ------------------------------------------------------ contendor para título ------------------------------------------------------ -->
     <div class="section-title">
-      <h3>Personajes de las wave</h3>
+      <h3>Personajes</h3>
     </div>
     <!-- ---------------------------------------------------- contenedor para personaje ---------------------------------------------------- -->
     <div class="personajes">
@@ -13,23 +13,23 @@
         <div class="col-md-4">
           <!-- contendor para paginación --------------------------------------------------------------------------------------------------- -->
           <ol id="customPagination">
-            <li data-bs-target="#chunli" data-bs-slide-to="0">Chun Li</li>
-            <li data-bs-target="#vega" data-bs-slide-to="0">Vega</li>
-            <li data-bs-target="#cammy" data-bs-slide-to="0">Cammy</li>
-            <li data-bs-target="#guile" data-bs-slide-to="0">Guile</li>
-            <li data-bs-target="#ehonda" data-bs-slide-to="0">E. Honda</li>
-            <li data-bs-target="#dhalsim" data-bs-slide-to="0">Dhalsim</li>
-            <li data-bs-target="#deejay" data-bs-slide-to="0">Dee Jay</li>
-            <li data-bs-target="#ryu" data-bs-slide-to="0">Ryu</li>
-            <li data-bs-target="#sagat" data-bs-slide-to="0">Sagat</li>
-            <li data-bs-target="#ken" data-bs-slide-to="0">Ken</li>
-            <li data-bs-target="#blanka" data-bs-slide-to="0">Blanka</li>
-            <li data-bs-target="#mbison" data-bs-slide-to="0">M. Bison</li>
-            <li data-bs-target="#akuma" data-bs-slide-to="0">Akuma</li>
-            <li data-bs-target="#thawk" data-bs-slide-to="0">T. Hawk</li>
-            <li data-bs-target="#feilong" data-bs-slide-to="0">Fei Long</li>
-            <li data-bs-target="#balrog" data-bs-slide-to="0">Balrog</li>
-            <li data-bs-target="#zangief" data-bs-slide-to="0">Zangief</li>
+            <li class="char chunli" data-bs-target="#chunli" data-bs-slide-to="0">Chun Li</li>
+            <li class="char vega" data-bs-target="#vega" data-bs-slide-to="0">Vega</li>
+            <li class="char cammy" data-bs-target="#cammy" data-bs-slide-to="0">Cammy</li>
+            <li class="char guile" data-bs-target="#guile" data-bs-slide-to="0">Guile</li>
+            <li class="char ehonda" data-bs-target="#ehonda" data-bs-slide-to="0">E. Honda</li>
+            <li class="char dhalsim" data-bs-target="#dhalsim" data-bs-slide-to="0">Dhalsim</li>
+            <li class="char deejay" data-bs-target="#deejay" data-bs-slide-to="0">Dee Jay</li>
+            <li class="char ryu" data-bs-target="#ryu" data-bs-slide-to="0">Ryu</li>
+            <li class="char sagat" data-bs-target="#sagat" data-bs-slide-to="0">Sagat</li>
+            <li class="char ken" data-bs-target="#ken" data-bs-slide-to="0">Ken</li>
+            <li class="char blanka" data-bs-target="#blanka" data-bs-slide-to="0">Blanka</li>
+            <li class="char mbison" data-bs-target="#mbison" data-bs-slide-to="0">M. Bison</li>
+            <li class="char akuma" data-bs-target="#akuma" data-bs-slide-to="0">Akuma</li>
+            <li class="char thawk" data-bs-target="#thawk" data-bs-slide-to="0">T. Hawk</li>
+            <li class="char feilong" data-bs-target="#feilong" data-bs-slide-to="0">Fei Long</li>
+            <li class="char balrog" data-bs-target="#balrog" data-bs-slide-to="0">Balrog</li>
+            <li class="char zangief" data-bs-target="#zangief" data-bs-slide-to="0">Zangief</li>
           </ol>
         </div> <!-- contenedor de la lista / paginación -->
         <!-- ----------------------------------------------------- Columna del carrusel ----------------------------------------------------- --> 
@@ -395,7 +395,7 @@
             <button class="carousel-control-prev" type="button" data-bs-target="#balrog" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
             <button class="carousel-control-next" type="button" data-bs-target="#balrog" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
           </div>
-            
+
         </div>
       </div>
     </div>

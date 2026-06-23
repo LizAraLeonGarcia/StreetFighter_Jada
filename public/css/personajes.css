@@ -15,40 +15,70 @@
 .carousel-inner {
     overflow: visible !important;
 }
-/* ----------------------------------------------------------  Estilización de las opciones */
+/* --------------------------------------------------------- Estilización de la lista --------------------------------------------------------- */
 #customPagination {
     list-style: none;
-    padding: 0;
-    margin: 0;
-    max-width: 400px;
+    padding: 10px;
+    margin: 10px;
+
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 2rem;
-    row-gap: .5rem;
+    gap: .5rem 1rem;
 }
 
-#customPagination li {
+#customPagination li.char {
     display: flex;
     align-items: center;
+
     min-height: 40px;
-    padding: .4rem .75rem;
-    margin: 5px;
-    font-size: 18px;
-    text-align: center;
-    background-color: black;
-    color: white;
-    border: 1px solid #444;
+    padding: .5rem .75rem .5rem 1rem;
+
+    background: #111;
+    color: #fff;
+
     border-radius: 5px;
-    box-sizing: border-box;
     cursor: pointer;
-    white-space: nowrap;
+
+    position: relative;
+    transition: all .2s ease;
 }
-/* ------------------------------------------------------------------------------------ Cambia el color para destacar el elemento seleccionado */
-#customPagination li.active {
-  font-weight: bold;
-  color: darkgreen;
-  background-color: #c1c6ca;
-  cursor: default;
+
+.char::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+    border-radius: 5px 0 0 5px;
+}
+
+.chunli::before { background: blue; }
+.vega::before   { background: purple; }  
+.cammy::before  { background: yellowgreen; }  
+.guile::before  { background: green; } 
+.ehonda::before { background: royalblue; }  
+.dhalsim::before { background: yellow; }  
+.deejay::before { background: orangered; }  
+.ryu::before  { background: white; }  
+.sagat::before {background: mediumblue;}
+.ken::before {background: red;}
+.blanka::before {background: greenyellow;}
+.mbison::before {background: crimson;}
+.akuma::before {background: darkslateblue;}
+.thawk::before {background: dodgerblue;}
+.feilong::before {background: black;}
+.balrog::before {background: skyblue;}
+.zangief::before {background: firebrick;}
+
+#customPagination li.char:hover {
+    background: #222;
+    transform: translateX(2px);
+}
+
+#customPagination li.char.active {
+    background: #1a1a1a;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
 }
 /* ------------------------------------------------------------- Nombre del personaje */
 /* --------------------------------------------------------------------------------------------------------------------------------------- Ryu */

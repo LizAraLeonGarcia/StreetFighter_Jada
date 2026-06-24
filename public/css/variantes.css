@@ -12,29 +12,65 @@
   font-style: italic;
 }
 /* ********************************************************** Lista de navegación ********************************************************** */
-ol {
-  display: flex;
-  justify-content: center;
+.menu-variantes {
+  list-style: none;
   padding: 0;
-  margin: 20px 0;
-  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-ol li {
-  margin: 0 15px;
-  padding: 10px 20px;
-  cursor: pointer;
+.menu-variantes li {
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: white;
   font-weight: bold;
-  color: black;
-  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  transition: all .25s ease;
+  text-transform: uppercase;
   border: 2px solid transparent;
-  border-radius: 10px;
+}
+
+#ryuGris {
+  background: linear-gradient(135deg, #555, #999);
+}
+
+#kenBlanco {
+  background: linear-gradient(135deg, #e0e0e0, #ffffff);
+  color: #111;
+}
+
+#chunLiRoja {
+  background: linear-gradient(135deg, #b30000, #ff4d4d);
+}
+
+#mBisonAzul {
+  background: linear-gradient(135deg, #001f4d, #3399ff);
+}
+
+#guileAzul {
+  background: linear-gradient(135deg, #003366, #00bfff);
+}
+
+#cammyGris {
+  background: linear-gradient(135deg, #666, #bbb);
+}
+
+#blankaAzul {
+  background: linear-gradient(135deg, #003366, #00bfff);
 }
 /* ************************************************************ Elemento activo ************************************************************ */
-.active {
-  color: green;
-  border-color: green;
-  transform: scale(1.1);
+.menu-variantes li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 10px rgba(255,255,255,.4);
+}
+
+.menu-variantes li.active {
+  transform: scale(1.08);
+  border: 2px solid #fff;
+  box-shadow:
+    0 0 10px #fff,
+    0 0 20px rgba(255,255,255,.5);
 }
 /* ****************************************************** Acomodo de las imágenes */
 #variantes .variantes-container {

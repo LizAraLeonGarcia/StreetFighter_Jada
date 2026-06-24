@@ -4,17 +4,17 @@
   <div class="container-fluid">
     <!-- ------------------------------------------------------ Contendor para título ------------------------------------------------------ -->
     <div class="section-title">
-      <h3>Personajes exclusivos de la SDCC</h3>
+      <h3>Personajes exclusivos</h3>
     </div>
     <!-- -------------------------------------------------------------- Lista -------------------------------------------------------------- -->
     <div class="col-md-12">
-      <ol>
+      <ol class="menu-especiales">
         <li id="evilryu" class="active">Evil Ryu</li>
         <li id="violentken">Violent Ken</li>
         <li id="chunlirosa">Chun Li Player 2</li>
         <li id="feilongmorado"> Fei Long Player 2</li>
-      <!--  <li id="mbisonverde">M. Bison Player 2</li>
-        <li id="dhalsimmorado">Dhalsim Player 2</li>-->
+        <li id="mbisonverde">M. Bison Player 2</li>
+        <li id="dhalsimmorado">Dhalsim Player 2</li>
       </ol>
     </div>
     <!-- ------------------------------------------------------ Contenedor personajes ------------------------------------------------------ -->

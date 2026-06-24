@@ -1,18 +1,20 @@
 document.addEventListener('DOMContentLoaded', function () {
   // -------------------------------------------------- Obtención de las listas de personajes --------------------------------------------------
-  const ryuGrisItem = document.getElementById("ryugris");
-  const kenBlancoItem = document.getElementById("kenblanco");
-  const chunLiRojaItem = document.getElementById("chunliroja");
-  const mBisonAzulItem = document.getElementById("mbisonazul");
-  const guileAzulItem = document.getElementById("guileazul");
-  const cammyGrisItem = document.getElementById("cammygris");
+  const ryuGrisItem = document.getElementById("ryuGris");
+  const kenBlancoItem = document.getElementById("kenBlanco");
+  const chunLiRojaItem = document.getElementById("chunLiRoja");
+  const mBisonAzulItem = document.getElementById("mBisonAzul");
+  const guileAzulItem = document.getElementById("guileAzul");
+  const cammyGrisItem = document.getElementById("cammyGris");
+  const blankaAzulItem = document.getElementById("blankaAzul");
   // ------------------------------------------------------ Obtención de los contenedores ------------------------------------------------------
-  const ryuGrisContainer = document.querySelector(".ryugris-container");
-  const kenBlancoContainer = document.querySelector(".kenblanco-container");
-  const chunLiRojaContainer = document.querySelector(".chunliroja-container");
-  const mBisonAzulContainer = document.querySelector(".mbisonazul-container");
-  const guileAzulContainer = document.querySelector(".guileazul-container");
-  const cammyGrisContainer = document.querySelector(".cammygris-container");
+  const ryuGrisContainer = document.querySelector(".ryuGris-container");
+  const kenBlancoContainer = document.querySelector(".kenBlanco-container");
+  const chunLiRojaContainer = document.querySelector(".chunLiRoja-container");
+  const mBisonAzulContainer = document.querySelector(".mBisonAzul-container");
+  const guileAzulContainer = document.querySelector(".guileAzul-container");
+  const cammyGrisContainer = document.querySelector(".cammyGris-container");
+  const blankaAzulContainer = document.querySelector(".blankaAzul-container");
   // Función para ocultar todos los contenedores
   function hideAllContainers() {
     ryuGrisContainer.style.display = "none";
@@ -21,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
     mBisonAzulContainer.style.display = "none";
     guileAzulContainer.style.display = "none";
     cammyGrisContainer.style.display = "none";
+    blankaAzulContainer.style.display = "none";
   }
   // Función para mostrar el contenedor seleccionado
   function showContainer(container) {
@@ -36,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
     mBisonAzulItem.classList.remove('active');
     guileAzulItem.classList.remove('active');
     cammyGrisItem.classList.remove('active');
+    blankaAzulItem.classList.remove('active');
     // Agrega la clase active al elemento seleccionado
     item.classList.add('active');
   }
@@ -70,7 +74,12 @@ document.addEventListener('DOMContentLoaded', function () {
     showContainer(cammyGrisContainer);
     setActiveItem(cammyGrisItem);
   });
-  // Por defecto, mostrar a Ryu Gris (Player 2) al cargar la página y establecerlo como activo
+  // Blanka -------------------------------------------------------------------------------------------------------------------------------------
+  blankaAzulItem.addEventListener("click", function() {
+    showContainer(blankaAzulContainer);
+    setActiveItem(blankaAzulItem);
+  });
+  // ---------------------------------------------------------- Por defecto, mostrar a Ryu Gris al cargar la página y establecerlo como activo --
   showContainer(ryuGrisContainer);
   setActiveItem(ryuGrisItem);
 });

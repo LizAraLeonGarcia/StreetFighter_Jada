@@ -12,14 +12,14 @@ document.addEventListener('DOMContentLoaded', function () {
   const chunLiRosaContainer = document.querySelector('.chunlirosa-container');
   const feiLongMoradoContainer = document.querySelector('.feilongmorado-container');
   const mBisonVerdeContainer = document.querySelector('.mbisonverde-container');
-  const dhalsimMoradoContainer = document.querySelector('.dhalsimmmorado-container');
+  const dhalsimMoradoContainer = document.querySelector('.dhalsimmorado-container');
   // Selecciona las miniaturas de imágenes de cada contenedor
   const evilRyuThumbnails = evilRyuContainer.querySelectorAll('.thumbnail-image');
   const violentKenThumbnails = violentKenContainer.querySelectorAll('.thumbnail-image');
   const chunLiRosaThumbnails = chunLiRosaContainer.querySelectorAll('.thumbnail-image');
   const feiLongMoradoThumbnails = feiLongMoradoContainer.querySelectorAll('.thumbnail-image');
   const mBisonVerdeThumbnails = mBisonVerdeContainer.querySelectorAll('.thumbnail-image');
-  const dhalsimMoradoThumbnails = dhalsimMoradoContainer.querySelectorAll('.thumbanil-image');
+  const dhalsimMoradoThumbnails = dhalsimMoradoContainer.querySelectorAll('.thumbnail-image');
   // Función para cambiar la imagen activa
   function changeActiveImage(container, newSrc) {
     const activeImage = container.querySelector('#active-image');

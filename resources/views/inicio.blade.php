@@ -35,7 +35,7 @@
                     <div class="table-responsive wave1">
                         <table class="table table-bordered table-striped table-hover table-sm">
                             <thead class="encabezado-tabla">
-                                <tr> <th>Wave 1: primavera 2023</th> </tr>
+                                <tr> <th>Wave 1 <br> <span class="subtitulo">primavera 2023</span> </th> </tr>
                             </thead>
                             <tbody>
                                 <tr> <td class="col1">Ryu</td> </tr>
@@ -49,7 +49,7 @@
                     <div class="table-responsive wave2">
                         <table class="table table-bordered table-striped table-hover table-sm">
                             <thead class="encabezado-tabla">
-                                <tr> <th>Wave 2: primavera 2024</th> </tr>
+                                <tr> <th>Wave 2 <br> <span class="subtitulo">primavera 2024</span> </th> </tr>
                             </thead>
                             <tbody>
                                 <tr> <td class="col4">Ken</td> </tr>
@@ -63,7 +63,7 @@
                     <div class="table-responsive wave3">
                         <table class="table table-bordered table-striped table-hover table-sm">
                             <thead class="encabezado-tabla">
-                                <tr> <th>Wave 3: otoño 2024</th> </tr>
+                                <tr> <th>Wave 3 <br> <span class="subtitulo">Otoño 2024</span> </th> </tr>
                             </thead>
                             <tbody>
                                 <tr> <td class="col7">Guile</td> </tr>
@@ -77,7 +77,7 @@
                     <div class="table-responsive wave4">
                         <table class="table table-bordered table-striped table-hover table-sm">
                             <thead class="encabezado-tabla">
-                                <tr> <th>Wave 4: primavera 2025</th> </tr>
+                                <tr> <th>Wave 4 <br> <span class="subtitulo">primavera 2025</span> </th> </tr>
                             </thead>
                             <tbody>
                                 <tr> <td class="col10">Sagat</td> </tr>
@@ -91,7 +91,7 @@
                     <div class="table-responsive wave5">
                         <table class="table table-bordered table-striped table-hover table-sm">
                             <thead class="encabezado-tabla">
-                                <tr>  <th>Wave 5: primavera 2026</th> </tr>
+                                <tr>  <th>Wave 5 <br> <span class="subtitulo">primavera 2026</span> </th> </tr>
                             </thead>
                             <tbody>
                                 <tr> <td class="col13"> Akuma </td> </tr>
@@ -105,12 +105,11 @@
                     <div class="table-responsive wave6">
                         <table class="table table-bordered table-striped table-hover table-sm">
                             <thead class="encabezado-tabla">
-                                <tr> <th>Wave 6</th> </tr>
+                                <tr> <th>Wave 6 <br> <span class="subtitulo">¿?</span> </th> </tr>
                             </thead>
                             <tbody>
                                 <tr> <td class="col16">T. Hawk</td> </tr>                                
                                 <tr> <td class="col17"> Zangief </td> </tr>
-                                <tr> <td>¿ ?</td> </tr>
                             </tbody>
                         </table>
                     </div>

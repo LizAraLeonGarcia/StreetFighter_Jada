@@ -9,7 +9,7 @@
     <div class="menuGaleria">
       <ul class="nav nav-pills">
         <li class="nav-item">
-          <a class="nav-link active" id="general-tab" data-bs-toggle="pill" href="#general">General</a>
+          <a class="nav-link active" id="general-tab" data-bs-toggle="pill" data-bs-target="#general">General</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" id="familia-tab" data-bs-toggle="pill" href="#familia">Particular</a>
@@ -79,6 +79,13 @@
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/z5.jpg"><img src="assets/img/galeria/z5.jpg" alt="25 figuras"></a></div>
             <!--  <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/z6.jpg"><img src="assets/img/galeria/z6.jpg" alt="27 figuras"></a></div> -->
             </div> <!-- fin swiper-wrapper -->
+            <div class="swiper-controls">
+              <div class="swiper-nav-buttons">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
           </div>
         </div> <!-- fin general -->
         <!-- ---------------------------------------------------------------------------------------------------------------------- Familia ---->

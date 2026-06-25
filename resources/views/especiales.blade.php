@@ -9,18 +9,18 @@
     <!-- -------------------------------------------------------------- Lista -------------------------------------------------------------- -->
     <div class="col-md-12">
       <ol class="menu-especiales">
-        <li id="evilryu" class="active">Evil Ryu</li>
-        <li id="violentken">Violent Ken</li>
-        <li id="chunlirosa">Chun Li Player 2</li>
-        <li id="feilongmorado"> Fei Long Player 2</li>
-        <li id="mbisonverde">M. Bison Player 2</li>
-        <li id="dhalsimmorado">Dhalsim Player 2</li>
+        <li id="evilRyu" class="active">Evil Ryu</li>
+        <li id="violentKen">Violent Ken</li>
+        <li id="chunLiRosa">Chun Li Player 2</li>
+        <li id="feiLongMorado"> Fei Long Player 2</li>
+        <li id="mBisonVerde">M. Bison Player 2</li>
+        <li id="dhalsimGris">Dhalsim Player 2</li>
       </ol>
     </div>
     <!-- ------------------------------------------------------ Contenedor personajes ------------------------------------------------------ -->
     <div class="especiales" id="especiales">
       <!-- ------------------------------------------------------------------------------------------------------------------------ Evil Ryu -->
-      <div class="evilryu-container especiales-container">
+      <div class="evilRyu-container especiales-container">
         <h4>Evil Ryu</h4>
         <!-- Contenedor principal con las miniaturas y la imagen grande -->
         <div class="main-container">
@@ -58,7 +58,7 @@
         </div>
       </div> <!-- cierre Evil Ryu -->
       <!-- --------------------------------------------------------------------------------------------------------------------- Violent Ken -->
-      <div class="violentken-container especiales-container" style="display: none;">
+      <div class="violentKen-container especiales-container" style="display: none;">
         <h4>Violent Ken</h4>
         <!-- Contenedor principal con las miniaturas y la imagen grande -->
         <div class="main-container">
@@ -96,7 +96,7 @@
         </div> 
       </div> <!-- cierre Violent Ken -->
       <!-- ------------------------------------------------------------------------------------------------------------------------- Chun Li -->
-      <div class="chunlirosa-container especiales-container" style="display: none;">
+      <div class="chunLiRosa-container especiales-container" style="display: none;">
         <h4>Chun Li Player 2</h4>
         <!-- Contenedor principal con las miniaturas y la imagen grande -->
         <div class="main-container">
@@ -134,7 +134,7 @@
         </div>    
       </div> <!-- cierre Chun Li Player 2-->
       <!-- ------------------------------------------------------------------------------------------------------------------------- Chun Li -->
-      <div class="feilongmorado-container especiales-container" style="display: none;">
+      <div class="feiLongMorado-container especiales-container" style="display: none;">
         <h4>Fei Long Player 2</h4>
         <!-- Contenedor principal con las miniaturas y la imagen grande -->
         <div class="main-container">
@@ -172,7 +172,7 @@
         </div>    
       </div> <!-- cierre Fei Long Player 2 -->
       <!-- ---------------------------------------------------------------------------------------------------------------- M. Bison Player 2 -->
-      <!-- <div class="mbisonverde-container especiales-container" style="display: none;">
+      <div class="mBisonVerde-container especiales-container" style="display: none;">
         <h4>M. Bison Player 2</h4>
         <div class="main-container">
           <div id="image-pagination">
@@ -205,9 +205,9 @@
             <img id="active-image" src="assets/img/especiales/mbisonverde1.jpg" alt="M. Bison Player 2" class="especial-img" />
           </div>
         </div> 
-      </div>cierre M. Bison Player 2 -->
+      </div> <!-- cierre M. Bison Player 2 -->
       <!-- ----------------------------------------------------------------------------------------------------------------- Dhalsim Player 2 -->
-    <!--  <div class="dhalsimmorado-container especiales-container" style="display: none;">
+      <div class="dhalsimGris-container especiales-container" style="display: none;">
         <h4>Dhalsim Player 2</h4>
         <div class="main-container">
           <div id="image-pagination">
@@ -240,7 +240,7 @@
             <img id="active-image" src="assets/img/especiales/dhalsimmorado1.jpg" alt="Dhalsim Player 2" class="especial-img" />
           </div>
         </div> 
-      </div>cierre Dhalsim Player 2 --> 
+      </div> <!-- cierre Dhalsim Player 2 --> 
     </div> <!-- Contenedor personajes -->
   </div> <!-- Contenedor general -->
 @endsection

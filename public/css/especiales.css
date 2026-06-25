@@ -25,27 +25,27 @@
     border: 2px solid transparent;
 }
 
-#evilryu {
+#evilRyu {
     background: linear-gradient(135deg, #4a0000, #b30000);
 }
 
-#violentken {
+#violentKen {
     background: linear-gradient(135deg, #ff6a00, #ffb300);
 }
 
-#chunlirosa {
+#chunLiRosa {
     background: linear-gradient(135deg, #ff4da6, #ff99cc);
 }
 
-#feilongmorado {
+#feiLongMorado {
     background: linear-gradient(135deg, #5a189a, #9d4edd);
 }
 
-#mbisonverde {
+#mBisonVerde {
     background: linear-gradient(135deg, #1b8a3a, #57cc99);
 }
 
-#dhalsimmorado {
+#dhalsimGris {
     background: linear-gradient(135deg, #3c096c, #7b2cbf);
 }
 /* ************************************************************ Elemento activo ************************************************************ */

@@ -6,7 +6,7 @@
     <div class="section-title">
       <h3>Sesión de fotos de mis figuras</h3>
     </div>
-    <div class="menuGaleria">
+    <div class="menu-galeria">
       <ul class="nav nav-pills">
         <li class="nav-item">
           <a class="nav-link active" id="general-tab" data-bs-toggle="pill" data-bs-target="#general">General</a>
@@ -19,32 +19,18 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Chun Li x ¿...?</a>
-          <ul class="dropdown-menu">
-            <li>
-              <a class="dropdown-item" id="chunlixvega-tab" data-bs-toggle="pill" href="#chunlixvega">Chun Li x Vega</a>
-            </li>
-            <li>
-              <a class="dropdown-item" id="chunlixryu-tab" data-bs-toggle="pill" href="#chunlixryu">Chun Li x Ryu</a>
-            </li>
-            <li>
-              <a class="dropdown-item" id="chunlixsagat-tab" data-bs-toggle="pill" href="#chunlixsagat">Chun Li x Sagat</a>
-            </li>
-            <li>
-              <a class="dropdown-item" id="chunlixken-tab" data-bs-toggle="pill" href="#chunlixken">Chun Li x Ken</a>
-            </li>
-            <li>
-              <a class="dropdown-item" id="chunlixmbison-tab" data-bs-toggle="pill" href="#chunlixmbison">Chun Li x M. Bison</a>
-            </li>
-            <li>
-              <a class="dropdown-item" id="chunlixblanka-tab" data-bs-toggle="pill" href="#chunlixblanka">Chun Li x Blanka</a>
-            </li>
-            <li>
-              <a class="dropdown-item" id="chunlixakuma-tab" data-bs-toggle="pill" href="#chunlixakuma">Chun Li x Akuma</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
+            <ul class="dropdown-menu">
+              <li> <a class="dropdown-item" id="chunlixvega-tab" data-bs-toggle="pill" href="#chunlixvega">Chun Li x Vega</a> </li>
+              <li> <a class="dropdown-item" id="chunlixryu-tab" data-bs-toggle="pill" href="#chunlixryu">Chun Li x Ryu</a> </li>
+              <li> <a class="dropdown-item" id="chunlixsagat-tab" data-bs-toggle="pill" href="#chunlixsagat">Chun Li x Sagat</a> </li>
+              <li> <a class="dropdown-item" id="chunlixken-tab" data-bs-toggle="pill" href="#chunlixken">Chun Li x Ken</a> </li>
+              <li> <a class="dropdown-item" id="chunlixmbison-tab" data-bs-toggle="pill" href="#chunlixmbison">Chun Li x M. Bison</a> </li>
+              <li> <a class="dropdown-item" id="chunlixblanka-tab" data-bs-toggle="pill" href="#chunlixblanka">Chun Li x Blanka</a> </li>
+              <li> <a class="dropdown-item" id="chunlixakuma-tab" data-bs-toggle="pill" href="#chunlixakuma">Chun Li x Akuma</a> </li>
+            </ul> <!-- cierre de las opciones del submenú -->
+        </li> <!-- cierre del submenú -->
+      </ul> <!-- cierre de las opciones del menú -->
+    </div> <!-- cierre del menú -->
     <!-- -------------------------------------------------------- contenedor galería -------------------------------------------------------- -->
     <div class="galeria">
       <div class="tab-content">
@@ -78,37 +64,37 @@
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/z4.jpg"><img src="assets/img/galeria/z4.jpg" alt="21 figuras"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/z5.jpg"><img src="assets/img/galeria/z5.jpg" alt="25 figuras"></a></div>
             <!--  <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/z6.jpg"><img src="assets/img/galeria/z6.jpg" alt="27 figuras"></a></div> -->
-            </div> <!-- fin swiper-wrapper -->
+            </div> <!-- cierre swiper-wrapper -->
             <div class="swiper-controls">
               <div class="swiper-nav-buttons">
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-button-next"></div>
               </div>
-            </div>
-          </div>
-        </div> <!-- fin general -->
+            </div> <!-- cierre de los botones y paginación -->
+          </div> <!-- cierre swiper-container -->
+        </div> <!-- cierre general -->
         <!-- ---------------------------------------------------------------------------------------------------------------------- Familia ---->
-        <div class="tab-pan fade" id="familia">
+        <div class="tab-pane fade" id="familia">
           <div class="swiper-container">
             <div class="swiper-wrapper">
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/familia/1.jpg"><img src="assets/img/galeria/familia/1.jpg" class="img-fluid" alt="Familia"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/familia/2.jpg"><img src="assets/img/galeria/familia/2.jpg" class="img-fluid" alt="Familia"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/familia/3.jpg"><img src="assets/img/galeria/familia/3.jpg" class="img-fluid" alt="Familia"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/familia/4.jpg"><img src="assets/img/galeria/familia/4.jpg" class="img-fluid" alt="Familia"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/familia/5.jpg"><img src="assets/img/galeria/familia/5.jpg" class="img-fluid" alt="Familia"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/familia/6.jpg"><img src="assets/img/galeria/familia/6.jpg" class="img-fluid" alt="Familia"></a></div>
-              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/familia/7.jpg"><img src="assets/img/galeria/familia/7.jpg" class="img-fluid" alt="Familia"></a></div>
-            </div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/familia/1.jpg"><img src="assets/img/galeria/familia/1.jpg" alt="Familia"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/familia/2.jpg"><img src="assets/img/galeria/familia/2.jpg" alt="Familia"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/familia/3.jpg"><img src="assets/img/galeria/familia/3.jpg" alt="Familia"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/familia/4.jpg"><img src="assets/img/galeria/familia/4.jpg" alt="Familia"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/familia/5.jpg"><img src="assets/img/galeria/familia/5.jpg" alt="Familia"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/familia/6.jpg"><img src="assets/img/galeria/familia/6.jpg" alt="Familia"></a></div>
+              <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/familia/7.jpg"><img src="assets/img/galeria/familia/7.jpg" alt="Familia"></a></div>
+            </div> <!-- cierre de swiper-wrapper -->
             <div class="swiper-controls">
               <div class="swiper-nav-buttons">
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-button-next"></div>
               </div>
-            </div>
-          </div>
-        </div> <!-- fin familia -->
+            </div> <!-- cierre de los botones y paginación -->
+          </div> <!-- cierre swiper-container -->
+        </div> <!-- cierre familia -->
         <!-- -------------------------------------------------------------------------------------------------------------------- Ejercicio ---->
         <div class="tab-pane fade" id="ejercicio">
           <div class="swiper-container">
@@ -122,19 +108,19 @@
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/ejercicio/ryu gris entrenando.jpg"><img src="assets/img/galeria/ejercicio/ryu gris entrenando.jpg" class="img-fluid" alt="Ryu Player 2 entrenando"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/ejercicio/ken entrenando.jpg"><img src="assets/img/galeria/ejercicio/ken entrenando.jpg" class="img-fluid" alt="Ken entrenando"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/ejercicio/chun li ryu y ken.jpg"><img src="assets/img/galeria/ejercicio/chun li ryu y ken.jpg" class="img-fluid" alt="Chun Li, Ryu y Ken Player 2"></a></div>
-            </div>
+            </div> <!-- cierre de swiper-wrapper -->
             <div class="swiper-controls">
               <div class="swiper-nav-buttons">
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-button-next"></div>
               </div>
-            </div>
-          </div>
-        </div> <!-- fin ejercicio -->
+            </div> <!-- cierre de los botones y paginación -->
+          </div> <!-- cierre de swiper-container -->
+        </div> <!-- cierre ejercicio -->
         <!-- ----------------------------------------------------------------------------------------------------------------- Chun Li x Vega -->
         <div class="tab-pane fade" id="chunlixvega">
-          <div class="swiper-container">
+          <div class="swiper-container chunlixvega-swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixvega/1.jpg"><img src="assets/img/galeria/chunlixvega/1.jpg" alt="Vega x Chun Li Player 2 en brazos"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixvega/2.jpg"><img src="assets/img/galeria/chunlixvega/2.jpg" alt="Vega x Chun Li Player 2 en su espalda"></a></div>
@@ -157,10 +143,10 @@
               </div>
             </div>
           </div>
-        </div> <!-- fin con vega -->
+        </div> <!-- cierre con vega -->
         <!-- ------------------------------------------------------------------------------------------------------------------ Chun Li x Ryu -->
         <div class="tab-pane fade" id="chunlixryu">
-          <div class="swiper-container">
+          <div class="swiper-container chunlixryu-swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/1.jpg"><img src="assets/img/galeria/chunlixryu/1.jpg" alt="Ryu cargando a Chun Li en brazos"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/2.jpg"><img src="assets/img/galeria/chunlixryu/2.jpg" alt="Ryu cargando a Chun Li en su espalda"></a></div>
@@ -174,15 +160,17 @@
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixryu/moto azul.jpg"><img src="assets/img/galeria/chunlixryu/moto azul.jpg" alt="Ryu Player 2 x Chun Li en moto azul"></a></div>
             </div>
             <div class="swiper-controls">
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-next"></div>
+              <div class="swiper-nav-buttons">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+              </div>
             </div>
           </div>
-        </div> <!-- fin con ryu -->
+        </div> <!-- cierre con ryu -->
         <!-- ---------------------------------------------------------------------------------------------------------------- Chun Li x Sagat -->
         <div class="tab-pane fade" id="chunlixsagat">
-          <div class="swiper-container">
+          <div class="swiper-container chunlixsagat-swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixsagat/1.jpg"><img src="assets/img/galeria/chunlixsagat/1.jpg" alt="Sagat x Chun Li Red en brazos"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixsagat/2.jpg"><img src="assets/img/galeria/chunlixsagat/2.jpg" alt="Sagat x Chun Li Red en sus hombros"></a></div>
@@ -193,15 +181,17 @@
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixsagat/7.jpg"><img src="assets/img/galeria/chunlixsagat/7.jpg" alt="Sagat x Chun Li Red tomada de los hombros"></a></div>
             </div>
             <div class="swiper-controls">
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-next"></div>
+              <div class="swiper-nav-buttons">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+              </div>
             </div>
           </div>
-        </div> <!-- fin con sagat -->
+        </div> <!-- cierre con sagat -->
         <!-- ------------------------------------------------------------------------------------------------------------------ Chun Li x Ken -->
         <div class="tab-pane fade" id="chunlixken">
-          <div class="swiper-container">
+          <div class="swiper-container chunlixken-swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/1.jpg"><img src="assets/img/galeria/chunlixken/1.jpg" alt="Ken cargando a Chun Li Red en brazos"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/2.jpg"><img src="assets/img/galeria/chunlixken/2.jpg" alt="Ken cargando a Chun Li Red en su espalda"></a></div>
@@ -215,15 +205,17 @@
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixken/moto roja.jpg"><img src="assets/img/galeria/chunlixken/moto roja.jpg" alt="Ken x Chun Li Red en moto roja"></a></div>
             </div>
             <div class="swiper-controls">
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-next"></div>
+              <div class="swiper-nav-buttons">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+              </div>
             </div>
           </div>
-        </div> <!-- fin con ken -->
+        </div> <!-- cierre con ken -->
         <!-- --------------------------------------------------------------------------------------------------------------- Chun Li x Blanka -->
         <div class="tab-pane fade" id="chunlixblanka">
-          <div class="swiper-container">
+          <div class="swiper-container chunlixblanka-swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixblanka/1.jpg"><img src="assets/img/galeria/chunlixblanka/1.jpg" alt="Blanka x Chun Li Player 2 en brazos"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixblanka/2.jpg"><img src="assets/img/galeria/chunlixblanka/2.jpg" alt="Blanka x Chun Li Player 2 en su espalda"></a></div>
@@ -234,15 +226,17 @@
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixblanka/7.jpg"><img src="assets/img/galeria/chunlixblanka/7.jpg" alt="Blanka x Chun Li tomada de la mano"></a></div>
             </div>
             <div class="swiper-controls">
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-next"></div>
+              <div class="swiper-nav-buttons">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+              </div>
             </div>
           </div>
-        </div> <!-- fin con blanka -->
+        </div> <!-- cierre con blanka -->
         <!-- ------------------------------------------------------------------------------------------------------------- Chun Li x M. Bison -->
         <div class="tab-pane fade" id="chunlixmbison">
-          <div class="swiper-container">
+          <div class="swiper-container chunlixmbison-swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/1.jpg"><img src="assets/img/galeria/chunlixmbison/1.jpg" alt="M. Bison x Chun Li Red"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/2.jpg"><img src="assets/img/galeria/chunlixmbison/2.jpg" alt="M. Bison x Chun Li Red y Chun Li"></a></div>
@@ -255,15 +249,17 @@
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixmbison/9.jpg"><img src="assets/img/galeria/chunlixmbison/9.jpg" alt="M. Bison Player 2 x Chun Li Player 2 y M. Bison"></a></div>
             </div>
             <div class="swiper-controls">
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-next"></div>
+              <div class="swiper-nav-buttons">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+              </div>
             </div>
           </div>
-        </div> <!-- fin con m. bison -->
+        </div> <!-- cierre con m. bison -->
         <!-- ---------------------------------------------------------------------------------------------------------------- Chun Li x Akuma -->
-    <!--<div class="tab-pane fade" id="chunlixakuma">
-          <div class="swiper-container">
+        <div class="tab-pane fade" id="chunlixakuma">
+          <div class="swiper-container chunlixakuma-swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixakuma/1.jpg"><img src="assets/img/galeria/chunlixakuma/1.jpg" alt="M. Bison x Chun Li Red"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixakuma/2.jpg"><img src="assets/img/galeria/chunlixakuma/2.jpg" alt="M. Bison x Chun Li Red y Chun Li"></a></div>
@@ -274,16 +270,16 @@
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixakuma/7.jpg"><img src="assets/img/galeria/chunlixakuma/7.jpg" alt="M. Bison x Chun Li Player 2 y M. Bison Player 2"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixakuma/8.jpg"><img src="assets/img/galeria/chunlixakuma/8.jpg" alt="Chun Li Player 2 x M. Bison y M. Bison Player 2"></a></div>
               <div class="swiper-slide"><a data-galeria="images-galeria" href="assets/img/galeria/chunlixakuma/9.jpg"><img src="assets/img/galeria/chunlixakuma/9.jpg" alt="M. Bison Player 2 x Chun Li Player 2 y M. Bison"></a></div>
-            </div>
+            </div> <!-- cierre swiper-wrapper -->
             <div class="swiper-controls">
               <div class="swiper-nav-buttons">
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-button-next"></div>
               </div>
-            </div>
-          </div>
-        </div>fin con akuma -->
+            </div> <!-- cierre de los botones y paginación -->
+          </div> <!-- cierre swiper -->
+        </div> <!-- cierre con akuma -->
       </div>
     </div>
   </div>

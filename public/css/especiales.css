@@ -13,7 +13,7 @@
     flex-wrap: wrap;
     gap: 10px;
 }
-
+/* ----------------------------------------------------------- detalles en general */
 .menu-especiales li {
     padding: 10px 18px;
     border-radius: 8px;
@@ -24,29 +24,30 @@
     transition: all .3s ease;
     border: 2px solid transparent;
 }
-
+/* ---------------------------------------------------------------------------------------------------------------------------------- EVIL RYU */
 #evilRyu {
-    background: linear-gradient(135deg, #4a0000, #b30000);
+  background: linear-gradient(135deg,  #050505 0%,  #1a1a1a 65%,  #ff1a1a 100%);
 }
-
+/* ------------------------------------------------------------------------------------------------------------------------------- VIOLENT KEN */
 #violentKen {
-    background: linear-gradient(135deg, #ff6a00, #ffb300);
+  background: linear-gradient(135deg,  #9b0000 0%,  #c60000 70%,  #ffffff 100%);
 }
-
+/* ------------------------------------------------------------------------------------------------------------------------------ CHUN LI ROSA */
 #chunLiRosa {
-    background: linear-gradient(135deg, #ff4da6, #ff99cc);
+  color: #050505;
+  background: linear-gradient(135deg,  #ff4da6 0%,  #ff6bb8 55%,  #fff8c6 75%,  #ffe55c 88%,  #ffd700 100%);
 }
-
+/* --------------------------------------------------------------------------------------------------------------------------- FEI LONG MORADO */
 #feiLongMorado {
-    background: linear-gradient(135deg, #5a189a, #9d4edd);
+  background: linear-gradient(135deg,  #3f007d 0%,  #5a189a 70%,  #d9d9d9 100%);
 }
-
+/* ---------------------------------------------------------------------------------------------------------------------------- M. BISON VERDE */
 #mBisonVerde {
-    background: linear-gradient(135deg, #1b8a3a, #57cc99);
+  background: linear-gradient(135deg,  #6fe600 0%,  #7fff00 70%,  #c96a1b 100%);
 }
-
+/* ------------------------------------------------------------------------------------------------------------------------------ DHALSIM GRIS */
 #dhalsimGris {
-    background: linear-gradient(135deg, #3c096c, #7b2cbf);
+  background: linear-gradient(135deg,  #5f6368 0%,  #7d8288 70%,  #e89b4d 100%);
 }
 /* ************************************************************ Elemento activo ************************************************************ */
 .menu-especiales li:hover {

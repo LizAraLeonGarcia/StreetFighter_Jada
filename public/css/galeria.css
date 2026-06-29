@@ -23,19 +23,19 @@
 }
 /* -------------------------------------------------------------------------------------------------------- Efecto de hover sobre las pestañas */
 .menu-galeria .nav-link:hover {
-  background-color: rgb(15, 190, 15) ;
+  background-color: magenta;
   color: black;
-  border: 2px solid red ;
-  box-shadow: 0 0 8px yellow, 0 0 15px yellow; /* efecto brillo */
+  border: 2px solid white ;
+  box-shadow: 0 0 5px gold, 0 0 10px gold; /* efecto brillo */
   transform: scale(1.05);
   transition: all 0.2s ease-in-out;
 }
 /* ---------------------------------------------------------------------------------------------------------------------------- Pestaña activa */
 .menu-galeria .nav-link.active {
-  background-color: blue ;
+  background-color: blue;
   color: black;
   border: 2px solid white;
-  box-shadow: 0 0 10px gold, 0 0 20px gold;
+  box-shadow: 0 0 10px gold, 0 0 20px goldenrod;
   transform: scale(1.05);
 }
 /* ----------------------------------------------------------- Opciones de submenú ----------------------------------------------------------- */
@@ -108,8 +108,28 @@
   gap: 10px;
   padding-bottom: 30px;
 }
-/* ********************************************************* Botones de PREV - NEXT ********************************************************* */
-
+/* ************************************************* Botones de PREV - NEXT en General ************************************************* */
+#general .swiper-button-prev, #general .swiper-button-next,
+#familia .swiper-button-prev, #familia .swiper-button-next,
+#ejercicio .swiper-button-prev, #ejercicio .swiper-button-next{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: blue;
+  box-shadow:  0 0 4px #ffffff,  0 0 10px #bfbfbf,  0 0 18px rgba(0,0,0,.5);
+}
+#general,
+#familia,
+#ejercicio{
+    --swiper-theme-color: #FFD700;
+}
+/* Hover */
+#general .swiper-button-prev:hover, #general .swiper-button-next:hover,
+#familia .swiper-button-prev:hover, #familia .swiper-button-next:hover,
+#ejercicio .swiper-button-prev:hover, #ejercicio .swiper-button-next:hover{
+  background: magenta;
+  box-shadow:  0 0 4px #ffffff,  0 0 10px #bfbfbf,  0 0 18px rgba(0,0,0,.5);
+}
 /* ********************************************************** Según el personaje ********************************************************** */
 .chunlixvega-swiper { --theme-color: purple; }
 

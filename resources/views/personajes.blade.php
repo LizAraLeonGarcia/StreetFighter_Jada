@@ -298,7 +298,7 @@
             <button class="carousel-control-prev" type="button" data-bs-target="#blanka" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
             <button class="carousel-control-next" type="button" data-bs-target="#blanka" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
           </div>
-                    <div id="mbison" class="carousel slide character-mbison" data-bs-interval="false"> <!-- ----------------------------------- M BISON -->
+                    <div id="mbison" class="carousel slide character-mbison" data-bs-interval="false"> <!---------------------------- M BISON -->
             <h4>M. Bison</h4>
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -346,7 +346,30 @@
             <button class="carousel-control-prev" type="button" data-bs-target="#akuma" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
             <button class="carousel-control-next" type="button" data-bs-target="#akuma" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
           </div>
-
+          <div id="thawk" class="carousel slide character-thawk" data-bs-interval="false"> <!-- ------------------------------------ BALROG -->
+            <h4>T. Hawk</h4>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="assets/img/personajes/16-1.jpg">
+                <img src="assets/img/personajes/16-1.jpg" class="character-imagen" alt="T. Hawk Frontal"> </a>
+              </div>
+              <div class="carousel-item">
+                <a href="assets/img/personajes/16-2.jpg">
+                <img src="assets/img/personajes/16-2.jpg" class="character-imagen" alt="T. Hawk Lateral"> </a>
+              </div>
+              <div class="carousel-item"> 
+                <a href="assets/img/personajes/16-3.jpg">
+                <img src="assets/img/personajes/16-3.jpg" class="character-imagen" alt="T. Hawk con efecto"> </a>
+              </div>
+              <div class="carousel-item"> 
+                <a href="assets/img/personajes/16-4.jpg">
+                <img src="assets/img/personajes/16-4.jpg" class="character-imagen" alt="T. Hawk pose"> </a>
+              </div>
+            </div>
+            <!-- Botones de navegación (prev y next) -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#thawk" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#thawk" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
+          </div>
           <div id="feilong" class="carousel slide character-feilong" data-bs-interval="false">  <!-- ------------------------------- FEI LONG -->
             <h4>Fei Long</h4>
             <div class="carousel-inner">
@@ -395,7 +418,30 @@
             <button class="carousel-control-prev" type="button" data-bs-target="#balrog" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
             <button class="carousel-control-next" type="button" data-bs-target="#balrog" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
           </div>
-
+          <div id="zangief" class="carousel slide character-zangief" data-bs-interval="false"> <!-- ----------------------------------- ZANGIEF -->
+            <h4>Zangief</h4>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="assets/img/personajes/17-1.jpg">
+                <img src="assets/img/personajes/17-1.jpg" class="character-imagen" alt="Zangief Frontal"> </a>
+              </div>
+              <div class="carousel-item">
+                <a href="assets/img/personajes/17-2.jpg">
+                <img src="assets/img/personajes/17-2.jpg" class="character-imagen" alt="Zangief Lateral"> </a>
+              </div>
+              <div class="carousel-item"> 
+                <a href="assets/img/personajes/17-3.jpg">
+                <img src="assets/img/personajes/17-3.jpg" class="character-imagen" alt="Zangief con efecto"> </a>
+              </div>
+              <div class="carousel-item"> 
+                <a href="assets/img/personajes/17-4.jpg">
+                <img src="assets/img/personajes/17-4.jpg" class="character-imagen" alt="Zangief pose"> </a>
+              </div>
+            </div>
+            <!-- Botones de navegación (prev y next) -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#zangief" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#zangief" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
+          </div>
         </div>
       </div>
     </div>

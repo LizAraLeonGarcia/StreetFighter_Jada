@@ -283,7 +283,7 @@
             </div> <!-- fin séptima sección -->
             <!-- ------------------------------------------------------------------------------------------------------- Octava sección: Lose -->
             <div>
-                <h5> Asimismo, en la San Diego Comic-con 2026 tenemos los accesorios "You lose", es decir un set que contiene los rostros para todo el roster y algunas manos también para algunos de ellos. </h5>
+                <h5> Asimismo, en la San Diego Comic-con 2026 tenemos los accesorios "You lose", es decir un set que contiene los rostros para todo el roster y algunas manos también para algunos de ellos, cuando el personaje en cuestión pierde. </h5>
             </div>
             <!-- ---------------------------------------------------------------------------------------------- Novena sección: Imágenes lose -->
             <div class="row mb-4">

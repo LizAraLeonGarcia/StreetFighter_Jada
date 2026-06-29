@@ -1,64 +1,4 @@
-/* *********************************************************** Botones navegación *********************************************************** */
-/* --------------------------------------------------------------------------------------------------------------------------------------- Ryu */
-.character-ryu .carousel-control-prev,
-.character-ryu .carousel-control-next {
-  width: 50px;
-  height: 50px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: white;
-  border: 2px solid red;
-  border-radius: 50%;
-  box-shadow: 0 0 10px red, 0 0 20px darkred;
-
-}
-
-.character-ryu .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffff00'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
-}
-
-.character-ryu .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffff00'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
-}
-
-.character-ryu .carousel-control-prev:hover,
-.character-ryu .carousel-control-next:hover {
-  background: black;
-  border: 2px solid black;
-  transform: translateY(-50%) scale(1.1);
-  transition: 0.2s ease;
-  box-shadow: 0 0 10px black;
-}
-/* ---------------------------------------------------------------------------------------------------------------------------------- Fei Long */
-.character-feilong .carousel-control-prev,
-.character-feilong .carousel-control-next {
-  width: 50px;
-  height: 50px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: black;
-  border: 2px solid ;
-  border-radius: 50%;
-  box-shadow: 0 0 10px white, 0 0 20px whitesmoke;
- z-index: 5;
-}
-
-.character-feilong .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F5F5DC'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
-}
-
-.character-feilong .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F5F5DC'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
-}
-
-.character-feilong .carousel-control-prev:hover,
-.character-feilong .carousel-control-next:hover {
-  background: black;
-  border: 2px solid black;
-  transform: translateY(-50%) scale(1.1);
-  transition: 0.2s ease;
-  box-shadow: 0 0 10px black;
-}
+/* ********************************************************** Botones de navegación ********************************************************** */
 /*------------------------------------------------------------------------------------------------------------------------------------ Chun Li */
 .character-chunli .carousel-control-prev,
 .character-chunli .carousel-control-next {
@@ -70,7 +10,8 @@
   border: 2px solid gold;
   border-radius: 50%;
   box-shadow: 0 0 10px silver, 0 0 20px black;
-
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .character-chunli .carousel-control-prev-icon {
@@ -89,246 +30,6 @@
   transition: 0.2s ease;
   box-shadow: 0 0 10px gold;
 }
-/*---------------------------------------------------------------------------------------------------------------------------------------- Ken */
-.character-ken .carousel-control-prev,
-.character-ken .carousel-control-next {
-  width: 50px;
-  height: 50px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: red;
-  border: 2px solid saddlebrown;
-  border-radius: 50%;
-  box-shadow: 0 0 10px saddlebrown, 0 0 20px brown;
-
-}
-
-.character-ken .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
-}
-
-.character-ken .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
-}
-
-.character-ken .carousel-control-prev:hover,
-.character-ken .carousel-control-next:hover {
-  background: yellow;
-  border: 2px solid yellow;
-  transform: translateY(-50%) scale(1.1);
-  transition: 0.2s ease;
-  box-shadow: 0 0 10px yellow;
-}
-/*------------------------------------------------------------------------------------------------------------------------------------ Dhalsim */
-.character-dhalsim .carousel-control-prev,
-.character-dhalsim .carousel-control-next {
-  width: 50px;
-  height: 50px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: yellow;
-  border: 2px solid silver;
-  border-radius: 50%;
-  box-shadow: 0 0 10px silver, 0 0 20px sienna;
-
-}
-
-.character-dhalsim .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FF0000'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
-}
-
-.character-dhalsim .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FF0000'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
-}
-
-.character-dhalsim .carousel-control-prev:hover,
-.character-dhalsim .carousel-control-next:hover {
-  background: peru;
-  border: 2px solid ghostwhite;
-  transform: translateY(-50%) scale(1.1);
-  transition: 0.2s ease;
-  box-shadow: 0 0 10px ghostwhite;
-}
-/*----------------------------------------------------------------------------------------------------------------------------------- M. Bison */
-.character-mbison .carousel-control-prev,
-.character-mbison .carousel-control-next {
-  width: 50px;
-  height: 50px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: crimson;
-  border: 2px solid silver;
-  border-radius: 50%;
-  box-shadow: 0 0 10px silver, 0 0 20px darkgray;
-
-}
-
-.character-mbison .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFD700'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
-}
-
-.character-mbison .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFD700'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
-}
-
-.character-mbison .carousel-control-prev:hover,
-.character-mbison .carousel-control-next:hover {
-  background: black;
-  border: 2px solid black;
-  transform: translateY(-50%) scale(1.1);
-  transition: 0.2s ease;
-  box-shadow: 0 0 10px black;
-}
-/*-------------------------------------------------------------------------------------------------------------------------------------- Guile */
-.character-guile .carousel-control-prev,
-.character-guile .carousel-control-next {
-  width: 50px;
-  height: 50px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: green;
-  border: 2px solid olivedrab;
-  border-radius: 50%;
-  box-shadow: 0 0 10px olivedrab, 0 0 20px yellowgreen;
-
-}
-
-.character-guile .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
-}
-
-.character-guile .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
-}
-
-.character-guile .carousel-control-prev:hover,
-.character-guile .carousel-control-next:hover {
-  background: darkblue;
-  border: 2px solid firebrick;
-  transform: translateY(-50%) scale(1.1);
-  transition: 0.2s ease;
-  box-shadow: 0 0 10px firebrick;
-}
-/*------------------------------------------------------------------------------------------------------------------------------------ Dee Jay */
-.character-deejay .carousel-control-prev,
-.character-deejay .carousel-control-next {
-  width: 50px;
-  height: 50px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: orangered;
-  border: 2px solid midnightblue;
-  border-radius: 50%;
-  box-shadow: 0 0 10px midnightblue, 0 0 20px navy;
-
-}
-
-.character-deejay .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
-}
-
-.character-deejay .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
-}
-
-.character-deejay .carousel-control-prev:hover,
-.character-deejay .carousel-control-next:hover {
-  background: gold;
-  border: 2px solid gold;
-  transform: translateY(-50%) scale(1.1);
-  transition: 0.2s ease;
-  box-shadow: 0 0 10px gold;
-}
-/*-------------------------------------------------------------------------------------------------------------------------------------- Cammy */
-.character-cammy .carousel-control-prev,
-.character-cammy .carousel-control-next {
-  width: 50px;
-  height: 50px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: green;
-  border: 2px solid red;
-  border-radius: 50%;
-  box-shadow: 0 0 10px red, 0 0 20px firebrick;
-
-}
-
-.character-cammy .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
-}
-
-.character-cammy .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
-}
-
-.character-cammy .carousel-control-prev:hover,
-.character-cammy .carousel-control-next:hover {
-  background: yellow;
-  border: 2px solid sienna;
-  transform: translateY(-50%) scale(1.1);
-  transition: 0.2s ease;
-  box-shadow: 0 0 10px blue;
-}
-/* ------------------------------------------------------------------------------------------------------------------------------------- Sagat */
-.character-sagat .carousel-control-prev,
-.character-sagat .carousel-control-next {
-  width: 50px;
-  height: 50px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: mediumblue;
-  border: 2px solid red;
-  border-radius: 50%;
-  box-shadow: 0 0 10px red, 0 0 20px darkred;
-
-}
-
-.character-sagat .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
-}
-
-.character-sagat .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
-}
-
-.character-sagat .carousel-control-prev:hover,
-.character-sagat .carousel-control-next:hover {
-  background: black;
-  border: 2px solid black;
-  transform: translateY(-50%) scale(1.1);
-  transition: 0.2s ease;
-  box-shadow: 0 0 10px black;
-}
-/* ------------------------------------------------------------------------------------------------------------------------------------ Blanka */
-.character-blanka .carousel-control-prev,
-.character-blanka .carousel-control-next {
-  width: 50px;
-  height: 50px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: greenyellow;
-  border: 2px solid sienna;
-  border-radius: 50%;
-  box-shadow: 0 0 10px sienna, 0 0 20px peru;
-
-}
-
-.character-blanka .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FF7F50'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
-}
-
-.character-blanka .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FF7F50'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
-}
-
-.character-blanka .carousel-control-prev:hover,
-.character-blanka .carousel-control-next:hover {
-  background: white;
-  border: 2px solid white;
-  transform: translateY(-50%) scale(1.1);
-  transition: 0.2s ease;
-  box-shadow: 0 0 10px white;
-}
 /* -------------------------------------------------------------------------------------------------------------------------------------- Vega */
 .character-vega .carousel-control-prev,
 .character-vega .carousel-control-next {
@@ -340,7 +41,8 @@
   border: 2px solid red;
   border-radius: 50%;
   box-shadow: 0 0 10px mediumorchid, 0 0 20px peru;
-
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .character-vega .carousel-control-prev-icon {
@@ -359,35 +61,67 @@
   transition: 0.2s ease;
   box-shadow: 0 0 10px sienna;
 }
-/* ------------------------------------------------------------------------------------------------------------------------------------- Akuma */
-.character-akuma .carousel-control-prev,
-.character-akuma .carousel-control-next {
+/*-------------------------------------------------------------------------------------------------------------------------------------- Cammy */
+.character-cammy .carousel-control-prev,
+.character-cammy .carousel-control-next {
   width: 50px;
   height: 50px;
   top: 50%;
   transform: translateY(-50%);
-  background: darkslateblue;
-  border: 2px solid peru;
+  background: green;
+  border: 2px solid red;
   border-radius: 50%;
-  box-shadow: 0 0 10px peru, 0 0 20px sienna;
-
+  box-shadow: 0 0 10px red, 0 0 20px firebrick;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.character-akuma .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FF0000'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
+.character-cammy .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
 }
 
-.character-akuma .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FF0000'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
+.character-cammy .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
 }
 
-.character-akuma .carousel-control-prev:hover,
-.character-akuma .carousel-control-next:hover {
-  background: black;
-  border: 2px solid black;
+.character-cammy .carousel-control-prev:hover,
+.character-cammy .carousel-control-next:hover {
+  background: yellow;
+  border: 2px solid sienna;
   transform: translateY(-50%) scale(1.1);
   transition: 0.2s ease;
-  box-shadow: 0 0 10px black;
+  box-shadow: 0 0 10px blue;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------- Guile */
+.character-guile .carousel-control-prev,
+.character-guile .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: green;
+  border: 2px solid olivedrab;
+  border-radius: 50%;
+  box-shadow: 0 0 10px olivedrab, 0 0 20px yellowgreen;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.character-guile .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
+}
+
+.character-guile .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
+}
+
+.character-guile .carousel-control-prev:hover,
+.character-guile .carousel-control-next:hover {
+  background: darkblue;
+  border: 2px solid firebrick;
+  transform: translateY(-50%) scale(1.1);
+  transition: 0.2s ease;
+  box-shadow: 0 0 10px firebrick;
 }
 /* ---------------------------------------------------------------------------------------------------------------------------------- E. Honda */
 .character-ehonda .carousel-control-prev,
@@ -400,7 +134,8 @@
   border: 2px solid red;
   border-radius: 50%;
   box-shadow: 0 0 10px firebrick, 0 0 20px crimson;
-
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .character-ehonda .carousel-control-prev-icon {
@@ -419,6 +154,316 @@
   transition: 0.2s ease;
   box-shadow: 0 0 10px darkred;
 }
+/*------------------------------------------------------------------------------------------------------------------------------------ Dhalsim */
+.character-dhalsim .carousel-control-prev,
+.character-dhalsim .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: yellow;
+  border: 2px solid silver;
+  border-radius: 50%;
+  box-shadow: 0 0 10px silver, 0 0 20px sienna;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.character-dhalsim .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FF0000'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
+}
+
+.character-dhalsim .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FF0000'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
+}
+
+.character-dhalsim .carousel-control-prev:hover,
+.character-dhalsim .carousel-control-next:hover {
+  background: peru;
+  border: 2px solid ghostwhite;
+  transform: translateY(-50%) scale(1.1);
+  transition: 0.2s ease;
+  box-shadow: 0 0 10px ghostwhite;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------ Dee Jay */
+.character-deejay .carousel-control-prev,
+.character-deejay .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: orangered;
+  border: 2px solid midnightblue;
+  border-radius: 50%;
+  box-shadow: 0 0 10px midnightblue, 0 0 20px navy;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.character-deejay .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
+}
+
+.character-deejay .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
+}
+
+.character-deejay .carousel-control-prev:hover,
+.character-deejay .carousel-control-next:hover {
+  background: gold;
+  border: 2px solid gold;
+  transform: translateY(-50%) scale(1.1);
+  transition: 0.2s ease;
+  box-shadow: 0 0 10px gold;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------- Ryu */
+.character-ryu .carousel-control-prev,
+.character-ryu .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: 2px solid red;
+  border-radius: 50%;
+  box-shadow: 0 0 10px red, 0 0 20px darkred;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.character-ryu .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffff00'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
+}
+
+.character-ryu .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffff00'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
+}
+
+.character-ryu .carousel-control-prev:hover,
+.character-ryu .carousel-control-next:hover {
+  background: black;
+  border: 2px solid black;
+  transform: translateY(-50%) scale(1.1);
+  transition: 0.2s ease;
+  box-shadow: 0 0 10px black;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------- Sagat */
+.character-sagat .carousel-control-prev,
+.character-sagat .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: mediumblue;
+  border: 2px solid red;
+  border-radius: 50%;
+  box-shadow: 0 0 10px red, 0 0 20px darkred;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.character-sagat .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
+}
+
+.character-sagat .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
+}
+
+.character-sagat .carousel-control-prev:hover,
+.character-sagat .carousel-control-next:hover {
+  background: black;
+  border: 2px solid black;
+  transform: translateY(-50%) scale(1.1);
+  transition: 0.2s ease;
+  box-shadow: 0 0 10px black;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------- Ken */
+.character-ken .carousel-control-prev,
+.character-ken .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: red;
+  border: 2px solid saddlebrown;
+  border-radius: 50%;
+  box-shadow: 0 0 10px saddlebrown, 0 0 20px brown;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.character-ken .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
+}
+
+.character-ken .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
+}
+
+.character-ken .carousel-control-prev:hover,
+.character-ken .carousel-control-next:hover {
+  background: yellow;
+  border: 2px solid yellow;
+  transform: translateY(-50%) scale(1.1);
+  transition: 0.2s ease;
+  box-shadow: 0 0 10px yellow;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------ Blanka */
+.character-blanka .carousel-control-prev,
+.character-blanka .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: greenyellow;
+  border: 2px solid sienna;
+  border-radius: 50%;
+  box-shadow: 0 0 10px sienna, 0 0 20px peru;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.character-blanka .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FF7F50'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
+}
+
+.character-blanka .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FF7F50'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
+}
+
+.character-blanka .carousel-control-prev:hover,
+.character-blanka .carousel-control-next:hover {
+  background: white;
+  border: 2px solid white;
+  transform: translateY(-50%) scale(1.1);
+  transition: 0.2s ease;
+  box-shadow: 0 0 10px white;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------- M. Bison */
+.character-mbison .carousel-control-prev,
+.character-mbison .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: crimson;
+  border: 2px solid silver;
+  border-radius: 50%;
+  box-shadow: 0 0 10px silver, 0 0 20px darkgray;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.character-mbison .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFD700'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
+}
+
+.character-mbison .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFD700'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
+}
+
+.character-mbison .carousel-control-prev:hover,
+.character-mbison .carousel-control-next:hover {
+  background: black;
+  border: 2px solid black;
+  transform: translateY(-50%) scale(1.1);
+  transition: 0.2s ease;
+  box-shadow: 0 0 10px black;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------- Akuma */
+.character-akuma .carousel-control-prev,
+.character-akuma .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: darkslateblue;
+  border: 2px solid peru;
+  border-radius: 50%;
+  box-shadow: 0 0 10px peru, 0 0 20px sienna;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.character-akuma .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FF0000'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
+}
+
+.character-akuma .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FF0000'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
+}
+
+.character-akuma .carousel-control-prev:hover,
+.character-akuma .carousel-control-next:hover {
+  background: black;
+  border: 2px solid black;
+  transform: translateY(-50%) scale(1.1);
+  transition: 0.2s ease;
+  box-shadow: 0 0 10px black;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------- T. Hawk */
+.character-thawk .carousel-control-prev,
+.character-thawk .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: dodgerblue;
+  border: 2px solid peru;
+  border-radius: 50%;
+  box-shadow: 0 0 10px peru, 0 0 20px silver;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.character-thawk .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
+}
+
+.character-thawk .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
+}
+
+.character-thawk .carousel-control-prev:hover,
+.character-thawk .carousel-control-next:hover {
+  background: red;
+  border: 2px solid red;
+  transform: translateY(-50%) scale(1.1);
+  transition: 0.2s ease;
+  box-shadow: 0 0 10px red;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------- Fei Long */
+.character-feilong .carousel-control-prev,
+.character-feilong .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: black;
+  border: 2px solid ;
+  border-radius: 50%;
+  box-shadow: 0 0 10px white, 0 0 20px whitesmoke;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.character-feilong .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F5F5DC'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
+}
+
+.character-feilong .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F5F5DC'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
+}
+
+.character-feilong .carousel-control-prev:hover,
+.character-feilong .carousel-control-next:hover {
+  background: black;
+  border: 2px solid black;
+  transform: translateY(-50%) scale(1.1);
+  transition: 0.2s ease;
+  box-shadow: 0 0 10px black;
+}
 /* ------------------------------------------------------------------------------------------------------------------------------------ Balrog */
 .character-balrog .carousel-control-prev,
 .character-balrog .carousel-control-next {
@@ -430,7 +475,8 @@
   border: 2px solid red;
   border-radius: 50%;
   box-shadow: 0 0 10px red, 0 0 20px crimson;
-
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .character-balrog .carousel-control-prev-icon {
@@ -448,4 +494,35 @@
   transform: translateY(-50%) scale(1.1);
   transition: 0.2s ease;
   box-shadow: 0 0 10px sienna;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------- Zangief */
+.character-zangief .carousel-control-prev,
+.character-zangief .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: firebrick;
+  border: 2px solid yellow;
+  border-radius: 50%;
+  box-shadow: 0 0 10px yellow, 0 0 20px goldenrod;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.character-zangief .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath d='M10.5 1l-6 7 6 7'/%3E%3C/svg%3E");
+}
+
+.character-zangief .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath d='M5.5 1l6 7-6 7'/%3E%3C/svg%3E");
+}
+
+.character-zangief .carousel-control-prev:hover,
+.character-zangief .carousel-control-next:hover {
+  background: brown;
+  border: 2px solid brown;
+  transform: translateY(-50%) scale(1.1);
+  transition: 0.2s ease;
+  box-shadow: 0 0 10px brown;
 }

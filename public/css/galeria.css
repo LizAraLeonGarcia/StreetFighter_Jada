@@ -1,10 +1,4 @@
-/* ******************************************************************************************************************************************* */
-.d-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/* ************************************************************* Contenedor menú ************************************************************* */
+/* *********************************************************** Contenedor del menú *********************************************************** */
 .menu-galeria {
   background-color: transparent;
   display: flex;
@@ -21,7 +15,15 @@
   border-radius: 5px; /* Bordes redondeados */
   transition: background-color 0.3s ease; /* Transición suave */
 }
-/* -------------------------------------------------------------------------------------------------------- Efecto de hover sobre las pestañas */
+/* ------------------------------------------------------------- Pestaña  activa ------------------------------------------------------------- */
+.menu-galeria .nav-link.active {
+  background-color: blue;
+  color: black;
+  border: 2px solid white;
+  box-shadow: 0 0 10px gold, 0 0 20px goldenrod;
+  transform: scale(1.05);
+}
+/* ----------------------------------------------------------------------------------------------------------- Efecto hover sobre las pestañas */
 .menu-galeria .nav-link:hover {
   background-color: magenta;
   color: black;
@@ -30,13 +32,15 @@
   transform: scale(1.05);
   transition: all 0.2s ease-in-out;
 }
-/* ---------------------------------------------------------------------------------------------------------------------------- Pestaña activa */
-.menu-galeria .nav-link.active {
-  background-color: blue;
-  color: black;
-  border: 2px solid white;
-  box-shadow: 0 0 10px gold, 0 0 20px goldenrod;
-  transform: scale(1.05);
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+.dropdown-menu { padding: 0 !important; }
+
+.dropdown-menu .dropdown-item { transition: all 0.2s ease-in-out; }
+/* --------------------------------------------------------------------- Para un borde dorado alrededor de la opción que tiene el mouse encima */
+.dropdown-item:hover {
+  box-shadow: 0 0 0 5px gold, 0 0 10px gold;
+  transform: scale(1.02);
+  border-radius: 3px;
 }
 /* ----------------------------------------------------------- Opciones de submenú ----------------------------------------------------------- */
 #chunlixvega-tab   { background:purple; color:#fff; }
@@ -46,30 +50,12 @@
 #chunlixmbison-tab { background:crimson; color:#fff; }
 #chunlixblanka-tab { background:greenyellow; color:#111; }
 #chunlixakuma-tab  { background:#3B1F1F; color:#fff; }
-/* ------------------------------------------------------------------ */
-.dropdown-menu { 
-  padding: 0 !important; 
-}
-
-.dropdown-menu .dropdown-item {
-  transition: all 0.2s ease-in-out;
-}
-
-.dropdown-item:hover {
-  box-shadow: 0 0 0 5px gold, 0 0 10px gold;
-  transform: scale(1.02);
-  border-radius: 3px;
-}
-/* ********************************************* Que la galería no se sobreponga al menú ********************************************* */
-.tab-content {
-  margin-top: 20px;
-}
 /* ********************************************************** Contenedor de galería ********************************************************** */
 .swiper-container {
   width: 100%;
   height: 470px;
   padding-bottom: 30px;
-  position: relative; /* Asegura que los elementos dentro de este contenedor se posicionen relativamente */
+  position: relative;                                      
 }
 
 .swiper-slide {
@@ -78,18 +64,21 @@
   justify-content: center;
   align-items: center;
 }
-
+/* ----------------------------------------------------------------- Imágenes -----------------------------------------------------------------*/
 .swiper-slide img {
   width: 100%;
   max-width: 300px;
-  height: auto;
   border-radius: 8px;
+}
+/* --------------------------------------------------------------------------------------------------- Que la galería no se sobreponga al menú */
+.tab-content {
+  margin-top: 20px;
 }
 /* *********************************************** Contenedor común para botones y paginación *********************************************** */
 .swiper-controls {
   display: flex;
   align-items: center;
-  flex-direction: column; /* paginación debajo de los botones */
+  flex-direction: column;
   margin-top: 10px;
 }
 
@@ -99,7 +88,7 @@
     justify-content: center;
     gap: 20px;
 }
-/* *************************************************************** Paginación *************************************************************** */
+/* -------------------------------------------------------------------------------------------------------------------------------- Paginación */
 .swiper-pagination {
   position: static;
   display: flex;
@@ -108,7 +97,8 @@
   gap: 10px;
   padding-bottom: 30px;
 }
-/* ************************************************* Botones de PREV - NEXT en General ************************************************* */
+/* ***************************************************** En general, familia y ejercicio ***************************************************** */
+/* ---------------------------------------------------------------------------------------------------------- Color de los botones PREV - NEXT */
 #general .swiper-button-prev, #general .swiper-button-next,
 #familia .swiper-button-prev, #familia .swiper-button-next,
 #ejercicio .swiper-button-prev, #ejercicio .swiper-button-next{
@@ -118,117 +108,52 @@
   background: blue;
   box-shadow:  0 0 4px #ffffff,  0 0 10px #bfbfbf,  0 0 18px rgba(0,0,0,.5);
 }
-#general,
-#familia,
-#ejercicio{
-    --swiper-theme-color: #FFD700;
-}
-/* Hover */
+/* ------------------------------------------------------------------------------------------------ Color en los iconos de las flechas (< y >) */
+#general, #familia, #ejercicio { --swiper-theme-color: #FFD700; }
+/* ----------------------------------------------------------------------------- Efecto hover en las secciones de general, familia y ejercicio */
 #general .swiper-button-prev:hover, #general .swiper-button-next:hover,
 #familia .swiper-button-prev:hover, #familia .swiper-button-next:hover,
 #ejercicio .swiper-button-prev:hover, #ejercicio .swiper-button-next:hover{
   background: magenta;
   box-shadow:  0 0 4px #ffffff,  0 0 10px #bfbfbf,  0 0 18px rgba(0,0,0,.5);
 }
-/* ********************************************************** Según el personaje ********************************************************** */
-.chunlixvega-swiper { --theme-color: purple; }
-
-.chunlixryu-swiper { --theme-color: white; }
-
-.chunlixsagat-swiper { --theme-color: mediumblue; }
-
-.chunlixken-swiper { --theme-color: red; }
-
+/* ******************************************************** Dependiendo del personaje ******************************************************** */
+/* ----------------------------------------------------------- Botones PREV - NEXT ----------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------- Color */
+.chunlixvega-swiper   { --theme-color: purple; }
+.chunlixryu-swiper    { --theme-color: white; }
+.chunlixsagat-swiper  { --theme-color: mediumblue; }
+.chunlixken-swiper    { --theme-color: red; }
 .chunlixmbison-swiper { --theme-color: crimson; }
-
 .chunlixblanka-swiper { --theme-color: greenyellow; }
-
-.chunlixakuma-swiper { --theme-color: #3B1F1F; }
-/* ------------------------------------------------------------------------------------------------------------------ Puntos de la paginación */
-[class*="chunlix"] .swiper-button-prev {
-    left: 10px;
-    right: auto;
-}
-
-[class*="chunlix"] .swiper-button-next {
-    right: 10px;
-    left: auto;
-}
-
+.chunlixakuma-swiper  { --theme-color: #3B1F1F; }
+/* --------------------------------------------------------------------------------------------------------------------------- Personalización */
 [class*="chunlix"] .swiper-button-prev,
-[class*="chunlix"] .swiper-button-next {
+[class*="chunlix"] .swiper-button-next{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-}
-
-[class*="chunlix"] .swiper-button-prev::after,
-[class*="chunlix"] .swiper-button-next::after {
-    content: none !important;
-    font-size: 0 !important;
-    display: none !important;
-    background: none !important;
-}
-
-.swiper-button-prev::after,
-.swiper-button-next::after {
-    font-family: none !important;
-}
-
-[class*="chunlix"] .swiper-button-prev::before,
-[class*="chunlix"] .swiper-button-next::before {
-    content: '';
-    font-size: 22px;
-    color: gold;
-
-    position: absolute;
-    inset: 0;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-[class*="chunlix"] .swiper-button-prev,
-[class*="chunlix"] .swiper-button-next {
     width: 40px;
     height: 40px;
-
     background: var(--theme-color);
     border-radius: 50%;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-
     z-index: 10;
-}
-
-@keyframes pulseGold {
-    0% { box-shadow: 0 0 5px gold; }
-    50% { box-shadow: 0 0 15px gold; }
-    100% { box-shadow: 0 0 5px gold; }
-}
-
-[class*="chunlix"] .swiper-button-prev,
-[class*="chunlix"] .swiper-button-next {
     animation: pulseGold 2s infinite;
 }
-/* -------------------------------------------------------- Bullets normales */
+/* ------------------------------------------------------------------------------------------------ Color en los iconos de las flechas (< y >) */
+[class*="chunlix"] { --swiper-theme-color: gold; }
+/* ----------------------------------------------------------------- Bullets ----------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------- Color */
 [class*="chunlix"] .swiper-pagination-bullet {
     background: var(--theme-color);
     opacity: 0.6;
-    /* separación visual */
-    margin: 0 5px;
-    /* borde negro redondo */
-    border: 1px solid black;
-    box-sizing: border-box;
+    margin: 0 5px;                                                                                                        /* separación visual */
+    border: 1px solid black;                                                                                          /* borde negro redondo */
 }
-/* Bullet activa */
+/* ----------------------------------------------------------------------------------------------------------------------------- Bullet activa */
 [class*="chunlix"] .swiper-pagination-bullet-active {
     background: gold;
     opacity: 1;

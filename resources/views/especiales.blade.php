@@ -15,6 +15,7 @@
         <li id="feiLongMorado"> Fei Long Player 2</li>
         <li id="mBisonVerde">M. Bison Player 2</li>
         <li id="dhalsimGris">Dhalsim Player 2</li>
+        <li id="akumaCafe">Akuma Player 2</li>
       </ol>
     </div>
     <!-- ------------------------------------------------------ Contenedor personajes ------------------------------------------------------ -->
@@ -22,10 +23,9 @@
       <!-- ------------------------------------------------------------------------------------------------------------------------ Evil Ryu -->
       <div class="evilRyu-container especiales-container">
         <h4>Evil Ryu</h4>
-        <!-- Contenedor principal con las miniaturas y la imagen grande -->
-        <div class="main-container">
+        <div class="main-container"> <!-- Contenedor principal con las miniaturas y la imagen grande -->
           <!-- Paginación de imágenes pequeñas a un lado -->
-          <div id="image-pagination">
+          <div id="image-pagination"> <!-- Paginación de imágenes pequeñas a un lado -->
             <div class="image-thumbnail">
               <img src="assets/img/especiales/evilryu1.jpg" alt="Evil Ryu Frontal" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu1.jpg" />
             </div>
@@ -51,8 +51,7 @@
               <img src="assets/img/especiales/evilryu8.jpg" alt="Evil Ryu Pose 2" class="thumbnail-image" data-large-src="assets/img/especiales/evilryu8.jpg" />
             </div>
           </div>
-          <!-- Imagen central grande -->
-          <div id="active-image-container">
+          <div id="active-image-container"> <!-- Imagen central grande -->
             <img id="active-image" src="assets/img/especiales/evilryu1.jpg" alt="Evil Ryu" class="especial-img" />
           </div>
         </div>
@@ -60,10 +59,8 @@
       <!-- --------------------------------------------------------------------------------------------------------------------- Violent Ken -->
       <div class="violentKen-container especiales-container" style="display: none;">
         <h4>Violent Ken</h4>
-        <!-- Contenedor principal con las miniaturas y la imagen grande -->
-        <div class="main-container">
-          <!-- Paginación de imágenes pequeñas a un lado -->
-          <div id="image-pagination">
+        <div class="main-container"> <!-- Contenedor principal con las miniaturas y la imagen grande -->
+          <div id="image-pagination"> <!-- Paginación de imágenes pequeñas a un lado -->
             <div class="image-thumbnail">
               <img src="assets/img/especiales/violentken1.jpg" alt="Violent Ken Frontal" class="thumbnail-image" data-large-src="assets/img/especiales/violentken1.jpg" />
             </div>
@@ -89,8 +86,7 @@
               <img src="assets/img/especiales/violentken8.jpg" alt="Violent Ken Pose 2" class="thumbnail-image" data-large-src="assets/img/especiales/violentken8.jpg" />
             </div>
           </div>
-          <!-- Imagen central grande -->
-          <div id="active-image-container">
+          <div id="active-image-container"> <!-- Imagen central grande -->
             <img id="active-image" src="assets/img/especiales/violentken1.jpg" alt="Violent Ken" class="especial-img" />
           </div>
         </div> 
@@ -98,10 +94,8 @@
       <!-- ------------------------------------------------------------------------------------------------------------------------- Chun Li -->
       <div class="chunLiRosa-container especiales-container" style="display: none;">
         <h4>Chun Li Player 2</h4>
-        <!-- Contenedor principal con las miniaturas y la imagen grande -->
-        <div class="main-container">
-          <!-- Paginación de imágenes pequeñas a un lado -->
-          <div id="image-pagination">
+        <div class="main-container">  <!-- Contenedor principal con las miniaturas y la imagen grande -->
+          <div id="image-pagination"> <!-- Paginación de imágenes pequeñas a un lado -->
             <div class="image-thumbnail">
               <img src="assets/img/especiales/chunlirosa1.jpg" alt="Chun Li Player 2 Frontal" class="thumbnail-image" data-large-src="assets/img/especiales/chunlirosa1.jpg" />
             </div>
@@ -127,8 +121,7 @@
               <img src="assets/img/especiales/chunlirosa8.jpg" alt="Chun Li Player 2 Pose 2" class="thumbnail-image" data-large-src="assets/img/especiales/chunlirosa8.jpg" />
             </div>
           </div>
-            <!-- Imagen central grande -->
-          <div id="active-image-container">
+          <div id="active-image-container"> <!-- Imagen central grande -->
             <img id="active-image" src="assets/img/especiales/chunlirosa1.jpg" alt="Chun Li Player 2" class="especial-img" />
           </div>
         </div>    
@@ -136,10 +129,8 @@
       <!-- ------------------------------------------------------------------------------------------------------------------------- Chun Li -->
       <div class="feiLongMorado-container especiales-container" style="display: none;">
         <h4>Fei Long Player 2</h4>
-        <!-- Contenedor principal con las miniaturas y la imagen grande -->
-        <div class="main-container">
-          <!-- Paginación de imágenes pequeñas a un lado -->
-          <div id="image-pagination">
+        <div class="main-container">  <!-- Contenedor principal con las miniaturas y la imagen grande -->
+          <div id="image-pagination"> <!-- Paginación de imágenes pequeñas a un lado -->
             <div class="image-thumbnail">
               <img src="assets/img/especiales/feilongmorado1.jpg" alt="Fei Long Player 2 Frontal" class="thumbnail-image" data-large-src="assets/img/especiales/feilongmorado1.jpg" />
             </div>
@@ -165,8 +156,7 @@
               <img src="assets/img/especiales/feilongmorado8.jpg" alt="Fei Long Player 2 Pose 2" class="thumbnail-image" data-large-src="assets/img/especiales/feilongmorado8.jpg" />
             </div>
           </div>
-            <!-- Imagen central grande -->
-          <div id="active-image-container">
+          <div id="active-image-container"> <!-- Imagen central grande -->
             <img id="active-image" src="assets/img/especiales/feilongmorado1.jpg" alt="Fei Long Player 2" class="especial-img" />
           </div>
         </div>    
@@ -174,8 +164,8 @@
       <!-- ---------------------------------------------------------------------------------------------------------------- M. Bison Player 2 -->
       <div class="mBisonVerde-container especiales-container" style="display: none;">
         <h4>M. Bison Player 2</h4>
-        <div class="main-container">
-          <div id="image-pagination">
+        <div class="main-container">  <!-- Contenedor principal con las miniaturas y la imagen grande -->
+          <div id="image-pagination"> <!-- Paginación de imágenes pequeñas a un lado -->
             <div class="image-thumbnail">
               <img src="assets/img/especiales/mbisonverde1.jpg" alt="M. Bison Player 2 Frontal" class="thumbnail-image" data-large-src="assets/img/especiales/mbisonverde1.jpg" />
             </div>
@@ -201,7 +191,7 @@
               <img src="assets/img/especiales/mbisonverde8.jpg" alt="M. Bison Player 2 Pose 2" class="thumbnail-image" data-large-src="assets/img/especiales/mbisonverde8.jpg" />
             </div>
           </div>
-          <div id="active-image-container">
+          <div id="active-image-container"> <!-- Imagen central grande -->
             <img id="active-image" src="assets/img/especiales/mbisonverde1.jpg" alt="M. Bison Player 2" class="especial-img" />
           </div>
         </div> 
@@ -209,38 +199,73 @@
       <!-- ----------------------------------------------------------------------------------------------------------------- Dhalsim Player 2 -->
       <div class="dhalsimGris-container especiales-container" style="display: none;">
         <h4>Dhalsim Player 2</h4>
-        <div class="main-container">
-          <div id="image-pagination">
+        <div class="main-container">  <!-- Contenedor principal con las miniaturas y la imagen grande -->
+          <div id="image-pagination"> <!-- Paginación de imágenes pequeñas a un lado -->
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/dhalsimmorado1.jpg" alt="Dhalsim Player 2 Frontal" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimmorado1.jpg" />
+              <img src="assets/img/especiales/dhalsimgris1.jpg" alt="Dhalsim Player 2 Frontal" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimgris1.jpg" />
             </div>
             <div clas="image-thumbnail">
-              <img src="assets/img/especiales/dhalsimmorado2.jpg" alt="Dhalsim Player 2 Trasera" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimmorado2.jpg" />
+              <img src="assets/img/especiales/dhalsimgris2.jpg" alt="Dhalsim Player 2 Trasera" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimgris2.jpg" />
             </div>
             <div clas="image-thumbnail">
-              <img src="assets/img/especiales/dhalsimmorado3.jpg" alt="Dhalsim Player 2 Lateral" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimmorado3.jpg" />
+              <img src="assets/img/especiales/dhalsimgris3.jpg" alt="Dhalsim Player 2 Lateral" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimgris3.jpg" />
             </div>
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/dhalsimmorado4.jpg" alt="Dhalsim Player 2 Dentro" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimmorado4.jpg" />
+              <img src="assets/img/especiales/dhalsimgris4.jpg" alt="Dhalsim Player 2 Dentro" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimgris4.jpg" />
             </div>
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/dhalsimmorado5.jpg" alt="Dhalsim Player 2 Efecto 1" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimmorado5.jpg" />
+              <img src="assets/img/especiales/dhalsimgris5.jpg" alt="Dhalsim Player 2 Efecto 1" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimgris5.jpg" />
             </div>
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/dhalsimmorado6.jpg" alt="Dhalsim Player 2 Efecto 2" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimmorado6.jpg" />
+              <img src="assets/img/especiales/dhalsimgris6.jpg" alt="Dhalsim Player 2 Efecto 2" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimgris6.jpg" />
             </div>
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/dhalsimmorado7.jpg" alt="Dhalsim Player 2 Pose 1" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimmorado7.jpg" />
+              <img src="assets/img/especiales/dhalsimgris7.jpg" alt="Dhalsim Player 2 Pose 1" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimgris7.jpg" />
             </div>
             <div class="image-thumbnail">
-              <img src="assets/img/especiales/dhalsimmorado8.jpg" alt="Dhalsim Player 2 Pose 2" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimmorado8.jpg" />
+              <img src="assets/img/especiales/dhalsimgris8.jpg" alt="Dhalsim Player 2 Pose 2" class="thumbnail-image" data-large-src="assets/img/especiales/dhalsimgris8.jpg" />
             </div>
           </div>
-          <div id="active-image-container">
+          <div id="active-image-container"> <!-- Imagen central grande -->
             <img id="active-image" src="assets/img/especiales/dhalsimmorado1.jpg" alt="Dhalsim Player 2" class="especial-img" />
           </div>
         </div> 
-      </div> <!-- cierre Dhalsim Player 2 --> 
+      </div> <!-- cierre Dhalsim Player 2 -->
+      <!-- --------------------------------------------------------------------------------------------------------------------- Violent Ken -->
+      <div class="akumaCafe-container especiales-container" style="display: none;">
+        <h4>Akuma Player 2</h4>
+        <div class="main-container">  <!-- Contenedor principal con las miniaturas y la imagen grande -->
+          <div id="image-pagination"> <!-- Paginación de imágenes pequeñas a un lado -->
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/akumacafe1.jpg" alt="Akuma Player 2 Frontal" class="thumbnail-image" data-large-src="assets/img/especiales/akumacafe1.jpg" />
+            </div>
+            <div clas="image-thumbnail">
+              <img src="assets/img/especiales/akumacafe2.jpg" alt="Akuma Player 2 Trasera" class="thumbnail-image" data-large-src="assets/img/especiales/akumacafe2.jpg" />
+            </div>
+            <div clas="image-thumbnail">
+              <img src="assets/img/especiales/akumacafe3.jpg" alt="Akuma Player 2 Lateral" class="thumbnail-image" data-large-src="assets/img/especiales/akumacafe3.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/akumacafe4.jpg" alt="Akuma Player 2 Dentro" class="thumbnail-image" data-large-src="assets/img/especiales/akumacafe4.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/akumacafe5.jpg" alt="Akuma Player 2 Efecto 1" class="thumbnail-image" data-large-src="assets/img/especiales/akumacafe5.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/akumacafe6.jpg" alt="Akuma Player 2 Efecto 2" class="thumbnail-image" data-large-src="assets/img/especiales/akumacafe6.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/akumacafe7.jpg" alt="Akuma Player 2 Pose 1" class="thumbnail-image" data-large-src="assets/img/especiales/akumacafe7.jpg" />
+            </div>
+            <div class="image-thumbnail">
+              <img src="assets/img/especiales/akumacafe8.jpg" alt="Akuma Player 2 Pose 2" class="thumbnail-image" data-large-src="assets/img/especiales/akumacafe8.jpg" />
+            </div>
+          </div>
+          <div id="active-image-container"> <!-- Imagen central grande -->
+            <img id="active-image" src="assets/img/especiales/akumacafe1.jpg" alt="Akuma Café" class="especial-img" />
+          </div>
+        </div> 
+      </div> <!-- cierre Akuma Player 2 -->
     </div> <!-- Contenedor personajes -->
   </div> <!-- Contenedor general -->
 @endsection

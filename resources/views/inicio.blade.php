@@ -155,7 +155,7 @@
                                 <tr class="fila2E"> 
                                     <td> Violent Ken </td>
                                     <td> SDCC 2024 </td> 
-                                    <td> Caja diferente y grande, traje rojo; 3 rostros, 2 pares de manos, 2 efectos y 2 barriles </td>
+                                    <td> Caja diferente y grande, traje rojo, cabello blanco; 3 rostros, 2 pares de manos, 2 efectos y 2 barriles </td>
                                 </tr>
                             </tbody>
                             <tbody> <!-- ------------------------------------------------------------------------------------------- CHUN LI -->
@@ -184,6 +184,13 @@
                                     <td> Dhalsim Player 2 </td>
                                     <td> SDCC 2025 </td>
                                     <td> Caja diferente y grande, cuerpo color morado y short naranja; 4 rostros, 4 pares de manos, 2 efectos de fuego, piernas y brazos con efecto, y un cuerpo quemado </td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr class="fila7E">
+                                    <td> Akuma Player 2 </td>
+                                    <td> SDCC 2026 </td>
+                                    <td> Caja diferente y grande, traje café, cabello blanco; 2 rostros, 2 pares de manos, 1 efecto rojo, 1 efecto azul, un par de efectos de fuego para los brazos y dos gi sin símbolo en la espalda para P1 y P2 </td>
                                 </tr>
                             </tbody>
                         </table>

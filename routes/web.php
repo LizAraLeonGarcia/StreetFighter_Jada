@@ -1,23 +1,23 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-// Ruta para la página principal (Inicio)
+// --------------------------------------------------- Ruta para la página principal (Inicio) ---------------------------------------------------
 Route::get('/', function () {
     return view('inicio');
-});
-// Ruta para la sección de personajes
+})->name('inicio');
+// ----------------------------------------------------- Ruta para la sección de Personajes -----------------------------------------------------
 Route::get('/personajes', function () {
     return view('personajes');
-});
-// Ruta para la sección de figuras
+})->name('personajes');
+// ----------------------------------------------------- Ruta para la sección de Especiales -----------------------------------------------------
 Route::get('/especiales', function () {
     return view('especiales');
-});
-// Ruta para la sección de figuras
+})->name('especiales');
+// ------------------------------------------------------- Ruta para la sección Variantes -------------------------------------------------------
 Route::get('/variantes', function () {
     return view('variantes');
-});
-// Ruta para la sección de galería
+})->name('variantes');
+// -------------------------------------------------------- Ruta para la sección Galería --------------------------------------------------------
 Route::get('/galeria', function () {
     return view('galeria');
-});
+})->name('galeria');

@@ -7,6 +7,7 @@
             <div class="footer-parrafo"> 
                 <p>Todos los derechos reservados. Creadora: HimoutoKawaii.</p>
             </div>
+            <div class="footer-separador"> △ </div>
             <div class="social-media">
                 <a href="mailto:your-email@gmail.com" target="_blank" class="social-icon"><i class="fab fa-google"></i> Gmail</a>
                 <a href="https://wa.me/yourphonenumber" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i> WhatsApp</a>

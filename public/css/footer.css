@@ -24,23 +24,46 @@
   object-fit: cover;
 }
 /* Texto en el pie de página */
+.footer-triangulo{
+    color:lime;
+    font-size:24px;
+    margin-right:10px;
+    text-shadow:0 0 8px rgba(0,255,0,.5);
+}
 .footer-parrafo {
-  position: absolute; /* Posicionamiento absoluto */
-  top: 0; /* Coloca el párrafo en la parte superior del contenedor */
-  left: 50%;
-  transform: translateX(-50%); /* Centra el párrafo horizontalmente */
   color: white; /* Texto blanco */
   text-align: center; /* Centra el texto dentro del párrafo */
-  padding-top: 10px;
-  z-index: 10; /* Asegura que el párrafo esté encima de otros elementos */
+  padding-top: 7px; padding-bottom: 5px; margin: 0;
 }
 
+.footer-separador{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap: 25px;
+    color:lime;
+    font-size:28px;
+}
+
+.footer-separador::before,
+.footer-separador::after{
+    content:"";
+    height:1px;
+    width: 150px;
+    background:linear-gradient(
+        90deg,
+        transparent,
+        lime,
+        transparent
+    );
+}
 /* Estilo para los iconos de redes sociales */
 .social-media {
   display: flex; /* Alinea los elementos en línea */
   justify-content: center; /* Centra los elementos */
   gap: 20px; /* Espacio entre los iconos */
-  margin-top: 40px; /* Da espacio arriba */
+  margin-top: 5px; /* Da espacio arriba */
+  margin-bottom: 7px;
 }
 
 /* Estilo para los enlaces de redes sociales */

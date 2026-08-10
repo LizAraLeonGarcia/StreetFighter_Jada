@@ -67,14 +67,65 @@
   text-align: justify;
 }
 /* *************************************************** Encabezado de la tabla de las wave *************************************************** */
+.inicio {
+  --ps-blue-dark: #003791;
+  --ps-blue: #0070cc;
+  --ps-blue-light: #00a9e0;
+
+  --ps-dark: #101114;
+  --ps-dark-2: #181b21;
+  --ps-white: #f5f5f5;
+}
+/* --------------------------------------------------------- Contenedor de cada Wave --------------------------------------------------------- */
+.inicio .wave1, .inicio .wave2, .inicio .wave3, .inicio .wave4, .inicio .wave5, .inicio .wave6 { border-radius: 3px; }
+/* ------------------------------------------------------------------ Tabla ------------------------------------------------------------------ */
+.inicio .wave1 table, .inicio .wave2 table, .inicio .wave3 table, .inicio .wave4 table, .inicio .wave5 table, .inicio .wave6 table {
+  background-color: var(--ps-dark);
+  border: 3px solid var(--ps-blue) !important;                                                                   /* Borde exterior PlayStation */
+}
+/* --------------------------------------------------------- Encabezado de las Waves --------------------------------------------------------- */
 .inicio .encabezado-tabla {
-  background-color: royalblue;
-  color: white;
-  border-color: mediumblue;
-  border-width: 4px;
+  background-color: var(--ps-blue-dark);
+  color: var(--ps-white);
+  border: 2px solid var(--ps-blue) !important;
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
+/* ---------------------------------------------------- Pequeño acento azul en encabezado ---------------------------------------------------- */
+.inicio .encabezado-tabla th {
+  background: linear-gradient( 180deg, #074a9e 0%, #003791 100% );
+  color: white !important;
+  border-color: var(--ps-blue) !important;
+}
+/* ----------------------------------------------- Subtítulo primavera 2023 / otoño 2024 / etc ----------------------------------------------- */
+.inicio .encabezado-tabla .subtitulo {
+  display: inline-block;
+  margin-top: 3px;
+  padding: 2px 8px;
+  color: #8ed8ff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-variant: small-caps;
+  letter-spacing: 1.2px;
+  text-transform: none;
+  border-top: 1px solid rgba(142, 216, 255, 0.35);
+}
+/* ---------------------------------------------------------- Bordes celdas ---------------------------------------------------------- */
+.inicio .wave1 td, .inicio .wave2 td, .inicio .wave3 td, .inicio .wave4 td, .inicio .wave5 td, .inicio .wave6 td {
+  border: 2px solid var(--ps-blue-dark) !important;
+  text-align: center;
+  transition: filter 0.2s ease, box-shadow 0.2s ease;
+}
+/* ---------------------------------------------------------- Hover: un brillo azul ---------------------------------------------------------- */
+.inicio .wave1 tbody tr:hover td, .inicio .wave2 tbody tr:hover td, .inicio .wave3 tbody tr:hover td, .inicio .wave4 tbody tr:hover td,
+.inicio .wave5 tbody tr:hover td, .inicio .wave6 tbody tr:hover td {
+  filter: brightness(1.15);
+  box-shadow: inset 0 0 0 2px var(--ps-blue-light), 0 0 5px rgba(0, 169, 224, 0.35);
+}
+/* -------------------------------------------------------- Separación entre las wave -------------------------------------------------------- */
+.inicio .wave1 table, .inicio .wave2 table, .inicio .wave3 table, .inicio .wave4 table, .inicio .wave5 table, .inicio .wave6 table {
+  overflow: hidden; }
 /* *********************************************************** Tabla de la wave 1 *********************************************************** */
 /* -------------------------------------------------------------------------------------------------------------------------------------- RYU */
 #inicio .col1 {
@@ -218,59 +269,70 @@
   text-align: center;
 }
 /* ************************************************************ Tabla especiales ************************************************************ */
-.inicio .tabla-especiales table td,
-.inicio .tabla-especiales table th {
-  color: white !important;
-  text-align: justify;
-}
+.inicio .tabla-especiales {
+  --ps-blue: #0070cc;       /* ✕ */
+  --ps-blue-dark: #003791;
+  
+  --ps-red: #ed1c24;        /* ○ */
+  --ps-green: #00a651;      /* △ */
+  --ps-pink: #f87aa4;       /* □ */
 
+  --ps-black: #101114;
+  --ps-dark: #181a1f;
+  --ps-dark-2: #22252b;
+  --ps-dark-3: #2b2e35;
+  --ps-white: #f5f5f5;
+}
+/* ------------------------------------------------------------------ Texto ------------------------------------------------------------------ */
+.inicio .tabla-especiales table td, .inicio .tabla-especiales table th {
+  color: var(--ps-white) !important;
+  text-align: justify;
+  vertical-align: middle;
+}
+/* ------------------------------------------------------------------ Tabla ------------------------------------------------------------------ */
+.inicio .tabla-especiales table {
+  background-color: var(--ps-black);
+  border: 4px solid var(--ps-blue) !important;
+}
+/* ---------------------------------------------------------- Celda para encabezado ---------------------------------------------------------- */
 .inicio .encabezado-especiales {
-  background-color: hotpink;
-  border-color: deeppink;
-  border-width: 4px;
+  background-color: var(--ps-blue-dark);
+  border-color: var(--ps-blue);
+  border-width: 3px;
   text-align: center;
 }
-
+/* ---------------------------------------------------------------- Título  — ---------------------------------------------------------------- */
 .inicio .titulo-tabla-especiales {
-  background-color: deeppink;
+  background: linear-gradient( 90deg, var(--ps-blue-dark), var(--ps-blue) );
+  color: white;
   text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.15rem;
 }
+/* ---------------------------------------------------------- CABECERAS DE COLUMNAS  */
+.inicio .tabla-especiales thead tr:nth-child(2) { background-color: var(--ps-dark-3); }
 
-.table-bordered-especiales {
-  border: 4px solid deeppink !important;
+.inicio .tabla-especiales thead tr:nth-child(2) th {
+  color: var(--ps-pink) !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
 }
-
-.table-bordered-especiales td, .table-bordered th {
-  border: 3px solid deeppink;
+/* --------------------------------------------------------------- Bordes  */
+.inicio .tabla-especiales td, .inicio .tabla-especiales th { border: 2px solid var(--ps-blue-dark) !important; }
+/* --------------------------------------------------------------- Filas */
+.inicio .tabla-especiales tbody tr {
+  background-color: var(--ps-dark);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
 }
-/* --------------------------------------------------------------------------------------------------------------------------------- EVIL RYU */
-.fila1E {
-  background-color: darkslategray;
-}
-/* ------------------------------------------------------------------------------------------------------------------------------ VIOLENT KEN */
-.fila2E {
-  background-color: red;
-}
-/* ------------------------------------------------------------------------------------------------------------------------- CHUN LI PLAYER 2 */
-.fila3E {
-  background-color: rgb(253, 70, 162);
-}
-/* --------------------------------------------------------------------------------------------------------------------------------- FEI LONG */
-.fila4E {
-  background-color: purple;
-}
-/* --------------------------------------------------------------------------------------------------------------------------------- M. BISON */
-.fila5E {
-  background-color: green;
-}
-/* ---------------------------------------------------------------------------------------------------------------------------------- DHALSIM */
-.fila6E {
-  background-color: orangered;
-}
-/* ------------------------------------------------------------------------------------------------------------------------------------ AKUMA */
-.fila7E {
-  background-color: saddlebrown;
-}
+/* ------------------------------------------------------------ Filas alternas */
+.inicio .tabla-especiales tbody:nth-of-type(even) tr { background-color: var(--ps-dark-2); }
+/* -------------------------------------------------------------- Hover — ROSA □ */
+.inicio .tabla-especiales tbody tr:hover { background-color: #e461a9 !important; box-shadow: inset 5px 0 0 var(--ps-pink); }
+/*  Personaje — ROJO ○ -------------------------------------------------------- */
+.inicio .tabla-especiales tbody td:first-child { color: var(--ps-red) !important; font-weight: bold; white-space: nowrap; }
+/* ------------------------------------------------------------ Detalles — VERDE △ */
+.inicio .tabla-especiales tbody td:nth-child(2) { color: var(--ps-green) !important; font-weight: 600; }
 /* ********************************************************** Tabla para variantes ********************************************************** */
 .inicio .tabla-variantes table td,
 .inicio .tabla-variantes table th {

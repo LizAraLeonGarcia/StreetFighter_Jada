@@ -5,7 +5,7 @@
         </div>
         <div>
             <div class="footer-parrafo"> 
-                <p>Todos los derechos reservados. Creadora: HimoutoKawaii.</p>
+                <p>Todos los derechos reservados. Creadora: HimoutoKawaiiCHL.</p>
             </div>
             <div class="footer-separador"> △ </div>
             <div class="social-media">

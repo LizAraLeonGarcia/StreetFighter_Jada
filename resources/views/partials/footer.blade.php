@@ -9,7 +9,7 @@
             </div>
             <div class="footer-separador"> △ </div>
             <div class="social-media">
-                <a href="mailto:your-email@gmail.com" target="_blank" class="social-icon"><i class="fab fa-google"></i> Gmail</a>
+                <a href="mailto:himoutokawaiichl@gmail.com" class="social-icon"><i class="fab fa-google"></i> Gmail</a>
                 <a href="https://wa.me/yourphonenumber" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i> WhatsApp</a>
                 <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook"></i> Facebook </a>
                 <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i> Instagram</a>

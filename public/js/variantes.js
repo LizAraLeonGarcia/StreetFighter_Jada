@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
+  const variantes = document.getElementById('variantes');
+
+    if (!variantes) {
+        return;
+    }
   // -------------------------------------------------- Obtención de las listas de personajes --------------------------------------------------
   const ryuGrisItem = document.getElementById("ryuGris");
   const kenBlancoItem = document.getElementById("kenBlanco");

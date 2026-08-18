@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
+  const especiales = document.getElementById('especiales');
+    if (!especiales) {
+        return;
+    }
   // ===================================================== Selección de lista de personaje =====================================================
   const evilRyuButton = document.getElementById('evilRyu');
   const violentKenButton = document.getElementById('violentKen');

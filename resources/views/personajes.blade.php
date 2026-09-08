@@ -346,7 +346,7 @@
             <button class="carousel-control-prev" type="button" data-bs-target="#akuma" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
             <button class="carousel-control-next" type="button" data-bs-target="#akuma" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
           </div>
-          <div id="thawk" class="carousel slide character-thawk" data-bs-interval="false"> <!-- ------------------------------------ BALROG -->
+          <div id="thawk" class="carousel slide character-thawk" data-bs-interval="false"> <!-- ------------------------------------ T HAWK -->
             <h4>T. Hawk</h4>
             <div class="carousel-inner">
               <div class="carousel-item active">

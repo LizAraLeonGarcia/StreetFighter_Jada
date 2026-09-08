@@ -21,3 +21,7 @@ Route::get('/variantes', function () {
 Route::get('/galeria', function () {
     return view('galeria');
 })->name('galeria');
+// -------------------------------------------------------- Ruta para la sección Alpha --------------------------------------------------------
+Route::get('/alpha', function () {
+    return view('alpha');
+})->name('alpha');

@@ -16,6 +16,10 @@
             <li class="char chunli-alpha" data-bs-target="#chunli-alpha" data-bs-slide-to="0">Chun Li</li>
             <li class="char ryu-alpha" data-bs-target="#ryu-alpha" data-bs-slide-to="0">Ryu</li>
             <li class="char charlie-alpha" data-bs-target="#charlie-alpha" data-bs-slide-to="0">Charlie</li>
+            <li class="char guy-alpha" data-bs-target="#guy-alpha" data-bs-slide-to="0">Guy</li>
+            <li class="char adon-alpha" data-bs-target="#adon-alpha" data-bs-slide-to="0">Adon</li>
+            <li class="char sakura-alpha" data-bs-target="#sakura-alpha" data-bs-slide-to="0">Sakura</li>
+
           </ol>
         </div> <!-- contenedor de la lista / paginación -->
         <!-- ----------------------------------------------------- Columna del carrusel ----------------------------------------------------- --> 
@@ -92,9 +96,78 @@
             <button class="carousel-control-prev" type="button" data-bs-target="#charlie-alpha" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
             <button class="carousel-control-next" type="button" data-bs-target="#charlie-alpha" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
           </div>
-
-
-
+          <div id="guy-alpha" class="carousel slide character-guy-alpha" data-bs-interval="false"> <!-- --------------------------------------- CAMMY -->
+            <h4>Guy</h4>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="assets/img/alpha/4-1.jpg">
+                <img src="assets/img/alpha/4-1.jpg" class="character-imagen" alt="Cammy Frontal"> </a>
+              </div>
+              <div class="carousel-item">
+                <a href="assets/img/alpha/4-2.jpg">
+                <img src="assets/img/alpha/4-2.jpg" class="character-imagen" alt="Cammy Lateral"> </a>
+              </div>
+              <div class="carousel-item">
+                <a href="assets/img/alpha/4-3.jpg">
+                <img src="assets/img/alpha/4-3.jpg" class="character-imagen" alt="Cammy con efecto"> </a>
+              </div>
+              <div class="carousel-item">
+                <a href="assets/img/alpha/4-4.jpg">
+                <img src="assets/img/alpha/4-4.jpg" class="character-imagen" alt="Cammy pose"> </a>
+              </div>
+            </div>
+            <!-- Botones de navegación (prev y next) -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#guy-alpha" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#guy-alpha" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
+          </div>
+          <div id="adon-alpha" class="carousel slide character-adon-alpha" data-bs-interval="false"> <!-- --------------------------------------- CAMMY -->
+            <h4>Adon</h4>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="assets/img/alpha/5-1.jpg">
+                <img src="assets/img/alpha/5-1.jpg" class="character-imagen" alt="Cammy Frontal"> </a>
+              </div>
+              <div class="carousel-item">
+                <a href="assets/img/alpha/5-2.jpg">
+                <img src="assets/img/alpha/5-2.jpg" class="character-imagen" alt="Cammy Lateral"> </a>
+              </div>
+              <div class="carousel-item">
+                <a href="assets/img/alpha/5-3.jpg">
+                <img src="assets/img/alpha/5-3.jpg" class="character-imagen" alt="Cammy con efecto"> </a>
+              </div>
+              <div class="carousel-item">
+                <a href="assets/img/alpha/5-4.jpg">
+                <img src="assets/img/alpha/5-4.jpg" class="character-imagen" alt="Cammy pose"> </a>
+              </div>
+            </div>
+            <!-- Botones de navegación (prev y next) -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#adon-alpha" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#adon-alpha" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
+          </div>
+          <div id="sakura-alpha" class="carousel slide character-sakura-alpha" data-bs-interval="false"> <!-- --------------------------------------- CAMMY -->
+            <h4>Sakura</h4>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="assets/img/alpha/6-1.jpg">
+                <img src="assets/img/alpha/6-1.jpg" class="character-imagen" alt="Cammy Frontal"> </a>
+              </div>
+              <div class="carousel-item">
+                <a href="assets/img/alpha/6-2.jpg">
+                <img src="assets/img/alpha/6-2.jpg" class="character-imagen" alt="Cammy Lateral"> </a>
+              </div>
+              <div class="carousel-item">
+                <a href="assets/img/alpha/6-3.jpg">
+                <img src="assets/img/alpha/6-3.jpg" class="character-imagen" alt="Cammy con efecto"> </a>
+              </div>
+              <div class="carousel-item">
+                <a href="assets/img/alpha/6-4.jpg">
+                <img src="assets/img/alpha/6-4.jpg" class="character-imagen" alt="Cammy pose"> </a>
+              </div>
+            </div>
+            <!-- Botones de navegación (prev y next) -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#sakura-alpha" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#sakura-alpha" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
+          </div>
         </div>
       </div>
     </div>

@@ -5,30 +5,36 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
     }
   // -------------------------------------------------- Obtención de las listas de personajes --------------------------------------------------
-  const ryuGrisItem = document.getElementById("ryuGris");
-  const kenBlancoItem = document.getElementById("kenBlanco");
-  const chunLiRojaItem = document.getElementById("chunLiRoja");
-  const mBisonAzulItem = document.getElementById("mBisonAzul");
-  const guileAzulItem = document.getElementById("guileAzul");
-  const cammyGrisItem = document.getElementById("cammyGris");
-  const blankaAzulItem = document.getElementById("blankaAzul");
+  const chunliItem = document.getElementById("chunli");
+  const vegaItem = document.getElementById("vega");
+  const cammyItem = document.getElementById("cammy");
+  const guileItem = document.getElementById("guile");
+  const ryuItem = document.getElementById("ryu");
+  const kenItem = document.getElementById("ken");
+  const blankaItem = document.getElementById("blanka");
+  const mbisonItem = document.getElementById("mbison");
+  const balrogItem = document-getElementById("balrog");
   // ------------------------------------------------------ Obtención de los contenedores ------------------------------------------------------
-  const ryuGrisContainer = document.querySelector(".ryuGris-container");
-  const kenBlancoContainer = document.querySelector(".kenBlanco-container");
-  const chunLiRojaContainer = document.querySelector(".chunLiRoja-container");
-  const mBisonAzulContainer = document.querySelector(".mBisonAzul-container");
-  const guileAzulContainer = document.querySelector(".guileAzul-container");
-  const cammyGrisContainer = document.querySelector(".cammyGris-container");
-  const blankaAzulContainer = document.querySelector(".blankaAzul-container");
+  const chunliContainer = document.querySelector(".chunli-container");
+  const vegaContainer = document.querySelector(".vega-container");
+  const cammyContainer = document.querySelector(".cammy-container");
+  const guileContainer = document.querySelector(".guile-container");
+  const ryuContainer = document.querySelector(".ryu-container");
+  const kenContainer = document.querySelector(".ken-container");
+  const blankaContainer = document.querySelector(".blanka-container");
+  const mbisonContainer = document.querySelector(".mbison-container");
+  const balrogContainer = document.querySelector(".balrog-container");
   // Función para ocultar todos los contenedores
   function hideAllContainers() {
-    ryuGrisContainer.style.display = "none";
-    kenBlancoContainer.style.display = "none";
-    chunLiRojaContainer.style.display = "none";
-    mBisonAzulContainer.style.display = "none";
-    guileAzulContainer.style.display = "none";
-    cammyGrisContainer.style.display = "none";
-    blankaAzulContainer.style.display = "none";
+    chunliContainer.style.display = "none";
+    vegaContainer.style.display = "none";
+    cammyContainer.style.display = "none";
+    guileContainer.style.display = "none";
+    ryuContainer.style.display = "none";
+    kenContainer.style.display = "none";
+    blankaContainer.style.display = "none";
+    mbisonContainer.style.display = "none";
+    balrogContainer.style.display = "none";
   }
   // Función para mostrar el contenedor seleccionado
   function showContainer(container) {
@@ -38,53 +44,65 @@ document.addEventListener('DOMContentLoaded', function () {
   // Función para gestionar el cambio de la clase activa
   function setActiveItem(item) {
     // Remueve la clase active de todos los elementos
-    ryuGrisItem.classList.remove('active');
-    kenBlancoItem.classList.remove('active');
-    chunLiRojaItem.classList.remove('active');
-    mBisonAzulItem.classList.remove('active');
-    guileAzulItem.classList.remove('active');
-    cammyGrisItem.classList.remove('active');
-    blankaAzulItem.classList.remove('active');
+    chunliItem.classList.remove('active');
+    vegaItem.classList.remove('active');
+    cammyItem.classList.remove('active');
+    guileItem.classList.remove('active');
+    ryuItem.classList.remove('active');
+    kenItem.classList.remove('active');
+    blankaItem.classList.remove('active');
+    mbisonItem.classList.remove('active');
+    balrogItem.classList.remove('active');
     // Agrega la clase active al elemento seleccionado
     item.classList.add('active');
   }
   // Asignar los eventos a cada elemento de la lista
-  // Ryu ---------------------------------------------------------------------------------------------------------------------------------------
-  ryuGrisItem.addEventListener("click", function() {
-    showContainer(ryuGrisContainer);
-    setActiveItem(ryuGrisItem);
-  });
-  // Ken ---------------------------------------------------------------------------------------------------------------------------------------
-  kenBlancoItem.addEventListener("click", function() {
-    showContainer(kenBlancoContainer);
-    setActiveItem(kenBlancoItem);
-  });
   // Chun Li -----------------------------------------------------------------------------------------------------------------------------------
-  chunLiRojaItem.addEventListener("click", function() {
-    showContainer(chunLiRojaContainer);
-    setActiveItem(chunLiRojaItem);
+  chunliItem.addEventListener("click", function() {
+    showContainer(chunliContainer);
+    setActiveItem(chunliItem);
   });
-  // M. Bison ----------------------------------------------------------------------------------------------------------------------------------
-  mBisonAzulItem.addEventListener("click", function() {
-    showContainer(mBisonAzulContainer);
-    setActiveItem(mBisonAzulItem);
-  });
-  // Guile -------------------------------------------------------------------------------------------------------------------------------------
-  guileAzulItem.addEventListener("click", function() {
-    showContainer(guileAzulContainer);
-    setActiveItem(guileAzulItem);
+  // Vega --------------------------------------------------------------------------------------------------------------------------------------
+  vegaItem.addEventListener("click", function() {
+    showContainer(vegaContainer);
+    setActiveItem(vegaItem);
   });
   // Cammy -------------------------------------------------------------------------------------------------------------------------------------
-  cammyGrisItem.addEventListener("click", function() {
-    showContainer(cammyGrisContainer);
-    setActiveItem(cammyGrisItem);
+  cammyItem.addEventListener("click", function() {
+    showContainer(cammyContainer);
+    setActiveItem(cammyItem);
+  });
+  // Guile -------------------------------------------------------------------------------------------------------------------------------------
+  guileItem.addEventListener("click", function() {
+    showContainer(guileContainer);
+    setActiveItem(guileItem);
+  });
+  // Ryu ---------------------------------------------------------------------------------------------------------------------------------------
+  ryuItem.addEventListener("click", function() {
+    showContainer(ryuContainer);
+    setActiveItem(ryuItem);
+  });
+  // Ken ---------------------------------------------------------------------------------------------------------------------------------------
+  kenItem.addEventListener("click", function() {
+    showContainer(kenContainer);
+    setActiveItem(kenItem);
   });
   // Blanka -------------------------------------------------------------------------------------------------------------------------------------
-  blankaAzulItem.addEventListener("click", function() {
-    showContainer(blankaAzulContainer);
-    setActiveItem(blankaAzulItem);
+  blankaItem.addEventListener("click", function() {
+    showContainer(blankaContainer);
+    setActiveItem(blankaItem);
+  });
+  // M. Bison ----------------------------------------------------------------------------------------------------------------------------------
+  mbisonItem.addEventListener("click", function() {
+    showContainer(mbisonContainer);
+    setActiveItem(mbisonItem);
+  });
+  // Balrog ------------------------------------------------------------------------------------------------------------------------------------
+  mbisonItem.addEventListener("click", function() {
+    showContainer(balrogContainer);
+    setActiveItem(balrogItem);
   });
   // ---------------------------------------------------------- Por defecto, mostrar a Ryu Gris al cargar la página y establecerlo como activo --
-  showContainer(ryuGrisContainer);
-  setActiveItem(ryuGrisItem);
+  showContainer(chunliContainer);
+  setActiveItem(chunliItem);
 });

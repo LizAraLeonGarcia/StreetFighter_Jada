@@ -43,12 +43,16 @@
         <h4>M. Bison</h4>
         <img src="assets/img/variantes/mbisonazul1.jpg" class="variante-img" alt="M. Bison azul">
         <img src="assets/img/variantes/mbisonazul2.jpg" class="variante-img" alt="M. Bison azul posando">
+        <img src="assets/img/variantes/mbisonazuldorado1.jpg" class="variante-img" alt="M. Bison azul rey con dorado">
+        <img src="assets/img/variantes/mbisonazuldorado2.jpg" class="variante-img" alt="M. Bison azul rey con dorado posando">
       </div>    
       <!-- ------------------------------------------------------------------------------------------------------------------ Guile Player 2 -->
       <div class="guileAzul-container variantes-container">
         <h4>Guile</h4>
         <img src="assets/img/variantes/guileazul1.jpg" class="variante-img" alt="Guile azul">
         <img src="assets/img/variantes/guileazul2.jpg" class="variante-img" alt="Guile azul posando">
+        <img src="assets/img/variantes/guilerojo1.jpg" class="variante-img" alt="Guile rojo">
+        <img src="assets/img/variantes/guilerojo2.jpg" class="variante-img" alt="Guile rojo posando">
       </div> 
       <!-- ------------------------------------------------------------------------------------------------------------------- Cammy Player 2 -->            
       <div class="cammyGris-container variantes-container"> 

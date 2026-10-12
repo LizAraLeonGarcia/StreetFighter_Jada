@@ -28,8 +28,8 @@
             <li class="char akuma" data-bs-target="#akuma" data-bs-slide-to="0">Akuma</li>
             <li class="char thawk" data-bs-target="#thawk" data-bs-slide-to="0">T. Hawk</li>
             <li class="char feilong" data-bs-target="#feilong" data-bs-slide-to="0">Fei Long</li>
-            <li class="char balrog" data-bs-target="#balrog" data-bs-slide-to="0">Balrog</li>
             <li class="char zangief" data-bs-target="#zangief" data-bs-slide-to="0">Zangief</li>
+            <li class="char balrog" data-bs-target="#balrog" data-bs-slide-to="0">Balrog</li>
           </ol>
         </div> <!-- contenedor de la lista / paginación -->
         <!-- ----------------------------------------------------- Columna del carrusel ----------------------------------------------------- --> 
@@ -393,31 +393,7 @@
             <!-- Botones de navegación (prev y next) -->
             <button class="carousel-control-prev" type="button" data-bs-target="#feilong" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
             <button class="carousel-control-next" type="button" data-bs-target="#feilong" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
-          </div>        
-          <div id="balrog" class="carousel slide character-balrog" data-bs-interval="false"> <!-- ------------------------------------ BALROG -->
-            <h4>Balrog</h4>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <a href="assets/img/personajes/15-1.jpg">
-                <img src="assets/img/personajes/15-1.jpg" class="character-imagen" alt="Balrog Frontal"> </a>
-              </div>
-              <div class="carousel-item">
-                <a href="assets/img/personajes/15-2.jpg">
-                <img src="assets/img/personajes/15-2.jpg" class="character-imagen" alt="Balrog Lateral"> </a>
-              </div>
-              <div class="carousel-item"> 
-                <a href="assets/img/personajes/15-3.jpg">
-                <img src="assets/img/personajes/15-3.jpg" class="character-imagen" alt="Balrog con efecto"> </a>
-              </div>
-              <div class="carousel-item"> 
-                <a href="assets/img/personajes/15-4.jpg">
-                <img src="assets/img/personajes/15-4.jpg" class="character-imagen" alt="Balrog pose"> </a>
-              </div>
-            </div>
-            <!-- Botones de navegación (prev y next) -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#balrog" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#balrog" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
-          </div>
+          </div>  
           <div id="zangief" class="carousel slide character-zangief" data-bs-interval="false"> <!-- ----------------------------------- ZANGIEF -->
             <h4>Zangief</h4>
             <div class="carousel-inner">
@@ -441,6 +417,30 @@
             <!-- Botones de navegación (prev y next) -->
             <button class="carousel-control-prev" type="button" data-bs-target="#zangief" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
             <button class="carousel-control-next" type="button" data-bs-target="#zangief" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
+          </div>      
+          <div id="balrog" class="carousel slide character-balrog" data-bs-interval="false"> <!-- ------------------------------------ BALROG -->
+            <h4>Balrog</h4>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="assets/img/personajes/15-1.jpg">
+                <img src="assets/img/personajes/15-1.jpg" class="character-imagen" alt="Balrog Frontal"> </a>
+              </div>
+              <div class="carousel-item">
+                <a href="assets/img/personajes/15-2.jpg">
+                <img src="assets/img/personajes/15-2.jpg" class="character-imagen" alt="Balrog Lateral"> </a>
+              </div>
+              <div class="carousel-item"> 
+                <a href="assets/img/personajes/15-3.jpg">
+                <img src="assets/img/personajes/15-3.jpg" class="character-imagen" alt="Balrog con efecto"> </a>
+              </div>
+              <div class="carousel-item"> 
+                <a href="assets/img/personajes/15-4.jpg">
+                <img src="assets/img/personajes/15-4.jpg" class="character-imagen" alt="Balrog pose"> </a>
+              </div>
+            </div>
+            <!-- Botones de navegación (prev y next) -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#balrog" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#balrog" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> </button>
           </div>
         </div>
       </div>

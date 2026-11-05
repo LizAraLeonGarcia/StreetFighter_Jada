@@ -235,7 +235,7 @@
                             <tbody> <!-- -------------------------------------------------------------------------------------------- CAMMY -->
                                 <tr> <td>Cammy plata</td> <td>Entertainment Earth, 2025</td> <td>Misma caja y accesorios, traje plateado con rosa</td> </tr>
                             </tbody>
-                            </tbody> <!-- pink ------------------------------------------------------------------------------------------- -->
+                            <tbody> <!-- pink ------------------------------------------------------------------------------------------- -->
                                 <tr> <td>Cammy pink</td> <td>Walmart, 2026</td> <td>Misma caja y accesorios, traje rosa</td> </tr>
                             </tbody>
                             <tbody> <!-- ----------------------------------------------------------------------------------------- Dhalsim -->
@@ -250,9 +250,9 @@
                             <tbody> <!-- ------------------------------------------------------------------------------------------- BLANKA -->
                                 <tr> <td>Blanka blue</td> <td>Big Bad Toy Store, 2026</td> <td>Misma caja y accesorios, personaje color azul</td> </tr>
                             </tbody>
-                            <tbody>
                             <tbody> <!-- ------------------------------------------------------------------------------------------ M BISON -->
                                 <tr> <td>M. Bison p2</td> <td>Big Bad Toy Store, 2024</td> <td>Misma caja y accesorios, traje azul turquesa</td> </tr>
+                            </tbody>
                             <tbody> <!-- ------------------------------------------------------------------------------------------ ZANGIEF -->
                                 <tr> <td>Zangief gray</td> <td>Big Bad Toy Store, 2026</td> <td>Misma caja y accesorios, traje gris</td> </tr>
                             </tbody>
@@ -275,7 +275,7 @@
                     <img src="assets/img/inicio/cammyV.jpg" class="img-fluid" alt="Cammy variante en color ">
                 </div>
             </div> <!-- fin séptima sección -->
-            <!-- ------------------------------------------------------------------------------------------------------- Octava sección: Lose -->
+            <!-- --------------------------------------------------------------------------------------------------- Octava sección: Extras -->
             <div>
                 <h5> Asimismo, en la San Diego Comic-con 2026 tenemos los accesorios "You lose", es decir un set que contiene los rostros para todo el roster y algunas manos también para algunos de ellos, cuando el personaje en cuestión pierde. </h5>
             </div>
@@ -291,6 +291,14 @@
                     <img src="assets/img/inicio/lose3.jpg" class="img-fluid" alt="Lose 3">
                 </div>
             </div> <!-- tercera fila -->
+            <div> 
+                <h5> También tenemos figuras de la saga Alpha, entre los que están:</h5>
+                <li>Chun Li</li>
+                <li>Ryu</li>
+                <li>Charlie</li>
+                <li>Guy</li>
+                <li>Sakura</li>
+            </div>
         </div> <!-- contenido -->
     </div>
 @endsection

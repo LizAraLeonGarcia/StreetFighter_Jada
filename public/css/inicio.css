@@ -270,12 +270,12 @@
 }
 /* ************************************************************ Tabla especiales ************************************************************ */
 .inicio .tabla-especiales {
-  --ps-blue: #0070cc;       /* ✕ */
-  --ps-blue-dark: #003791;
+  --ps-pink: #f87aa4;       /* ✕ */
+  --ps-pink-dark: #c2185b;
   
   --ps-red: #ed1c24;        /* ○ */
   --ps-green: #00a651;      /* △ */
-  --ps-pink: #f87aa4;       /* □ */
+         /* □ */
 
   --ps-black: #101114;
   --ps-dark: #181a1f;
@@ -292,18 +292,18 @@
 /* ------------------------------------------------------------------ Tabla ------------------------------------------------------------------ */
 .inicio .tabla-especiales table {
   background-color: var(--ps-black);
-  border: 4px solid var(--ps-blue) !important;
+  border: 4px solid var(--ps-pink) !important;
 }
 /* ---------------------------------------------------------- Celda para encabezado ---------------------------------------------------------- */
 .inicio .encabezado-especiales {
-  background-color: var(--ps-blue-dark);
-  border-color: var(--ps-blue);
+  background-color: var(--ps-pink-dark);
+  border-color: var(--ps-pink);
   border-width: 3px;
   text-align: center;
 }
 /* ---------------------------------------------------------------- Título  — ---------------------------------------------------------------- */
 .inicio .titulo-tabla-especiales {
-  background: linear-gradient( 90deg, var(--ps-blue-dark), var(--ps-blue) );
+  background: linear-gradient( 90deg, var(--ps-pink-dark), var(--ps-pink) );
   color: white;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -313,13 +313,13 @@
 .inicio .tabla-especiales thead tr:nth-child(2) { background-color: var(--ps-dark-3); }
 
 .inicio .tabla-especiales thead tr:nth-child(2) th {
-  color: var(--ps-pink) !important;
+  color: var(--ps-black) !important;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
 }
 /* --------------------------------------------------------------- Bordes  */
-.inicio .tabla-especiales td, .inicio .tabla-especiales th { border: 2px solid var(--ps-blue-dark) !important; }
+.inicio .tabla-especiales td, .inicio .tabla-especiales th { border: 2px solid var(--ps-pink-dark) !important; }
 /* --------------------------------------------------------------- Filas */
 .inicio .tabla-especiales tbody tr {
   background-color: var(--ps-dark);
@@ -329,59 +329,114 @@
 .inicio .tabla-especiales tbody:nth-of-type(even) tr { background-color: var(--ps-dark-2); }
 /* -------------------------------------------------------------- Hover — ROSA □ */
 .inicio .tabla-especiales tbody tr:hover { background-color: #e461a9 !important; box-shadow: inset 5px 0 0 var(--ps-pink); }
-/*  Personaje — ROJO ○ -------------------------------------------------------- */
+/*  Personaje — ROJO ○ ---------------------------------------------------------------------------------------------------------------------- */
 .inicio .tabla-especiales tbody td:first-child { color: var(--ps-red) !important; font-weight: bold; white-space: nowrap; }
-/* ------------------------------------------------------------ Detalles — VERDE △ */
+/* ---------------------------------------------------------------------------------------------------------------------- Detalles — VERDE △ */
 .inicio .tabla-especiales tbody td:nth-child(2) { color: var(--ps-green) !important; font-weight: 600; }
-/* ********************************************************** Tabla para variantes ********************************************************** */
-.inicio .tabla-variantes table td,
-.inicio .tabla-variantes table th {
-  color: white !important;
-  text-align: justify;
+/* ************************************************************ Tabla variantes ************************************************************ */
+.inicio .tabla-variantes {
+  --sf-red: #ed1c24;
+  --sf-red-dark: #8b0000;
+  --sf-red-light: #ff4545;
+
+  --sf-green: #00a651;
+  --sf-pink: #f87aa4;
+  --sf-yellow: #ffc928;
+
+  --sf-black: #101114;
+  --sf-dark: #181a1f;
+  --sf-dark-2: #22252b;
+  --sf-dark-3: #2b2e35;
+  --sf-white: #f5f5f5;
 }
 
+/* ------------------------------------------------------------------ Texto ------------------------------------------------------------------ */
+.inicio .tabla-variantes table td,
+.inicio .tabla-variantes table th {
+  color: var(--sf-white) !important;
+  text-align: justify;
+  vertical-align: middle;
+}
+
+/* ------------------------------------------------------------------ Tabla ------------------------------------------------------------------ */
+.inicio .tabla-variantes table {
+  background-color: var(--sf-black);
+  border: 4px solid var(--sf-red) !important;
+}
+
+/* ---------------------------------------------------------- Encabezado ---------------------------------------------------------- */
 .inicio .encabezado-variantes {
-  background-color: crimson;
-  border-color: firebrick;
-  border-width: 4px;
+  background-color: var(--sf-red-dark);
+  border-color: var(--sf-red);
+  border-width: 3px;
   text-align: center;
 }
 
+/* ---------------------------------------------------------------- Título ---------------------------------------------------------------- */
 .inicio .titulo-tabla-variantes {
-  background-color: firebrick;
+  background: linear-gradient(
+    90deg,
+    var(--sf-red-dark),
+    var(--sf-red),
+    var(--sf-red-dark)
+  );
+  color: white;
   text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.15rem;
 }
 
-.table-bordered-variantes {
-  border: 4px solid firebrick !important;
+/* ---------------------------------------------------------- Cabeceras de columnas ---------------------------------------------------------- */
+.inicio .tabla-variantes thead tr:nth-child(2) {
+  background-color: var(--sf-dark-3);
 }
 
-.table-bordered-variantes td, .table-bordered th {
-  border: 3px solid firebrick;
+.inicio .tabla-variantes thead tr:nth-child(2) th {
+  color: var(--sf-yellow) !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
 }
-/* RYU PLAYER 2 ----------------------------------------------------------------------------------------------------------------------------- */
-.fila1V {
-  background-color: gray;
+
+/* ---------------------------------------------------------------- Bordes ---------------------------------------------------------------- */
+.inicio .tabla-variantes td,
+.inicio .tabla-variantes th {
+  border: 2px solid var(--sf-red-dark) !important;
 }
-/* KEN PLAYER 2 ----------------------------------------------------------------------------------------------------------------------------- */
-.fila2V {
-  background-color: white;
-  color: black;
+
+/* ---------------------------------------------------------------- Filas ---------------------------------------------------------------- */
+.inicio .tabla-variantes tbody tr {
+  background-color: var(--sf-dark);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
 }
-/* CHUN LI ROJA ----------------------------------------------------------------------------------------------------------------------------- */
-.fila3V {
-  background-color: crimson;
+
+/* ------------------------------------------------------------ Filas alternas ------------------------------------------------------------ */
+.inicio .tabla-variantes tbody:nth-of-type(even) tr {
+  background-color: var(--sf-dark-2);
 }
-/* M. BISON BLUE ---------------------------------------------------------------------------------------------------------------------------- */
-.fila4V {
-  background-color: dodgerblue;
+
+/* ---------------------------------------------------------------- Hover ---------------------------------------------------------------- */
+.inicio .tabla-variantes tbody tr:hover {
+  background-color: #7c2630 !important;
+  box-shadow: inset 5px 0 0 var(--sf-red-light);
 }
-/* GUILE PLAYER 2 --------------------------------------------------------------------------------------------------------------------------- */
-.fila5V {
-  background-color: blue;
+
+/* ---------------------------------------------------------- Personaje — ROJO ---------------------------------------------------------- */
+.inicio .tabla-variantes tbody td:first-child {
+  color: var(--sf-red-light) !important;
+  font-weight: bold;
+  white-space: nowrap;
 }
-/*CAMMY PLAYER 2 */
-.fila6V {
-  background-color: grey;
+
+/* ---------------------------------------------------------- Detalles — AMARILLO ---------------------------------------------------------- */
+.inicio .tabla-variantes tbody td:nth-child(2) {
+  color: var(--sf-yellow) !important;
+  font-weight: 600;
+}
+
+/* ---------------------------------------------------------- Características — VERDE ---------------------------------------------------------- */
+.inicio .tabla-variantes tbody td:nth-child(3) {
+  color: var(--sf-green) !important;
+  font-weight: 500;
 }
 /* ************************************************************* RESPONSIVIDAD ************************************************************* */

@@ -16,8 +16,11 @@
   list-style: none;
   padding: 0;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
 .menu-variantes li {
@@ -30,48 +33,74 @@
   text-transform: uppercase;
   border: 2px solid transparent;
 }
+/* ************************************************************ Elemento activo ************************************************************ 
 
-#ryuGris {
-  background: linear-gradient(135deg, #555, #999);
+/* PALETA PLAYSTATION */
+:root {
+  --ps-azul: #0070d1;
+  --ps-verde: #20a653;
+  --ps-rosa: #d946a6;
+  --ps-rojo: #ed4141;
+  --ps-fondo: #202124;
 }
 
-#kenBlanco {
-  background: linear-gradient(135deg, #e0e0e0, #ffffff);
-  color: #111;
+/* ESTADO NORMAL */
+.menu-variantes li {
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: #e8e8ea;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  border: 2px solid #414348;
+  background: var(--ps-fondo);
+
+  transition:
+    transform .25s ease,
+    border-color .25s ease,
+    box-shadow .25s ease,
+    filter .25s ease;
 }
 
-#chunLiRoja {
-  background: linear-gradient(135deg, #b30000, #ff4d4d);
-}
-
-#mBisonAzul {
-  background: linear-gradient(135deg, #001f4d, #3399ff);
-}
-
-#guileAzul {
-  background: linear-gradient(135deg, #003366, #00bfff);
-}
-
-#cammyGris {
-  background: linear-gradient(135deg, #666, #bbb);
-}
-
-#blankaAzul {
-  background: linear-gradient(135deg, #003366, #00bfff);
-}
-/* ************************************************************ Elemento activo ************************************************************ */
+/* HOVER: ELEGANTE Y SUTIL */
 .menu-variantes li:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 0 10px rgba(255,255,255,.4);
+  transform: translateY(-2px);
+  border-color: var(--ps-rosa);
+  box-shadow: 0 4px 14px rgba(217, 70, 166, .22);
+  filter: brightness(1.12);
 }
 
+/* ACTIVO: BORDE DEGRADADO */
 .menu-variantes li.active {
-  transform: scale(1.08);
-  border: 2px solid #fff;
+  transform: translateY(-2px);
+  color: #fff;
+  border: 2px solid transparent;
+
+  background:
+    linear-gradient(var(--ps-fondo), var(--ps-fondo))
+      padding-box,
+    linear-gradient(
+      135deg,
+      var(--ps-azul),
+      var(--ps-verde),
+      var(--ps-rosa),
+      var(--ps-rojo)
+    ) border-box;
+
   box-shadow:
-    0 0 10px #fff,
-    0 0 20px rgba(255,255,255,.5);
+    0 0 8px rgba(0, 112, 209, .25),
+    0 0 14px rgba(217, 70, 166, .18);
 }
+
+/* HOVER SOBRE LA OPCIÓN ACTIVA */
+.menu-variantes li.active:hover {
+  filter: brightness(1.18);
+  box-shadow:
+    0 0 10px rgba(0, 112, 209, .35),
+    0 0 18px rgba(217, 70, 166, .3);
+}
+
 /* ****************************************************** Acomodo de las imágenes */
 #variantes .variantes-container {
   display: flex;

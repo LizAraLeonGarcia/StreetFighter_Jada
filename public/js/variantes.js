@@ -9,20 +9,24 @@ document.addEventListener('DOMContentLoaded', function () {
   const vegaItem = document.getElementById("vega");
   const cammyItem = document.getElementById("cammy");
   const guileItem = document.getElementById("guile");
+  const dhalsimItem = document.getElementById("dhalsim");
   const ryuItem = document.getElementById("ryu");
   const kenItem = document.getElementById("ken");
   const blankaItem = document.getElementById("blanka");
   const mbisonItem = document.getElementById("mbison");
-  const balrogItem = document-getElementById("balrog");
+  const zangiefItem = document.getElementById("zangief");
+  const balrogItem = document.getElementById("balrog");
   // ------------------------------------------------------ Obtención de los contenedores ------------------------------------------------------
   const chunliContainer = document.querySelector(".chunli-container");
   const vegaContainer = document.querySelector(".vega-container");
   const cammyContainer = document.querySelector(".cammy-container");
   const guileContainer = document.querySelector(".guile-container");
+  const dhalsimContainer = document.querySelector(".dhalsim-container");
   const ryuContainer = document.querySelector(".ryu-container");
   const kenContainer = document.querySelector(".ken-container");
   const blankaContainer = document.querySelector(".blanka-container");
   const mbisonContainer = document.querySelector(".mbison-container");
+  const zangiefContainer = document.querySelector(".zangief-container");
   const balrogContainer = document.querySelector(".balrog-container");
   // Función para ocultar todos los contenedores
   function hideAllContainers() {
@@ -30,10 +34,12 @@ document.addEventListener('DOMContentLoaded', function () {
     vegaContainer.style.display = "none";
     cammyContainer.style.display = "none";
     guileContainer.style.display = "none";
+    dhalsimContainer.style.display = "none";
     ryuContainer.style.display = "none";
     kenContainer.style.display = "none";
     blankaContainer.style.display = "none";
     mbisonContainer.style.display = "none";
+    zangiefContainer.style.display = "none";
     balrogContainer.style.display = "none";
   }
   // Función para mostrar el contenedor seleccionado
@@ -48,10 +54,12 @@ document.addEventListener('DOMContentLoaded', function () {
     vegaItem.classList.remove('active');
     cammyItem.classList.remove('active');
     guileItem.classList.remove('active');
+    dhalsimItem.classList.remove('active');
     ryuItem.classList.remove('active');
     kenItem.classList.remove('active');
     blankaItem.classList.remove('active');
     mbisonItem.classList.remove('active');
+    zangiefItem.classList.remove('active');
     balrogItem.classList.remove('active');
     // Agrega la clase active al elemento seleccionado
     item.classList.add('active');
@@ -77,6 +85,11 @@ document.addEventListener('DOMContentLoaded', function () {
     showContainer(guileContainer);
     setActiveItem(guileItem);
   });
+  // Dhalsim -----------------------------------------------------------------------------------------------------------------------------------
+  dhalsimItem.addEventListener("click", function() {
+    showContainer(dhalsimContainer);
+    setActiveItem(dhalsimItem);
+  });
   // Ryu ---------------------------------------------------------------------------------------------------------------------------------------
   ryuItem.addEventListener("click", function() {
     showContainer(ryuContainer);
@@ -97,8 +110,13 @@ document.addEventListener('DOMContentLoaded', function () {
     showContainer(mbisonContainer);
     setActiveItem(mbisonItem);
   });
+  // Zangief -----------------------------------------------------------------------------------------------------------------------------------
+  zangiefItem.addEventListener("click", function() {
+    showContainer(zangiefContainer);
+    setActiveItem(zangiefItem);
+  });
   // Balrog ------------------------------------------------------------------------------------------------------------------------------------
-  mbisonItem.addEventListener("click", function() {
+  balrogItem.addEventListener("click", function() {
     showContainer(balrogContainer);
     setActiveItem(balrogItem);
   });

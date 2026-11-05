@@ -223,55 +223,42 @@
                                     <th>Características</th>
                                 </tr>
                             </thead>
-                            <tbody> <!-- ----------------------------------------------------------------------------------------------- RYU -->
-                                <tr class="fila1V"> 
-                                    <td> Ryu </td>
-                                    <td> Paulmartstore</td>
-                                    <td> Misma caja y accesorios, traje gris </td>
-                                </tr>
+                            <tbody> <!-- ------------------------------------------------------------------------------------------ CHUN LI -->
+                                <tr> <td>Chun Li red</td> <td>Target, 2024</td> <td>Misma caja y accesorios, traje rojo</td> </tr>
                             </tbody>
-                            <tbody> <!-- ----------------------------------------------------------------------------------------------- KEN -->
-                                <tr class="fila2V"> 
-                                    <td style="color:black !important;"> Ken </td>
-                                    <td style="color:black !important;"> Entertainment Earth </td>
-                                    <td style="color:black !important;"> Misma caja y accesorios más un extra (Shoryuken), traje blanco </td> 
-                                </tr>
+                            <tbody> <!-- --------------------------------------------------------------------------------------------- VEGA -->
+                                <tr> <td>Vega p2</td> <td>Entertainment Earth, 2027</td> <td>Misma caja y accesorios, traje gris oscuro y amarillo con verde</td> </tr>
                             </tbody>
-                            <tbody> <!-- ------------------------------------------------------------------------------------------- CHUN LI -->
-                                <tr class="fila3V"> 
-                                    <td> Chun Li </td>
-                                    <td> Target </td>
-                                    <td> Misma caja y accesorios, traje rojo </td> 
-                                </tr>
+                            <tbody> <!-- -------------------------------------------------------------------------------------------- GUILE -->
+                                <tr> <td>Guile blue</td> <td>Target, 2025</td> <td>Misma caja y accesorios, traje azul</td> </tr>
                             </tbody>
-                            <tbody> <!-- ------------------------------------------------------------------------------------------- M BISON -->
-                                <tr class="fila4V"> 
-                                    <td> M. Bison </td>
-                                    <td > Big Bad Toy Store </td>
-                                    <td> Misma caja y accesorios, traje azul </td> 
-                                </tr>
+                            <tbody> <!-- -------------------------------------------------------------------------------------------- CAMMY -->
+                                <tr> <td>Cammy plata</td> <td>Entertainment Earth, 2025</td> <td>Misma caja y accesorios, traje plateado con rosa</td> </tr>
                             </tbody>
-                            <tbody> <!-- --------------------------------------------------------------------------------------------- GUILE -->
-                                <tr class="fila5V">
-                                    <td> Guile </td>
-                                    <td> Target </td>
-                                    <td> Misma caja y accesorios, traje azul</td>
-                                </tr>
+                            </tbody> <!-- pink ------------------------------------------------------------------------------------------- -->
+                                <tr> <td>Cammy pink</td> <td>Walmart, 2026</td> <td>Misma caja y accesorios, traje rosa</td> </tr>
                             </tbody>
-                            <tbody> <!-- --------------------------------------------------------------------------------------------- CAMMY -->
-                                <tr class="fila6V">
-                                    <td> Cammy </td>
-                                    <td> Entertainment Earth</td>
-                                    <td> Misma caja y accesorios, traje gris con rosa</td>
-                                </tr>
+                            <tbody> <!-- ----------------------------------------------------------------------------------------- Dhalsim -->
+                                <tr> <td>Dhalsim blue</td> <td>Walmart, 2027</td> <td>Misma caja y accesorios, piel azul y traje </td> </tr>
+                            </tbody>
+                            <tbody> <!-- ---------------------------------------------------------------------------------------------- RYU -->
+                                <tr> <td>Ryu gray</td> <td>Paulmartstore, 2023</td> <td>Misma caja y accesorios, traje gris</td> </tr>
+                            </tbody>
+                            <tbody> <!-- ---------------------------------------------------------------------------------------------- KEN -->
+                                <tr> <td>Ken white</td> <td>Entertainment Earth, 2024</td> <td>Misma caja y accesorios más un extra (Shoryuken), traje blanco</td> </tr>
+                            </tbody>
+                            <tbody> <!-- ------------------------------------------------------------------------------------------- BLANKA -->
+                                <tr> <td>Blanka blue</td> <td>Big Bad Toy Store, 2026</td> <td>Misma caja y accesorios, personaje color azul</td> </tr>
                             </tbody>
                             <tbody>
-                                <tr class="fila7V">
-                                    <td> Blanka </td>
-                                    <td> Big Bad Toy Store </td>
-                                    <td> Misma caja y accesorios, personaje color azul</td>
-                                </tr>
+                            <tbody> <!-- ------------------------------------------------------------------------------------------ M BISON -->
+                                <tr> <td>M. Bison p2</td> <td>Big Bad Toy Store, 2024</td> <td>Misma caja y accesorios, traje azul turquesa</td> </tr>
+                            <tbody> <!-- ------------------------------------------------------------------------------------------ ZANGIEF -->
+                                <tr> <td>Zangief gray</td> <td>Big Bad Toy Store, 2026</td> <td>Misma caja y accesorios, traje gris</td> </tr>
                             </tbody>
+                            <tbody> <!-- ------------------------------------------------------------------------------------------- BALROG -->
+                                <tr> <td>Balrog orange</td> <td>Entertainment Earth, 2026</td> <td>Misma caja y accesorios, traje naranja y verde</td> </tr>
+                            </tbody>                            
                         </table>
                     </div>
                 </div> <!-- variantes tabla -->

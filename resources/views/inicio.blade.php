@@ -134,8 +134,8 @@
                     <div class="table-responsive tabla-especiales">
                         <table class="table table-bordered-especiales table-striped table-hover table-sm">
                             <thead class="encabezado-especiales">
-                                <tr class="titulo-tabla-especiales">
-                                    <td colspan="3" class="text-center"><strong> Especiales </strong></td>
+                                <tr>
+                                    <td colspan="3" class="text-center titulo-tabla-especiales"><strong> Especiales </strong></td>
                                 </tr>
                                 <tr>
                                     <th>Personaje</th>

@@ -1,16 +1,7 @@
 /* ****************************************************************************************************************************************** */
-.d-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+.d-flex { display: flex; justify-content: center; align-items: center; }
 /* ***************************************************************** Título ***************************************************************** */
-#variantes h4 {
-  color: black;
-  text-align: center;
-  font-size: 30px;
-  font-style: italic;
-}
+#variantes h4 { color: black; text-align: center; font-size: 30px; font-style: italic; }
 /* ********************************************************** Lista de navegación ********************************************************** */
 .menu-variantes {
   list-style: none;
@@ -26,15 +17,50 @@
 .menu-variantes li {
   padding: 10px 16px;
   border-radius: 8px;
-  color: white;
   font-weight: bold;
   cursor: pointer;
   transition: all .25s ease;
   text-transform: uppercase;
   border: 2px solid transparent;
 }
-/* ************************************************************ Elemento activo ************************************************************ 
+/*
 
+*/
+/* --------------------------------------------------------------------------------------------------------------------------------- CHUN LI */
+#chunli { background-color: blue; color: white; }
+/* ------------------------------------------------------------------------------------------------------------------------------------ VEGA */
+#vega { background-color: purple; color: white;}
+/* ----------------------------------------------------------------------------------------------------------------------------------- CAMMY */
+#cammy { background-color: yellowgreen; color: black; }
+/* ----------------------------------------------------------------------------------------------------------------------------------- GUILE */
+/* ------------------------------------------------------------------------------------------------------------------------------ E. HONDA
+#ehonda { background-color: royalblue;  color: white; } */
+#guile { background-color: green; color: white; }
+/* --------------------------------------------------------------------------------------------------------------------------------- DHALSIM */
+#dhalsim { background-color: yellow; color: black; }
+/* -------------------------------------------------------------------------------------------------------------------------------- DEE JAY
+#deejay { background-color: orangered;  color: white; } */
+/* ------------------------------------------------------------------------------------------------------------------------------------- RYU */
+#ryu { background-color: white; color: black; }
+/* ------------------------------------------------------------------------------------------------------------------------------------- KEN */
+#ken { background-color: red; color: white; }
+/* ---------------------------------------------------------------------------------------------------------------------------------- BLANKA */
+/* ---------------------------------------------------------------------------------------------------------------------------------- SAGAT
+#sagat { background-color: mediumblue;  color: white; } */
+#blanka { background-color: greenyellow; color: black; }
+/* -------------------------------------------------------------------------------------------------------------------------------- M. BISON */
+#mbison { background-color: darkred; color: white; }
+/* --------------------------------------------------------------------------------------------------------------------------------- AKUMA
+#akuma { background-color: darkslateblue;  color: white; } */
+/* ------------------------------------------------------------------------------------------------------------------------------- T. HAWK
+#thawk { background-color: dodgerblue;  color: black;  }*/
+/* ------------------------------------------------------------------------------------------------------------------------------- FEI LONG
+#feilong { background-color: black; }*/
+/* --------------------------------------------------------------------------------------------------------------------------------- ZANGIEF */
+#zangief { background-color: firebrick; color: white; }
+/* ---------------------------------------------------------------------------------------------------------------------------------- BALROG */
+#balrog { background-color: skyblue; color: black; }
+/* ************************************************************ Elemento activo ************************************************************ 
 /* PALETA PLAYSTATION */
 :root {
   --ps-azul: #0070d1;
@@ -44,24 +70,7 @@
   --ps-fondo: #202124;
 }
 
-/* ESTADO NORMAL */
-.menu-variantes li {
-  padding: 10px 16px;
-  border-radius: 8px;
-  color: #e8e8ea;
-  font-weight: bold;
-  cursor: pointer;
-  text-transform: uppercase;
 
-  border: 2px solid #414348;
-  background: var(--ps-fondo);
-
-  transition:
-    transform .25s ease,
-    border-color .25s ease,
-    box-shadow .25s ease,
-    filter .25s ease;
-}
 
 /* HOVER: ELEGANTE Y SUTIL */
 .menu-variantes li:hover {
@@ -91,14 +100,6 @@
   box-shadow:
     0 0 8px rgba(0, 112, 209, .25),
     0 0 14px rgba(217, 70, 166, .18);
-}
-
-/* HOVER SOBRE LA OPCIÓN ACTIVA */
-.menu-variantes li.active:hover {
-  filter: brightness(1.18);
-  box-shadow:
-    0 0 10px rgba(0, 112, 209, .35),
-    0 0 18px rgba(217, 70, 166, .3);
 }
 
 /* ****************************************************** Acomodo de las imágenes */

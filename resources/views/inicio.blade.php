@@ -33,14 +33,14 @@
             <div class="row mb-4">
                 <div class="col-md-2">
                     <div class="table-responsive wave1">
-                        <table class="table table-bordered table-striped table-hover table-sm">
+                        <table class="table table-bordered table-striped table-sm">
                             <thead class="encabezado-tabla">
                                 <tr> <th>Wave 1 <br> <span class="subtitulo">Primavera 2023</span> </th> </tr>
                             </thead>
                             <tbody>
-                                <tr> <td class="col1">Ryu</td> </tr>
-                                <tr> <td class="col2">Fei Long</td> </tr>
-                                <tr> <td class="col3">Chun Li</td> </tr>
+                                <tr> <td>Ryu</td> </tr>
+                                <tr> <td>Fei Long</td> </tr>
+                                <tr> <td>Chun Li</td> </tr>
                             </tbody>
                         </table>
                     </div>
@@ -52,9 +52,9 @@
                                 <tr> <th>Wave 2 <br> <span class="subtitulo">Primavera 2024</span> </th> </tr>
                             </thead>
                             <tbody>
-                                <tr> <td class="col4">Ken</td> </tr>
-                                <tr> <td class="col5">Dhalsim</td> </tr>
-                                <tr> <td class="col6">M. Bison</td> </tr>
+                                <tr> <td>Ken</td> </tr>
+                                <tr> <td>Dhalsim</td> </tr>
+                                <tr> <td>M. Bison</td> </tr>
                             </tbody>
                         </table>
                     </div>
@@ -66,9 +66,9 @@
                                 <tr> <th>Wave 3 <br> <span class="subtitulo">Otoño 2024</span> </th> </tr>
                             </thead>
                             <tbody>
-                                <tr> <td class="col7">Guile</td> </tr>
-                                <tr> <td class="col8">Dee Jay</td> </tr>
-                                <tr> <td class="col9">Cammy</td> </tr>
+                                <tr> <td>Guile</td> </tr>
+                                <tr> <td>Dee Jay</td> </tr>
+                                <tr> <td>Cammy</td> </tr>
                             </tbody>
                         </table>
                     </div>
@@ -80,9 +80,9 @@
                                 <tr> <th>Wave 4 <br> <span class="subtitulo">Primavera 2025</span> </th> </tr>
                             </thead>
                             <tbody>
-                                <tr> <td class="col10">Sagat</td> </tr>
-                                <tr> <td class="col11">Blanka</td> </tr>
-                                <tr> <td class="col12">Vega</td> </tr>
+                                <tr> <td>Sagat</td> </tr>
+                                <tr> <td>Blanka</td> </tr>
+                                <tr> <td>Vega</td> </tr>
                             </tbody>
                         </table>
                     </div>
@@ -94,9 +94,9 @@
                                 <tr>  <th>Wave 5 <br> <span class="subtitulo">Primavera 2026</span> </th> </tr>
                             </thead>
                             <tbody>
-                                <tr> <td class="col13"> Akuma </td> </tr>
-                                <tr> <td class="col14">E. Honda</td> </tr>
-                                <tr> <td class="col15">Balrog</td> </tr>
+                                <tr> <td> Akuma </td> </tr>
+                                <tr> <td>E. Honda</td> </tr>
+                                <tr> <td>Balrog</td> </tr>
                             </tbody>
                         </table>
                     </div>
@@ -108,8 +108,7 @@
                                 <tr> <th>Wave 6 <br> <span class="subtitulo">Otoño 2026</span> </th> </tr>
                             </thead>
                             <tbody>
-                                <tr> <td class="col16">T. Hawk</td> </tr>                                
-                                <tr> <td class="col17"> Zangief </td> </tr>
+                                <tr> <td>T. Hawk</td> </tr> <tr> <td> Zangief </td> </tr>
                             </tbody>
                         </table>
                     </div>

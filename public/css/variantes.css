@@ -1,108 +1,78 @@
-/* ****************************************************************************************************************************************** */
+/* ***************************************************************************************************************************************** */
 .d-flex { display: flex; justify-content: center; align-items: center; }
-/* ***************************************************************** Título ***************************************************************** */
+/* *********************************************************** PALETA DE COLORES *********************************************************** */
+:root {
+    --ps-azul: #0070d1; --ps-verde: #20a653; --ps-rosa: #d946a6; --ps-rojo: #ed4141;
+    --ps-dorado: #ffd166;
+    --ps-fondo: #202124;
+}
+/* *********************************************************** TÍTULO EN GENERAL *********************************************************** */
 #variantes h4 { color: black; text-align: center; font-size: 30px; font-style: italic; }
-/* ********************************************************** Lista de navegación ********************************************************** */
+/* ********************************************************** LISTA DE NAVEGACIÓN ********************************************************** */
 .menu-variantes {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
 .menu-variantes li {
-  padding: 10px 16px;
-  border-radius: 8px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all .25s ease;
-  text-transform: uppercase;
-  border: 2px solid transparent;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: transform .25s ease, box-shadow .25s ease, filter .25s ease, border-color .25s ease;
 }
-/*
-
-*/
-/* --------------------------------------------------------------------------------------------------------------------------------- CHUN LI */
-#chunli { background-color: blue; color: white; }
-/* ------------------------------------------------------------------------------------------------------------------------------------ VEGA */
-#vega { background-color: purple; color: white;}
-/* ----------------------------------------------------------------------------------------------------------------------------------- CAMMY */
-#cammy { background-color: yellowgreen; color: black; }
-/* ----------------------------------------------------------------------------------------------------------------------------------- GUILE */
-/* ------------------------------------------------------------------------------------------------------------------------------ E. HONDA
-#ehonda { background-color: royalblue;  color: white; } */
-#guile { background-color: green; color: white; }
-/* --------------------------------------------------------------------------------------------------------------------------------- DHALSIM */
-#dhalsim { background-color: yellow; color: black; }
-/* -------------------------------------------------------------------------------------------------------------------------------- DEE JAY
-#deejay { background-color: orangered;  color: white; } */
-/* ------------------------------------------------------------------------------------------------------------------------------------- RYU */
-#ryu { background-color: white; color: black; }
-/* ------------------------------------------------------------------------------------------------------------------------------------- KEN */
-#ken { background-color: red; color: white; }
-/* ---------------------------------------------------------------------------------------------------------------------------------- BLANKA */
-/* ---------------------------------------------------------------------------------------------------------------------------------- SAGAT
-#sagat { background-color: mediumblue;  color: white; } */
-#blanka { background-color: greenyellow; color: black; }
-/* -------------------------------------------------------------------------------------------------------------------------------- M. BISON */
-#mbison { background-color: darkred; color: white; }
-/* --------------------------------------------------------------------------------------------------------------------------------- AKUMA
-#akuma { background-color: darkslateblue;  color: white; } */
-/* ------------------------------------------------------------------------------------------------------------------------------- T. HAWK
-#thawk { background-color: dodgerblue;  color: black;  }*/
-/* ------------------------------------------------------------------------------------------------------------------------------- FEI LONG
-#feilong { background-color: black; }*/
-/* --------------------------------------------------------------------------------------------------------------------------------- ZANGIEF */
-#zangief { background-color: firebrick; color: white; }
-/* ---------------------------------------------------------------------------------------------------------------------------------- BALROG */
-#balrog { background-color: skyblue; color: black; }
-/* ************************************************************ Elemento activo ************************************************************ 
-/* PALETA PLAYSTATION */
-:root {
-  --ps-azul: #0070d1;
-  --ps-verde: #20a653;
-  --ps-rosa: #d946a6;
-  --ps-rojo: #ed4141;
-  --ps-fondo: #202124;
-}
-
-
-
-/* HOVER: ELEGANTE Y SUTIL */
+/* ********************************************************* COLOR  INDIVIDUAL ************************************************************* */
+/* --------------------------------------------------------- CHUN LI */
+#chunli { background-color: #1745a5; color: white; }
+/* --------------------------------------------------------- VEGA */
+#vega { background-color: #542078; color: white; }
+/* --------------------------------------------------------- CAMMY */
+#cammy { background-color: #9dbb38; color: #101114; }
+/* --------------------------------------------------------- GUILE */
+#guile { background-color: #176b38; color: white; }
+/* --------------------------------------------------------- DHALSIM */
+#dhalsim { background-color: #e6c62e; color: #101114; }
+/* --------------------------------------------------------- RYU */
+#ryu { background-color: #f5f5f5; color: #101114; }
+/* --------------------------------------------------------- KEN */
+#ken { background-color: #c62828; color: white; }
+/* --------------------------------------------------------- BLANKA */
+#blanka { background-color: #9acb36; color: #101114; }
+/* --------------------------------------------------------- M. BISON */
+#mbison { background-color: #710d20; color: white; }
+/* --------------------------------------------------------- ZANGIEF */
+#zangief { background-color: #a52a2a; color: white; }
+/* --------------------------------------------------------- BALROG */
+#balrog { background-color: #65b9e8; color: #101114; }
+/* ******************************************************** HOVER ILUMINACIÓN SUTIL ******************************************************** */
 .menu-variantes li:hover {
-  transform: translateY(-2px);
-  border-color: var(--ps-rosa);
-  box-shadow: 0 4px 14px rgba(217, 70, 166, .22);
-  filter: brightness(1.12);
+    transform: translateY(-2px);
+    filter: brightness(1.18);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .25);
 }
-
-/* ACTIVO: BORDE DEGRADADO */
+/* ******************************************************* ACTIVO ESTILO PLAYSTATION ******************************************************* */
 .menu-variantes li.active {
-  transform: translateY(-2px);
-  color: #fff;
-  border: 2px solid transparent;
-
-  background:
-    linear-gradient(var(--ps-fondo), var(--ps-fondo))
-      padding-box,
-    linear-gradient(
-      135deg,
-      var(--ps-azul),
-      var(--ps-verde),
-      var(--ps-rosa),
-      var(--ps-rojo)
-    ) border-box;
-
-  box-shadow:
-    0 0 8px rgba(0, 112, 209, .25),
-    0 0 14px rgba(217, 70, 166, .18);
+    transform: translateY(-2px);
+    color: white !important;
+    border: 3px solid var(--ps-dorado);
+    background: linear-gradient( 135deg, var(--ps-azul) 0%, var(--ps-verde) 35%, var(--ps-rosa) 68%, var(--ps-rojo) 100% );
+    box-shadow: 0 0 0 2px rgba(255, 209, 102, .15), 0 0 12px rgba(255, 209, 102, .45), 0 4px 14px rgba(0, 0, 0, .3);
+    filter: none;
 }
-
-/* ****************************************************** Acomodo de las imágenes */
+/* ------------------------------------------------------------------------------------------------- Evitar que el hover modifique el activo */
+.menu-variantes li.active:hover {
+    filter: brightness(1.08);
+}
+/* *************************************************************** IMÁGENES *************************************************************** */
 #variantes .variantes-container {
   display: flex;
   gap: 20px;

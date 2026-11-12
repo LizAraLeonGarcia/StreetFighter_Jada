@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-md-2">
                     <div class="table-responsive wave2">
-                        <table class="table table-bordered table-striped table-hover table-sm">
+                        <table class="table table-bordered table-striped table-sm">
                             <thead class="encabezado-tabla">
                                 <tr> <th>Wave 2 <br> <span class="subtitulo">Primavera 2024</span> </th> </tr>
                             </thead>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="col-md-2">
                     <div class="table-responsive wave3">
-                        <table class="table table-bordered table-striped table-hover table-sm">
+                        <table class="table table-bordered table-striped table-sm">
                             <thead class="encabezado-tabla">
                                 <tr> <th>Wave 3 <br> <span class="subtitulo">Otoño 2024</span> </th> </tr>
                             </thead>
@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-md-2">
                     <div class="table-responsive wave4">
-                        <table class="table table-bordered table-striped table-hover table-sm">
+                        <table class="table table-bordered table-striped table-sm">
                             <thead class="encabezado-tabla">
                                 <tr> <th>Wave 4 <br> <span class="subtitulo">Primavera 2025</span> </th> </tr>
                             </thead>
@@ -89,7 +89,7 @@
                 </div>
                 <div class="col-md-2">
                     <div class="table-responsive wave5">
-                        <table class="table table-bordered table-striped table-hover table-sm">
+                        <table class="table table-bordered table-striped table-sm">
                             <thead class="encabezado-tabla">
                                 <tr>  <th>Wave 5 <br> <span class="subtitulo">Primavera 2026</span> </th> </tr>
                             </thead>
@@ -103,7 +103,7 @@
                 </div>
                 <div class="col-md-2">
                     <div class="table-responsive wave6">
-                        <table class="table table-bordered table-striped table-hover table-sm">
+                        <table class="table table-bordered table-striped table-sm">
                             <thead class="encabezado-tabla">
                                 <tr> <th>Wave 6 <br> <span class="subtitulo">Otoño 2026</span> </th> </tr>
                             </thead>
@@ -131,7 +131,7 @@
                 <h5>Una vez mencionados los 18 que saldrán en waves, cabe mencionar las variantes y especiales, aunque las especiales no llevan en sí un orden referente al roster a las waves, al igual que las variantes que salen salteadas y por diferentes empresas.</h5>
                 <div> <!-- especiales tabla -->
                     <div class="table-responsive tabla-especiales">
-                        <table class="table table-bordered-especiales table-striped table-hover table-sm">
+                        <table class="table table-bordered-especiales table-striped table-sm">
                             <thead class="encabezado-especiales">
                                 <tr>
                                     <td colspan="3" class="text-center titulo-tabla-especiales"><strong> Especiales </strong></td>
@@ -211,7 +211,7 @@
             <div> <!-- --------------------------------------------------------------------------------------- Sexta sección: Tabla Variantes -->
                 <div> <!-- variantes tabla -->
                     <div class="table-responsive tabla-variantes">
-                        <table class="table table-bordered-variantes table-striped table-hover table-sm">
+                        <table class="table table-bordered-variantes table-striped table-sm">
                             <thead class="encabezado-variantes">
                                 <tr class="titulo-tabla-variantes">
                                     <td colspan="3" class="text-center"><strong> Variantes </strong></td>
@@ -290,13 +290,37 @@
                     <img src="assets/img/inicio/lose3.jpg" class="img-fluid" alt="Lose 3">
                 </div>
             </div> <!-- tercera fila -->
-            <div> 
+            <!-- -->
+            <div class="row mb-4">
                 <h5> También tenemos figuras de la saga Alpha, entre los que están:</h5>
-                <li>Chun Li</li>
-                <li>Ryu</li>
-                <li>Charlie</li>
-                <li>Guy</li>
-                <li>Sakura</li>
+                <div class="col-md-2">
+                    <div class="table-responsive alpha1">
+                        <table class="table table-bordered table-striped table-sm">
+                            <thead class="encabezado-tabla-alpha">
+                                <tr> <th>Wave 1 <br> <span class="subtitulo">¿ ... ? 202?</span> </th> </tr>
+                            </thead>
+                            <tbody>
+                                <tr> <td>Ryu</td> </tr>
+                                <tr> <td>Chun Li</td> </tr>
+                                <tr> <td>Charlie</td> </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="table-responsive alpha2">
+                        <table class="table table-bordered table-striped table-sm">
+                            <thead class="encabezado-tabla-alpha">
+                                <tr> <th>Wave 2 <br> <span class="subtitulo">¿ ... ? 202?</span> </th> </tr>
+                            </thead>
+                            <tbody>
+                                <tr> <td>Guy</td> </tr>
+                                <tr> <td>Sakura</td> </tr>
+                                <tr> <td>Adon</td> </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div> <!-- contenido -->
     </div>

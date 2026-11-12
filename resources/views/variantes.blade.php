@@ -4,7 +4,7 @@
   <div class="container-fluid">
     <!-- ------------------------------------------------------ Contendor para título ------------------------------------------------------ -->
     <div class="section-title">
-      <h3>Personajes con variación de color</h3>
+      <h3>Variaciones de colores de cada personaje</h3>
     </div>
     <div>
       <!-- -------------------------------------------------------------- Lista -------------------------------------------------------------- -->

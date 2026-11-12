@@ -20,24 +20,49 @@
 #inicio ul { list-style-type: square; padding: 10px; }
 
 #inicio li { text-align: justify; }
+
 /* ********************************************************************************************************************************************
 ************************************************************** Tabla de las Wave **************************************************************
 ******************************************************************************************************************************************** */
+
 .inicio {
-    --ps-blue1: #0a0285; --ps-blue2: #1c0fcf; --ps-blue3: #0889f1;
-    --ps-dark: #101114; --ps-dark-2: #181b21; --ps-white: #f5f5f5;
+    --ps-blue1: #0a0285;
+    --ps-blue2: #1c0fcf;
+    --ps-blue3: #0889f1;
+    --ps-white: #f5f5f5;
 }
-/* -------------------------------------------------- Contenedores de las Waves -------------------------------------------------- */
-.inicio .wave1, .inicio .wave2, .inicio .wave3, .inicio .wave4, .inicio .wave5, .inicio .wave6 { border-radius: 5px; overflow: hidden; }
-/* -------------------------------------------------- Tablas: fondo y borde exterior -------------------------------------------------- */
-.inicio .wave1 table, .inicio .wave2 table, .inicio .wave3 table, .inicio .wave4 table, .inicio .wave5 table, .inicio .wave6 table {
+
+/* Contenedores */
+.inicio .wave1,
+.inicio .wave2,
+.inicio .wave3,
+.inicio .wave4,
+.inicio .wave5,
+.inicio .wave6 {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Tablas */
+.inicio .wave1 table,
+.inicio .wave2 table,
+.inicio .wave3 table,
+.inicio .wave4 table,
+.inicio .wave5 table,
+.inicio .wave6 table {
     background-color: var(--ps-blue2);
     border: 3px solid var(--ps-blue1) !important;
     border-collapse: collapse;
     margin-bottom: 0;
 }
-/* -------------------------------------------------- Encabezados de las Waves -------------------------------------------------- */
-.inicio .encabezado-tabla th {
+
+/* Encabezados */
+.inicio .wave1 .encabezado-tabla th,
+.inicio .wave2 .encabezado-tabla th,
+.inicio .wave3 .encabezado-tabla th,
+.inicio .wave4 .encabezado-tabla th,
+.inicio .wave5 .encabezado-tabla th,
+.inicio .wave6 .encabezado-tabla th {
     background-color: var(--ps-blue3) !important;
     color: var(--ps-white) !important;
     border: 2px solid var(--ps-blue1) !important;
@@ -46,8 +71,14 @@
     letter-spacing: 1px;
     font-weight: 700;
 }
-/* -------------------------------------------------- Subtítulos -------------------------------------------------- */
-.inicio .encabezado-tabla .subtitulo {
+
+/* Subtítulos */
+.inicio .wave1 .subtitulo,
+.inicio .wave2 .subtitulo,
+.inicio .wave3 .subtitulo,
+.inicio .wave4 .subtitulo,
+.inicio .wave5 .subtitulo,
+.inicio .wave6 .subtitulo {
     display: inline-block;
     margin-top: 3px;
     padding: 2px 8px;
@@ -59,8 +90,14 @@
     text-transform: none;
     border-top: 1px solid rgba(255, 255, 255, 0.35);
 }
-/* -------------------------------------------------- Celdas del contenido -------------------------------------------------- */
-.inicio .wave1 td, .inicio .wave2 td, .inicio .wave3 td, .inicio .wave4 td, .inicio .wave5 td, .inicio .wave6 td {
+
+/* Celdas */
+.inicio .wave1 td,
+.inicio .wave2 td,
+.inicio .wave3 td,
+.inicio .wave4 td,
+.inicio .wave5 td,
+.inicio .wave6 td {
     background-color: var(--ps-blue2) !important;
     color: var(--ps-white) !important;
     border: 2px solid var(--ps-blue3) !important;
@@ -167,4 +204,89 @@
 .inicio .tabla-variantes tbody td:nth-child(2) { color: var(--ps-green) !important; font-weight: 600; }
 /* ------------------------------------------------------------------------------------------------------------------ CARACTERÍSTICAS AZUL □ */
 .inicio .tabla-variantes tbody td:nth-child(3) { color: var(--ps-blue) !important; font-weight: 600; }
+
+/* ********************************************************************************************************************************************
+*********************************************************** Tabla de la saga Alpha ***********************************************************
+******************************************************************************************************************************************** */
+
+.inicio {
+    --ps-green1: #1d6d09;
+    --ps-green2: #19a50d;
+    --ps-green3: #38df54;
+    --ps-white: #f5f5f5;
+}
+
+/* Contenedores */
+.inicio .alpha1,
+.inicio .alpha2,
+.inicio .alpha3,
+.inicio .alpha4,
+.inicio .alpha5,
+.inicio .alpha6 {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Tablas */
+.inicio .alpha1 table,
+.inicio .alpha2 table,
+.inicio .alpha3 table,
+.inicio .alpha4 table,
+.inicio .alpha5 table,
+.inicio .alpha6 table {
+    background-color: var(--ps-green2);
+    border: 3px solid var(--ps-green1) !important;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+/* Encabezados */
+.inicio .alpha1 .encabezado-tabla-alpha th,
+.inicio .alpha2 .encabezado-tabla-alpha th,
+.inicio .alpha3 .encabezado-tabla-alpha th,
+.inicio .alpha4 .encabezado-tabla-alpha th,
+.inicio .alpha5 .encabezado-tabla-alpha th,
+.inicio .alpha6 .encabezado-tabla-alpha th {
+    background-color: var(--ps-green3) !important;
+    color: var(--ps-white) !important;
+    border: 2px solid var(--ps-green1) !important;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+/* Subtítulos */
+.inicio .alpha1 .subtitulo,
+.inicio .alpha2 .subtitulo,
+.inicio .alpha3 .subtitulo,
+.inicio .alpha4 .subtitulo,
+.inicio .alpha5 .subtitulo,
+.inicio .alpha6 .subtitulo {
+    display: inline-block;
+    margin-top: 3px;
+    padding: 2px 8px;
+    color: var(--ps-white);
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-variant: small-caps;
+    letter-spacing: 1.2px;
+    text-transform: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+/* Celdas */
+.inicio .alpha1 td,
+.inicio .alpha2 td,
+.inicio .alpha3 td,
+.inicio .alpha4 td,
+.inicio .alpha5 td,
+.inicio .alpha6 td {
+    background-color: var(--ps-green2) !important;
+    color: var(--ps-white) !important;
+    border: 2px solid var(--ps-green3) !important;
+    text-align: center;
+    vertical-align: middle;
+    transition: filter 0.2s ease, box-shadow 0.2s ease;
+}
 /* ************************************************************* RESPONSIVIDAD ************************************************************* */
